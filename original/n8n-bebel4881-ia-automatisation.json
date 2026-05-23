@@ -1,0 +1,207 @@
+{
+  "name": "bebel4881 - IA & Automatisation Auto-Publisher",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "b4881001-0001-0001-0001-000000000001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assign-topic",
+              "name": "topic",
+              "value": "Comment l'IA peut automatiser 80% de tes tâches répétitives en 2026",
+              "type": "string"
+            },
+            {
+              "id": "assign-niche",
+              "name": "niche",
+              "value": "IA & Automatisation - outils no-code, workflows automatisés, productivité augmentée par l'IA",
+              "type": "string"
+            },
+            {
+              "id": "assign-tone",
+              "name": "tone",
+              "value": "concret, accessible, enthousiaste, orienté résultats",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b4881001-0002-0002-0002-000000000002",
+      "name": "Set Topic",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "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"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={\n  \"model\": \"claude-sonnet-4-6\",\n  \"max_tokens\": 1024,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Tu es expert copywriting Instagram spécialisé IA & Automatisation.\\n\\nSujet: {{ $json.topic }}\\nNiche: {{ $json.niche }}\\nTon: {{ $json.tone }}\\n\\nGénère UNIQUEMENT ce JSON (pas d'explication autour) :\\n{\\n  \\\"caption\\\": \\\"[Hook percutant ligne 1 - max 125 chars, sur le thème IA/automatisation]\\\\n\\\\n[Corps 3-4 phrases avec valeur concrète, astuce pratique ou outil IA]\\\\n\\\\n[Call-to-action engageant: save, commente, partage]\\\\n\\\\n[3-4 émojis pertinents IA/tech intégrés naturellement]\\\",\\n  \\\"hashtags\\\": \\\"#IA #Intelligence Artificielle #Automatisation #NoCode #Productivite #ChatGPT #AITools #WorkflowAutomation #BusinessIA #Entrepreneur #TechFR #AIFrance #n8n #MakeAutomation #FutureduTravail #AIMarketing #GainDeTemps #OutilsIA #TransformationDigitale #Innovation\\\",\\n  \\\"image_prompt\\\": \\\"[Description Flux très détaillée: style illustration tech moderne, palette bleue/violette futuriste avec accents néon, éléments visuels IA (circuits, cerveau digital, robots, données), ambiance dynamique professionnelle, format carré 1:1, haute résolution, pas de texte dans l'image]\\\",\\n  \\\"alt_text\\\": \\\"[Description courte pour accessibilité Instagram, en rapport avec IA/automatisation]\\\"\\n}\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "b4881001-0003-0003-0003-000000000003",
+      "name": "Claude - Generate Content",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\n\n// Extraire le texte de la réponse Claude\nconst rawText = response.content[0].text.trim();\n\n// Parser le JSON retourné par Claude\nlet parsed;\ntry {\n  // Chercher le JSON dans la réponse (au cas où Claude ajoute du texte)\n  const jsonMatch = rawText.match(/\\{[\\s\\S]*\\}/);\n  if (!jsonMatch) throw new Error('No JSON found in Claude response');\n  parsed = JSON.parse(jsonMatch[0]);\n} catch(e) {\n  throw new Error(`Parse error: ${e.message} | Raw: ${rawText.substring(0, 200)}`);\n}\n\n// Construire la caption finale (caption + saut de ligne + hashtags)\nconst fullCaption = `${parsed.caption}\\n\\n${parsed.hashtags}`;\n\nreturn [{\n  json: {\n    caption: parsed.caption,\n    hashtags: parsed.hashtags,\n    image_prompt: parsed.image_prompt,\n    alt_text: parsed.alt_text || '',\n    full_caption: fullCaption\n  }\n}];"
+      },
+      "id": "b4881001-0004-0004-0004-000000000004",
+      "name": "Parse Claude Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const contentData = $('Parse Claude Response').first().json;\nconst encodedPrompt = encodeURIComponent(contentData.image_prompt);\nconst imageUrl = 'https://image.pollinations.ai/prompt/' + encodedPrompt + '?width=1080&height=1080&nologo=true&model=flux&seed=' + Date.now();\nreturn [{\n  json: {\n    image_url: imageUrl,\n    full_caption: contentData.full_caption,\n    alt_text: contentData.alt_text || ''\n  }\n}];"
+      },
+      "id": "b4881001-0006-0006-0006-000000000006",
+      "name": "Merge Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v19.0/17841460320928406/media",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/x-www-form-urlencoded",
+        "body": "=image_url={{ encodeURIComponent($json.image_url) }}&caption={{ encodeURIComponent($json.full_caption) }}&alt_text={{ encodeURIComponent($json.alt_text) }}&access_token=EAAN0riin4PQBRmZA6YOaIdncqkHW8zwZBAMY7PwaTDc5BjrzoFCHNSY9N9kQOAEbf8PmGQrSbelQx8XxvwaR1LIj09xZCRm83ZCSM1yGypI4HEDwcmbL9DKYqBZCGkQ2cdvm6wCPNEZAWvglHnM32m52yLZB9UzlotCayGlKDl23gvDw2XMb6HkTee3k8eUmXptJ6c3a7tCZAZCEEnfZAi8qE7GFHNyN1vGbDYRwW0",
+        "options": {}
+      },
+      "id": "b4881001-0007-0007-0007-000000000007",
+      "name": "Instagram - Create Container",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1340, 300]
+    },
+    {
+      "parameters": {
+        "amount": 15,
+        "unit": "seconds"
+      },
+      "id": "b4881001-0008-0008-0008-000000000008",
+      "name": "Wait 15s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [1560, 300],
+      "webhookId": "b4881001-wait-webhook-0008"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v19.0/17841460320928406/media_publish",
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/x-www-form-urlencoded",
+        "body": "=creation_id={{ $('Instagram - Create Container').first().json.id }}&access_token=EAAN0riin4PQBRmZA6YOaIdncqkHW8zwZBAMY7PwaTDc5BjrzoFCHNSY9N9kQOAEbf8PmGQrSbelQx8XxvwaR1LIj09xZCRm83ZCSM1yGypI4HEDwcmbL9DKYqBZCGkQ2cdvm6wCPNEZAWvglHnM32m52yLZB9UzlotCayGlKDl23gvDw2XMb6HkTee3k8eUmXptJ6c3a7tCZAZCEEnfZAi8qE7GFHNyN1vGbDYRwW0",
+        "options": {}
+      },
+      "id": "b4881001-0009-0009-0009-000000000009",
+      "name": "Instagram - Publish Post",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1780, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const publishResult = $input.first().json;\nconst container = $('Instagram - Create Container').first().json;\n\nconsole.log('Post Instagram bebel4881 publié!');\nconsole.log('Container ID:', container.id);\nconsole.log('Post ID:', publishResult.id);\n\nreturn [{\n  json: {\n    success: true,\n    account: 'bebel4881',\n    page: \"L'IA qui Bosse\",\n    container_id: container.id,\n    post_id: publishResult.id,\n    published_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "b4881001-0010-0010-0010-000000000010",
+      "name": "Log Success",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2000, 300]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [{ "node": "Set Topic", "type": "main", "index": 0 }]
+      ]
+    },
+    "Set Topic": {
+      "main": [
+        [{ "node": "Claude - Generate Content", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude - Generate Content": {
+      "main": [
+        [{ "node": "Parse Claude Response", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Claude Response": {
+      "main": [
+        [{ "node": "Merge Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge Data": {
+      "main": [
+        [{ "node": "Instagram - Create Container", "type": "main", "index": 0 }]
+      ]
+    },
+    "Instagram - Create Container": {
+      "main": [
+        [{ "node": "Wait 15s", "type": "main", "index": 0 }]
+      ]
+    },
+    "Wait 15s": {
+      "main": [
+        [{ "node": "Instagram - Publish Post", "type": "main", "index": 0 }]
+      ]
+    },
+    "Instagram - Publish Post": {
+      "main": [
+        [{ "node": "Log Success", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

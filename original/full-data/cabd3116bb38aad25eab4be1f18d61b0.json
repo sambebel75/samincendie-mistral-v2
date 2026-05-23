@@ -1,0 +1,43 @@
+{
+  "url": "https://sitesecurite.com/portail-icpe.php",
+  "title": "SiteSecurite | Portail ICPE",
+  "description": "",
+  "h1": "ICPE / Installations classées pour la protection de l'environnement",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les dernières actualités :"
+    },
+    {
+      "tag": "h2",
+      "text": "Parlons-Securite-Incendie.fr :"
+    },
+    {
+      "tag": "h2",
+      "text": "Nos ouvrages à la une :"
+    },
+    {
+      "tag": "h3",
+      "text": "ICPE - De la création à la cessation - Edition 2023"
+    },
+    {
+      "tag": "h3",
+      "text": "→ Voir tous nos livres"
+    }
+  ],
+  "paragraphs": [],
+  "links": [
+    {
+      "text": "Voir plus",
+      "url": "https://sitesecurite.com/news/actualites.php#ICPE"
+    },
+    {
+      "text": "ICPE - De la création à la cessation - Edition 2023",
+      "url": "https://franceselection.fr/icpe/208-icpe-de-la-creation-a-la-cessation.html"
+    },
+    {
+      "text": "→ Voir tous nos livres",
+      "url": "https://franceselection.fr/16-icpe"
+    }
+  ]
+}

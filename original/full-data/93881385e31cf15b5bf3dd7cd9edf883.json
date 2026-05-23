@@ -1,0 +1,135 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-menu.php",
+  "extracted_at": "2026-05-19T14:20:05.574Z",
+  "content": {
+    "title": "",
+    "headings": {
+      "h1": [],
+      "h2": [
+        "Tableau de bord ICPE"
+      ],
+      "h3": []
+    },
+    "paragraphs": [
+      "Dispositions réglementaires",
+      "Installations IED (3xxx) :",
+      "Produits dangereux (4xxx) :",
+      "Autres textes de référence :"
+    ],
+    "links": [
+      {
+        "text": "Gaz à effet de serreRubrique 11xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=serre"
+      },
+      {
+        "text": "ExplosifsRubrique 13xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=explosifs"
+      },
+      {
+        "text": "InflammablesRubrique 14xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=fuego"
+      },
+      {
+        "text": "CombustiblesRubrique 15xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=combustibles"
+      },
+      {
+        "text": "CorrosifsRubrique 16xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=corrosifs"
+      },
+      {
+        "text": "RadiactivesRubrique 17xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=radioactive"
+      },
+      {
+        "text": "SolvantsRubrique 19xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=xxx"
+      },
+      {
+        "text": "Activités agricolesRubrique 21xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agricole"
+      },
+      {
+        "text": "AgroalimentairesRubrique 22xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agroalimentaire"
+      },
+      {
+        "text": "Textiles, cuirs, peauxRubrique 23xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=textiles"
+      },
+      {
+        "text": "Bois, papierRubrique 24xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=bois"
+      },
+      {
+        "text": "Matériaux, minerais, métauxRubrique 25xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=minerais"
+      },
+      {
+        "text": "ChimieRubrique 26xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=chimie"
+      },
+      {
+        "text": "DéchetsRubrique 27xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=dechets"
+      },
+      {
+        "text": "DiversRubrique 29xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=divers"
+      },
+      {
+        "text": "Installations IEDRubrique 3xxx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php?id=ied"
+      },
+      {
+        "text": "Substances et mélanges dangereuxRubrique 40xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melanges"
+      },
+      {
+        "text": "ToxiquesRubrique 41xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=toxiques"
+      },
+      {
+        "text": "Explosifs et substances explosivesRubrique 42xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=explosifs"
+      },
+      {
+        "text": "Substances inflammablesRubrique 43xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=inflammable"
+      },
+      {
+        "text": "Substances et mélanges autoréactifs, pyrophoriques ou comburants et peroxydes organiquesRubrique 44xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autoreactif"
+      },
+      {
+        "text": "Dangereux pour l'environnementRubrique 45xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=dangereux"
+      },
+      {
+        "text": "Réagissant avec l'eauRubrique 46xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=reagissant"
+      },
+      {
+        "text": "Substances et mélanges nommément désignésRubrique 47xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melangees"
+      },
+      {
+        "text": "Autres substances et mélanges nommément désignésRubrique 48xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autres"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-environnement.php"
+      },
+      {
+        "text": "Textes satellites",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-textes-satellites.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "url": "https://sitesecurite.com/portail-erp.php",
+  "title": "SiteSecurite | Portail ERP",
+  "description": "",
+  "h1": "ERP / Établissements Recevant du Public",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les dernières actualités :"
+    },
+    {
+      "tag": "h2",
+      "text": "Parlons-Securite-Incendie.fr :"
+    },
+    {
+      "tag": "h2",
+      "text": "Nos ouvrages à la une :"
+    },
+    {
+      "tag": "h3",
+      "text": "Pack ERP commenté * Dispositions générales, particulières, spéciales et 5e catégorie"
+    },
+    {
+      "tag": "h3",
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions générales commentées"
+    },
+    {
+      "tag": "h3",
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions particulières commentées - Types J à Y - 1re à 4e catégories"
+    },
+    {
+      "tag": "h3",
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions spéciales commentées"
+    },
+    {
+      "tag": "h3",
+      "text": "→ Voir tous nos livres"
+    }
+  ],
+  "paragraphs": [
+    "Arrêté « bois » du 19 février 2026 - ERP dispositions générales",
+    "Cet arrêté introduit la possibilité de réaliser des ERP avec des éléments structuraux combustibles tout en garantissant un niveau de sécurité répondant aux objectifs de sécurité incendie visés par le Code de la construction et de l'habitation.",
+    "Ses dispositions sont applicables aux demandes d'autorisation de travaux déposées à partir du 1er juin 2027.",
+    "Comme annoncé, les modifications des dispositions générales portées par cet arrêté vont entraîner des actualisations réglementaires des dispositions particulières, spéciales et de 5e catégorie. Par souci de cohérence, l'ensemble des modifications pour un type devraient donc entrer en vigueur à une même date qui sera le 1er juin 2027 si les textes paraissent d'ici là, sinon ultérieurement.",
+    "Jusqu'au 31 mai 2027 la réglementation actuelle reste applicable sans intégrer cet arrêté. Mais pour des projets concernés par des éléments structuraux combustibles, il est nécessaire de connaître le contenu de cet arrêté pour anticiper sa mise en application."
+  ],
+  "links": [
+    {
+      "text": "Comment y accéder...",
+      "url": "https://sitesecurite.com/contenu/portail/erp/tableau_bois_info.php"
+    },
+    {
+      "text": "Voir plus",
+      "url": "https://sitesecurite.com/news/actualites.php#ERP"
+    },
+    {
+      "text": "Pack ERP commenté * Dispositions générales, particulières, spéciales et 5e catégorie",
+      "url": "https://franceselection.fr/home/217-pack-erp-commente.html"
+    },
+    {
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions générales commentées",
+      "url": "https://franceselection.fr/reglementation-erp/12-securite-incendie-erp-dispositions-generales-commentees.html"
+    },
+    {
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions particulières commentées - Types J à Y - 1re à 4e catégories",
+      "url": "https://franceselection.fr/reglementation-erp/13-dispositions-particulieres-commentees-types-j-a-y-1re-a-4e-categories.html"
+    },
+    {
+      "text": "RÈGLEMENT DE SÉCURITÉ INCENDIE des ERP - Dispositions spéciales commentées",
+      "url": "https://franceselection.fr/reglementation-erp/14-securite-incendie-erp-dispositions-speciales-commentees.html"
+    },
+    {
+      "text": "→ Voir tous nos livres",
+      "url": "https://franceselection.fr/45-reglementation-erp"
+    }
+  ]
+}

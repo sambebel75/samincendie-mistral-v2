@@ -1,0 +1,835 @@
+{
+  "source": "https://sitesecurite.com/portail-erp.php",
+  "scraped_at": "2026-05-18T19:06:18.642Z",
+  "portal": "ERP — Établissements recevant du public",
+  "regulation_sections": {
+    "total": 45,
+    "by_category": {
+      "dispositions-communes": [
+        {
+          "code": "GN",
+          "title": "Dispositions applicables à TOUS les ERP",
+          "category": "dispositions-communes",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-communes.php?id=accdct_GN"
+        }
+      ],
+      "dispositions-generales": [
+        {
+          "code": "GE",
+          "title": "Généralités",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GE"
+        },
+        {
+          "code": "CO",
+          "title": "Construction",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_CO"
+        },
+        {
+          "code": "AM",
+          "title": "Aménagements intérieurs, décoration, mobilier",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_AM"
+        },
+        {
+          "code": "DF",
+          "title": "Désenfumage",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_DF"
+        },
+        {
+          "code": "CH",
+          "title": "Chauffage, ventilation, réfrigération, climatisation, conditionnement d'air et installation d'eau chaude sanitaire, chaufferie",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_CH"
+        },
+        {
+          "code": "GZ",
+          "title": "Gaz combustibles et hydrocarbures liquéfiés",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GZ"
+        },
+        {
+          "code": "EL",
+          "title": "Installations électriques",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_EL"
+        },
+        {
+          "code": "EC",
+          "title": "Éclairage",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_EC"
+        },
+        {
+          "code": "AS",
+          "title": "Ascenseurs, escaliers mécaniques et trottoirs roulants",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_AS"
+        },
+        {
+          "code": "GC",
+          "title": "Installations d'appareils de cuisson destinés à la restauration",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GC"
+        },
+        {
+          "code": "MS",
+          "title": "Moyens de secours",
+          "category": "dispositions-generales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_MS"
+        }
+      ],
+      "other": [
+        {
+          "code": "Arrêté \"BOIS\"",
+          "title": "Arrêté du 19 février 2026",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/tableau_bois.php"
+        },
+        {
+          "code": "GEEM",
+          "title": "Grands établissements à exploitation multiple",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-grands-etablissements-exploitation-multiple.php"
+        },
+        {
+          "code": "EP",
+          "title": "Établissements pénitentiaires",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-etablissements-penitentieres.php"
+        },
+        {
+          "code": "CRA",
+          "title": "Centres de rétention administrative",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-centres_retention_administrative.php"
+        },
+        {
+          "code": "R. 143-15",
+          "title": "Établissements relevant de personnes de droit public",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-etablissements-personnes-droit-public.php"
+        },
+        {
+          "code": "EIRP",
+          "title": "Établissements itinérants recevant du public",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-itinerants.php"
+        },
+        {
+          "code": "EP",
+          "title": "Établissements pénitentiaires",
+          "category": "other",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-ep.php"
+        }
+      ],
+      "dispositions-particulieres": [
+        {
+          "code": "J",
+          "title": "Structures d’accueil pour personnes âgées et personnes handicapées",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_J"
+        },
+        {
+          "code": "L",
+          "title": "Salles d'auditions, de conférences, de réunions, de spectacles ou polyvalentes",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_L"
+        },
+        {
+          "code": "M",
+          "title": "Magasins de vente ; centres commerciaux",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_M"
+        },
+        {
+          "code": "N",
+          "title": "Restaurants et débits de boissons",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_N"
+        },
+        {
+          "code": "O",
+          "title": "Hôtels et autres établissements d’hébergement",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_O"
+        },
+        {
+          "code": "P",
+          "title": "Salles de danse et salles de jeux",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_P"
+        },
+        {
+          "code": "R",
+          "title": "Établissements d’enseignement, colonies de vacances",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_R"
+        },
+        {
+          "code": "S",
+          "title": "Bibliothèques, centres de documentation et de consultation d’archives",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_S"
+        },
+        {
+          "code": "T",
+          "title": "Salles d’expositions",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_T"
+        },
+        {
+          "code": "U",
+          "title": "Établissements de soins",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_U"
+        },
+        {
+          "code": "V",
+          "title": "Établissements de culte",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_V"
+        },
+        {
+          "code": "W",
+          "title": "Administrations, banques, bureaux",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_W"
+        },
+        {
+          "code": "X",
+          "title": "Établissements sportifs couverts",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_X"
+        },
+        {
+          "code": "Y",
+          "title": "Musées",
+          "category": "dispositions-particulieres",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_Y"
+        }
+      ],
+      "dispositions-5e-categorie": [
+        {
+          "code": "PE",
+          "title": "Dispositions générales, techniques et complémentaires",
+          "category": "dispositions-5e-categorie",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PE"
+        },
+        {
+          "code": "PO",
+          "title": "Dispositions particulières applicables aux hôtels",
+          "category": "dispositions-5e-categorie",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PO"
+        },
+        {
+          "code": "PU",
+          "title": "Dispositions particulières applicables aux établissements de soins",
+          "category": "dispositions-5e-categorie",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PU"
+        },
+        {
+          "code": "PX",
+          "title": "Dispositions particulières applicables aux établissements sportifs",
+          "category": "dispositions-5e-categorie",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PX"
+        }
+      ],
+      "dispositions-speciales": [
+        {
+          "code": "PA",
+          "title": "Établissements de plein air",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_PA"
+        },
+        {
+          "code": "CTS",
+          "title": "Chapiteaux, tentes et structures",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_CTS"
+        },
+        {
+          "code": "SG",
+          "title": "Structures gonflables",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_SG"
+        },
+        {
+          "code": "OA",
+          "title": "Hôtels-restaurants d’altitude",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_OA"
+        },
+        {
+          "code": "REF",
+          "title": "Refuges de montagne",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_REF"
+        },
+        {
+          "code": "PS",
+          "title": "Parcs de stationnement couverts",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_PS"
+        },
+        {
+          "code": "GA",
+          "title": "Gares accessibles au public",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_GA"
+        },
+        {
+          "code": "EF",
+          "title": "Établissements flottants",
+          "category": "dispositions-speciales",
+          "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_EF"
+        }
+      ]
+    }
+  },
+  "pinned_news": [
+    {
+      "date": "Arrêté « bois » du 19 février 2026 - ERP dispositions générales",
+      "summary": "Cet arrêté introduit la possibilité de réaliser des ERP avec des éléments structuraux combustibles tout en garantissant un niveau de sécurité répondant aux objectifs de sécurité incendie visés par le Code de la construction et de l'habitation.Ses dispositions sont applicables aux demandes d'autorisation de travaux déposées à partir du 1er juin 2027.Comme annoncé, les modifications des dispositions générales portées par cet arrêté vont entraîner des actualisations réglementaires des dispositions particulières, spéciales et de 5e catégorie. Par souci de cohérence, l'ensemble des modifications pour un type devraient donc entrer en vigueur à une même date qui sera le 1er juin 2027 si les textes paraissent d'ici là, sinon ultérieurement.Jusqu'au 31 mai 2027 la réglementation actuelle reste applicable sans intégrer cet arrêté. Mais pour des projets concernés par des éléments structuraux combustibles, il est nécessaire de connaître le contenu de cet arrêté pour anticiper sa mise en application.Comment y accéder...",
+      "link": "https://sitesecurite.com/contenu/portail/erp/tableau_bois_info.php"
+    }
+  ],
+  "latest_news": {
+    "total": 50,
+    "items": [
+      {
+        "id": 255,
+        "title": "Itinérance des ERP",
+        "date": "Parution du 8 mai 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 20&nbsp;avril 2026 prorogeant l'arr&ecirc;t&eacute; du 4&nbsp;mai 2023 portant exp&eacute;rimentation d'itin&eacute;rance des &eacute;tablissements recevant du public</p>\r\n<p align=\"center\">Voir le texte modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_aetab/a2023_05_04.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 4&nbsp;mai 2023</a></p>"
+      },
+      {
+        "id": 254,
+        "title": "Réaction au feu",
+        "date": "Parution du 21 avril 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">R&Egrave;GLEMENT D&Eacute;L&Eacute;GU&Eacute; (UE) 2026/331 DE LA COMMISSION EUROP&Eacute;ENNE du 13&nbsp;f&eacute;vrier 2026 compl&eacute;tant le r&egrave;glement (UE) 2024/3110 du Parlement europ&eacute;en et du Conseil en d&eacute;terminant des classes de performance en ce qui concerne la caract&eacute;ristique essentielle &laquo;&nbsp;r&eacute;action au feu&nbsp;&raquo;</p>\r\n\r\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_cdt_igh_hab/2026_331_reglement_eu.pdf\" target=\"_blank\">Voir le texte</a></p>"
+      },
+      {
+        "id": 252,
+        "title": "ERP de 5e catégorie sans locaux à sommeilAccès libre au public sans surveillance permanente",
+        "date": "Parution du 15 avril 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 4&nbsp;f&eacute;vrier 2026 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n\r\n<p align=\"center\">Article modifi&eacute;&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe26a27.php?id=PE27\" target=\"_blank\">PE&nbsp;27</a></p>"
+      },
+      {
+        "id": 251,
+        "title": "Résistance au feu",
+        "date": "Parution du 26 mars 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/resistefeu.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 22&nbsp;mars 2026 relatif aux performances de r&eacute;sistance au feu des produits, &eacute;l&eacute;ments de construction et d'ouvrages</p>\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_const/a2026_03_22.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 22&nbsp;mars 2026</a></p>\r\n<p align=\"justify\">Les dispositions de cet arr&ecirc;t&eacute; sont applicables aux demandes d'autorisation de travaux et d'urbanisme d&eacute;pos&eacute;es, &agrave; compter du 1<sup>er</sup>&nbsp;octobre 2026.</p>"
+      },
+      {
+        "id": 250,
+        "title": "ERP - Ministère des affaires étrangères",
+        "date": "Parution du 29 mars 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/Ministere_affaires_etrangeres.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 9&nbsp;mars 2026 relatif &agrave; la protection contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public qui rel&egrave;vent du minist&egrave;re des affaires &eacute;trang&egrave;res</p>\r\n\r\n<p align=\"center\">Voir le texte&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_pp/a2026_03_09.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 9&nbsp;mars 2026</a></p>"
+      },
+      {
+        "id": 249,
+        "title": "Ascenseurs",
+        "date": "Parution du 6 mars 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/CCH_AS02.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2026-166 du 4&nbsp;mars 2026 visant &agrave; garantir la s&eacute;curit&eacute; des ascenseurs face &agrave; l'arr&ecirc;t de certains r&eacute;seaux t&eacute;l&eacute;phoniques</p>\r\n\r\n<p align=\"center\">Voir articles modifi&eacute;s&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T6\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-6</a>,\r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-7</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T11\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-11</a></p>"
+      },
+      {
+        "id": 248,
+        "title": "Ascenseurs",
+        "date": "Parution du 6 mars 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/CCH_AS02.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 4&nbsp;mars 2026 modifiant les arr&ecirc;t&eacute;s du 7&nbsp;ao&ucirc;t 2012 relatif aux contr&ocirc;les techniques &agrave; r&eacute;aliser dans les installations d'ascenseurs et du 18&nbsp;novembre 2004 relatif &agrave; l'entretien des installations d'ascenseurs</p>\r\n\r\n<p align=\"center\">Voir textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_as/a2004_11_18_23.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 18&nbsp;novembre 2004</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_as/a2012_08_07.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 7&nbsp;ao&ucirc;t 2012</a></p>"
+      },
+      {
+        "id": 247,
+        "title": "Éléments structuraux combustibles - Niveau de sécurité",
+        "date": "Parution du 22 février 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/bois01.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 19&nbsp;f&eacute;vrier 2026 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Articles modifi&eacute;s ou cr&eacute;&eacute;s&nbsp;: \r\n      <a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn04a10_5POI.php?id=GN4\" target=\"_blank\">GN&nbsp;4</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn16_5POI.php?id=GN16\" target=\"_blank\">GN&nbsp;16</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/ge02a05_5POI.php?id=GE2\" target=\"_blank\">GE&nbsp;2</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/ge06a10_5POI.php?id=GE6\" target=\"_blank\">GE&nbsp;6</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/ge06a10_5POI.php?id=GE7\" target=\"_blank\">GE&nbsp;7</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co06a10_5POI.php?id=CO6\" target=\"_blank\">CO&nbsp;6</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co06a10_5POI.php?id=CO7\" target=\"_blank\">CO&nbsp;7</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co06a10_5POI.php?id=CO8\" target=\"_blank\">CO&nbsp;8</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co06a10_5POI.php?id=CO9\" target=\"_blank\">CO&nbsp;9</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co06a10_5POI.php?id=CO10\" target=\"_blank\">CO&nbsp;10</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co11a15_5POI.php?id=CO11\" target=\"_blank\">CO&nbsp;11</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co11a15_5POI.php?id=CO12\" target=\"_blank\">CO&nbsp;12</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co11a15_5POI.php?id=CO13\" target=\"_blank\">CO&nbsp;13</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co11a15_5POI.php?id=CO14\" target=\"_blank\">CO&nbsp;14</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co19a22_5POI.php?id=CO19\" target=\"_blank\">CO&nbsp;19</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co19a22_5POI.php?id=CO20\" target=\"_blank\">CO&nbsp;20</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co19a22_5POI.php?id=CO21\" target=\"_blank\">CO&nbsp;21</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co19a22_5POI.php?id=CO22\" target=\"_blank\">CO&nbsp;22</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co23a26_5POI.php?id=CO23\" target=\"_blank\">CO&nbsp;23</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co23a26_5POI.php?id=CO24\" target=\"_blank\">CO&nbsp;24</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co23a26_5POI.php?id=CO25\" target=\"_blank\">CO&nbsp;25</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co23a26_5POI.php?id=CO26\" target=\"_blank\">CO&nbsp;26</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co27a29_5POI.php?id=CO27\" target=\"_blank\">CO&nbsp;27</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co27a29_5POI.php?id=CO28\" target=\"_blank\">CO&nbsp;28</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co30a33_5POI.php?id=CO30\" target=\"_blank\">CO&nbsp;30</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co30a33_5POI.php?id=CO31\" target=\"_blank\">CO&nbsp;31</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co30a33_5POI.php?id=CO33\" target=\"_blank\">CO&nbsp;33</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co34a42_5POI.php?id=CO34\" target=\"_blank\">CO&nbsp;34</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co49a56_5POI.php?id=CO52\" target=\"_blank\">CO&nbsp;52</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co49a56_5POI.php?id=CO53\" target=\"_blank\">CO&nbsp;53</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/co57a60_5POI.php?id=CO59\" target=\"_blank\">CO&nbsp;59</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01_5POI.php?id=AM1\" target=\"_blank\">AM&nbsp;1</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM1T1\" target=\"_blank\">AM&nbsp;1-1</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM1T2\" target=\"_blank\">AM&nbsp;1-2</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM1T3\" target=\"_blank\">AM&nbsp;1-3</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM1T4\" target=\"_blank\">AM&nbsp;1-4</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM2\" target=\"_blank\">AM&nbsp;2</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM3\" target=\"_blank\">AM&nbsp;3</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM4\" target=\"_blank\">AM&nbsp;4</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM4T1\" target=\"_blank\">AM&nbsp;4-1</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM5\" target=\"_blank\">AM&nbsp;5</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/am01-1a08_5POI.php?id=AM8\" target=\"_blank\">AM&nbsp;8</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/el05a11_5POI.php?id=EL5\" target=\"_blank\">EL&nbsp;5</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/as01a03_5POI.php?id=AS1\" target=\"_blank\">AS&nbsp;1</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/as04a05_5POI.php?id=AS4\" target=\"_blank\">AS&nbsp;4</a> et <a href=\"https://sitesecurite.com/contenu/_erp/erp/ms18a21_5POI.php?id=MS18\" target=\"_blank\">MS&nbsp;18</a></p>\r\n<p align=\"justify\"><span class=\"blinky01\">&nbsp;Cet arr&ecirc;t&eacute; est applicable &agrave; compter du 1<sup>er</sup>&nbsp;juin 2027&nbsp;</span></p>"
+      },
+      {
+        "id": 246,
+        "title": "Accessibilité",
+        "date": "Parution du 5 février 2026",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 22&nbsp;janvier 2026 portant mesures temporaires de d&eacute;rogation aux r&egrave;gles d'accessibilit&eacute; applicables &agrave; la reconstruction, &agrave; Mayotte, des &eacute;tablissements recevant du public et des installations ouvertes au public endommag&eacute;s ou d&eacute;truits &agrave; la suite du passage du cyclone Chido</p>\r\n\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp/a2026_01_22.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 22&nbsp;janvier 2026</a></p>"
+      },
+      {
+        "id": 244,
+        "title": "ERP",
+        "date": "Parution décembre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/gaz3.png",
+        "text": "<p align=\"justify\">D&eacute;cision du 25&nbsp;novembre 2025 relative &agrave; la reconnaissance du Centre national d'expertise des professionnels de l'&eacute;nergie gaz (CNPG) et &agrave; l'approbation des guides d&eacute;finissant les solutions techniques pour la conception, la mise en oeuvre et l'entretien des installations de gaz dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Voir le texte&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_erp/deci2025_11_25.pdf\" target=\"_blank\" class=\"linknews\">D&eacute;cision du 25&nbsp;novembre 2025</a></p>\r\n<p align=\"center\">Guides t&eacute;l&eacute;chargeables sur&nbsp;:  \r\n<a href=\"https://ged.cnpg.fr\" target=\"_blank\" class=\"linknews\">https://ged.cnpg.fr</a></p>"
+      },
+      {
+        "id": 243,
+        "title": "ERP de 5ecatégorie",
+        "date": "Parution du 14 décembre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Installations de gaz - V&eacute;rifications - Plan d'intervention</p>\r\n<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;d&eacute;cembre 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe01a04.php?id=PE2\" target=\"_blank\" class=\"linknews\">PE&nbsp;2</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe01a04.php?id=PE4\" target=\"_blank\" class=\"linknews\">PE&nbsp;4</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe05a12.php?id=PE7\" target=\"_blank\" class=\"linknews\">PE&nbsp;7</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe05a12.php?id=PE9\" target=\"_blank\" class=\"linknews\">PE&nbsp;9</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe05a12.php?id=PE10\" target=\"_blank\" class=\"linknews\">PE&nbsp;10</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe20a23.php?id=PE21\" target=\"_blank\" class=\"linknews\">PE&nbsp;21</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe26a27.php?id=PE27\" target=\"_blank\" class=\"linknews\">PE&nbsp;27</a></p>"
+      },
+      {
+        "id": 241,
+        "title": "CCH",
+        "date": "Parution du 6 décembre 2025",
+        "categories": [
+          "erp",
+          "ert"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-1167 du 5&nbsp;d&eacute;cembre 2025 relatif &agrave; l'obligation d'&eacute;quipement des &eacute;tablissements recevant du public d'un d&eacute;fibrillateur automatis&eacute; externe</p>\r\n<p align=\"center\">Voir l'article&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr157_01a06.php?id=R157T1\" target=\"_blank\" class=\"linknews\">R.&nbsp;157-1</a></p>"
+      },
+      {
+        "id": 240,
+        "title": "",
+        "date": "Parution du 20 novembre 2025",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\"><b>D&eacute;cret n&deg;&nbsp;2025-1100 du 19&nbsp;novembre 2025</b> fixant les conditions de mise en oeuvre des solutions d'effet &eacute;quivalent li&eacute;es &agrave; la s&eacute;curit&eacute; contre l'incendie, transf&eacute;rant des dispositions r&eacute;glementaires concernant la s&eacute;curit&eacute; incendie des b&acirc;timents &agrave; usage professionnel (BUP) dans le code de la construction et de l'habitation et modifiant certaines proc&eacute;dures d'instruction</p>\r\n\r\n<p align=\"justify\"><b>Suppression des demandes d'autorisation d'ouverture et de travaux des ERP de 5<sup>e</sup>&nbsp;cat&eacute;gorie sans locaux &agrave; sommeil au titre de la s&eacute;curit&eacute; incendie</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T5\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-5</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-7</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T11\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-11</a> <small>(applicable le 21/11/25)</small></p>\r\n\r\n<p align=\"justify\"><b>Dispositions de s&eacute;curit&eacute; incendie communes &agrave; tous les b&acirc;timents et notamment les conditions de mise en &oelig;uvre des solutions d'effet &eacute;quivalent</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr142_01a05.php?id=R142T1\" target=\"_blank\" class=\"linknews\">R.&nbsp;142-1</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T34\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-34</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;abrogation des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T35\" target=\"_blank\" class=\"linknews\">R.*&nbsp;143-35</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T36\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-36</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T21\" target=\"_blank\" class=\"linknews\">R.*&nbsp;146-21</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T22\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-22</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;remplacement des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr141_01a13.php?id=top\" target=\"_blank\" class=\"linknews\">D.&nbsp;141-1 &agrave; D.&nbsp;141-13</a> par les articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr141_01a17.php?id=top\" target=\"_blank\" class=\"linknews\">R.&nbsp;141-1 &agrave; R.&nbsp;141-17</a> <small>(applicable le 01/07/26)</small> <br>-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T44\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-44</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T20\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-20</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T26\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-26</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T35\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-35</a> <small>(applicable le 01/07/26)</small></p>\r\n\r\n<p align=\"justify\"><b>Transfert des dispositions du Code du travail concernant la s&eacute;curit&eacute; incendie pour la conception des b&acirc;timents &agrave; usage professionnel (BUP) dans le Code de la construction et de l'habitation</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification de l'article <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr113_01.php?id=R113T1\" target=\"_blank\" class=\"linknews\">R.&nbsp;113-1</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;cr&eacute;ation des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr144_01a20.php?id=top\" target=\"_blank\" class=\"linknews\">R.&nbsp;144-1 &agrave; R.&nbsp;144-20</a> du Code de la construction et de l'habitation, <small>(applicable le 01/01/27)</small><br>\r\n-&nbsp;suppression des articles <a href=\"https://sitesecurite.com/contenu/portail/code/code-travail.php?id=cdt2\" target=\"_blank\" class=\"linknews\">R.&nbsp;4216-1 &agrave; R.&nbsp;4216-34</a> du code du travail <small>(applicable le 01/01/27)</small><br>\r\n-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4211_03a05.php?id=R4211T3\" target=\"_blank\" class=\"linknews\">R.&nbsp;4211-3</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-7</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T9\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-9</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_26a28.php?id=R4214T28\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-28, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4227_01a03.php?id=R4227T2\" target=\"_blank\" class=\"linknews\">R.&nbsp;4227-2</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T37\" target=\"_blank\" class=\"linknews\">R.&nbsp;4227-37</a> <small>(applicable le 01/01/27)</small></p>"
+      },
+      {
+        "id": 238,
+        "title": "ERP - EF",
+        "date": "Parution du 4 novembre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 27&nbsp;octobre 2025 modifiant l'arr&ecirc;t&eacute; du 9&nbsp;janvier 1990 relatif aux mesures de s&eacute;curit&eacute; applicables dans les &eacute;tablissements flottants ou bateaux stationnaires et les bateaux en stationnement sur les eaux int&eacute;rieures recevant du public (ERP type&nbsp;EF)</p>\r\n\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpef/ef04a14.php?id=EF11\" target=\"_blank\" class=\"linknews\">EF&nbsp;11</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpef/ef04a14.php?id=EF12\" target=\"_blank\" class=\"linknews\">EF&nbsp;12</a></p>\r\n\r\n<p align=\"justify\">Cet arr&ecirc;t&eacute; est applicable &agrave; compter du 1<sup>er</sup>&nbsp;janvier 2026.</p>"
+      },
+      {
+        "id": 237,
+        "title": "ERP - CH 35",
+        "date": "Parution du 25 octobre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 20&nbsp;octobre 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Article modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH35\" target=\"_blank\" class=\"linknews\">CH&nbsp;35</a></p>"
+      },
+      {
+        "id": 235,
+        "title": "ERP - CH",
+        "date": "Parution 9 septembre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;septembre 2025 modifiant l'arr&ecirc;t&eacute; du&nbsp;25 juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;:  \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH35\" target=\"_blank\" class=\"linknews\">CH&nbsp;35</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch57a58.php?id=CH58\" target=\"_blank\" class=\"linknews\">CH&nbsp;58</a></p>"
+      },
+      {
+        "id": 234,
+        "title": "ERP",
+        "date": "parution 6 septembre 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;septembre 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch01a04.php?id=CH1\" target=\"_blank\" class=\"linknews\">CH&nbsp;1</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch01a04.php?id=CH2\" target=\"_blank\" class=\"linknews\">CH&nbsp;2</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch01a04.php?id=CH3\" target=\"_blank\" class=\"linknews\">CH&nbsp;3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH5\" target=\"_blank\" class=\"linknews\">CH&nbsp;5</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH6\" target=\"_blank\" class=\"linknews\">CH&nbsp;6</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH7\" target=\"_blank\" class=\"linknews\">CH&nbsp;7</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH9\" target=\"_blank\" class=\"linknews\">CH&nbsp;9</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH10\" target=\"_blank\" class=\"linknews\">CH&nbsp;10</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH12_1\" target=\"_blank\" class=\"linknews\">CH&nbsp;12-1</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch13a17.php?id=CH17\" target=\"_blank\" class=\"linknews\">CH&nbsp;17</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch23a25.php?id=CH24\" target=\"_blank\" class=\"linknews\">CH&nbsp;24</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch23a25.php?id=CH25\" target=\"_blank\" class=\"linknews\">CH&nbsp;25</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch26a27.php?id=CH27\" target=\"_blank\" class=\"linknews\">CH&nbsp;27</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH47\" target=\"_blank\" class=\"linknews\">CH&nbsp;47</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH48\" target=\"_blank\" class=\"linknews\">CH&nbsp;48</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH50\" target=\"_blank\" class=\"linknews\">CH&nbsp;50</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH51\" target=\"_blank\" class=\"linknews\">CH&nbsp;51</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH53\" target=\"_blank\" class=\"linknews\">CH&nbsp;53</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH54\" target=\"_blank\" class=\"linknews\">CH&nbsp;54</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH56\" target=\"_blank\" class=\"linknews\">CH&nbsp;56</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/gc02a08.php?id=GC4\" target=\"_blank\" class=\"linknews\">GC&nbsp;4</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/gc02a08.php?id=GC6\" target=\"_blank\" class=\"linknews\">GC&nbsp;6</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/gc18.php?id=GC18\" target=\"_blank\" class=\"linknews\">GC&nbsp;18</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/gc19a20.php?id=GC20\" target=\"_blank\" class=\"linknews\">GC&nbsp;20</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpj/j26.php?id=J26\" target=\"_blank\" class=\"linknews\">J&nbsp;26</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l31.php?id=L31\" target=\"_blank\" class=\"linknews\">L&nbsp;31</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l49a58.php?id=L52\" target=\"_blank\" class=\"linknews\">L&nbsp;52</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpm/m38a43.php?id=M39\" target=\"_blank\" class=\"linknews\">M&nbsp;39</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpo/o22a24.php?id=O22\" target=\"_blank\" class=\"linknews\">O&nbsp;22</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpr/r06a12.php?id=R11\" target=\"_blank\" class=\"linknews\">R&nbsp;11</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpr/r20a23.php?id=R22\" target=\"_blank\" class=\"linknews\">R&nbsp;22</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpt/t28a31.php?id=T30\" target=\"_blank\" class=\"linknews\">T&nbsp;30</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpt/t28a31.php?id=T31\" target=\"_blank\" class=\"linknews\">T&nbsp;31</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpx/x20.php?id=X20\" target=\"_blank\" class=\"linknews\">X&nbsp;20</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpx/x21.php?id=X21\" target=\"_blank\" class=\"linknews\">X&nbsp;21</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpoa/oa17.php?id=OA17\" target=\"_blank\" class=\"linknews\">OA&nbsp;17</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpref/ref31a32.php?id=REF31\" target=\"_blank\" class=\"linknews\">REF&nbsp;31</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpref/ref31a32.php?id=REF32\" target=\"_blank\" class=\"linknews\">REF&nbsp;32</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpps/ps05a15.php?id=PS9\" target=\"_blank\" class=\"linknews\">PS&nbsp;9</a></p>\r\n<p align=\"justify\">Cet arr&ecirc;t&eacute; est applicable &agrave; compter du 1<sup>er</sup>&nbsp;janvier 2026.</p>"
+      },
+      {
+        "id": 232,
+        "title": "ERP - HAB",
+        "date": "parution du 8 août 2025",
+        "categories": [
+          "erp",
+          "hab"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE01.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-785 du 7&nbsp;ao&ucirc;t 2025 pris pour l'application de l'ordonnance n&deg;&nbsp;2025-454 du 23&nbsp;mai 2025 portant diverses mesures d'adaptations et de d&eacute;rogations temporaires aux r&egrave;gles de construction &agrave; Mayotte afin d'acc&eacute;l&eacute;rer sa reconstruction &agrave; la suite du passage du cyclone Chido</p>\r\n<p align=\"center\">Voir le texte&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_hab/d2025_08_07.php?id=top\" target=\"_blank\" class=\"linknews\">d&eacute;cret n&deg;&nbsp;2025-785</a></p>"
+      },
+      {
+        "id": 231,
+        "title": "ERP",
+        "date": "Parution du 31 juillet 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 29&nbsp;juillet 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch28.php?id=CH28\" target=\"_blank\" class=\"linknews\">CH&nbsp;28</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH32\" target=\"_blank\" class=\"linknews\">CH&nbsp;32</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH33\" target=\"_blank\" class=\"linknews\">CH&nbsp;33</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH34\" target=\"_blank\" class=\"linknews\">CH&nbsp;34</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH36\" target=\"_blank\" class=\"linknews\">CH&nbsp;36</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH37\" target=\"_blank\" class=\"linknews\">CH&nbsp;37</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH38\" target=\"_blank\" class=\"linknews\">CH&nbsp;38</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH40\" target=\"_blank\" class=\"linknews\">CH&nbsp;40</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch41a43.php?id=CH41\" target=\"_blank\" class=\"linknews\">CH&nbsp;41</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch41a43.php?id=CH42\" target=\"_blank\" class=\"linknews\">CH&nbsp;42</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch41a43.php?id=CH43\" target=\"_blank\" class=\"linknews\">CH&nbsp;43</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH44\" target=\"_blank\" class=\"linknews\">CH&nbsp;44</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe20a23.php?id=PE22\" target=\"_blank\" class=\"linknews\">PE&nbsp;22</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe20a23.php?id=PE23\" target=\"_blank\" class=\"linknews\">PE&nbsp;23</a></p>"
+      },
+      {
+        "id": 227,
+        "title": "ERP - Centres de rétention administrative",
+        "date": "Parution du 26 juin 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/CRA.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 24&nbsp;juin 2025 portant approbation des r&egrave;gles de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les centres de r&eacute;tention administrative et fixant les modalit&eacute;s de leur contr&ocirc;le</p>\r\n\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/portail/erp/erp-centres_retention_administrative.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 24&nbsp;juin 2025</a></p>\r\n\r\n<hr>\r\n\r\n<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-573 du 24&nbsp;juin 2025 modifiant l'article R.&nbsp;143-17 du code de la construction et de l'habitation</p>\r\n\r\n<p align=\"center\">Article modifi&eacute;&nbsp;: <a href=\"\r\n\r\nhttps://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T17\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-17</a></p>"
+      },
+      {
+        "id": 209,
+        "title": "Dérogations temporaires aux règles de construction à Mayotte",
+        "date": "Parution du 24 mai 2025",
+        "categories": [
+          "erp",
+          "hab"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/AdobeStock_593922368.jpg",
+        "text": "<p align=\"justify\">Ordonnance n&deg;&nbsp;2025-454 du 23&nbsp;mai 2025 portant diverses mesures d'adaptations et de d&eacute;rogations temporaires aux r&egrave;gles de construction &agrave; Mayotte afin d'acc&eacute;l&eacute;rer sa reconstruction &agrave; la suite du passage du cyclone Chido</p>\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_hab/o2025_05_23.php\" target=\"_blank\" class=\"linknews\">Ordonnance n&deg;&nbsp;2025-454</a></p>"
+      },
+      {
+        "id": 208,
+        "title": "Renouvellement des CCDSA",
+        "date": "Parution du 17 mai 2025",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-429 du 15 mai 2025<br>\r\nLes commissions consultatives d&eacute;partementales de s&eacute;curit&eacute; et d'accessibilit&eacute;, pr&eacute;vues par le d&eacute;cret du 8&nbsp;mars 1995, sont prorog&eacute;es jusqu'au 8&nbsp;juin 2030</p>\r\n\r\n<p align=\"center\"><a href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051604221\" target=\"_blank\" class=\"linknews\">Voir le texte</a></p>"
+      },
+      {
+        "id": 206,
+        "title": "ERP J - DGSCGC",
+        "date": "Parution du 24 avril 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/J02.jpg",
+        "text": "<p align=\"justify\">Note d'information - Application des seuils GIR de l'article J&nbsp;1</p>\r\n\r\n<p align=\"center\">Voir l'<a href=\"https://sitesecurite.com/contenu/_erp/erpj/j01a04.php?id=J1\" target=\"_blank\" class=\"linknews\">article J&nbsp;1</p>"
+      },
+      {
+        "id": 204,
+        "title": "ERP - Chauffage",
+        "date": "Parution du 9 avril 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;avril 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<blockquote>\r\n<p class=\"Date\">Cet arr&ecirc;t&eacute; fixe les objectifs techniques et de s&eacute;curit&eacute; applicables aux installations de chauffage utilisant des combustibles solides, notamment bio-sourc&eacute;s, situ&eacute;es &agrave; l'int&eacute;rieur ou &agrave; l'ext&eacute;rieur des &eacute;tablissements recevant du public</p>\r\n</blockquote>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch01a04.php?id=CH3\" target=\"_blank\" class=\"linknews\">CH&nbsp;3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH6\" target=\"_blank\" class=\"linknews\">CH&nbsp;6</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch05a12.php?id=CH8\" target=\"_blank\" class=\"linknews\">CH&nbsp;8</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch13a17.php?id=CH13\" target=\"_blank\" class=\"linknews\">CH&nbsp;13</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH49\" target=\"_blank\" class=\"linknews\">CH&nbsp;49</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ch44a56.php?id=CH55\" target=\"_blank\" class=\"linknews\">CH&nbsp;55</a></p>"
+      },
+      {
+        "id": 203,
+        "title": "ERP - Parcs de stationnement couverts (PS)",
+        "date": "Parution du 26 mars 2025",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/PS04.jpg",
+        "text": "<p align=\"justify\">Modification des crit&egrave;res d'assujettissement des parcs</p>\r\n<p align=\"justify\">Arr&ecirc;t&eacute; du 18&nbsp;mars 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<p align=\"center\">Article modifi&eacute;&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpps/ps01a04.php?id=PS1\" target=\"_blank\" class=\"linknews\">PS&nbsp;1</a></p>"
+      },
+      {
+        "id": 199,
+        "title": "ERP - Articles GZ",
+        "date": "Parution du 28 février 2025",
+        "categories": [
+          "ERP"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/gaz3.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 23&nbsp;f&eacute;vrier 2025 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\r\n<blockquote>\r\n<p class=\"Date\">Cet arr&ecirc;t&eacute; fixe les objectifs techniques et de s&eacute;curit&eacute; applicables aux installations de gaz combustibles situ&eacute;es &agrave; l'int&eacute;rieur ou &agrave; l'ext&eacute;rieur des &eacute;tablissements recevant du public ou de leurs d&eacute;pendances ou &agrave; l'ext&eacute;rieur et &agrave; proximit&eacute; de ceux-ci, jusqu'aux stockages des r&eacute;cipients fixes ou transportables.</p>\r\n<p class=\"Date\">L'abrogation de l'arr&ecirc;t&eacute; du 2&nbsp;ao&ucirc;t 1977 relatif aux r&egrave;gles techniques et de s&eacute;curit&eacute; applicables aux installations de gaz combustible et d'hydrocarbures liqu&eacute;fi&eacute;s situ&eacute;s &agrave; l'int&eacute;rieur des b&acirc;timents d'habitation ou de leurs d&eacute;pendances par la publication de l'arr&ecirc;t&eacute; du 23&nbsp;f&eacute;vrier 2018 modifi&eacute; relatif aux r&egrave;gles techniques et de s&eacute;curit&eacute; applicables aux installations de gaz combustible des b&acirc;timents d'habitation individuelle ou collective, y compris les parties communes, a rendu caduque une partie de la r&eacute;glementation aux installations et &eacute;quipements de gaz dans les &eacute;tablissements recevant du public et les immeubles de grande hauteur. En cons&eacute;quence, les dispositions relatives aux installations techniques distribuant ou utilisant du gaz dans les &eacute;tablissements recevant du public et les immeubles de grande hauteur dans le r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP) approuv&eacute; par arr&ecirc;t&eacute; du 25&nbsp;juin 1980 sont modifi&eacute;es.</p>\r\n</blockquote>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GZ\" target=\"_blank\" class=\"linknews\">GZ</a></p>\r\n<p align=\"justify\">Cet arr&ecirc;t&eacute; est applicable &agrave; compter du 1<sup>er</sup>&nbsp;janvier 2026.</p>"
+      },
+      {
+        "id": 190,
+        "title": "Couverture des parcs - Panneaux photovoltaïques",
+        "date": "Parution du 2 septembre 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Note d'information - Couverture des parcs de stationnement ext&eacute;rieurs et des ERP (septembre 2024)</p>\r\n<p align=\"justify\">DGSCGC/DSP/SDSIAS/BPRI n&deg;&nbsp;2024/30</p>\r\n<p align=\"center\">Voir le <a href=\"https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_PS\" target=\"_blank\">type&nbsp;PS</a></p>"
+      },
+      {
+        "id": 188,
+        "title": "Communications radioélectriques",
+        "date": "Parution du 3 juillet 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 28&nbsp;juin 2024 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 modifi&eacute; portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p><p align=\"center\">Textes modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el01a04.php?id=EL3\" target=\"_blank\" class=\"linknews\">EL 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ms70a71.php?id=MS71\" target=\"_blank\" class=\"linknews\">MS 71</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpps/ps18a24.php?id=PS20\" target=\"_blank\" class=\"linknews\">PS 20</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpps/ps25a30.php?id=PS29\" target=\"_blank\" class=\"linknews\">PS 29</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpit/it250.php\" target=\"_blank\" class=\"linknews\">IT 250</a></p>\r\n<p align=\"justify\">cet arr&ecirc;t&eacute; est applicable &agrave; compter du 4 juillet 2024.</p>"
+      },
+      {
+        "id": 186,
+        "title": "Résistance au feu des produits de construction",
+        "date": "Parution au Journal officiel de l&rsquo;Union européenne le 13 juin 2024",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">R&egrave;glement d&eacute;l&eacute;gu&eacute; (UE) 2024/1681 de la Commission du 6&nbsp;mars 2024 compl&eacute;tant le r&egrave;glement (UE) n&deg;&nbsp;305/2011 du Parlement europ&eacute;en et du Conseil en &eacute;tablissant des classes de performance relatives &agrave; la r&eacute;sistance au feu des produits de construction</p>\r\n<p align=\"justify\">Applicable le 3&nbsp;juillet 2024.</p>\r\n<p align=\"justify\">Ce r&egrave;glement abroge la d&eacute;cision 2000/367/CE.</p>\r\n<p align=\"center\">Article concern&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_const/a04_03_22.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 22&nbsp;mars 2004 modifi&eacute; (Annexe&nbsp;1-1&nbsp;: Syst&egrave;me adopt&eacute; au niveau communautaire)</a></p>"
+      },
+      {
+        "id": 184,
+        "title": "Comportement au feu des câbles électriques",
+        "date": "Parution du 23 mai 2024",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 17&nbsp;mai 2024 modifiant diverses dispositions des r&egrave;glements de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public, et pour la construction des immeubles de grande hauteur pris respectivement par l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 et l'arr&ecirc;t&eacute; du 30&nbsp;d&eacute;cembre 2011</p>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/co61.php?id=CO61\" target=\"_blank\" class=\"linknews\">CO 61</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el01a04.php?id=EL3\" target=\"_blank\" class=\"linknews\">EL 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el05a11.php?id=EL10\" target=\"_blank\" class=\"linknews\">EL 10</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el20a23.php?id=EL23\" target=\"_blank\" class=\"linknews\">EL 23</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec01a05.php?id=EC2\" target=\"_blank\" class=\"linknews\">EC 2</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec06.php?id=EC6\" target=\"_blank\" class=\"linknews\">EC 6</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec07a15.php?id=EC11\" target=\"_blank\" class=\"linknews\">EC 11</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec07a15.php?id=EC12\" target=\"_blank\" class=\"linknews\">EC 12</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe24.php?id=PE24\" target=\"_blank\" class=\"linknews\">PE 24</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts16a20.php?id=CTS20\" target=\"_blank\" class=\"linknews\">CTS 20</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts21a24.php?id=CTS23\" target=\"_blank\" class=\"linknews\">CTS 23</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts21a24.php?id=CTS24\" target=\"_blank\" class=\"linknews\">CTS 24</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga01a05.php?id=GA3\" target=\"_blank\" class=\"linknews\">GA 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga32a34.php?id=GA33\" target=\"_blank\" class=\"linknews\">GA 33</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga32a34.php?id=GA34\" target=\"_blank\" class=\"linknews\">GA 34</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh01a05.php?id=GH3\" target=\"_blank\" class=\"linknews\">GH 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH44\" target=\"_blank\" class=\"linknews\">GH 44</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH45\" target=\"_blank\" class=\"linknews\">GH 45</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH48\" target=\"_blank\" class=\"linknews\">GH 48</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/ghtc_a14.php?id=ac_GHTC_A14_1\" target=\"_blank\" class=\"linknews\">GHTC 14-1</a></p>\r\n<p align=\"justify\">cet arr&ecirc;t&eacute; est applicable &agrave; compter du 23 mai 2025</p>"
+      },
+      {
+        "id": 182,
+        "title": "ERP - Armées",
+        "date": "Parution du 5 mai 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 5&nbsp;avril 2024 modifiant l'arr&ecirc;t&eacute; du 19&nbsp;mai 2020 relatif &agrave; la pr&eacute;vention et protection contre les risques d'incendie et de panique et &agrave; l'accessibilit&eacute; dans les &eacute;tablissements recevant du public relevant du minist&egrave;re de la d&eacute;fense</p>\r\n<p align=\"center\">Voir l'<a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_pp/a2020_05_19\" target=\"_blank\" class=\"linknews\">arr&ecirc;t&eacute; du 19&nbsp;mai 2020</a></p>"
+      },
+      {
+        "id": 181,
+        "title": "Installations de gaz",
+        "date": "Parution du 26 avril 2024",
+        "categories": [
+          "erp",
+          "hab"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/gaz3.png",
+        "text": "<p align=\"justify\">D&eacute;cision du 22&nbsp;avril 2024 relative &agrave; l'approbation du guide th&eacute;matique &laquo;&nbsp;Appareils et mat&eacute;riels &agrave; gaz&nbsp;&raquo; - &Eacute;dition&nbsp;7 - &eacute;labor&eacute; par le Centre national d'expertise des professionnels de l'&eacute;nergie gaz (CNPG) et mentionn&eacute; en annexe&nbsp;1 &agrave; l'arr&ecirc;t&eacute; du 23&nbsp;f&eacute;vrier 2018</p>\r\n\r\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_hab/deci2024_04_22.php?id=top\" target=\"_blank\" class=\"linknews\">D&eacute;cision du 10 f&eacute;vrier 2023</a></p>"
+      },
+      {
+        "id": 180,
+        "title": "ERP en Nouvelle-Calédonie",
+        "date": "avril 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/nouvelle_caledonie1.jpg",
+        "text": "<p align=\"justify\">En attendant la parution d'un arr&ecirc;t&eacute; du gouvernement de la Nouvelle Cal&eacute;donie fixant le r&egrave;glement de s&eacute;curit&eacute; incendie dans les ERP, la DSCGR (Direction de la S&eacute;curit&eacute; Civile et de la Gestion des Risques de la Nouvelle-Cal&eacute;donie) invite, par une note d'information, les ma&icirc;tres d'ouvrage, ma&icirc;tres d'&oelig;uvre, bureaux d'&eacute;tudes sp&eacute;cialis&eacute;s en incendie et les bureaux de contr&ocirc;le &agrave; appliquer l'arr&ecirc;t&eacute; m&eacute;tropolitain du 25&nbsp;juin 1980.</p>\r\n<p align=\"justify\">Cette disposition transitoire permettra&nbsp;:<br />\r\n-&nbsp;d'uniformiser et de simplifier les r&egrave;gles applicables sur l'ensemble du territoire&nbsp;;<br />\r\n-&nbsp;d'int&eacute;grer les &eacute;volutions r&eacute;glementaires en terme de s&eacute;curit&eacute;&nbsp;;<br />\r\n-&nbsp;de pr&eacute;parer la transition vers un r&egrave;glement de s&eacute;curit&eacute; incendie de la Nouvelle-Cal&eacute;donie.</p>"
+      },
+      {
+        "id": 176,
+        "title": "Guide structures provisoires et démontables",
+        "date": "Parution du 1<sup>er</sup> février 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/GuideSPD.jpg",
+        "text": "<p align=\"justify\">Guide sur le comportement au feu de produits et d'&eacute;l&eacute;ments de construction - version&nbsp;1.3 - f&eacute;vrier 2024</p>\r\n\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp/guide_SPD.php?id=top\" target=\"_blank\" class=\"linknews\">Guide structures provisoires et d&eacute;montables</a></p>"
+      },
+      {
+        "id": 175,
+        "title": "Accessibilité ERP 5e catégorie",
+        "date": "Parution du 16 février 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2024-111 du 14&nbsp;f&eacute;vrier 2024 modifiant le d&eacute;cret n&deg;&nbsp;2023-993 du 27&nbsp;octobre 2023 relatif &agrave;  l'instauration du fonds territorial d'accessibilit&eacute; &agrave; destination des micro, petites et moyennes entreprises class&eacute;es &eacute;tablissements recevant du public de 5<sup>e</sup>&nbsp;cat&eacute;gorie</p>\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erppe/d2023_10_27.php?id=top\" target=\"_blank\" class=\"linknews\">D&eacute;cret n&deg;&nbsp;2023-993</a></p>"
+      },
+      {
+        "id": 172,
+        "title": "Établissements relevant de personnes de droit public",
+        "date": "Parution du 31 janvier 2024",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 18&nbsp;janvier 2024 fixant les attributions de l'inspecteur de pr&eacute;vention et de protection contre l'incendie</p>\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_pp/a2024_01_18.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 18&nbsp;janvier 2024</p>"
+      },
+      {
+        "id": 169,
+        "title": "Accessibilité",
+        "date": "Parution du 31 décembre 2023",
+        "categories": [
+          "erp",
+          "hab"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 26&nbsp;d&eacute;cembre 2023 relatif aux attestations de respect de la r&eacute;glementation d'accessibilit&eacute; dans les b&acirc;timents neufs et existants aux personnes en situation de handicap</p>\r\n\r\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_hab/a2023_12_26.php?id=top\" target=\"_blank\" class=\"linknews\">arr&ecirc;t&eacute; du 26&nbsp;d&eacute;cembre 2023</a></p>\r\n\r\n<p align=\"center\">L'arr&ecirc;t&eacute; du 22&nbsp;mars 2007 est abrog&eacute;</p>"
+      },
+      {
+        "id": 164,
+        "title": "Norme",
+        "date": "Parution du 21 novembre 2023",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 28&nbsp;octobre 2023 mettant &agrave; jour la date de version de la norme NF&nbsp;EN&nbsp;ISO/IEC&nbsp;17025 dans divers arr&ecirc;t&eacute;s</p>\r\n<p align=\"center\">Voir les textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn14.php?id=GN14\" target=\"_blank\" class=\"linknews\">GN&nbsp;14</a>, <a href=\"https://sitesecurite.com/contenu/_igh/igh/gh01a05.php?id=GH1\" target=\"_blank\" class=\"linknews\">GH&nbsp;1</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_const/a2002_11_21.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 21&nbsp;novembre 2002 modifi&eacute;</a></p>"
+      },
+      {
+        "id": 162,
+        "title": "Structures provisoires et démontables",
+        "date": "Parution du 3 novembre 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/Structure01.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 30&nbsp;octobre 2023 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\n<p align=\"center\">Voir les articles&nbsp;: \n<a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn04a10.php?id=GN6\" target=\"_blank\" class=\"linknews\">GN&nbsp;6</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn15.php?id=GN15\" target=\"_blank\" class=\"linknews\">GN&nbsp;15</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erp/co61.php?id=CO61\" target=\"_blank\" class=\"linknews\">CO&nbsp;61</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erp/am15a18.php?id=AM17\" target=\"_blank\" class=\"linknews\">AM&nbsp;17</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erp/am15a18.php?id=AM18\" target=\"_blank\" class=\"linknews\">AM&nbsp;18</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l26a29.php?id=L26\" target=\"_blank\" class=\"linknews\">L&nbsp;26</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l49a58.php?id=L57\" target=\"_blank\" class=\"linknews\">L&nbsp;57</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l72a75.php?id=L74\" target=\"_blank\" class=\"linknews\">L&nbsp;74</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpl/l76a79.php?id=L78\" target=\"_blank\" class=\"linknews\">L&nbsp;78</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpt/t21a24.php?id=T21\" target=\"_blank\" class=\"linknews\">T&nbsp;21</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpx/x15a18.php?id=X18\" target=\"_blank\" class=\"linknews\">X&nbsp;18</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erppa/pa01a02.php?id=PA1\" target=\"_blank\" class=\"linknews\">PA&nbsp;1</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erppa/pa03a06.php?id=PA5\" target=\"_blank\" class=\"linknews\">PA&nbsp;5</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erppa/pa09.php?id=PA9\" target=\"_blank\" class=\"linknews\">PA&nbsp;9</a>, \n<a href=\"https://sitesecurite.com/contenu/_erp/erpsg/sg14a17.php?id=SG15\" target=\"_blank\" class=\"linknews\">SG&nbsp;15</a> et \n<a href=\"https://sitesecurite.com/contenu/_erp/erpsg/sg14a17.php?id=SG16\" target=\"_blank\" class=\"linknews\">SG&nbsp;16</a></p>"
+      },
+      {
+        "id": 161,
+        "title": "Accessibilité ERP 5e catégorie",
+        "date": "Parution du 28 octobre et 1<sup>er</sup> novembre 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/J01.jpg",
+        "text": "<p align=\"justify\">(JO du 28&nbsp;octobre 2023)<br>\nD&eacute;cret n&deg;&nbsp;2023-993 du 27&nbsp;octobre 2023 relatif &agrave; l'instauration du fonds territorial d'accessibilit&eacute; &agrave; destination des micro, petites et moyennes entreprises class&eacute;es &eacute;tablissements recevant du public de 5<sup>e</sup>&nbsp;cat&eacute;gorie</p>\n<p align=\"justify\">(JO du 1<sup>er</sup>&nbsp;novembre 2023)<br>\nArr&ecirc;t&eacute; du 31&nbsp;octobre 2023 relatif aux modalit&eacute;s de gestion du fonds territorial d'accessibilit&eacute; &agrave; destination des micro, petites et moyennes entreprises class&eacute;es &eacute;tablissements recevant du public de 5<sup>e</sup>&nbsp;cat&eacute;gorie</p>\n<p align=\"center\">Voir les textes&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erppe/d2023_10_27.php\" target=\"_blank\" class=\"linknews\">D&eacute;cret n&deg;&nbsp;2023-993 du 27&nbsp;octobre 2023</a> et <a href=\"https://sitesecurite.com/contenu/_txt/txt_erppe/a2023_10_31.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 31&nbsp;octobre 2023</a></p>"
+      },
+      {
+        "id": 158,
+        "title": "Vacances adaptées organisées (VAO) - Respect des règles de sécurité incendie",
+        "date": "Parution du 16 octobre 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/gite.jpg",
+        "text": "<p align=\"justify\">Circulaire N&deg;&nbsp;DGCS/3B/2023/153 du 6&nbsp;octobre 2023 relative au respect des r&egrave;gles de s&eacute;curit&eacute; incendie sur les lieux de s&eacute;jours de vacances adapt&eacute;es organis&eacute;es (VAO)</p>\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp/c2023_10_06.pdf\" target=\"_blank\" class=\"linknews\">Circulaire N&deg;&nbsp;DGCS/3B/2023/153</a></p>"
+      },
+      {
+        "id": 157,
+        "title": "ERP - Dispositifs d'alerte",
+        "date": "Parution du 19 septembre 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 11&nbsp;septembre 2023 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\n        <p align=\"justify\">Cet arr&ecirc;t&eacute; vise &agrave; prendre en compte les &eacute;volutions technologiques des dispositifs permettant de donner l'alerte d'une part et des r&eacute;seaux de communication d'autre part. Il a plus particuli&egrave;rement pour objectifs de prendre en compte les mat&eacute;riels de communication jusqu'alors non pr&eacute;vus par la r&eacute;glementation pour l'ensemble des ERP (t&eacute;l&eacute;phone portable, VoIP...) ainsi que les &eacute;volutions des r&eacute;seaux (fin du RTC, d&eacute;mant&egrave;lement du r&eacute;seau cuivre...).</p>\n<p align=\"center\">Voir les articles&nbsp;: \n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el01a04.php?id=EL3\" target=\"_blank\" class=\"linknews\">EL&nbsp;3</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erp/ms70a71.php?id=MS70\" target=\"_blank\" class=\"linknews\">MS&nbsp;70</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpj/j34a40.php?id=J38\" target=\"_blank\" class=\"linknews\">J&nbsp;38</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpl/l14a17.php?id=L17\" target=\"_blank\" class=\"linknews\">L&nbsp;17</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpm/m25a33.php?id=M33\" target=\"_blank\" class=\"linknews\">M&nbsp;33</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpn/n16a20.php?id=N19\" target=\"_blank\" class=\"linknews\">N&nbsp;19</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpo/o17a21.php?id=O20\" target=\"_blank\" class=\"linknews\">O&nbsp;20</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpp/p20a24.php?id=P23\" target=\"_blank\" class=\"linknews\">P&nbsp;23</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpr/r30a33.php?id=R32\" target=\"_blank\" class=\"linknews\">R&nbsp;32</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erps/s15a19.php?id=S19\" target=\"_blank\" class=\"linknews\">S&nbsp;19</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpt/t47a52.php?id=T51\" target=\"_blank\" class=\"linknews\">T&nbsp;51</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpu/u41a48.php?id=U46\" target=\"_blank\" class=\"linknews\">U&nbsp;46</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpv/v11a13.php?id=V13\" target=\"_blank\" class=\"linknews\">V&nbsp;13</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpw/w11a16.php?id=W15\" target=\"_blank\" class=\"linknews\">W&nbsp;15</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpx/x24a27.php?id=X27\" target=\"_blank\" class=\"linknews\">X&nbsp;27</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpy/y18a22.php?id=Y22\" target=\"_blank\" class=\"linknews\">Y&nbsp;22</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe26a27.php?id=PE27\" target=\"_blank\" class=\"linknews\">PE&nbsp;27</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erppa/pa12a14.php?id=PA14\" target=\"_blank\" class=\"linknews\">PA&nbsp;14</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts26a29.php?id=CTS29\" target=\"_blank\" class=\"linknews\">CTS&nbsp;29</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpsg/sg19a21.php?id=SG21\" target=\"_blank\" class=\"linknews\">SG&nbsp;21</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpoa/oa23a29.php?id=OA27\" target=\"_blank\" class=\"linknews\">OA&nbsp;27</a>, <a href=\"https://sitesecurite.com/contenu/_erp/erpref/ref38a39.php?id=REF39\" target=\"_blank\" class=\"linknews\">REF&nbsp;39</a> et <a href=\"https://sitesecurite.com/contenu/_erp/erpps/ps25a30.php?id=PS27\" target=\"_blank\" class=\"linknews\">PS&nbsp;27</a></p>"
+      },
+      {
+        "id": 155,
+        "title": "Suppression du caractère obligatoire de certaines normes",
+        "date": "Parution du 24 août 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 9&nbsp;ao&ucirc;t 2023 modifiant l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 portant approbation des dispositions g&eacute;n&eacute;rales du r&egrave;glement de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public (ERP)</p>\n<p align=\"center\">Voir les articles&nbsp;: <a href=\"https://sitesecurite.com/contenu/_erp/erp/el05a11.php?id=EL10\" target=\"_blank\" class=\"linknews\">EL&nbsp;10</a> et <a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe25.php?id=PE25\" target=\"_blank\" class=\"linknews\">PE&nbsp;25</a></p>"
+      },
+      {
+        "id": 152,
+        "title": "Annulation du Conseil d'État - CH 35 &sect; 3",
+        "date": "Parution du 22 juillet 2023",
+        "categories": [
+          "erp"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cision n&deg;&nbsp;435581 du 19&nbsp;juillet 2023 du Conseil d'&Eacute;tat statuant au contentieux</p>\n<p align=\"center\">Voir l'article&nbsp;: <a href=\"https://sitesecurite.com/contenu/_erp/erp/ch29a40.php?id=CH35\" target=\"_blank\" class=\"linknews\">CH&nbsp;35</a></p>"
+      },
+      {
+        "id": 148,
+        "title": "Agrément ERP - IGH",
+        "date": "Parution du 21 juin 2023",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH08.jpg",
+        "text": "<p>Arr&ecirc;t&eacute; du 15&nbsp;juin 2023 modifiant l'arr&ecirc;t&eacute; du 11&nbsp;d&eacute;cembre 2007 relatif aux conditions d'agr&eacute;ment pour les v&eacute;rifications r&eacute;glementaires pr&eacute;vues dans les &eacute;tablissements recevant du public et les immeubles de grande hauteur<p>\n<p align=\"center\">Texte modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_igh/a2007_12_11.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 11&nbsp;d&eacute;cembre 2007</a></p>"
+      },
+      {
+        "id": 144,
+        "title": "Établissements itinérants recevant du public (EIRP)",
+        "date": "Parution du 11 mai 2023",
+        "categories": [
+          "erp",
+          "others"
+        ],
+        "image": null,
+        "text": "<p>Arr&ecirc;t&eacute; du 4&nbsp;mai 2023 portant exp&eacute;rimentation d'itin&eacute;rance des &eacute;tablissements recevant du public</p>\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/portail/erp/erp-itinerants.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 4&nbsp;mai 2023</a></p>"
+      },
+      {
+        "id": 141,
+        "title": "Installations de gaz",
+        "date": "Parution du 15 février 2023",
+        "categories": [
+          "erp",
+          "hab"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/gaz3.png",
+        "text": "<p align=\"justify\">D&eacute;cision du 10&nbsp;f&eacute;vrier 2023 relative &agrave; l'approbation du guide th&eacute;matique &laquo;&nbsp;Appareils et mat&eacute;riels &agrave; gaz&nbsp;&raquo; &eacute;labor&eacute; par le Centre national d'expertise des professionnels de l'&eacute;nergie gaz (CNPG) et list&eacute; en annexe&nbsp;1 &agrave; l'arr&ecirc;t&eacute; du 23&nbsp;f&eacute;vrier 2018</p>\r\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_hab/deci2023_02_10.php?id=top\" target=\"_blank\" class=\"linknews\">D&eacute;cision du 10 f&eacute;vrier 2023</a></p>"
+      },
+      {
+        "id": 139,
+        "title": "Mémento - Accueil des mineurs en refuge",
+        "date": "Mise en ligne par la DGSCGC",
+        "categories": [
+          "erp"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/refuge_mineurs.jpg",
+        "text": "<p align=\"justify\">Mise en ligne par la DGSCGC du M&eacute;mento du r&egrave;glement incendie - Accueil des mineurs en refuge 2022</p>\n<p align=\"justify\"><small><a href=\"https://www.interieur.gouv.fr/Le-ministere/Securite-civile/Documentation-technique/Les-sapeurs-pompiers/La-reglementation-incendie\" target=\"_blank\" class=\"linknews\">https://www.interieur.gouv.fr/Le-ministere/Securite-civile/Documentation-technique/Les-sapeurs-pompiers/La-reglementation-incendie</a></small></p>\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_erp/erpref/2020_08_Memento_refuge_mineurs.pdf\" target=\"_blank\" class=\"linknews\">Voir le m&eacute;mento</a> (pdf)</p>"
+      },
+      {
+        "id": 138,
+        "title": "Performance énergétique",
+        "date": "Parution du 4 décembre 2022",
+        "categories": [
+          "erp",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/performance-energetique.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2022-1516 du 3&nbsp;d&eacute;cembre 2022 relatif aux exigences de performance &eacute;nerg&eacute;tique et environnementale des constructions temporaires</p>\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr172_01a09.php?id=top\" target=\"_blank\" class=\"linknews\">Voir le texte</a></p>"
+      },
+      {
+        "id": 136,
+        "title": "Chaudières et systèmes thermodynamiques",
+        "date": "Parution du 25 novembre 2022",
+        "categories": [
+          "erp",
+          "hab",
+          "ert",
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/chaudiere.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 21&nbsp;novembre 2022 relatif au contr&ocirc;le et &agrave; l'entretien des chaudi&egrave;res et des syst&egrave;mes thermodynamiques</p>\n\n<p align=\"center\">Textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_icpe/a2009_09_15.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 15&nbsp;septembre 2009</a> et <a href=\"https://sitesecurite.com/contenu/_txt/txt_icpe/a2009_10_02.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 2&nbsp;octobre 2009</a></p>"
+      }
+    ]
+  }
+}

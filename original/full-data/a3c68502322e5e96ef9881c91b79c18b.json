@@ -1,0 +1,67 @@
+{
+  "url": "https://sitesecurite.com/portail-igh.php",
+  "title": "SiteSecurite | Portail IGH",
+  "description": "",
+  "h1": "IGH-IMH / Immeubles de grande et moyenne hauteur",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les dernières actualités :"
+    },
+    {
+      "tag": "h2",
+      "text": "Parlons-Securite-Incendie.fr :"
+    },
+    {
+      "tag": "h2",
+      "text": "Nos ouvrages à la une :"
+    },
+    {
+      "tag": "h3",
+      "text": "Règlement incendie IGH - IMH - Tome 1 - 2022"
+    },
+    {
+      "tag": "h3",
+      "text": "Règlement incendie IGH 1977 - Tome 2"
+    },
+    {
+      "tag": "h3",
+      "text": "Registre de sécurité pour immeubles de grande hauteur - Broché"
+    },
+    {
+      "tag": "h3",
+      "text": "Registre de sécurité pour immeubles de grande hauteur - Classeur"
+    },
+    {
+      "tag": "h3",
+      "text": "→ Voir tous nos livres"
+    }
+  ],
+  "paragraphs": [],
+  "links": [
+    {
+      "text": "Voir plus",
+      "url": "https://sitesecurite.com/news/actualites.php#IGH"
+    },
+    {
+      "text": "Règlement incendie IGH - IMH - Tome 1 - 2022",
+      "url": "https://franceselection.fr/reglementation-igh/37-securite-incendie-immeubles-de-grande-hauteur-igh-2011-nouvelle-reglementation.html"
+    },
+    {
+      "text": "Règlement incendie IGH 1977 - Tome 2",
+      "url": "https://franceselection.fr/reglementation-igh/38-securite-incendie-immeubles-de-grande-hauteur-igh-1977.html"
+    },
+    {
+      "text": "Registre de sécurité pour immeubles de grande hauteur - Broché",
+      "url": "https://franceselection.fr/home/11-registre-de-securite-pour-immeubles-de-grande-hauteur.html"
+    },
+    {
+      "text": "Registre de sécurité pour immeubles de grande hauteur - Classeur",
+      "url": "https://franceselection.fr/home/11-registre-de-securite-pour-immeubles-de-grande-hauteur.html#/format-classeur"
+    },
+    {
+      "text": "→ Voir tous nos livres",
+      "url": "https://franceselection.fr/48-reglementation-igh"
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php",
+  "extracted_at": "2026-05-19T14:20:00.471Z",
+  "content": {
+    "title": "Installations IED — ICPE",
+    "headings": {
+      "h1": [
+        "ICPE / Installations classées pour la protection de l'environnement"
+      ],
+      "h2": [
+        "Installations IED",
+        "Tableau de bord ICPE"
+      ],
+      "h3": [
+        "ERP",
+        "IGH / IMH",
+        "HAB",
+        "BUP / ERT",
+        "ICPE",
+        "Autres"
+      ]
+    },
+    "paragraphs": [
+      "Navigation rapide entre les différentes thématiques :",
+      "Dispositions réglementaires",
+      "Installations IED (3xxx) :",
+      "Produits dangereux (4xxx) :",
+      "Autres textes de référence :"
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "ERP\n            Établissements recevant du public",
+        "url": "https://sitesecurite.com/portail-erp.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "IGH / IMH\n            Immeubles de grande et moyenne hauteur",
+        "url": "https://sitesecurite.com/portail-igh.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "HAB\n            Bâtiments d'habitation",
+        "url": "https://sitesecurite.com/portail-hab.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "BUP / ERT\n            Bâtiments à usage professionnel",
+        "url": "https://sitesecurite.com/portail-bup.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "ICPE\n            Installations classées pour la protection de l'environnement",
+        "url": "https://sitesecurite.com/portail-icpe.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "Autres\n            Campings, aires extérieures, grands rassemblements…",
+        "url": "https://sitesecurite.com/portail-divers.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php#"
+      },
+      {
+        "text": "Installations IED",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php?id="
+      },
+      {
+        "text": "3000",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3000.php"
+      },
+      {
+        "text": "3110",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3110.php"
+      },
+      {
+        "text": "03/08/2018 modifié",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3110a2.php"
+      },
+      {
+        "text": "03/08/2018 modifié",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000037284870"
+      },
+      {
+        "text": "3120",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3120.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3130",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3130.php"
+      },
+      {
+        "text": "3140",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3140.php"
+      },
+      {
+        "text": "3210",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3210.php"
+      },
+      {
+        "text": "3220",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3220.php"
+      },
+      {
+        "text": "3230",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3230.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3240",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3240.php"
+      },
+      {
+        "text": "3250",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3250.php"
+      },
+      {
+        "text": "3260",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3260.php"
+      },
+      {
+        "text": "30/06/2006 modifié",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000644060"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3310",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3310.php"
+      },
+      {
+        "text": "3330",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3330.php"
+      },
+      {
+        "text": "3340",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3340.php"
+      },
+      {
+        "text": "3350",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3350.php"
+      },
+      {
+        "text": "3410",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3410.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3420",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3420.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3430",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3430.php"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3440",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3440.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3450",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3450.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3460",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3460.php"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "3510",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3510.php"
+      },
+      {
+        "text": "17/12/2019",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3510a.php"
+      },
+      {
+        "text": "12/01/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3510a2.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3520",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3520.php"
+      },
+      {
+        "text": "12/01/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3520a.php"
+      },
+      {
+        "text": "31/10/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050479313"
+      },
+      {
+        "text": "3531",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3531.php"
+      },
+      {
+        "text": "17/12/2019",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3531a.php"
+      },
+      {
+        "text": "12/01/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3531a2.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3532",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3532.php"
+      },
+      {
+        "text": "17/12/2019",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3532a.php"
+      },
+      {
+        "text": "12/01/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3532a2.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3540",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3540.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3550",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3550.php"
+      },
+      {
+        "text": "17/12/2019",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3550a.php"
+      },
+      {
+        "text": "3560",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3560.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3610",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3610.php"
+      },
+      {
+        "text": "10/09/2020 modifié",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042344843"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3620",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3620.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "09/01/2025",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051106528"
+      },
+      {
+        "text": "3630",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3630.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3641",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3641.php"
+      },
+      {
+        "text": "30/04/2004 modifié",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3641a.php"
+      },
+      {
+        "text": "31/03/2025",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051564030"
+      },
+      {
+        "text": "3642",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3642.php"
+      },
+      {
+        "text": "27/02/2020",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3642a.php"
+      },
+      {
+        "text": "3643",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3643.php"
+      },
+      {
+        "text": "27/02/2020",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3643a.php"
+      },
+      {
+        "text": "3650",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3650.php"
+      },
+      {
+        "text": "03/07/2025",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051848078"
+      },
+      {
+        "text": "3660",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3660.php"
+      },
+      {
+        "text": "27/12/2013 modifié",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3660a.php"
+      },
+      {
+        "text": "3670",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3670.php"
+      },
+      {
+        "text": "03/02/2022",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3670a.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "3680",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3680.php"
+      },
+      {
+        "text": "3690",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3690.php"
+      },
+      {
+        "text": "3700",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3700.php"
+      },
+      {
+        "text": "28/06/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3700a.php"
+      },
+      {
+        "text": "3710",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php"
+      },
+      {
+        "text": "17/12/2019",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3710a.php"
+      },
+      {
+        "text": "27/02/2020",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3710a2.php"
+      },
+      {
+        "text": "28/06/2021",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3710a3.php"
+      },
+      {
+        "text": "03/02/2022",
+        "url": "https://sitesecurite.com/contenu/_icpe/icpe/rub/3710a4.php"
+      },
+      {
+        "text": "20/06/2023",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047739535"
+      },
+      {
+        "text": "04/11/2024",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050510609"
+      },
+      {
+        "text": "09/01/2025",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051106528"
+      },
+      {
+        "text": "31/03/2025",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051564030"
+      },
+      {
+        "text": "03/07/2025",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051848078"
+      },
+      {
+        "text": "Gaz à effet de serreRubrique 11xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=serre"
+      },
+      {
+        "text": "ExplosifsRubrique 13xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=explosifs"
+      },
+      {
+        "text": "InflammablesRubrique 14xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=fuego"
+      },
+      {
+        "text": "CombustiblesRubrique 15xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=combustibles"
+      },
+      {
+        "text": "CorrosifsRubrique 16xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=corrosifs"
+      },
+      {
+        "text": "RadiactivesRubrique 17xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=radioactive"
+      },
+      {
+        "text": "SolvantsRubrique 19xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=xxx"
+      },
+      {
+        "text": "Activités agricolesRubrique 21xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agricole"
+      },
+      {
+        "text": "AgroalimentairesRubrique 22xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agroalimentaire"
+      },
+      {
+        "text": "Textiles, cuirs, peauxRubrique 23xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=textiles"
+      },
+      {
+        "text": "Bois, papierRubrique 24xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=bois"
+      },
+      {
+        "text": "Matériaux, minerais, métauxRubrique 25xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=minerais"
+      },
+      {
+        "text": "ChimieRubrique 26xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=chimie"
+      },
+      {
+        "text": "DéchetsRubrique 27xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=dechets"
+      },
+      {
+        "text": "DiversRubrique 29xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=divers"
+      },
+      {
+        "text": "Installations IEDRubrique 3xxx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php?id=ied"
+      },
+      {
+        "text": "Substances et mélanges dangereuxRubrique 40xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melanges"
+      },
+      {
+        "text": "ToxiquesRubrique 41xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=toxiques"
+      },
+      {
+        "text": "Explosifs et substances explosivesRubrique 42xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=explosifs"
+      },
+      {
+        "text": "Substances inflammablesRubrique 43xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=inflammable"
+      },
+      {
+        "text": "Substances et mélanges autoréactifs, pyrophoriques ou comburants et peroxydes organiquesRubrique 44xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autoreactif"
+      },
+      {
+        "text": "Dangereux pour l'environnementRubrique 45xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=dangereux"
+      },
+      {
+        "text": "Réagissant avec l'eauRubrique 46xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=reagissant"
+      },
+      {
+        "text": "Substances et mélanges nommément désignésRubrique 47xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melangees"
+      },
+      {
+        "text": "Autres substances et mélanges nommément désignésRubrique 48xx",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autres"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-environnement.php"
+      },
+      {
+        "text": "Textes satellites",
+        "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-textes-satellites.php"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

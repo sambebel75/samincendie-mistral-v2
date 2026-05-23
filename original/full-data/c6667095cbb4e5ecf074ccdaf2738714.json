@@ -1,0 +1,177 @@
+{
+  "url": "https://sitesecurite.com/contenu/_erp/erpit/it24802.php",
+  "extracted_at": "2026-05-19T13:08:03.866Z",
+  "content": {
+    "title": "SiteSecurite.com - ERP - Instruction technique 248",
+    "headings": {
+      "h1": [],
+      "h2": [],
+      "h3": []
+    },
+    "paragraphs": [
+      "En application de l'article R. 143-11 du Code de la construction et de l'habitation, les établissements recevant du public doivent être équipés de systèmes d'alarme.\n\tCes systèmes doivent pouvoir être utilisés pour donner, en cas d'urgence, l'ordre d'évacuation du public ainsi que du personnel non employé à la lutte contre l'incendie.\n    Ils doivent satisfaire, d'une part, aux principes généraux définis selon la catégorie d'établissement, soit aux articles MS 58 à MS 65, soit aux articles PO 11 et PO 12 (§ 3) du règlement de sécurité contre les risques d'incendie et de panique dans les établissements recevant du public et, d'autre part, aux règles précisées ci-après qui ont pour but de définir les exigences techniques minimales que doivent respecter ces systèmes.",
+      "A - Établissements recevant du public des quatre premières catégories",
+      "2. Conception des différents systèmes d'alarmes",
+      "2.1. Composition des systèmes d'alarme",
+      "Les systèmes d'alarme sont constitués d'une association des éléments de base suivants :",
+      "- les appareils de commande ;",
+      "- le tableau de signalisation pour les types 1, 2 a) et 3 ;",
+      "- les diffuseurs d'alarme (sonores, optiques, vocaux, avec ou sans modulateur incorporé) ;",
+      "- les blocs autonomes d'alarme sonore.",
+      "Toutes les canalisations de liaison entre ces éléments de base doivent être établies dans les conditions b) et c) de l'article EL 3 (§ 2) du règlement de sécurité contre les risques d'incendie et de panique dans les établissements recevant du public.",
+      "2.2. Système d'alarme du type 1",
+      "2.2.1. Le système d'alarme du type 1 doit utiliser :",
+      "- des dispositifs à commande automatique (détecteurs automatiques d'incendie) ;",
+      "- des dispositifs à commande manuelle ;",
+      "- un tableau de signalisation ;",
+      "- une source d'alimentation de sécurité ;",
+      "- des diffuseurs de l'alarme générale qui peuvent être des blocs autonomes.",
+      "2.2.2. Le système d'alarme du type 1 est réalisé suivant les principes généraux de la norme NF S 61-950 (Matériel de détection d'incendie - détecteurs - tableaux de signalisation et organes intermédiaires).",
+      "Les circuits des dispositifs à commande manuelle doivent respecter les dispositions prises pour les circuits des dispositifs à commande automatique, notamment la surveillance par courant de garde.",
+      "2.3. Système d'alarme du type 2",
+      "2.3.1. Le système d'alarme du type 2 doit utiliser soit :",
+      "a) Des dispositifs à commande manuelle, un tableau de signalisation, une source d'alimentation de sécurité, des diffuseurs de l'alarme générale qui peuvent être des blocs autonomes ;",
+      "b) Des dispositifs à commande manuelle et des blocs autonomes d'alarme associés éventuellement à un équipement de signalisation optique et sonore centralisé.",
+      "2.3.2. Les dispositifs à commande manuelle doivent agir sur des dispositifs à manque de courant signalant indifféremment une alarme ou un dérangement par coupure de ligne.",
+      "2.3.3. Plusieurs dispositifs à commande manuelle peuvent déclencher le fonctionnement d'un seul bloc autonome d'alarme.",
+      "2.3.4. Lorsqu'un bâtiment est équipé de plusieurs blocs autonomes d'alarme, l'action sur un seul dispositif à commande manuelle doit provoquer le fonctionnement de tous les blocs autonomes d'alarme du bâtiment.",
+      "2.4. Système d'alarme du type 3",
+      "2.4.1. Le système d'alarme du type 3 comprend tous les éléments du système d'alarme du type 2 défini au paragraphe 2.3.1. a) ci-dessus (type 2a), à l'exception de la source d'alimentation de sécurité.",
+      "2.4.2. L'alimentation électrique de l'ensemble du système est assurée à partir de l'installation normale de l'établissement. Elle doit trouver son origine immédiatement en aval de l'organe de coupure générale de celui-ci. L'ensemble de l'installation doit être réalisé de façon que tout défaut (surcharge, court-circuit, défaut à la terre) survenant sur l'un quelconque des autres circuits, n'affecte pas la continuité de l'alimentation du système d'alarme.",
+      "2.4.3. Ce système d'alarme doit être complété par un système d'alarme de type 4.",
+      "2.5. Système d'alarme du type 4",
+      "Le système d'alarme du type 4 est constitué de tout autre dispositif de diffusion sonore."
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "A. Établissements recevant du public des quatre premières catégories",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24801.php?id=A"
+      },
+      {
+        "text": "1. Généralités",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24801.php?id=A1"
+      },
+      {
+        "text": "2. Conception des différents systèmes d'alarmes",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24802.php?id=A2"
+      },
+      {
+        "text": "3. Caractéristiques des éléments de base",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24803.php?id=A3"
+      },
+      {
+        "text": "4. Implantation des éléments de base",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24804.php?id=A4"
+      },
+      {
+        "text": "5. Conformité aux disposition de la présente instruction technique",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24805.php?id=A5"
+      },
+      {
+        "text": "6. Entretien et consignes d'exploitation",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24806.php?id=A6"
+      },
+      {
+        "text": "B. Établissements recevant du public de la 5° catégorie",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24807.php?id=B"
+      },
+      {
+        "text": "C. Dispositions relatives aux installations existantes",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24808.php?id=C"
+      },
+      {
+        "text": "D. Conditions d'application de la présente instruction",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24809.php?id=D"
+      },
+      {
+        "text": "R. 143-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T11"
+      },
+      {
+        "text": "MS 58 à MS 65",
+        "url": "https://sitesecurite.com/contenu/_erp/erp/ms56a58.php?id=MS58"
+      },
+      {
+        "text": "PO 11",
+        "url": "https://sitesecurite.com/contenu/_erp/erppo/po08a13.php?id=PO11"
+      },
+      {
+        "text": "PO 12 (§ 3)",
+        "url": "https://sitesecurite.com/contenu/_erp/erppo/po08a13.php?id=PO12"
+      },
+      {
+        "text": "EL 3 (§ 2)",
+        "url": "https://sitesecurite.com/contenu/_erp/erp/el01a04.php?id=EL3"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "Règlement ERP - Instruction technique n° 248 - Systèmes d'alarmes utilisés dans les établissements recevant du public",
+      "keywords": " instruction technique, it 248, alarme, alarmes, systeme d'alarme, règlement erp, réglementation erp, établissement recevant du public, it, IT, it 246, it 247, it 248, it 249, it 263, incendie, sécurité ",
+      "canonical": ""
+    }
+  }
+}

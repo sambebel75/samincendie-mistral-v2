@@ -1,0 +1,692 @@
+{
+  "portal": "icpe",
+  "label": "ICPE — Installations classées pour l'environnement",
+  "source": "https://sitesecurite.com/portail-icpe.php",
+  "scraped_at": "2026-05-18T19:13:37.906Z",
+  "regulation_sections": {
+    "total": 27,
+    "by_category": {
+      "Substances (1xxx) :": [
+        {
+          "code": "Rubrique 11xx",
+          "title": "Gaz à effet de serre",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=serre"
+        },
+        {
+          "code": "Rubrique 13xx",
+          "title": "Explosifs",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=explosifs"
+        },
+        {
+          "code": "Rubrique 14xx",
+          "title": "Inflammables",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=fuego"
+        },
+        {
+          "code": "Rubrique 15xx",
+          "title": "Combustibles",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=combustibles"
+        },
+        {
+          "code": "Rubrique 16xx",
+          "title": "Corrosifs",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=corrosifs"
+        },
+        {
+          "code": "Rubrique 17xx",
+          "title": "Radiactives",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=radioactive"
+        },
+        {
+          "code": "Rubrique 19xx",
+          "title": "Solvants",
+          "category": "Substances (1xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-substances.php?id=xxx"
+        }
+      ],
+      "Activités (2xxx) :": [
+        {
+          "code": "Rubrique 21xx",
+          "title": "Activités agricoles",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agricole"
+        },
+        {
+          "code": "Rubrique 22xx",
+          "title": "Agroalimentaires",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=agroalimentaire"
+        },
+        {
+          "code": "Rubrique 23xx",
+          "title": "Textiles, cuirs, peaux",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=textiles"
+        },
+        {
+          "code": "Rubrique 24xx",
+          "title": "Bois, papier",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=bois"
+        },
+        {
+          "code": "Rubrique 25xx",
+          "title": "Matériaux, minerais, métaux",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=minerais"
+        },
+        {
+          "code": "Rubrique 26xx",
+          "title": "Chimie",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=chimie"
+        },
+        {
+          "code": "Rubrique 27xx",
+          "title": "Déchets",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=dechets"
+        },
+        {
+          "code": "Rubrique 29xx",
+          "title": "Divers",
+          "category": "Activités (2xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-activites.php?id=divers"
+        }
+      ],
+      "Installations IED (3xxx) :": [
+        {
+          "code": "Rubrique 3xxx",
+          "title": "Installations IED",
+          "category": "Installations IED (3xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-installations-ied.php?id=ied"
+        }
+      ],
+      "Produits dangereux (4xxx) :": [
+        {
+          "code": "Rubrique 40xx",
+          "title": "Substances et mélanges dangereux",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melanges"
+        },
+        {
+          "code": "Rubrique 41xx",
+          "title": "Toxiques",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=toxiques"
+        },
+        {
+          "code": "Rubrique 42xx",
+          "title": "Explosifs et substances explosives",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=explosifs"
+        },
+        {
+          "code": "Rubrique 43xx",
+          "title": "Substances inflammables",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=inflammable"
+        },
+        {
+          "code": "Rubrique 44xx",
+          "title": "Substances et mélanges autoréactifs, pyrophoriques ou comburants et peroxydes organiques",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autoreactif"
+        },
+        {
+          "code": "Rubrique 45xx",
+          "title": "Dangereux pour l'environnement",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=dangereux"
+        },
+        {
+          "code": "Rubrique 46xx",
+          "title": "Réagissant avec l'eau",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=reagissant"
+        },
+        {
+          "code": "Rubrique 47xx",
+          "title": "Substances et mélanges nommément désignés",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=melangees"
+        },
+        {
+          "code": "Rubrique 48xx",
+          "title": "Autres substances et mélanges nommément désignés",
+          "category": "Produits dangereux (4xxx) :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-produits-dangereux.php?id=autres"
+        }
+      ],
+      "Autres textes de référence :": [
+        {
+          "code": "",
+          "title": "Codes",
+          "category": "Autres textes de référence :",
+          "url": "https://sitesecurite.com/contenu/portail/code/code-environnement.php"
+        },
+        {
+          "code": "",
+          "title": "Textes satellites",
+          "category": "Autres textes de référence :",
+          "url": "https://sitesecurite.com/contenu/portail/icpe/icpe-textes-satellites.php"
+        }
+      ]
+    }
+  },
+  "pinned_news": [],
+  "latest_news": {
+    "total": 50,
+    "items": [
+      {
+        "id": 242,
+        "title": "ICPE",
+        "date": "Parution du 11 décembre 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;d&eacute;cembre 2025 modifiant certaines dispositions relatives aux installations de gestion de d&eacute;chets, en particulier relatives &agrave; la lutte contre les accidents dans le secteur des d&eacute;chets au sein des installations soumises &agrave; d&eacute;claration et &agrave; enregistrement au titre des rubriques 2711 (transit, regroupement ou tri de d&eacute;chets &eacute;lectriques et &eacute;lectroniques), 2713 (transit, regroupement ou tri de m&eacute;taux ou de d&eacute;chets de m&eacute;taux), 2714 (transit, regroupement ou tri de d&eacute;chets de papiers/cartons, plastiques, caoutchouc, textiles, bois), 2716 (transit, regroupement ou tri de d&eacute;chets non dangereux non inertes) et 2718 (transit, regroupement ou tri de d&eacute;chets dangereux) de la nomenclature des installations class&eacute;es pour la protection de lâenvironnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php?id=top\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php?id=top\" target=\"_blank\" class=\"linknews\">2713</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php?id=top\" target=\"_blank\" class=\"linknews\">2714</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php?id=top\" target=\"_blank\" class=\"linknews\">2716</a> et\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php?id=top\" target=\"_blank\" class=\"linknews\">2718</a></p>"
+      },
+      {
+        "id": 239,
+        "title": "ICPE",
+        "date": "Parution du 16 novembre 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 12&nbsp;novembre 2025 modifiant l'arr&ecirc;t&eacute; du 4&nbsp;octobre 2010 relatif &agrave; la pr&eacute;vention des risques accidentels au sein des installations class&eacute;es pour la protection de l'environnement soumises &agrave; autorisation</p>\r\n\r\n<p align=\"center\">Rubrique&nbsp;modifi&eacute;e&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4755.php?id=top\" target=\"_blank\" class=\"linknews\">4755</a></p>"
+      },
+      {
+        "id": 230,
+        "title": "ICPE",
+        "date": "parution du 5 juillet 2025",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE02.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-617 du 3&nbsp;juillet 2025 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2740.php?id=top\" target=\"_blank\" class=\"linknews\">2740</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3650.php?id=top\" target=\"_blank\" class=\"linknews\">3650</a></p>"
+      },
+      {
+        "id": 229,
+        "title": "ICPE",
+        "date": "parution du 5 juillet 2025",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 3&nbsp;juillet 2025 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant de la rubrique n&deg;&nbsp;3650 ou n&deg;&nbsp;3710 pour lesquelles la charge polluante principale provient d'une ou plusieurs installations relevant de la rubrique n&deg;&nbsp;3650 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3650.php?id=top\" target=\"_blank\" class=\"linknews\">3650</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a></p>"
+      },
+      {
+        "id": 228,
+        "title": "ICPE",
+        "date": "parution du 26 juin 2025",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 12&nbsp;juin 2025 modifiant les arr&ecirc;t&eacute;s du 24&nbsp;septembre 2020 et du 3&nbsp;octobre 2010 relatifs au stockage de liquides inflammables, exploit&eacute;s au sein d'une installation class&eacute;e pour la protection de l'environnement soumise &agrave; autorisation, l'arr&ecirc;t&eacute; du 4&nbsp;octobre 2010 relatif &agrave; la pr&eacute;vention des risques accidentels au sein des installations class&eacute;es pour la protection de l'environnement soumises &agrave; autorisation, l'arr&ecirc;t&eacute; du 1er&nbsp;juin 2015 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de l'une au moins des rubriques&nbsp;4331 ou&nbsp;4734 et l'arr&ecirc;t&eacute; du 22&nbsp;d&eacute;cembre 2008 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations class&eacute;es soumises &agrave; d&eacute;claration sous l'une ou plusieurs des rubriques n<sup>os</sup>&nbsp;1436, 4330, 4331, 4722, 4734, 4742, 4743, 4744, 4746, 4747 ou 4748, ou pour le p&eacute;trole brut sous l'une ou plusieurs des rubriques n<sup>os</sup>&nbsp;4510 ou&nbsp;4511</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1436.php?id=top\" target=\"_blank\" class=\"linknews\">1436</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4330.php?id=top\" target=\"_blank\" class=\"linknews\">4330</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4331.php?id=top\" target=\"_blank\" class=\"linknews\">4331</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4510.php?id=top\" target=\"_blank\" class=\"linknews\">4510</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4511.php?id=top\" target=\"_blank\" class=\"linknews\">4511</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4722.php?id=top\" target=\"_blank\" class=\"linknews\">4722</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4734.php?id=top\" target=\"_blank\" class=\"linknews\">4734</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4742.php?id=top\" target=\"_blank\" class=\"linknews\">4742</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4743.php?id=top\" target=\"_blank\" class=\"linknews\">4743</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4744.php?id=top\" target=\"_blank\" class=\"linknews\">4744</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4746.php?id=top\" target=\"_blank\" class=\"linknews\">4746</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4747.php?id=top\" target=\"_blank\" class=\"linknews\">4747</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4748.php?id=top\" target=\"_blank\" class=\"linknews\">4748</a></p>"
+      },
+      {
+        "id": 215,
+        "title": "ICPE",
+        "date": "Parution du 20 juin 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; 6&nbsp;mai 2025 modifiant certaines dispositions relatives aux installations de gestion de d&eacute;chets, en particulier relatives &agrave; la lutte contre les accidents dans le secteur des d&eacute;chets au sein des installations soumises &agrave; autorisation, &agrave; enregistrement ou &agrave; d&eacute;claration au titre des rubriques 2710 (installations de collecte de d&eacute;chets apport&eacute;s par le producteur initial), 2711 (transit, regroupement ou tri de d&eacute;chets &eacute;lectriques et &eacute;lectroniques), 2712 (moyens de transports hors d'usage), 2713 (transit, regroupement ou tri de m&eacute;taux ou de d&eacute;chets de m&eacute;taux), 2714 (transit, regroupement ou tri de d&eacute;chets de papiers/cartons, plastiques, caoutchouc, textiles, bois), 2716 (transit, regroupement ou tri de d&eacute;chets non dangereux non inertes), 2718 (transit, regroupement ou tri de d&eacute;chets dangereux), 2781 (m&eacute;thanisation de d&eacute;chets non dangereux ou de mati&egrave;re v&eacute;g&eacute;tale brute), 2783 (d&eacute;conditionnement de biod&eacute;chets), 2791 (traitement de d&eacute;chets non dangereux), 2792 (traitement des d&eacute;chets contenant des PCB/PCT) et 2794 (broyage de d&eacute;chets v&eacute;g&eacute;taux non dangereux) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php?id=top\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2712.php?id=top\" target=\"_blank\" class=\"linknews\">2712</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php?id=top\" target=\"_blank\" class=\"linknews\">2713</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php?id=top\" target=\"_blank\" class=\"linknews\">2714</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php?id=top\" target=\"_blank\" class=\"linknews\">2716</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php?id=top\" target=\"_blank\" class=\"linknews\">2718</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2781.php?id=top\" target=\"_blank\" class=\"linknews\">2781</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php?id=top\" target=\"_blank\" class=\"linknews\">2791</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2794.php?id=top\" target=\"_blank\" class=\"linknews\">2794</a></p>"
+      },
+      {
+        "id": 210,
+        "title": "ICPE",
+        "date": "Parution du 31 mai 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 5&nbsp;mai 2025 modifiant l'arr&ecirc;t&eacute; du 22&nbsp;d&eacute;cembre 2023 relatif &agrave; la pr&eacute;vention du risque d'incendie au sein des installations soumises &agrave; autorisation au titre des rubriques 2710 (installations de collecte de d&eacute;chets apport&eacute;s par le producteur initial), 2712 (moyens de transport hors d'usage), 2718 (transit, regroupement ou tri de d&eacute;chets dangereux), 2790 (traitement de d&eacute;chets dangereux) ou 2791 (traitement de d&eacute;chets non dangereux) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2712.php?id=top\" target=\"_blank\" class=\"linknews\">2712</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php?id=top\" target=\"_blank\" class=\"linknews\">2718</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2790.php?id=top\" target=\"_blank\" class=\"linknews\">2790</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php?id=top\" target=\"_blank\" class=\"linknews\">2791</a></p>"
+      },
+      {
+        "id": 207,
+        "title": "ICPE",
+        "date": "Parution du 6 mai 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 31&nbsp;mars 2025 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant de la rubrique n&deg;&nbsp;3641 ou n&deg;&nbsp;3710 pour lesquelles la charge polluante principale provient d'une ou plusieurs installations relevant de la rubrique n&deg;&nbsp;3641 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3641.php?id=top\" target=\"_blank\" class=\"linknews\">3641</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a></p>"
+      },
+      {
+        "id": 202,
+        "title": "ICPE",
+        "date": "Parution du 16 mars 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 30&nbsp;janvier 2025 modifiant l'arr&ecirc;t&eacute; du 3&nbsp;ao&ucirc;t 2018 relatif aux installations de combustion d'une puissance thermique nominale totale sup&eacute;rieure ou &eacute;gale &agrave; 50&nbsp;MW soumises &agrave; autorisation au titre de la rubrique&nbsp;3110</p>\r\n\r\n<p align=\"center\">Rubrique&nbsp;modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3110.php?id=top\" target=\"_blank\" class=\"linknews\">3110</a></p>"
+      },
+      {
+        "id": 201,
+        "title": "Code de l'environnement",
+        "date": "Parution du 15 mars 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-239 du 14&nbsp;mars 2025 relatif &agrave; l'utilisation d'eaux impropres &agrave; la consommation humaine pour des usages domestiques au sein des installations class&eacute;es pour la protection de l'environnement et des installations nucl&eacute;aires de base et modifiant les dispositions relatives &agrave; l'utilisation des eaux us&eacute;es trait&eacute;es et des eaux de pluie pour des usages non domestiques</p>\r\n\r\n<p align=\"center\">Voir l'article&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php?id=R512T100\" target=\"_blank\" class=\"linknews\">R.&nbsp;512-100</a></p>"
+      },
+      {
+        "id": 197,
+        "title": "ICPE",
+        "date": "Parution du 14 février 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 27&nbsp;janvier 2025 supprimant le caract&egrave;re obligatoire de diverses normes</p>\r\n\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2221.php?id=top\" target=\"_blank\" class=\"linknews\">2221</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2230.php?id=top\" target=\"_blank\" class=\"linknews\">2230</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2240.php?id=top\" target=\"_blank\" class=\"linknews\">2240</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2251.php?id=top\" target=\"_blank\" class=\"linknews\">2251</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2410.php?id=top\" target=\"_blank\" class=\"linknews\">2410</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2518.php?id=top\" target=\"_blank\" class=\"linknews\">2518</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2522.php?id=top\" target=\"_blank\" class=\"linknews\">2522</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2560.php?id=top\" target=\"_blank\" class=\"linknews\">2560</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2563.php?id=top\" target=\"_blank\" class=\"linknews\">2563</a></p>"
+      },
+      {
+        "id": 196,
+        "title": "ICPE",
+        "date": "Parution du 1<sup>er</sup> février 2025",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 9&nbsp;janvier 2025 relatif aux meilleures techniques disponibles (MTD) applicables &agrave; certaines installations class&eacute;es du secteur de l'industrie textile relevant du r&eacute;gime de l'autorisation au titre des rubriques&nbsp;3620 ou 3710 pour lesquelles la charge polluante principale provient d'une ou plusieurs installations relevant de la rubrique&nbsp;3620 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3620.php?id=top\" target=\"_blank\" class=\"linknews\">3620</a>, et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a></p>"
+      },
+      {
+        "id": 194,
+        "title": "ICPE",
+        "date": "Parution du 26 décembre 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 13&nbsp;novembre 2024 supprimant le caract&egrave;re obligatoire de diverses normes</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1436.php?id=top\" target=\"_blank\" class=\"linknews\">1436</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1532.php?id=top\" target=\"_blank\" class=\"linknews\">1532</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2160.php?id=top\" target=\"_blank\" class=\"linknews\">2160</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4220.php?id=top\" target=\"_blank\" class=\"linknews\">4220</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4330.php?id=top\" target=\"_blank\" class=\"linknews\">4330</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4331.php?id=top\" target=\"_blank\" class=\"linknews\">4331</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4722.php?id=top\" target=\"_blank\" class=\"linknews\">4722</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4734.php?id=top\" target=\"_blank\" class=\"linknews\">4734</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4742.php?id=top\" target=\"_blank\" class=\"linknews\">4742</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4743.php?id=top\" target=\"_blank\" class=\"linknews\">4743</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4744.php?id=top\" target=\"_blank\" class=\"linknews\">4744</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4746.php?id=top\" target=\"_blank\" class=\"linknews\">4746</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4747.php?id=top\" target=\"_blank\" class=\"linknews\">4747</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4748.php?id=top\" target=\"_blank\" class=\"linknews\">4748</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4510.php?id=top\" target=\"_blank\" class=\"linknews\">4510</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4511.php?id=top\" target=\"_blank\" class=\"linknews\">4511</a></p>"
+      },
+      {
+        "id": 192,
+        "title": "ICPE",
+        "date": "Parution du 19 novembre 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 4&nbsp;novembre 2024 relatif aux meilleures techniques disponibles (MTD) applicables aux installations du secteur de la chimie relevant du r&eacute;gime de l'autorisation au titre de l'une au moins des rubriques suivantes de la nomenclature des installations class&eacute;es pour la protection de l'environnement&nbsp;: 3410 &agrave;&nbsp;3460, ou&nbsp;3710 lorsque la charge polluante principale provient d'une ou plusieurs installations relevant de l'une au moins des rubriques&nbsp;3410 &agrave;&nbsp;3460</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3410.php?id=top\" target=\"_blank\" class=\"linknews\">3410</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3420.php?id=top\" target=\"_blank\" class=\"linknews\">3420</a>,\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3430.php?id=top\" target=\"_blank\" class=\"linknews\">3430</a>,\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3440.php?id=top\" target=\"_blank\" class=\"linknews\">3440</a>,\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3450.php?id=top\" target=\"_blank\" class=\"linknews\">3450</a>\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3460.php?id=top\" target=\"_blank\" class=\"linknews\">3460</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a></p>"
+      },
+      {
+        "id": 191,
+        "title": "ICPE",
+        "date": "Parution du 10 novembre 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 31&nbsp;octobre 2024 relatif &agrave; l'analyse des substances per- et polyfluoroalkyl&eacute;es dans les &eacute;missions atmosph&eacute;riques des installations dâincin&eacute;ration, de co-incin&eacute;ration et d'autres traitements thermiques de d&eacute;chets</p>\r\n\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2770.php?id=top\" target=\"_blank\" class=\"linknews\">2770</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2771.php?id=top\" target=\"_blank\" class=\"linknews\">2771</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2971.php?id=top\" target=\"_blank\" class=\"linknews\">2971</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3520.php?id=top\" target=\"_blank\" class=\"linknews\">3520</a></p>"
+      },
+      {
+        "id": 189,
+        "title": "ICPE",
+        "date": "Parution du 4 juillet 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2024-667 du 2&nbsp;juillet 2024 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1416.php?id=top\" target=\"_blank\" class=\"linknews\">1416</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4715.php?id=top\" target=\"_blank\" class=\"linknews\">4715</a></p>"
+      },
+      {
+        "id": 187,
+        "title": "Installations de gestion de déchets",
+        "date": "Parution au JO du 20 juin 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE06.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 4&nbsp;juin 2024 modifiant plusieurs arr&ecirc;t&eacute;s minist&eacute;riels relatifs aux installations de gestion de d&eacute;chets soumises &agrave; enregistrement et &agrave; d&eacute;claration</p>\r\n\r\n<p align=\"justify\">Applicable le 21&nbsp;juin 2024</p>\r\n\r\n<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php\" target=\"_blank\" class=\"linknews\">2713, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php\" target=\"_blank\" class=\"linknews\">2714</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php\" target=\"_blank\" class=\"linknews\">2716</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php\" target=\"_blank\" class=\"linknews\">2718</a> et&nbsp;\r\n\r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php\" target=\"_blank\" class=\"linknews\">2791</a></p>"
+      },
+      {
+        "id": 185,
+        "title": "Code de l'environnement",
+        "date": "Parution du 11 juin 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2024-529 du 10&nbsp;juin 2024 portant diverses dispositions relatives &agrave; l'&eacute;valuation environnementale des projets</p>\r\n\r\n<p align=\"center\">Voir les articles&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=R181T54\" target=\"_blank\" class=\"linknews\">R.&nbsp;181-54</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=R181T54_1A\" target=\"_blank\" class=\"linknews\">R.&nbsp;181-54-1-A</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php?id=R515T59\" target=\"_blank\" class=\"linknews\">R.&nbsp;515-59</a></p>"
+      },
+      {
+        "id": 183,
+        "title": "Code de l'environnement",
+        "date": "Parution du 11 mai 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2024-423 du 10&nbsp;mai 2024 portant adaptation de la proc&eacute;dure contentieuse relative aux ouvrages hydrauliques agricoles, aux installations class&eacute;es pour la protection de l'environnement en mati&egrave;re d'&eacute;levage et aux autorisations environnementales</p>\r\n\r\n<p align=\"center\">Voir les articles <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=R181T50\" target=\"_blank\" class=\"linknews\">R.&nbsp;181-50</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php?id=R514T3-1\" target=\"_blank\" class=\"linknews\">R.&nbsp;514-3-1</a></p>"
+      },
+      {
+        "id": 174,
+        "title": "ICPE",
+        "date": "Parution du 3 février 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 8&nbsp;janvier 2024 modifiant plusieurs arr&ecirc;t&eacute;s minist&eacute;riels relatifs aux installations de gestion de d&eacute;chets soumises &agrave; d&eacute;claration</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php?id=top\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php?id=top\" target=\"_blank\" class=\"linknews\">2713</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php?id=top\" target=\"_blank\" class=\"linknews\">2714</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2715.php?id=top\" target=\"_blank\" class=\"linknews\">2715</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php?id=top\" target=\"_blank\" class=\"linknews\">2716</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php?id=top\" target=\"_blank\" class=\"linknews\">2718</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2719.php?id=top\" target=\"_blank\" class=\"linknews\">2719</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2780.php?id=top\" target=\"_blank\" class=\"linknews\">2780</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2781.php?id=top\" target=\"_blank\" class=\"linknews\">2781</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php?id=top\" target=\"_blank\" class=\"linknews\">2791</a></p>"
+      },
+      {
+        "id": 173,
+        "title": "ICPE",
+        "date": "Parution du 2 février 2024",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 17&nbsp;janvier 2024 modifiant l'arr&ecirc;t&eacute; du 22&nbsp;d&eacute;cembre 2023 modifiant plusieurs arr&ecirc;t&eacute;s minist&eacute;riels relatifs aux installations de gestion de d&eacute;chets soumises &agrave; enregistrement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php?id=top\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2712.php?id=top\" target=\"_blank\" class=\"linknews\">2712</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php?id=top\" target=\"_blank\" class=\"linknews\">2713</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php?id=top\" target=\"_blank\" class=\"linknews\">2714</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php?id=top\" target=\"_blank\" class=\"linknews\">2716</a></p>"
+      },
+      {
+        "id": 171,
+        "title": "ICPE",
+        "date": "Parution du 29 décembre 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 22&nbsp;d&eacute;cembre 2023 relatif &agrave; la pr&eacute;vention du risque d'incendie au sein des installations soumises &agrave; autorisation au titre des rubriques 2710 (installations de collecte de d&eacute;chets apport&eacute;s par le producteur initial), 2712 (moyens de transport hors d'usage), 2718 (transit, regroupement ou tri de d&eacute;chets dangereux), 2790 (traitement de d&eacute;chets dangereux) ou 2791 (traitement de d&eacute;chets non dangereux) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2712.php?id=top\" target=\"_blank\" class=\"linknews\">2712</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2718.php?id=top\" target=\"_blank\" class=\"linknews\">2718</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2790.php?id=top\" target=\"_blank\" class=\"linknews\">2790</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php?id=top\" target=\"_blank\" class=\"linknews\">2791</a></p>"
+      },
+      {
+        "id": 170,
+        "title": "ICPE",
+        "date": "Parution du 28 décembre 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 22&nbsp;d&eacute;cembre 2023 modifiant plusieurs arr&ecirc;t&eacute;s minist&eacute;riels relatifs aux installations de gestion de d&eacute;chets soumises &agrave; enregistrement</p>\r\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2710.php?id=top\" target=\"_blank\" class=\"linknews\">2710</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2711.php?id=top\" target=\"_blank\" class=\"linknews\">2711</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2712.php?id=top\" target=\"_blank\" class=\"linknews\">2712</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2713.php?id=top\" target=\"_blank\" class=\"linknews\">2713</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2714.php?id=top\" target=\"_blank\" class=\"linknews\">2714</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2716.php?id=top\" target=\"_blank\" class=\"linknews\">2716</a></p>"
+      },
+      {
+        "id": 163,
+        "title": "Code de l'environnement",
+        "date": "Parution du 29 novembre 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2023-1103 du 27&nbsp;novembre 2023 relatif &agrave; la notification des recours en mati&egrave;re d'autorisations environnementales</p>\r\n\r\n<p align=\"center\">Voir les articles modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=R181T50\" target=\"_blank\" class=\"linknews\">R.&nbsp;181-50 et R.&nbsp;181-51</a></p>"
+      },
+      {
+        "id": 160,
+        "title": "Code de l'environnement",
+        "date": "Parution du 24 octobre 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Loi n&deg;&nbsp;2023-973 du 23&nbsp;octobre 2023 relative &agrave; l'industrie verte</p>\n<p align=\"center\">Voir les textes&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvl_511a517.php\" target=\"_blank\" class=\"linknews\">L.&nbsp;511 &agrave;&nbsp;517</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvl_181_1a31.php\" target=\"_blank\" class=\"linknews\">L.&nbsp;181-1 &agrave;&nbsp;31</a></p>"
+      },
+      {
+        "id": 159,
+        "title": "ICPE",
+        "date": "Parution du 13 octobre 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2023-943 du 11&nbsp;octobre 2023 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"justify\">Arr&ecirc;t&eacute; du 11&nbsp;octobre 2023 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de la rubrique&nbsp;2630 (fabrication de d&eacute;tergents et savons) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"justify\">Arr&ecirc;t&eacute; du 11&nbsp;octobre 2023 abrogeant l'arr&ecirc;t&eacute; du 3&nbsp;mai 2000 relatif aux prescriptions applicables aux installations class&eacute;es pour la protection de l'environnement soumises &agrave; autorisation sous la rubrique 2251 (pr&eacute;paration, conditionnement de vin, la capacit&eacute; de production &eacute;tant sup&eacute;rieure &agrave; 20000&nbsp;hl/an)</p>\n<p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2251.php?id=top\" target=\"_blank\" class=\"linknews\">2251</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2630.php?id=top\" target=\"_blank\" class=\"linknews\">2630</a></p>"
+      },
+      {
+        "id": 154,
+        "title": "Code de l'environnement",
+        "date": "Parution du 5 août 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p>D&eacute;cret n&deg;&nbsp;2023-722 du 3&nbsp;ao&ucirc;t 2023 relatif aux installations class&eacute;es pour la protection de l&rsquo;environnement fonctionnant au b&eacute;n&eacute;fice des droits acquis et relevant de la directive 2010/75/UE du Parlement europ&eacute;en et du Conseil du 24&nbsp;novembre 2010 relative aux &eacute;missions industrielles (pr&eacute;vention et r&eacute;duction int&eacute;gr&eacute;es de la pollution)</p>\n<p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php\" target=\"_blank\" class=\"linknews\">Code de l'environnement</a></p>"
+      },
+      {
+        "id": 151,
+        "title": "ICPE",
+        "date": "Parution du 19 juillet 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 11&nbsp;juillet 2023 modifiant l'arr&ecirc;t&eacute; du 26&nbsp;ao&ucirc;t 2011 relatif aux installations de production d'&eacute;lectricit&eacute; utilisant l'&eacute;nergie m&eacute;canique du vent au sein d'une installation soumise &agrave; autorisation au titre de la rubrique&nbsp;2980 de la l&eacute;gislation des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"center\">Rubrique&nbsp;modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2980.php?id=top\" target=\"_blank\" class=\"linknews\">2980</a></p>"
+      },
+      {
+        "id": 149,
+        "title": "ICPE",
+        "date": "Parution du 27 juin 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p>Arr&ecirc;t&eacute; du 20&nbsp;juin 2023 relatif &agrave; l'analyse des substances per- et polyfluoroalkyl&eacute;es dans les rejets aqueux des installations class&eacute;es pour la protection de l'environnement relevant du r&eacute;gime de l'autorisation</p>\n<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2330.php?id=top\" target=\"_blank\" class=\"linknews\">2330</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2345.php?id=top\" target=\"_blank\" class=\"linknews\">2345</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2350.php?id=top\" target=\"_blank\" class=\"linknews\">2350</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2351.php?id=top\" target=\"_blank\" class=\"linknews\">2351</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2567.php?id=top\" target=\"_blank\" class=\"linknews\">2567</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2660.php?id=top\" target=\"_blank\" class=\"linknews\">2660</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2661.php?id=top\" target=\"_blank\" class=\"linknews\">2661</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2750.php?id=top\" target=\"_blank\" class=\"linknews\">2750</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2752.php?id=top\" target=\"_blank\" class=\"linknews\">2752</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2760.php?id=top\" target=\"_blank\" class=\"linknews\">2760</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2790.php?id=top\" target=\"_blank\" class=\"linknews\">2790</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php?id=top\" target=\"_blank\" class=\"linknews\">2791</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2795.php?id=top\" target=\"_blank\" class=\"linknews\">2795</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3120.php?id=top\" target=\"_blank\" class=\"linknews\">3120</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3230.php?id=top\" target=\"_blank\" class=\"linknews\">3230</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3260.php?id=top\" target=\"_blank\" class=\"linknews\">3260</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3410.php?id=top\" target=\"_blank\" class=\"linknews\">3410</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3420.php?id=top\" target=\"_blank\" class=\"linknews\">3420</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3440.php?id=top\" target=\"_blank\" class=\"linknews\">3440</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3450.php?id=top\" target=\"_blank\" class=\"linknews\">3450</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3510.php?id=top\" target=\"_blank\" class=\"linknews\">3510</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3531.php?id=top\" target=\"_blank\" class=\"linknews\">3531</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3532.php?id=top\" target=\"_blank\" class=\"linknews\">3532</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3540.php?id=top\" target=\"_blank\" class=\"linknews\">3540</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3560.php?id=top\" target=\"_blank\" class=\"linknews\">3560</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3610.php?id=top\" target=\"_blank\" class=\"linknews\">3610</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3620.php?id=top\" target=\"_blank\" class=\"linknews\">3620</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3630.php?id=top\" target=\"_blank\" class=\"linknews\">3630</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3670.php?id=top\" target=\"_blank\" class=\"linknews\">3670</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a> et \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4713.php?id=top\" target=\"_blank\" class=\"linknews\">4713</a></p>"
+      },
+      {
+        "id": 147,
+        "title": "ICPE",
+        "date": "Parution du 4 juin 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p>Arr&ecirc;t&eacute; du 15&nbsp;mai 2023 modifiant l'arr&ecirc;t&eacute; du 12&nbsp;f&eacute;vrier 2003 relatif aux prescriptions applicables aux installations class&eacute;es soumises &agrave; autorisation sous la rubrique&nbsp;2731 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"center\">Rubrique modifi&eacute;e&nbsp;: \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2731.php?id=top\" target=\"_blank\" class=\"linknews\">2731</a></p>"
+      },
+      {
+        "id": 146,
+        "title": "ICPE",
+        "date": "Parution du 1<sup>er</sup> juin 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p>Arr&ecirc;t&eacute; du 25&nbsp;mai 2023 supprimant le caract&egrave;re obligatoire de diverses normes</p>\n<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1434.php?id=top\" target=\"_blank\" class=\"linknews\">1434</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1435.php?id=top\" target=\"_blank\" class=\"linknews\">1435</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1436.php?id=top\" target=\"_blank\" class=\"linknews\">1436</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2564.php?id=top\" target=\"_blank\" class=\"linknews\">2564</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2565.php?id=top\" target=\"_blank\" class=\"linknews\">2565</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3260.php?id=top\" target=\"_blank\" class=\"linknews\">3260</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4330.php?id=top\" target=\"_blank\" class=\"linknews\">4330</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4331.php?id=top\" target=\"_blank\" class=\"linknews\">4331</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4510.php?id=top\" target=\"_blank\" class=\"linknews\">4510</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4511.php?id=top\" target=\"_blank\" class=\"linknews\">4511</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4722.php?id=top\" target=\"_blank\" class=\"linknews\">4722</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4734.php?id=top\" target=\"_blank\" class=\"linknews\">4734</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4742.php?id=top\" target=\"_blank\" class=\"linknews\">4742</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4743.php?id=top\" target=\"_blank\" class=\"linknews\">4743</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4744.php?id=top\" target=\"_blank\" class=\"linknews\">4744</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4746.php?id=top\" target=\"_blank\" class=\"linknews\">4746</a>, \n<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4747.php?id=top\" target=\"_blank\" class=\"linknews\">4747</a>, \net <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4748.php?id=top\" target=\"_blank\" class=\"linknews\">4748</a>.</p>"
+      },
+      {
+        "id": 145,
+        "title": "ICPE",
+        "date": "Parution du 26 mai 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p>Arr&ecirc;t&eacute; du 20&nbsp;avril 2023 modifiant l'arr&ecirc;t&eacute; du 30&nbsp;juin 2006 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'autorisation au titre de la rubrique n&deg; 3260 de la nomenclature des installations class&eacute;es pour la protection de l'environnement et l'arr&ecirc;t&eacute; du 9&nbsp;avril 2019 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de la rubrique n&deg;&nbsp;2564 (nettoyage, d&eacute;graissage, d&eacute;capage de surfaces par des proc&eacute;d&eacute;s utilisant des liquides organohalog&eacute;n&eacute;s ou des solvants organiques) ou de la rubrique n&deg;&nbsp;2565 (rev&ecirc;tement m&eacute;tallique ou traitement de surfaces par voie &eacute;lectrolytique ou chimique) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2564.php?id=top\" target=\"_blank\" class=\"linknews\">2564</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2565.php?id=top\" target=\"_blank\" class=\"linknews\">2565</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3260.php?id=top\" target=\"_blank\" class=\"linknews\">3260</a></p>"
+      },
+      {
+        "id": 142,
+        "title": "ICPE",
+        "date": "Parution du 4 mars 2023",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p>D&eacute;cret n&deg;&nbsp;2023-151 du 2&nbsp;mars 2023 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\n<p>Rubrique modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2415.php\" target=\"_blank\">2415</a></p>\n\n<hr>\n\n<p>D&eacute;cret n&deg;&nbsp;2023-152 du 2&nbsp;mars 2023 relatif &agrave; la gestion des d&eacute;chets et &agrave; la responsabilit&eacute; &eacute;largie des producteurs de pneumatiques</p>\n\n<p>Article modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=D181T15_7\" target=\"_blank\">D.&nbsp;181-15-7</a></p>\n\n<hr>\n\n<p>D&eacute;cret n&deg; 2023-153 du 2&nbsp;mars 2023 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\n<p>Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2731.php\" target=\"_blank\">2731</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2791.php\" target=\"_blank\">2791</a> et&nbsp;<a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2971.php\" target=\"_blank\">2971</a><br>\n\nRubrique cr&eacute;&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2783.php\" target=\"_blank\">2783</a></p>\n\n<hr>\n\n<p>Arr&ecirc;t&eacute; du 2&nbsp;mars 2023 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations de d&eacute;conditionnement de biod&eacute;chets ayant fait l'objet d'un tri &agrave; la source en vue de leur valorisation organique relevant du r&eacute;gime de l'enregistrement au titre de la rubrique n&deg;&nbsp;2783 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\n<p>Arr&ecirc;t&eacute; du 2&nbsp;mars 2023 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations de d&eacute;conditionnement de biod&eacute;chets ayant fait l'objet d'un tri &agrave; la source en vue de leur valorisation organique relevant du r&eacute;gime de la d&eacute;claration au titre de la rubrique n&deg;&nbsp;2783 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\n<p>Rubrique modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2783.php\" target=\"_blank\">2783</a></p>\n\n<hr>\n\n<p>Arr&ecirc;t&eacute; du 2&nbsp;mars 2023 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de la rubrique n&deg; 2415 (installations de mise en &oelig;uvre de produits de pr&eacute;servation du bois et mat&eacute;riaux d&eacute;riv&eacute;s) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\n<p>Rubrique modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2415.php\" target=\"_blank\">2415</a></p>"
+      },
+      {
+        "id": 140,
+        "title": "ICPE",
+        "date": "Parution du 23 décembre 2022",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 8&nbsp;d&eacute;cembre 2022 modifiant plusieurs arr&ecirc;t&eacute;s minist&eacute;riels relatifs aux installations de combustion</p>\n<p align=\"center\">Rubrique modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2910.php?id=top\" target=\"_blank\" class=\"linknews\">2910</a></p>"
+      },
+      {
+        "id": 136,
+        "title": "Chaudières et systèmes thermodynamiques",
+        "date": "Parution du 25 novembre 2022",
+        "categories": [
+          "erp",
+          "hab",
+          "ert",
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/chaudiere.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 21&nbsp;novembre 2022 relatif au contr&ocirc;le et &agrave; l'entretien des chaudi&egrave;res et des syst&egrave;mes thermodynamiques</p>\n\n<p align=\"center\">Textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_icpe/a2009_09_15.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 15&nbsp;septembre 2009</a> et <a href=\"https://sitesecurite.com/contenu/_txt/txt_icpe/a2009_10_02.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 2&nbsp;octobre 2009</a></p>"
+      },
+      {
+        "id": 135,
+        "title": "ICPE",
+        "date": "Parution du 9 novembre 2022",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 18&nbsp;octobre 2022 modifiant l'arr&ecirc;t&eacute; du 4&nbsp;octobre 2010 relatif &agrave; la pr&eacute;vention des risques accidentels au sein des installations class&eacute;es pour la protection de l'environnement soumises &agrave; autorisation et l'arr&ecirc;t&eacute; du 27&nbsp;d&eacute;cembre 2013 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'autorisation au titre des rubriques n<sup>os</sup>&nbsp;2101 et&nbsp;3660 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2101.php?id=top\" target=\"_blank\" class=\"linknews\">2101</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3660.php?id=top\" target=\"_blank\" class=\"linknews\">3660</a></p>"
+      },
+      {
+        "id": 122,
+        "title": "Code de l'environnement",
+        "date": "Parution du 2 juillet 2022",
+        "categories": [
+          "icpe"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2022-970 du 1<sup>er</sup>&nbsp;juillet 2022 portant diverses dispositions relatives &agrave; l'&eacute;valuation environnementale des projets, plans et programmes et aux installations de combustion moyennes</p>\n\t\t<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php\" target=\"_blank\" class=\"linknews\">Voir les textes</a></p>"
+      },
+      {
+        "id": 118,
+        "title": "Code de l'environnement",
+        "date": "Parution du 14 avril 2022",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p align=\"justify\">Ordonnance n&deg;&nbsp;2022-534 du 13&nbsp;avril 2022 relative &agrave; l'autorisation environnementale des travaux miniers</p>\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvl_181_1a31.php?id=top\" target=\"_blank\" class=\"linknews\">Voir les textes modifi&eacute;s</a></p>"
+      },
+      {
+        "id": 116,
+        "title": "Évaluation environnementale des projets",
+        "date": "Parution du 26 mars 2022",
+        "categories": [
+          "ICPE"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2022-422 du 25&nbsp;mars 2022 relatif &agrave; l'&eacute;valuation environnementale des projets</p>\r\n\t\t<p align=\"center\">Voir les articles&nbsp;: \r\n            <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=D181T15_1\" target=\"_blank\" class=\"linknews\">D.&nbsp;181-15-1</a>, \r\n            <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php?id=R181T16\" target=\"_blank\" class=\"linknews\">R.&nbsp;181-16</a>, \r\n            <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php?id=R512T47\" target=\"_blank\" class=\"linknews\">R.&nbsp;512-47</a> et \r\n            <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php?id=R512T48\" target=\"_blank\" class=\"linknews\">R.&nbsp;512-48</a> du Code de l'environnement<br/> et  les articles&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cu/cur423_24a33.php?id=R423T25\" target=\"_blank\" class=\"linknews\">R.&nbsp;423-25</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cu/cur431_13a33.php?id=R431T16\" target=\"_blank\" class=\"linknews\">R.&nbsp;431-16</a> du Code de l'urbanisme</p>"
+      },
+      {
+        "id": 114,
+        "title": "ICPE",
+        "date": "Parution du 15 mars 2022",
+        "categories": [
+          "icpe"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 3&nbsp;f&eacute;vrier 2022 relatif aux meilleures techniques disponibles (MTD) applicables &agrave; certaines installations class&eacute;es du secteur du traitement de surface &agrave; l'aide de solvants organiques relevant du r&eacute;gime de l'autorisation au titre des rubriques&nbsp;3670 ou&nbsp;3710 (pour lesquelles la charge polluante principale provient d'une ou plusieurs installations relevant de la rubrique&nbsp;3670) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p>\n\t\t<p align=\"center\">Rubriques modifi&eacute;es&nbsp;: \n            <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3670.php?id=top\" target=\"_blank\" class=\"linknews\">3670</a> et  \n      <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a></p>"
+      },
+      {
+        "id": 109,
+        "title": "ICPE",
+        "date": "Parution du 19 décembre 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 10&nbsp;d&eacute;cembre 2021 modifiant l'arr&ecirc;t&eacute; du 26&nbsp;ao&ucirc;t 2011 modifi&eacute; relatif aux installations de production d'&eacute;lectricit&eacute; utilisant l'&eacute;nergie m&eacute;canique du vent au sein d'une installation soumise &agrave; d&eacute;claration au titre de la rubrique&nbsp;2980 de la l&eacute;gislation des installations class&eacute;es pour la protection de l'environnement</p><p align=\"justify\">Arr&ecirc;t&eacute; du 10&nbsp;d&eacute;cembre 2021 modifiant l'arr&ecirc;t&eacute; du 26&nbsp;ao&ucirc;t 2011 modifi&eacute; relatif aux installations de production d'&eacute;lectricit&eacute; utilisant l'&eacute;nergie m&eacute;canique du vent au sein d'une installation soumise &agrave; autorisation au titre de la rubrique&nbsp;2980 de la l&eacute;gislation des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubrique modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2980.php?id=top\" target=\"_blank\" class=\"linknews\">2980</a></p>"
+      },
+      {
+        "id": 108,
+        "title": "établissements détenant des chiens / Activités de transformation papier-carton",
+        "date": "Parution du 3 décembre 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE01.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2021-1558 du 2&nbsp;d&eacute;cembre 2021 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"justify\">Arr&ecirc;t&eacute; du 2&nbsp;d&eacute;cembre 2021 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de la rubrique&nbsp;2445 (transformation du papier, carton) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2120.php?id=top\" target=\"_blank\" class=\"linknews\">2120</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2445.php?id=top\" target=\"_blank\" class=\"linknews\">2445</a></p>"
+      },
+      {
+        "id": 106,
+        "title": "Installations soumises à autorisation et installations SEVESO",
+        "date": "Parution du 2 octobre 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE07.jpg",
+        "text": "<p>Arr&ecirc;t&eacute; du 22&nbsp;septembre 2021 modifiant les arr&ecirc;t&eacute;s minist&eacute;riels du 24&nbsp;septembre 2020 et du 3&nbsp;octobre 2010 relatifs au stockage de liquides inflammables, exploit&eacute;s au sein d'une installation class&eacute;e pour la protection de l'environnement soumise &agrave; autorisation, l'arr&ecirc;t&eacute; du 26&nbsp;mai 2014 relatif &agrave; la pr&eacute;vention des accidents majeurs dans les installations class&eacute;es mentionn&eacute;es &agrave; la section&nbsp;9, chapitre&nbsp;V, titre&nbsp;I<sup>er</sup> du livre&nbsp;V du code de l'environnement et l'arr&ecirc;t&eacute; du 4&nbsp;octobre 2010 relatif &agrave; la pr&eacute;vention des risques accidentels au sein des installations class&eacute;es pour la protection de l'environnement soumises &agrave; autorisation</p><p>Arr&ecirc;t&eacute; du 22&nbsp;septembre 2021 modifiant l'arr&ecirc;t&eacute; minist&eacute;riel du 22&nbsp;d&eacute;cembre 2008 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations class&eacute;es soumises &agrave; d&eacute;claration sous l'une ou plusieurs des rubriques n<sup>os</sup>&nbsp;1436, 4330, 4331, 4722, 4734, 4742, 4743, 4744, 4746, 4747 ou&nbsp;4748, ou pour le p&eacute;trole brut sous l'une ou plusieurs des rubriques n<sup>os</sup>&nbsp;4510 ou 4511</p><p align=\"justify\">Arr&ecirc;t&eacute; du 22&nbsp;septembre 2021 modifiant l'arr&ecirc;t&eacute; minist&eacute;riel du 1<sup>er</sup>&nbsp;juin 2015 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'enregistrement au titre de l'une au moins des rubriques&nbsp;4331 ou&nbsp;4734 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/1436.php?id=top\" target=\"_blank\" class=\"linknews\">1436</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4330.php?id=top\" target=\"_blank\" class=\"linknews\">4330</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4331.php?id=top\" target=\"_blank\" class=\"linknews\">4331</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4510.php?id=top\" target=\"_blank\" class=\"linknews\">4510</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4511.php?id=top\" target=\"_blank\" class=\"linknews\">4511</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4722.php?id=top\" target=\"_blank\" class=\"linknews\">4722</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4734.php?id=top\" target=\"_blank\" class=\"linknews\">4734</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4742.php?id=top\" target=\"_blank\" class=\"linknews\">4742</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4743.php?id=top\" target=\"_blank\" class=\"linknews\">4743</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4744.php?id=top\" target=\"_blank\" class=\"linknews\">4744</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4746.php?id=top\" target=\"_blank\" class=\"linknews\">4746</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4747.php?id=top\" target=\"_blank\" class=\"linknews\">4747</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/4748.php?id=top\" target=\"_blank\" class=\"linknews\">4748</a></p>"
+      },
+      {
+        "id": 103,
+        "title": "Bois et produits dérivés du bois",
+        "date": "Parution du 5 septembre 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE06.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 28&nbsp;juin 2021 relatif aux meilleures techniques disponibles (MTD) applicables &agrave; certaines installations class&eacute;es du secteur de la pr&eacute;servation du bois et des produits d&eacute;riv&eacute;s du bois au moyen de produits chimiques relevant du r&eacute;gime de l'autorisation au titre des rubriques&nbsp;3700 ou&nbsp;3710 (pour lesquelles la charge polluante principale provient d'une ou plusieurs installations relevant de la rubrique&nbsp;3700) de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubriques modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3700.php?id=top\" target=\"_blank\" class=\"linknews\">3700</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3710.php?id=top\" target=\"_blank\" class=\"linknews\">3710</a><br>Arr&ecirc;t&eacute; modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_icpe/a1998_02_02.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 2&nbsp;f&eacute;vrier 1998</a></p>"
+      },
+      {
+        "id": 102,
+        "title": "Code de l'environnement",
+        "date": "Parution du 21 août 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2021-1096 du 19&nbsp;ao&ucirc;t 2021 modifiant diverses dispositions relatives aux sols pollu&eacute;s et &agrave; la cessation d'activit&eacute; des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Voir les textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php\" target=\"_blank\" class=\"linknews\">Livre&nbsp;V - Titre&nbsp;I<Sup>er</Sup></a></p>"
+      },
+      {
+        "id": 99,
+        "title": "Code de l'environnement",
+        "date": "Parution du 31 juillet 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE04.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2021-1000 du 30&nbsp;juillet 2021 portant diverses dispositions d'application de la loi d'acc&eacute;l&eacute;ration et de simplification de l'action publique et de simplification en mati&egrave;re d'environnement</p><p align=\"center\">Voir les textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_181_1a56.php\" target=\"_blank\" class=\"linknews\">Livre&nbsp;I - Titre&nbsp;VIII</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cde/cenvr_510a517.php\" target=\"_blank\" class=\"linknews\">Livre&nbsp;V - Titre&nbsp;I<Sup>er</Sup></a></p>"
+      },
+      {
+        "id": 97,
+        "title": "ICPE",
+        "date": "Parution du 25 juillet 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2021-976 du 21&nbsp;juillet 2021 modifiant la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"justify\">Arr&ecirc;t&eacute; du 23&nbsp;juillet 2021 modifiant l'arr&ecirc;t&eacute; du 14&nbsp;d&eacute;cembre 2013 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de la d&eacute;claration au titre de la rubrique n&deg;&nbsp;2921 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2910.php?id=top\" target=\"_blank\" class=\"linknews\">2910</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2921.php?id=top\" target=\"_blank\" class=\"linknews\">2921</a></p>"
+      },
+      {
+        "id": 95,
+        "title": "Installations de méthanisation de déchets non dangereux",
+        "date": "Parution du 30 juin 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 14&nbsp;juin 2021 modifiant l'arr&ecirc;t&eacute; du 10&nbsp;novembre 2009 fixant les r&egrave;gles techniques auxquelles doivent satisfaire les installations de m&eacute;thanisation soumises &agrave; autorisation en application du titre&nbsp;I<sup>er</sup> du livre&nbsp;V du code de l'environnement</p><p align=\"justify\">Arr&ecirc;t&eacute; du 17&nbsp;juin 2021 modifiant l'arr&ecirc;t&eacute; du 12&nbsp;ao&ucirc;t 2010 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations class&eacute;es de m&eacute;thanisation relevant du r&eacute;gime de l'enregistrement au titre de la rubrique n&deg;&nbsp;2781 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"justify\">Arr&ecirc;t&eacute; du 17&nbsp;juin 2021 modifiant l'arr&ecirc;t&eacute; du 10&nbsp;novembre 2009 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations class&eacute;es de m&eacute;thanisation soumises &agrave; d&eacute;claration sous la rubrique n&deg;&nbsp;2781-1</p><p align=\"center\">Rubrique&nbsp;modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2781.php?id=top\" target=\"_blank\" class=\"linknews\">2781</a></p>"
+      },
+      {
+        "id": 94,
+        "title": "Installations de compostage",
+        "date": "Parution du 27 juin 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 27&nbsp;mai 2021 modifiant l'arr&ecirc;t&eacute; du 22&nbsp;avril 2008 fixant les r&egrave;gles techniques auxquelles doivent satisfaire les installations de compostage soumises &agrave; autorisation en application du titre&nbsp;I<sup>er</sup> du livre&nbsp;V du code de l'environnement</p><p align=\"center\">Rubrique&nbsp;modifi&eacute;e&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2780.php?id=top\" target=\"_blank\" class=\"linknews\">2780</a></p>"
+      },
+      {
+        "id": 88,
+        "title": "Installations d'élevage de porcs et volailles",
+        "date": "Parution du 11 mars 2021",
+        "categories": [
+          "ICPE"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/ICPE03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 3&nbsp;mars 2021 modifiant l'arr&ecirc;t&eacute; du 27&nbsp;d&eacute;cembre 2013 relatif aux prescriptions g&eacute;n&eacute;rales applicables aux installations relevant du r&eacute;gime de l'autorisation au titre des rubriques n<sup>os</sup>&nbsp;2101, 2102, 2111 et&nbsp;3660 de la nomenclature des installations class&eacute;es pour la protection de l'environnement</p><p align=\"center\">Rubriques&nbsp;modifi&eacute;es&nbsp;: <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2101.php?id=top\" target=\"_blank\" class=\"linknews\">2101</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2102.php?id=top\" target=\"_blank\" class=\"linknews\">2102</a>, <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/2111.php?id=top\" target=\"_blank\" class=\"linknews\">2111</a> et <a href=\"https://sitesecurite.com/contenu/_icpe/icpe/rub/3660.php?id=top\" target=\"_blank\" class=\"linknews\">3660</a></p>"
+      }
+    ]
+  }
+}

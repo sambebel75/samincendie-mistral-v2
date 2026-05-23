@@ -1,0 +1,47 @@
+{
+  "scraped_at": "2026-05-18T19:13:48.054Z",
+  "portals": [
+    {
+      "portal": "erp",
+      "label": "ERP — Établissements recevant du public",
+      "sections": 45,
+      "news": 50,
+      "file": "./portal-data/erp.json"
+    },
+    {
+      "portal": "igh",
+      "label": "IGH/IMH — Immeubles de grande et moyenne hauteur",
+      "sections": 36,
+      "news": 20,
+      "file": "./portal-data/igh.json"
+    },
+    {
+      "portal": "hab",
+      "label": "HAB — Bâtiments d'habitation",
+      "sections": 19,
+      "news": 46,
+      "file": "./portal-data/hab.json"
+    },
+    {
+      "portal": "bup",
+      "label": "BUP/ERT — Bâtiments à usage professionnel",
+      "sections": 14,
+      "news": 20,
+      "file": "./portal-data/bup.json"
+    },
+    {
+      "portal": "icpe",
+      "label": "ICPE — Installations classées pour l'environnement",
+      "sections": 27,
+      "news": 50,
+      "file": "./portal-data/icpe.json"
+    },
+    {
+      "portal": "divers",
+      "label": "Divers — Autres réglementations",
+      "sections": 6,
+      "news": 49,
+      "file": "./portal-data/divers.json"
+    }
+  ]
+}

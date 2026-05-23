@@ -1,0 +1,23 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "http://samincendie.fr/*"
+  to = "https://samincendie.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.samincendie.fr/*"
+  to = "https://samincendie.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.samincendie.fr/*"
+  to = "https://samincendie.fr/:splat"
+  status = 301
+  force = true

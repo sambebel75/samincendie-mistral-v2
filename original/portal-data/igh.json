@@ -1,0 +1,482 @@
+{
+  "portal": "igh",
+  "label": "IGH/IMH — Immeubles de grande et moyenne hauteur",
+  "source": "https://sitesecurite.com/portail-igh.php",
+  "scraped_at": "2026-05-18T19:13:07.296Z",
+  "regulation_sections": {
+    "total": 36,
+    "by_category": {
+      "Générales et constructives": [
+        {
+          "code": "GH 1 à 5",
+          "title": "Généralités",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh01a05.php"
+        },
+        {
+          "code": "GH 6 à 8",
+          "title": "Implantation et environnement",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh06a08.php"
+        },
+        {
+          "code": "GH 9 à 11",
+          "title": "Structures",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh09a11.php"
+        },
+        {
+          "code": "GH 12 à 14",
+          "title": "Façades et couvertures",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh12a14.php"
+        },
+        {
+          "code": "GH 15 à 22",
+          "title": "Éléments généraux de construction et aménagements intérieurs",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh15a22.php"
+        },
+        {
+          "code": "GH 23 à 29",
+          "title": "Dégagements : escaliers, circulations horizontales et portes",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh23a29.php"
+        },
+        {
+          "code": "GH 30 à 34",
+          "title": "Ascenseurs et monte-charges",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh30a34.php"
+        },
+        {
+          "code": "GH 35 à 39",
+          "title": "Chauffage, ventilation, conditionnement d'air et installation d'appareils de cuisson et de réchauffage destinés à la restauration",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh35a39.php"
+        },
+        {
+          "code": "GH 40 à 48",
+          "title": "Installations électriques et éclairage",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh40a48.php"
+        },
+        {
+          "code": "GH 49 à 56",
+          "title": "Moyens de secours",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh49a56.php"
+        },
+        {
+          "code": "GH 57 à 65",
+          "title": "Obligations des propriétaires et des occupants",
+          "category": "Générales et constructives",
+          "url": "https://sitesecurite.com/contenu/_igh/igh/gh57a65.php"
+        }
+      ],
+      "Complémentaires :": [
+        {
+          "code": "GH 66 à 74",
+          "title": "Classement des immeubles et indépendance des volumes situés dans leurs emprises",
+          "category": "Complémentaires :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-complementaires.php?id=generalites"
+        }
+      ],
+      "Particulières :": [
+        {
+          "code": "",
+          "title": "GHA Habitation",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=habitations"
+        },
+        {
+          "code": "",
+          "title": "GHO Hôtel",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=hotel"
+        },
+        {
+          "code": "",
+          "title": "GHR Enseignement",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=enseignement"
+        },
+        {
+          "code": "",
+          "title": "GHS Archives",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=archive"
+        },
+        {
+          "code": "",
+          "title": "GHU Soins",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=sanitaire"
+        },
+        {
+          "code": "",
+          "title": "GHW Bureaux",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=bureaux"
+        },
+        {
+          "code": "",
+          "title": "GHZ Mixtes",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=locaux"
+        },
+        {
+          "code": "",
+          "title": "GHTC Tours de contrôle",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=controle"
+        },
+        {
+          "code": "",
+          "title": "ITGH Très grande hauteur",
+          "category": "Particulières :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-dispositions-particulieres.php?id=itgh"
+        }
+      ],
+      "Dispositions regroupées": [
+        {
+          "code": "",
+          "title": "GHA Habitation",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-habitation.php"
+        },
+        {
+          "code": "",
+          "title": "GHO Hôtel",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-hotels.php"
+        },
+        {
+          "code": "",
+          "title": "GHR Enseignement",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-enseignement.php"
+        },
+        {
+          "code": "",
+          "title": "GHS Archives",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-archives.php"
+        },
+        {
+          "code": "",
+          "title": "GHU Soins",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-soins.php"
+        },
+        {
+          "code": "",
+          "title": "GHW Bureaux",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-bureaux.php"
+        },
+        {
+          "code": "",
+          "title": "GHZ Mixtes",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-mixtes.php"
+        },
+        {
+          "code": "",
+          "title": "GHTC Tours de contrôle",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-tours-de-controle.php"
+        },
+        {
+          "code": "",
+          "title": "ITGH Très grande hauteur",
+          "category": "Dispositions regroupées",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-tres-grande-hauteur.php"
+        }
+      ],
+      "Instructions techniques": [
+        {
+          "code": "",
+          "title": "Accès aux textes",
+          "category": "Instructions techniques",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-instructions-techniques.php"
+        }
+      ],
+      "Textes satellites": [
+        {
+          "code": "",
+          "title": "Accès aux textes IGH",
+          "category": "Textes satellites",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-textes-satellites.php?id=TS"
+        }
+      ],
+      "Autres textes de référence": [
+        {
+          "code": "",
+          "title": "Codes",
+          "category": "Autres textes de référence",
+          "url": "https://sitesecurite.com/contenu/portail/code/code-construction-2021.php"
+        },
+        {
+          "code": "",
+          "title": "Textes classés par année",
+          "category": "Autres textes de référence",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-textes-satellites-par-annee.php"
+        }
+      ],
+      "Réglementations antérieures\n             :": [
+        {
+          "code": "",
+          "title": "Historique IGH depuis 1967",
+          "category": "Réglementations antérieures\n             :",
+          "url": "https://sitesecurite.com/contenu/portail/igh/igh-historique.php"
+        }
+      ],
+      "Dispositions Règlementaires": [
+        {
+          "code": "",
+          "title": "Accès aux textes",
+          "category": "Dispositions Règlementaires",
+          "url": "https://sitesecurite.com/contenu/portail/igh/imh-immeubles-moyenne-hauteur.php?id=imh01"
+        }
+      ]
+    }
+  },
+  "pinned_news": [],
+  "latest_news": {
+    "total": 20,
+    "items": [
+      {
+        "id": 254,
+        "title": "Réaction au feu",
+        "date": "Parution du 21 avril 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">R&Egrave;GLEMENT D&Eacute;L&Eacute;GU&Eacute; (UE) 2026/331 DE LA COMMISSION EUROP&Eacute;ENNE du 13&nbsp;f&eacute;vrier 2026 compl&eacute;tant le r&egrave;glement (UE) 2024/3110 du Parlement europ&eacute;en et du Conseil en d&eacute;terminant des classes de performance en ce qui concerne la caract&eacute;ristique essentielle &laquo;&nbsp;r&eacute;action au feu&nbsp;&raquo;</p>\r\n\r\n<p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_cdt_igh_hab/2026_331_reglement_eu.pdf\" target=\"_blank\">Voir le texte</a></p>"
+      },
+      {
+        "id": 249,
+        "title": "Ascenseurs",
+        "date": "Parution du 6 mars 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/CCH_AS02.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2026-166 du 4&nbsp;mars 2026 visant &agrave; garantir la s&eacute;curit&eacute; des ascenseurs face &agrave; l'arr&ecirc;t de certains r&eacute;seaux t&eacute;l&eacute;phoniques</p>\r\n\r\n<p align=\"center\">Voir articles modifi&eacute;s&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T6\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-6</a>,\r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-7</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr134_01a48.php?id=R134T11\" target=\"_blank\" class=\"linknews\">R.&nbsp;134-11</a></p>"
+      },
+      {
+        "id": 248,
+        "title": "Ascenseurs",
+        "date": "Parution du 6 mars 2026",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/CCH_AS02.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 4&nbsp;mars 2026 modifiant les arr&ecirc;t&eacute;s du 7&nbsp;ao&ucirc;t 2012 relatif aux contr&ocirc;les techniques &agrave; r&eacute;aliser dans les installations d'ascenseurs et du 18&nbsp;novembre 2004 relatif &agrave; l'entretien des installations d'ascenseurs</p>\r\n\r\n<p align=\"center\">Voir textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_as/a2004_11_18_23.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 18&nbsp;novembre 2004</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_as/a2012_08_07.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 7&nbsp;ao&ucirc;t 2012</a></p>"
+      },
+      {
+        "id": 240,
+        "title": "",
+        "date": "Parution du 20 novembre 2025",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\"><b>D&eacute;cret n&deg;&nbsp;2025-1100 du 19&nbsp;novembre 2025</b> fixant les conditions de mise en oeuvre des solutions d'effet &eacute;quivalent li&eacute;es &agrave; la s&eacute;curit&eacute; contre l'incendie, transf&eacute;rant des dispositions r&eacute;glementaires concernant la s&eacute;curit&eacute; incendie des b&acirc;timents &agrave; usage professionnel (BUP) dans le code de la construction et de l'habitation et modifiant certaines proc&eacute;dures d'instruction</p>\r\n\r\n<p align=\"justify\"><b>Suppression des demandes d'autorisation d'ouverture et de travaux des ERP de 5<sup>e</sup>&nbsp;cat&eacute;gorie sans locaux &agrave; sommeil au titre de la s&eacute;curit&eacute; incendie</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T5\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-5</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-7</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr122_05a21.php?id=R122T11\" target=\"_blank\" class=\"linknews\">R.&nbsp;122-11</a> <small>(applicable le 21/11/25)</small></p>\r\n\r\n<p align=\"justify\"><b>Dispositions de s&eacute;curit&eacute; incendie communes &agrave; tous les b&acirc;timents et notamment les conditions de mise en &oelig;uvre des solutions d'effet &eacute;quivalent</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr142_01a05.php?id=R142T1\" target=\"_blank\" class=\"linknews\">R.&nbsp;142-1</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T34\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-34</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;abrogation des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T35\" target=\"_blank\" class=\"linknews\">R.*&nbsp;143-35</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T36\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-36</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T21\" target=\"_blank\" class=\"linknews\">R.*&nbsp;146-21</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T22\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-22</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;remplacement des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr141_01a13.php?id=top\" target=\"_blank\" class=\"linknews\">D.&nbsp;141-1 &agrave; D.&nbsp;141-13</a> par les articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr141_01a17.php?id=top\" target=\"_blank\" class=\"linknews\">R.&nbsp;141-1 &agrave; R.&nbsp;141-17</a> <small>(applicable le 01/07/26)</small> <br>-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T44\" target=\"_blank\" class=\"linknews\">R.&nbsp;143-44</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T20\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-20</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T26\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-26</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr146_01a35.php?id=R146T35\" target=\"_blank\" class=\"linknews\">R.&nbsp;146-35</a> <small>(applicable le 01/07/26)</small></p>\r\n\r\n<p align=\"justify\"><b>Transfert des dispositions du Code du travail concernant la s&eacute;curit&eacute; incendie pour la conception des b&acirc;timents &agrave; usage professionnel (BUP) dans le Code de la construction et de l'habitation</b></p>\r\n\r\n<p align=\"justify\">-&nbsp;modification de l'article <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr113_01.php?id=R113T1\" target=\"_blank\" class=\"linknews\">R.&nbsp;113-1</a> <small>(applicable le 21/11/25)</small><br>\r\n-&nbsp;cr&eacute;ation des articles <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchr144_01a20.php?id=top\" target=\"_blank\" class=\"linknews\">R.&nbsp;144-1 &agrave; R.&nbsp;144-20</a> du Code de la construction et de l'habitation, <small>(applicable le 01/01/27)</small><br>\r\n-&nbsp;suppression des articles <a href=\"https://sitesecurite.com/contenu/portail/code/code-travail.php?id=cdt2\" target=\"_blank\" class=\"linknews\">R.&nbsp;4216-1 &agrave; R.&nbsp;4216-34</a> du code du travail <small>(applicable le 01/01/27)</small><br>\r\n-&nbsp;modification des articles <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4211_03a05.php?id=R4211T3\" target=\"_blank\" class=\"linknews\">R.&nbsp;4211-3</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T7\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-7</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T9\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-9</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4214_26a28.php?id=R4214T28\" target=\"_blank\" class=\"linknews\">R.&nbsp;4214-28, <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4227_01a03.php?id=R4227T2\" target=\"_blank\" class=\"linknews\">R.&nbsp;4227-2</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T37\" target=\"_blank\" class=\"linknews\">R.&nbsp;4227-37</a> <small>(applicable le 01/01/27)</small></p>"
+      },
+      {
+        "id": 236,
+        "title": "IGH",
+        "date": "parution 10 septembre 2025",
+        "categories": [
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 1<sup>er</sup>&nbsp;septembre 2025 modifiant l'arr&ecirc;t&eacute; du 30 d&eacute;cembre 2011 portant r&egrave;glement de s&eacute;curit&eacute; pour la construction des immeubles de grande hauteur et leur protection contre les risques d'incendie et de panique</p>\r\n\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh01a05.php?id=GH5\" target=\"_blank\" class=\"linknews\">GH&nbsp;5</a>, \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh35a39.php?id=GH36\" target=\"_blank\" class=\"linknews\">GH&nbsp;36</a> et \r\n\r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh35a39.php?id=GH37\" target=\"_blank\" class=\"linknews\">GH&nbsp;37</a></p>\r\n\r\n<p align=\"justify\">Cet arr&ecirc;t&eacute; est applicable &agrave; compter du 1<sup>er</sup>&nbsp;janvier 2026.</p>"
+      },
+      {
+        "id": 208,
+        "title": "Renouvellement des CCDSA",
+        "date": "Parution du 17 mai 2025",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2025-429 du 15 mai 2025<br>\r\nLes commissions consultatives d&eacute;partementales de s&eacute;curit&eacute; et d'accessibilit&eacute;, pr&eacute;vues par le d&eacute;cret du 8&nbsp;mars 1995, sont prorog&eacute;es jusqu'au 8&nbsp;juin 2030</p>\r\n\r\n<p align=\"center\"><a href=\"https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051604221\" target=\"_blank\" class=\"linknews\">Voir le texte</a></p>"
+      },
+      {
+        "id": 186,
+        "title": "Résistance au feu des produits de construction",
+        "date": "Parution au Journal officiel de l&rsquo;Union européenne le 13 juin 2024",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "ert"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">R&egrave;glement d&eacute;l&eacute;gu&eacute; (UE) 2024/1681 de la Commission du 6&nbsp;mars 2024 compl&eacute;tant le r&egrave;glement (UE) n&deg;&nbsp;305/2011 du Parlement europ&eacute;en et du Conseil en &eacute;tablissant des classes de performance relatives &agrave; la r&eacute;sistance au feu des produits de construction</p>\r\n<p align=\"justify\">Applicable le 3&nbsp;juillet 2024.</p>\r\n<p align=\"justify\">Ce r&egrave;glement abroge la d&eacute;cision 2000/367/CE.</p>\r\n<p align=\"center\">Article concern&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_const/a04_03_22.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 22&nbsp;mars 2004 modifi&eacute; (Annexe&nbsp;1-1&nbsp;: Syst&egrave;me adopt&eacute; au niveau communautaire)</a></p>"
+      },
+      {
+        "id": 184,
+        "title": "Comportement au feu des câbles électriques",
+        "date": "Parution du 23 mai 2024",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 17&nbsp;mai 2024 modifiant diverses dispositions des r&egrave;glements de s&eacute;curit&eacute; contre les risques d'incendie et de panique dans les &eacute;tablissements recevant du public, et pour la construction des immeubles de grande hauteur pris respectivement par l'arr&ecirc;t&eacute; du 25&nbsp;juin 1980 et l'arr&ecirc;t&eacute; du 30&nbsp;d&eacute;cembre 2011</p>\r\n<p align=\"center\">Articles modifi&eacute;s&nbsp;: \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/co61.php?id=CO61\" target=\"_blank\" class=\"linknews\">CO 61</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el01a04.php?id=EL3\" target=\"_blank\" class=\"linknews\">EL 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el05a11.php?id=EL10\" target=\"_blank\" class=\"linknews\">EL 10</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/el20a23.php?id=EL23\" target=\"_blank\" class=\"linknews\">EL 23</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec01a05.php?id=EC2\" target=\"_blank\" class=\"linknews\">EC 2</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec06.php?id=EC6\" target=\"_blank\" class=\"linknews\">EC 6</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec07a15.php?id=EC11\" target=\"_blank\" class=\"linknews\">EC 11</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erp/ec07a15.php?id=EC12\" target=\"_blank\" class=\"linknews\">EC 12</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erppe/pe24.php?id=PE24\" target=\"_blank\" class=\"linknews\">PE 24</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts16a20.php?id=CTS20\" target=\"_blank\" class=\"linknews\">CTS 20</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts21a24.php?id=CTS23\" target=\"_blank\" class=\"linknews\">CTS 23</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpcts/cts21a24.php?id=CTS24\" target=\"_blank\" class=\"linknews\">CTS 24</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga01a05.php?id=GA3\" target=\"_blank\" class=\"linknews\">GA 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga32a34.php?id=GA33\" target=\"_blank\" class=\"linknews\">GA 33</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_erp/erpga/ga32a34.php?id=GA34\" target=\"_blank\" class=\"linknews\">GA 34</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh01a05.php?id=GH3\" target=\"_blank\" class=\"linknews\">GH 3</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH44\" target=\"_blank\" class=\"linknews\">GH 44</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH45\" target=\"_blank\" class=\"linknews\">GH 45</a>, \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/gh40a48.php?id=GH48\" target=\"_blank\" class=\"linknews\">GH 48</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_igh/igh/ghtc_a14.php?id=ac_GHTC_A14_1\" target=\"_blank\" class=\"linknews\">GHTC 14-1</a></p>\r\n<p align=\"justify\">cet arr&ecirc;t&eacute; est applicable &agrave; compter du 23 mai 2025</p>"
+      },
+      {
+        "id": 164,
+        "title": "Norme",
+        "date": "Parution du 21 novembre 2023",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 28&nbsp;octobre 2023 mettant &agrave; jour la date de version de la norme NF&nbsp;EN&nbsp;ISO/IEC&nbsp;17025 dans divers arr&ecirc;t&eacute;s</p>\r\n<p align=\"center\">Voir les textes modifi&eacute;s&nbsp;: <a href=\"https://sitesecurite.com/contenu/_erp/erpgn/gn14.php?id=GN14\" target=\"_blank\" class=\"linknews\">GN&nbsp;14</a>, <a href=\"https://sitesecurite.com/contenu/_igh/igh/gh01a05.php?id=GH1\" target=\"_blank\" class=\"linknews\">GH&nbsp;1</a> et \r\n<a href=\"https://sitesecurite.com/contenu/_txt/txt_const/a2002_11_21.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 21&nbsp;novembre 2002 modifi&eacute;</a></p>"
+      },
+      {
+        "id": 148,
+        "title": "Agrément ERP - IGH",
+        "date": "Parution du 21 juin 2023",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH08.jpg",
+        "text": "<p>Arr&ecirc;t&eacute; du 15&nbsp;juin 2023 modifiant l'arr&ecirc;t&eacute; du 11&nbsp;d&eacute;cembre 2007 relatif aux conditions d'agr&eacute;ment pour les v&eacute;rifications r&eacute;glementaires pr&eacute;vues dans les &eacute;tablissements recevant du public et les immeubles de grande hauteur<p>\n<p align=\"center\">Texte modifi&eacute;&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_igh/a2007_12_11.php?id=top\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 11&nbsp;d&eacute;cembre 2007</a></p>"
+      },
+      {
+        "id": 134,
+        "title": "CCDSA",
+        "date": "Parution du 16 octobre 2022",
+        "categories": [
+          "erp",
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/W08.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2022-1321 du 13&nbsp;octobre 2022 modifiant le d&eacute;cret n&deg;&nbsp;95-260 du 8&nbsp;mars 1995 relatif &agrave; la commission consultative d&eacute;partementale de s&eacute;curit&eacute; et d'accessibilit&eacute;</p>\n\n<p align=\"center\"><a href=&quot;https://sitesecurite.com/contenu/_txt/txt_ccdsa/d95_260.php?id=top&quot; target=&quot;_blank&quot;>Voir le texte</a></p>"
+      },
+      {
+        "id": 133,
+        "title": "Unités hospitalières sécurisées",
+        "date": "Parution du 14 octobre 2022",
+        "categories": [
+          "erp",
+          "igh",
+          "others"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/U05.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 10 octobre 2022 relatif au ressort territorial et au cahier des charges des unit&eacute;s hospitali&egrave;res s&eacute;curis&eacute;es interr&eacute;gionales destin&eacute;es &agrave; l'accueil des personnes d&eacute;tenues</p>\n<p align=\"justify\">Abroge l'arr&ecirc;t&eacute; du 24 ao&ucirc;t 2000</p>\n<p align=\"center\"><a href=&quot;https://sitesecurite.com/contenu/_txt/txt_erp/a2022_10_10.php?id=top&quot; target=&quot;_blank&quot;>Voir le texte</a></p>"
+      },
+      {
+        "id": 125,
+        "title": "CCH",
+        "date": "Parution du 30 juillet 2022",
+        "categories": [
+          "erp",
+          "igh",
+          "hab",
+          "others"
+        ],
+        "image": null,
+        "text": "<p align=\"justify\">Ordonnance n&deg;&nbsp;2022-1076 du 29&nbsp;juillet 2022 visant &agrave; renforcer le contr&ocirc;le des r&egrave;gles de construction</p>\n<p align=\"center\">Voir les articles&nbsp;: \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl112_09a12.php?id=L112T11\" target=\"_blank\" class=\"linknews\">L.&nbsp;112-11</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl122_07a14.php?id=top\" target=\"_blank\" class=\"linknews\">L.&nbsp;122-7 &agrave; L.&nbsp;122-14</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl180_01.php?id=L180T1\" target=\"_blank\" class=\"linknews\">L.&nbsp;180-1</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl181_01a03.php?id=top\" target=\"_blank\" class=\"linknews\">L.&nbsp;181-1 &agrave; L.&nbsp;181-3</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl181_04a10.php?id=top\" target=\"_blank\" class=\"linknews\">L.&nbsp;181-4 &agrave; L.&nbsp;181-10</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl181_11a14.php?id=top\" target=\"_blank\" class=\"linknews\">L.&nbsp;181-11 &agrave; L.&nbsp; 181-14</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl182_01a03.php?id=top\" target=\"_blank\" class=\"linknews\">L.&nbsp;182-1 &agrave; L.&nbsp;182-3</a>, \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl183_01a13.php?id=L183T1\" target=\"_blank\" class=\"linknews\">L.&nbsp;183-1</a> et \n\n           <a href=\"https://sitesecurite.com/contenu/_codes/cch/cchl183_01a13.php?id=L183T4\" target=\"_blank\" class=\"linknews\">L.&nbsp;183-4</a></p>"
+      },
+      {
+        "id": 66,
+        "title": "Agrément ERP - IGH",
+        "date": "Parution du 15 novembre 2020",
+        "categories": [
+          "ERP",
+          "IGH"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH08.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 29&nbsp;octobre 2020 modifiant l'arr&ecirc;t&eacute; du 11&nbsp;d&eacute;cembre 2007 relatif aux conditions d'agr&eacute;ment pour les v&eacute;rifications r&eacute;glementaires pr&eacute;vues dans les &eacute;tablissements recevant du public et les immeubles de grande hauteur</p><p align=\"center\"><a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_igh/a2007_12_11.php?id=top\" target=\"_blank\" class=\"linknews\">Voir le texte</a></p>"
+      },
+      {
+        "id": 65,
+        "title": "Commissions de sécurité",
+        "date": "Parution du 30 septembre 2020",
+        "categories": [
+          "ERP",
+          "IGH"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/JO.png",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2020-1187 du 29&nbsp;septembre 2020 relatif &agrave; certaines commissions administratives &agrave; caract&egrave;re consultatif relevant du minist&egrave;re de l'int&eacute;rieur</p><p align=\"justify\">Renouvellement jusqu'au 8&nbsp;juin 2025&nbsp;: Commission consultative d&eacute;partementale de la protection civile dite &laquo;&nbsp;Commissions locales de s&eacute;curit&eacute;&nbsp;&raquo;<br><em>(Articles R.&nbsp;123-34 et suivants du code de la construction et de l'habitation)</em></p>"
+      },
+      {
+        "id": 38,
+        "title": "ERP - IGH",
+        "date": "Parution du 18 décembre 2019",
+        "categories": [
+          "ERP",
+          "IGH"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/HAB03.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 16&nbsp;d&eacute;cembre 2019 modifiant l'arr&ecirc;t&eacute; du 15&nbsp;d&eacute;cembre 2014 fixant les mod&egrave;les des formulaires des demandes d'autorisation et d'approbation pr&eacute;vues aux articles L.&nbsp;111-7-5, L.&nbsp;111-8 et L.&nbsp;122-1 du code de la construction et de l'habitation</p><p align=\"center\">Voir le texte&nbsp;: <a href=\"https://sitesecurite.com/contenu/_txt/txt_erp_igh/a2014_12_15.php\" target=\"_blank\" class=\"linknews\">Arr&ecirc;t&eacute; du 15&nbsp;d&eacute;cembre 2014</a></p>"
+      },
+      {
+        "id": 22,
+        "title": "IMH - Immeubles de Moyenne Hauteur",
+        "date": "Parution du 11 août 2019",
+        "categories": [
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH07.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 7&nbsp;ao&ucirc;t 2019 relatif aux travaux de modification des immeubles de moyenne hauteur et pr&eacute;cisant les solutions constructives acceptables pour les r&eacute;novations de fa&ccedil;ade</p><p align=\"center\">Voir&nbsp;: <a href=\"https://sitesecurite.com/contenu/portail/igh/imh-immeubles-moyenne-hauteur.php?id=imh01\" target=\"_blank\" class=\"linknews\">Immeubles de Moyenne Hauteur (IMH)</a></p>"
+      },
+      {
+        "id": 17,
+        "title": "IGH - IMH - Rénovations de façade des bâtiments à usage d'habitation",
+        "date": "Parution du 17 mai 2019",
+        "categories": [
+          "IGH",
+          "hab"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH03.jpg",
+        "text": "<p align=\"justify\">D&eacute;cret n&deg;&nbsp;2019-461 du 16&nbsp;mai 2019 relatif aux travaux de modification des immeubles de moyenne hauteur</p><p align=\"center\"><a href=\"https://sitesecurite.com/contenu/portail/ad_code/cch_igh.php?id=id000\" target=\"_blank\" class=\"linknews\">Voir les articles</a></p>"
+      },
+      {
+        "id": 15,
+        "title": "Appareils électriques de production de froid",
+        "date": "Parution du 17 mai 2019",
+        "categories": [
+          "igh"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/IGH08.jpg",
+        "text": "<p align=\"justify\">Arr&ecirc;t&eacute; du 10&nbsp;mai 2019 modifiant l'arr&ecirc;t&eacute; du 30&nbsp;d&eacute;cembre 2011 portant r&egrave;glement de s&eacute;curit&eacute; pour la construction des immeubles de grande hauteur et leur protection contre les risques d'incendie et de panique</p><p align=\"center\">Voir l'article&nbsp;: <a href=\"https://sitesecurite.com/contenu/_igh/igh/gh35a39.php?id=GH37\" target=\"_blank\" class=\"linknews\">GH&nbsp;37</a></p>"
+      },
+      {
+        "id": 3,
+        "title": "Accessibilité - Habitation - Immeubles de moyenne hauteur (IMH) - ERP",
+        "date": "Parution du 24 novembre 2018",
+        "categories": [
+          "Hab",
+          "IGH",
+          "ERP"
+        ],
+        "image": "https://sitesecurite.com/contenu/portail/images/index/J03.jpg",
+        "text": "<p align=\"justify\">Loi n&deg;&nbsp;2018-1021 du 23&nbsp;novembre 2018 portant &eacute;volution du logement, de l'am&eacute;nagement et du num&eacute;rique (Loi &Eacute;LAN)</p><p align=\"center\">Voir les articles&nbsp;: <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp_hab/cchl111_07a08_4.php?id=L111T8\" target=\"_blank\" class=\"linknews\">L.&nbsp;111-8</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp_hab/cchl111_07a08_4.php?id=L111T7_1\" target=\"_blank\" class=\"linknews\">L.&nbsp;111-7-1</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp_hab/cchl111_07a08_4.php?id=L111T8_3_2\" target=\"_blank\" class=\"linknews\">L.&nbsp;111-8-3-2</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_igh/cchl122_01a02.php?id=L122T1\" target=\"_blank\" class=\"linknews\">L.&nbsp;122-1</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_igh/cchl122_01a02.php?id=L122T2\" target=\"_blank\" class=\"linknews\">L.&nbsp;122-2</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp/cchl123_01a04.php?id=L123T3\" target=\"_blank\" class=\"linknews\">L.&nbsp;123-3</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_hab/cchl129_01a07.php?id=L129-2\" target=\"_blank\" class=\"linknews\">L.&nbsp;129-2</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp/cchl151_01a03.php?id=L151T1\" target=\"_blank\" class=\"linknews\">L.&nbsp;151-1</a>, <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp/cchl151_01a03.php?id=L151T1\" target=\"_blank\" class=\"linknews\">L.&nbsp;151-2</a> et <a href=\"https://sitesecurite.com/contenu/_codes/cch_erp/cchl151_01a03.php?id=L151T3\" target=\"_blank\" class=\"linknews\">L.&nbsp;151-3</a></p>"
+      }
+    ]
+  }
+}

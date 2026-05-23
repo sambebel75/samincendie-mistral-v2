@@ -1,0 +1,59 @@
+{
+  "url": "https://sitesecurite.com/portail-hab.php",
+  "title": "SiteSecurite | Portail HAB",
+  "description": "",
+  "h1": "HAB / Bâtiments d'habitation",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les dernières actualités :"
+    },
+    {
+      "tag": "h2",
+      "text": "Parlons-Securite-Incendie.fr :"
+    },
+    {
+      "tag": "h2",
+      "text": "Nos ouvrages à la une :"
+    },
+    {
+      "tag": "h3",
+      "text": "Règlement de sécurité contre l’incendie des bâtiments d’habitation du 31 janvier 1986 modifié - illustré"
+    },
+    {
+      "tag": "h3",
+      "text": "Livret de chaufferie - Broché"
+    },
+    {
+      "tag": "h3",
+      "text": "Livret de chaufferie - Classeur"
+    },
+    {
+      "tag": "h3",
+      "text": "→ Voir tous nos livres"
+    }
+  ],
+  "paragraphs": [],
+  "links": [
+    {
+      "text": "Voir plus",
+      "url": "https://sitesecurite.com/news/actualites.php#HAB"
+    },
+    {
+      "text": "Règlement de sécurité contre l’incendie des bâtiments d’habitation du 31 janvier 1986 modifié - illustré",
+      "url": "https://franceselection.fr/home/40-reglement-de-securite-contre-lincendie-des-batiments-dhabitation-du-31-janvier-1986-modifie.html"
+    },
+    {
+      "text": "Livret de chaufferie - Broché",
+      "url": "https://franceselection.fr/registres-et-formulaires/77-livret-de-chaufferie.html"
+    },
+    {
+      "text": "Livret de chaufferie - Classeur",
+      "url": "https://franceselection.fr/registres-et-formulaires/77-livret-de-chaufferie.html"
+    },
+    {
+      "text": "→ Voir tous nos livres",
+      "url": "https://franceselection.fr/49-reglementation-habitation"
+    }
+  ]
+}
