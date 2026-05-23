@@ -1,0 +1,75 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/ert/ert-menu.php",
+  "extracted_at": "2026-05-19T14:18:48.926Z",
+  "content": {
+    "title": "",
+    "headings": {
+      "h1": [],
+      "h2": [
+        "Tableau de bord ERT"
+      ],
+      "h3": []
+    },
+    "paragraphs": [
+      "Dispositions réglementaires",
+      "Santé et sécurité au travail :",
+      "Autres textes de référence",
+      "Recodification de 2008"
+    ],
+    "links": [
+      {
+        "text": "Document unique R. 4121 et R. 4741",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=document-unique"
+      },
+      {
+        "text": "Droit de retrait D. 4131 et L. 4131",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=retrait"
+      },
+      {
+        "text": "Information et formation R. 4141 à 4143",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=information"
+      },
+      {
+        "text": "Conception des lieux de travail R. 4211 à 4217",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-lieux-travail.php?id=accdct_id000"
+      },
+      {
+        "text": "Utilisation des lieux de travail R. 4221 à 4228",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-utilisation-lieux.php?id=accdct_id000"
+      },
+      {
+        "text": "Travaux par entreprise extérieures R. 4511 à 4514",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-entreprises-exterieures.php?id=travaux"
+      },
+      {
+        "text": "Coordination de chantier R. 4532 à 4533",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-entreprises-exterieures.php?id=operations"
+      },
+      {
+        "text": "Contrôle R. 4711 à 4724",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-controle.php?id=accdct_id000"
+      },
+      {
+        "text": "Accès par thèmes",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-textes-satellites.php"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-travail.php"
+      },
+      {
+        "text": "Textes classés par année",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-textes-satellites-par-annee.php"
+      },
+      {
+        "text": "Tableau de correspondance",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

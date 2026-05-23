@@ -1,0 +1,77 @@
+{
+  "url": "https://sitesecurite.com/activation-licence.php",
+  "title": "SiteSecurite | La référence de la prévention incendie en France",
+  "description": "Sitesecurite - Réglement de sécurité incendie",
+  "h1": "",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les réglementations sécurité et incendie"
+    },
+    {
+      "tag": "h3",
+      "text": "ERP"
+    },
+    {
+      "tag": "h3",
+      "text": "IGH / IMH"
+    },
+    {
+      "tag": "h3",
+      "text": "HAB"
+    },
+    {
+      "tag": "h3",
+      "text": "BUP / ERT"
+    },
+    {
+      "tag": "h3",
+      "text": "ICPE"
+    },
+    {
+      "tag": "h3",
+      "text": "Autres"
+    },
+    {
+      "tag": "h3",
+      "text": "Veille réglementaire"
+    },
+    {
+      "tag": "h3",
+      "text": "Avantages abonnés SiteSecurite.com"
+    }
+  ],
+  "paragraphs": [
+    "2 formules d'abonnement avec ou sans historique :"
+  ],
+  "links": [
+    {
+      "text": "ERP Établissements recevant du public",
+      "url": "https://sitesecurite.com/portail-erp.php"
+    },
+    {
+      "text": "IGH / IMH Immeubles de grande et moyenne hauteur",
+      "url": "https://sitesecurite.com/portail-igh.php"
+    },
+    {
+      "text": "HAB Bâtiments d'habitation",
+      "url": "https://sitesecurite.com/portail-hab.php"
+    },
+    {
+      "text": "BUP / ERT Bâtiments à usage professionnel",
+      "url": "https://sitesecurite.com/portail-bup.php"
+    },
+    {
+      "text": "ICPE Installations classées pour la protection de l'environnement",
+      "url": "https://sitesecurite.com/portail-icpe.php"
+    },
+    {
+      "text": "Autres Campings, aires extérieures, grands rassemblements…",
+      "url": "https://sitesecurite.com/portail-divers.php"
+    },
+    {
+      "text": "Abonnements",
+      "url": "https://sitesecurite.com/contenu/portail/abonnements.php?id=top"
+    }
+  ]
+}

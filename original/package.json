@@ -1,0 +1,19 @@
+{
+  "name": "original",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape-erp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "cheerio": "^1.2.0",
+    "fast-xml-parser": "^5.8.0",
+    "got-scraping": "^4.2.1"
+  }
+}

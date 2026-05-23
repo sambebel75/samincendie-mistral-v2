@@ -1,0 +1,167 @@
+{
+  "url": "https://sitesecurite.com/contenu/_erp/erpit/it24609.php",
+  "extracted_at": "2026-05-19T13:06:57.758Z",
+  "content": {
+    "title": "SiteSecurite.com - ERP - Instruction technique 246",
+    "headings": {
+      "h1": [],
+      "h2": [],
+      "h3": []
+    },
+    "paragraphs": [
+      "Annexe :\n\t  Détermination de la surface utile d'ouverture d'une installation d'exutoires ou d'un ensemble d'évacuation de fumée",
+      "(Application du paragraphe 7.1.4 alinéa 2°, relatif aux locaux d'une superficie supérieure à 1 000 m2)",
+      "Lorsque le désenfumage est imposé aux chapitres relatifs aux dispositions particulières à chaque type d'établissement, les locaux susceptibles d'être désenfumés sont classés, en fonction de l'importance prévisible des foyers, dans les classes suivantes :",
+      "- Structures d'accueil pour personnes âgées et personnes handicapées ;",
+      "- Salles d'audition, salles de conférences, salles de réunion, salles réservées aux associations, salles de quartier, salles de projection, salles de spectacles avec espace scénique isolable ;",
+      "- Restaurants, cafés, bars, brasseries et débits de boissons ;",
+      "- Hôtels à voyageurs, hôtels meublés et pensions de famille ;",
+      "- Locaux collectifs des logements foyers ;",
+      "- Établissements d'enseignement ;",
+      "- Établissements sanitaires ;",
+      "- Établissements de culte ;",
+      "- Administrations, banques, bureaux ;",
+      "- Établissements sportifs couverts ;",
+      "- Salles de spectacles avec espace scénique intégré comportant des décors de catégorie M0 ou M1 ;",
+      "- Salles polyvalentes ;",
+      "- Salles de spectacles avec espace scénique intégré comportant des décors de catégorie M2 ou en bois classé M3 ;",
+      "- Magasins de vente, centres commerciaux et leurs mails ;",
+      "- Bibliothèques, centres de documentation et de consultation d'archives ;",
+      "- Halls et salles d'exposition.",
+      "Table des taux (en pourcentage) servant à déterminer la surface utile d'ouverture d'une installation d'exutoires ou d'un ensemble d'évacuation de fumée",
+      "Les valeurs du taux α pour les épaisseurs de la couche de fumée ou pour des hauteurs moyennes sous plafond différentes de celles du tableau sont obtenues par interpolation linéaire (en raisonnant à partir de l'épaisseur de la couche de fumée) ou par calcul à l'aide des deux formules données ci-après. En aucun cas, on ne peut extrapoler.",
+      "Table des taux pour une hauteur moyenne sous plafond < 10 m",
+      "Table des taux pour une hauteur moyenne sous plafond > 10 m",
+      "Le taux α permettant de déterminer la surface utile d'une installation d'exutoires ou d'un ensemble d'évacuation de fumée est une fonction qui dépend de la surface du feu (Af), de la hauteur moyenne sous plafond (H) et de l'épaisseur de la couche de fumée (Ef).",
+      "La surface de feu retenue est de :",
+      "- 9 m2 \n            pour la classe 1 ;",
+      "- 18 m2 \n            pour la classe 2 ;",
+      "- 36 m2 \n            pour la classe 3.",
+      "Si l'épaisseur de fumée est supérieure à la moitié de la hauteur de référence, le calcul est effectué pour :",
+      "Deux formules permettent de calculer ce taux. La première, relative au grand feu, donne :",
+      "La deuxième, relative au petit feu, s'écrit :",
+      "La formule du grand feu est utilisée pour tous les locaux de la classe 3.",
+      "La formule du petit feu est utilisée pour les locaux des classes 1 et 2, si la hauteur libre de fumée est supérieure à deux fois le diamètre théorique du feu (D) :",
+      "Si la hauteur libre de fumée est inférieure à cette valeur, on utilise également la formule du grand feu."
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "1. Objet",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24601.php?id=1"
+      },
+      {
+        "text": "2. Terminologie",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24602.php?id=2"
+      },
+      {
+        "text": "3. Dispositions relatives au désenfumage naturel",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24603.php?id=3"
+      },
+      {
+        "text": "4. Dispositions relatives au désenfumage mécanique",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24604.php?id=4"
+      },
+      {
+        "text": "5. Solutions applicables aux escaliers encloisonnés",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24605.php?id=5"
+      },
+      {
+        "text": "6. Solutions applicables aux circulations encloisonnées",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24606.php?id=6"
+      },
+      {
+        "text": "7. Solutions applicables aux locaux accessibles au public",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24607.php?id=7"
+      },
+      {
+        "text": "8. Prescriptions relatives aux approches d'ingénierie du désenfumage",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24608.php?id=8"
+      },
+      {
+        "text": "Annexe : Détermination de la surface utile d'ouverture",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24609.php?id=9"
+      },
+      {
+        "text": "7.1.4",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24607.php?id=714"
+      },
+      {
+        "text": "Table des taux pour une hauteur moyenne sous plafond < 10 m",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24609a.php"
+      },
+      {
+        "text": "Table des taux pour une hauteur moyenne sous plafond > 10 m",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24609b.php"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "Règlement ERP - Instruction technique n° 246 - Désenfumage dans les établissements recevant du public",
+      "keywords": " instruction technique, it 246, desenfumage, désenfumage, règlement erp, réglementation erp, établissement recevant du public, it, IT, it 246, it 247, it 248, it 249, it 263, incendie, sécurité ",
+      "canonical": ""
+    }
+  }
+}

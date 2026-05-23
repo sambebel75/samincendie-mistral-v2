@@ -1,0 +1,270 @@
+{
+  "name": "Instagram Auto-Publisher - Claude + DALL-E",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * *"
+            }
+          ]
+        }
+      },
+      "id": "a1b2c3d4-0001-0001-0001-000000000001",
+      "name": "Schedule Trigger",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.1,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "assign-topic",
+              "name": "topic",
+              "value": "5 astuces pour booster son engagement Instagram en 2026",
+              "type": "string"
+            },
+            {
+              "id": "assign-niche",
+              "name": "niche",
+              "value": "Marketing Digital",
+              "type": "string"
+            },
+            {
+              "id": "assign-tone",
+              "name": "tone",
+              "value": "inspirant, authentique, professionnel",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0002-0002-0002-000000000002",
+      "name": "Set Topic",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.3,
+      "position": [460, 300],
+      "notes": "Remplacer par Google Sheets node pour topics dynamiques"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "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"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={\n  \"model\": \"claude-sonnet-4-6\",\n  \"max_tokens\": 1024,\n  \"messages\": [\n    {\n      \"role\": \"user\",\n      \"content\": \"Tu es expert copywriting Instagram.\\n\\nSujet: {{ $json.topic }}\\nNiche: {{ $json.niche }}\\nTon: {{ $json.tone }}\\n\\nGénère UNIQUEMENT ce JSON (pas d'explication autour) :\\n{\\n  \\\"caption\\\": \\\"[Hook percutant ligne 1 - max 125 chars]\\\\n\\\\n[Corps 3-4 phrases valeur réelle]\\\\n\\\\n[Call-to-action clair]\\\\n\\\\n[3-4 émojis pertinents intégrés naturellement]\\\",\\n  \\\"hashtags\\\": \\\"#hashtag1 #hashtag2 #hashtag3 #hashtag4 #hashtag5 #hashtag6 #hashtag7 #hashtag8 #hashtag9 #hashtag10 #hashtag11 #hashtag12 #hashtag13 #hashtag14 #hashtag15 #hashtag16 #hashtag17 #hashtag18 #hashtag19 #hashtag20\\\",\\n  \\\"image_prompt\\\": \\\"[Description DALL-E très détaillée: style photo pro ou illustration moderne, couleurs, ambiance, éléments visuels, format carré 1:1, qualité haute définition]\\\",\\n  \\\"alt_text\\\": \\\"[Description courte pour accessibilité Instagram]\\\"\\n}\"\n    }\n  ]\n}",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0003-0003-0003-000000000003",
+      "name": "Claude - Generate Content",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\n\n// Extraire le texte de la réponse Claude\nconst rawText = response.content[0].text.trim();\n\n// Parser le JSON retourné par Claude\nlet parsed;\ntry {\n  // Chercher le JSON dans la réponse (au cas où Claude ajoute du texte)\n  const jsonMatch = rawText.match(/\\{[\\s\\S]*\\}/);\n  if (!jsonMatch) throw new Error('No JSON found in Claude response');\n  parsed = JSON.parse(jsonMatch[0]);\n} catch(e) {\n  throw new Error(`Parse error: ${e.message} | Raw: ${rawText.substring(0, 200)}`);\n}\n\n// Construire la caption finale (caption + saut de ligne + hashtags)\nconst fullCaption = `${parsed.caption}\\n\\n${parsed.hashtags}`;\n\nreturn [{\n  json: {\n    caption: parsed.caption,\n    hashtags: parsed.hashtags,\n    image_prompt: parsed.image_prompt,\n    alt_text: parsed.alt_text || '',\n    full_caption: fullCaption\n  }\n}];"
+      },
+      "id": "a1b2c3d4-0004-0004-0004-000000000004",
+      "name": "Parse Claude Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.openai.com/v1/images/generations",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "Bearer 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"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "contentType": "raw",
+        "rawContentType": "application/json",
+        "body": "={\n  \"model\": \"dall-e-3\",\n  \"prompt\": \"{{ $json.image_prompt }}\",\n  \"n\": 1,\n  \"size\": \"1024x1024\",\n  \"quality\": \"standard\",\n  \"style\": \"vivid\"\n}",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0005-0005-0005-000000000005",
+      "name": "DALL-E 3 - Generate Image",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const dalleResponse = $input.first().json;\nconst contentData = $('Parse Claude Response').first().json;\n\n// URL image DALL-E (valide ~1h)\nconst imageUrl = dalleResponse.data[0].url;\n\nreturn [{\n  json: {\n    image_url: imageUrl,\n    full_caption: contentData.full_caption,\n    alt_text: contentData.alt_text\n  }\n}];"
+      },
+      "id": "a1b2c3d4-0006-0006-0006-000000000006",
+      "name": "Merge Data",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1340, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v19.0/17841434769301977/media",
+        "sendBody": true,
+        "contentType": "form",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "image_url",
+              "value": "={{ $json.image_url }}"
+            },
+            {
+              "name": "caption",
+              "value": "={{ $json.full_caption }}"
+            },
+            {
+              "name": "alt_text",
+              "value": "={{ $json.alt_text }}"
+            },
+            {
+              "name": "access_token",
+              "value": "EAAN0riin4PQBRlMbLkqrLSJEwPfLZBrArbhCmSlfjTpQOBzzCSxqb9EzpEUZCdHdiHu2AyStCgk1NVQ1XrfjMDcSyfxoTTU2wJ7nOv8x5vXSUd60yHL4q7Dbtvtln9UjxylcKNMqnEh32eHoP6nGZCiVXBKZCMsYf5EVZALk9c1ZCSp7o0XE3xT0TRvuZCWX1StYKoYvjsZBaicLpvSZBn4v3RJvXHnhS8ZAc7X6TZCqNEu"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0007-0007-0007-000000000007",
+      "name": "Instagram - Create Container",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1560, 300]
+    },
+    {
+      "parameters": {
+        "amount": 15,
+        "unit": "seconds"
+      },
+      "id": "a1b2c3d4-0008-0008-0008-000000000008",
+      "name": "Wait 15s",
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [1780, 300],
+      "webhookId": "a1b2c3d4-wait-webhook-0008"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://graph.facebook.com/v19.0/17841434769301977/media_publish",
+        "sendBody": true,
+        "contentType": "form",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "creation_id",
+              "value": "={{ $('Instagram - Create Container').first().json.id }}"
+            },
+            {
+              "name": "access_token",
+              "value": "EAAN0riin4PQBRlMbLkqrLSJEwPfLZBrArbhCmSlfjTpQOBzzCSxqb9EzpEUZCdHdiHu2AyStCgk1NVQ1XrfjMDcSyfxoTTU2wJ7nOv8x5vXSUd60yHL4q7Dbtvtln9UjxylcKNMqnEh32eHoP6nGZCiVXBKZCMsYf5EVZALk9c1ZCSp7o0XE3xT0TRvuZCWX1StYKoYvjsZBaicLpvSZBn4v3RJvXHnhS8ZAc7X6TZCqNEu"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0009-0009-0009-000000000009",
+      "name": "Instagram - Publish Post",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [2000, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const publishResult = $input.first().json;\nconst container = $('Instagram - Create Container').first().json;\n\nconsole.log('✅ Post Instagram publié!');\nconsole.log('Container ID:', container.id);\nconsole.log('Post ID:', publishResult.id);\n\nreturn [{\n  json: {\n    success: true,\n    container_id: container.id,\n    post_id: publishResult.id,\n    published_at: new Date().toISOString()\n  }\n}];"
+      },
+      "id": "a1b2c3d4-0010-0010-0010-000000000010",
+      "name": "Log Success",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2220, 300]
+    }
+  ],
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [{ "node": "Set Topic", "type": "main", "index": 0 }]
+      ]
+    },
+    "Set Topic": {
+      "main": [
+        [{ "node": "Claude - Generate Content", "type": "main", "index": 0 }]
+      ]
+    },
+    "Claude - Generate Content": {
+      "main": [
+        [{ "node": "Parse Claude Response", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Claude Response": {
+      "main": [
+        [{ "node": "DALL-E 3 - Generate Image", "type": "main", "index": 0 }]
+      ]
+    },
+    "DALL-E 3 - Generate Image": {
+      "main": [
+        [{ "node": "Merge Data", "type": "main", "index": 0 }]
+      ]
+    },
+    "Merge Data": {
+      "main": [
+        [{ "node": "Instagram - Create Container", "type": "main", "index": 0 }]
+      ]
+    },
+    "Instagram - Create Container": {
+      "main": [
+        [{ "node": "Wait 15s", "type": "main", "index": 0 }]
+      ]
+    },
+    "Wait 15s": {
+      "main": [
+        [{ "node": "Instagram - Publish Post", "type": "main", "index": 0 }]
+      ]
+    },
+    "Instagram - Publish Post": {
+      "main": [
+        [{ "node": "Log Success", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

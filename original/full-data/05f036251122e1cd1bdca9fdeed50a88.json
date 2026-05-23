@@ -1,0 +1,168 @@
+{
+  "url": "https://sitesecurite.com/contenu/_erp/erpit/it24801.php",
+  "extracted_at": "2026-05-19T13:07:53.678Z",
+  "content": {
+    "title": "SiteSecurite.com - ERP - Instruction technique 248",
+    "headings": {
+      "h1": [],
+      "h2": [],
+      "h3": []
+    },
+    "paragraphs": [
+      "Note : cette instuction ne s'applique qu'aux équipements installés dans les établissements avant l'entrée en vigueur de l'arrêté du 2 février 1993.",
+      "En application de l'article R. 143-11 du Code de la construction et de l'habitation, les établissements recevant du public doivent être équipés de systèmes d'alarme.\n    Ces systèmes doivent pouvoir être utilisés pour donner, en cas d'urgence, l'ordre d'évacuation du public ainsi que du personnel non employé à la lutte contre l'incendie.\n    Ils doivent satisfaire, d'une part, aux principes généraux définis selon la catégorie d'établissement, soit aux articles MS 58 à MS 65, soit aux articles PO 11 et PO 12 (§ 3) du règlement de sécurité contre les risques d'incendie et de panique dans les établissements recevant du public et, d'autre part, aux règles précisées ci-après qui ont pour but de définir les exigences techniques minimales que doivent respecter ces systèmes.",
+      "A - Établissements recevant du public des quatre premières catégories",
+      "Les systèmes d'alarme destinés à équiper les établissements recevant du public des quatre premières catégories sont classés en quatre types appelés, par ordre de sévérité décroissante, 1, 2, 3 et 4. Les dispositions particulières du règlement de sécurité précisent, pour chaque type d'établissement, le type de système d'alarme qui doit être utilisé.",
+      "État de veille générale : situation dans laquelle le système est en état de donner l'alarme (restreinte et/ou générale) en cas de fonctionnement des dispositifs de commande.",
+      "État de veille limité à l'alarme restreinte : situation dans laquelle un système a été mis volontairement hors d'état de donner l'alarme générale, en cas de fonctionnement des dispositifs de commande, tout en donnant l'alarme restreinte.",
+      "État d'arrêt : situation dans laquelle toutes les sources d'alimentation du système d'alarme sont coupées.",
+      "1.2. Principe de fonctionnement du système d'alarme",
+      "1.2.1. Disponibilité du système d'alarme",
+      "Pendant la présence du public, le système d'alarme doit être à l'état de veille générale.",
+      "En dehors de la présence du public, si l'établissement dispose d'un moyen d'exploiter l'alarme restreinte, le système d'alarme peut être mis à l'état de veille limité à l'alarme restreinte. Sinon, il doit être mis à l'état d'arrêt.",
+      "Dans les types 1 et 2, le retour à l'état de veille doit pouvoir s'effectuer, même en l'absence de l'alimentation normale ou de remplacement, en annulant l'ordre de mise à l'état d'arrêt.",
+      "L'état de veille doit être indiqué au tableau de signalisation ou sur l'équipement de signalisation centralisé éventuel.",
+      "1.2.2. Alarme restreinte",
+      "Si le système d'alarme, tel que défini ci-après, comprend un tableau de signalisation ou un équipement de signalisation centralisé, le fonctionnement d'un dispositif à commande manuelle ou automatique doit déclencher immédiatement l'alarme restreinte au niveau de ce tableau ou de cet équipement.",
+      "1.2.3. Temporisation de déclenchement de l'alarme générale",
+      "Sauf dans les cas prévus à l'article MS 60 du règlement de sécurité, le déclenchement de l'alarme restreinte entraîne automatiquement le déclenchement de l'alarme générale au bout d'une temporisation réglable de zéro à cinq minutes suivant les risques présentés par l'établissement et les moyens mis en œuvre pour les prévenir.",
+      "Cette temporisation doit être annulée lorsque l'établissement ne dispose pas, pendant la présence du public, des moyens d'exploiter l'alarme restreinte.",
+      "L'alarme générale doit pouvoir être déclenchée à tout moment à partir du tableau de signalisation ou de l'équipement de signalisation centralisé éventuel.",
+      "Par ailleurs, les circuits de diffusion de l'alarme générale doivent pouvoir être interrompus à tout moment à partir de ce tableau ou de cet équipement. La position du dispositif de coupure correspondant doit être signalée visuellement.",
+      "1.2.4. Alarme générale",
+      "Lorsqu'il est prévu de diffuser l'alarme générale, elle doit être audible de tous points du bâtiment pendant le temps nécessaire à l'évacuation du public avec un minimum de cinq minutes.",
+      "L'alarme générale doit être donnée par bâtiment."
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "A. Établissements recevant du public des quatre premières catégories",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24801.php?id=A"
+      },
+      {
+        "text": "1. Généralités",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24801.php?id=A1"
+      },
+      {
+        "text": "2. Conception des différents systèmes d'alarmes",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24802.php?id=A2"
+      },
+      {
+        "text": "3. Caractéristiques des éléments de base",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24803.php?id=A3"
+      },
+      {
+        "text": "4. Implantation des éléments de base",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24804.php?id=A4"
+      },
+      {
+        "text": "5. Conformité aux disposition de la présente instruction technique",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24805.php?id=A5"
+      },
+      {
+        "text": "6. Entretien et consignes d'exploitation",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24806.php?id=A6"
+      },
+      {
+        "text": "B. Établissements recevant du public de la 5° catégorie",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24807.php?id=B"
+      },
+      {
+        "text": "C. Dispositions relatives aux installations existantes",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24808.php?id=C"
+      },
+      {
+        "text": "D. Conditions d'application de la présente instruction",
+        "url": "https://sitesecurite.com/contenu/_erp/erpit/it24809.php?id=D"
+      },
+      {
+        "text": "R. 143-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cch/cchr143_01a47.php?id=R143T11"
+      },
+      {
+        "text": "MS 58 à MS 65",
+        "url": "https://sitesecurite.com/contenu/_erp/erp/ms56a58.php?id=MS58"
+      },
+      {
+        "text": "PO 11",
+        "url": "https://sitesecurite.com/contenu/_erp/erppo/po08a13.php?id=PO11"
+      },
+      {
+        "text": "PO 12 (§ 3)",
+        "url": "https://sitesecurite.com/contenu/_erp/erppo/po08a13.php?id=PO12"
+      },
+      {
+        "text": "MS 60",
+        "url": "https://sitesecurite.com/contenu/_erp/erp/ms59a60.php?id=MS60"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "Règlement ERP - Instruction technique n° 248 - Systèmes d'alarmes utilisés dans les établissements recevant du public",
+      "keywords": " instruction technique, it 248, alarme, alarmes, systeme d'alarme, règlement erp, réglementation erp, établissement recevant du public, it, IT, it 246, it 247, it 248, it 249, it 263, incendie, sécurité ",
+      "canonical": ""
+    }
+  }
+}

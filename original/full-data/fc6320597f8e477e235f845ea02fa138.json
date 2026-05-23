@@ -1,0 +1,29 @@
+{
+  "url": "https://sitesecurite.com/recherche/index.php",
+  "title": "SiteSécurité | Résultat de recherche",
+  "description": "",
+  "h1": "Recherche /",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Recherche libre :"
+    }
+  ],
+  "paragraphs": [
+    "Le moteur de recherche est réservé aux abonnés de SiteSécurité : Connexion"
+  ],
+  "links": [
+    {
+      "text": "Recherche par numéro d'article",
+      "url": "https://sitesecurite.com/contenu/portail/erp/erp-recherche-numero-article.php"
+    },
+    {
+      "text": "Recherche par mots-clés ERP",
+      "url": "https://sitesecurite.com/contenu/portail/erp/erp-recherche-mots-cles.php"
+    },
+    {
+      "text": "Connexion",
+      "url": "https://sitesecurite.com/connexion.php?redirect=/recherche/"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/hab/hab-menu.php",
+  "extracted_at": "2026-05-19T14:19:34.884Z",
+  "content": {
+    "title": "",
+    "headings": {
+      "h1": [],
+      "h2": [
+        "Tableau de bord HAB"
+      ],
+      "h3": []
+    },
+    "paragraphs": [
+      "Dispositions réglementaires",
+      "Dispositions triées par familles",
+      "Autres textes de référence"
+    ],
+    "links": [
+      {
+        "text": "Généralités et classementArt. 1 à 4",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=generalites"
+      },
+      {
+        "text": "Structures et enveloppeArt. 5 à 16",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=structure"
+      },
+      {
+        "text": "DégagementsArt. 17 à 43",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=degagements"
+      },
+      {
+        "text": "Conduites et gainesArt. 44 à 64",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=conduites"
+      },
+      {
+        "text": "Logements-foyersArt. 65 à 76",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=logementsfoyers"
+      },
+      {
+        "text": "Parcs de stationnementArt. 77 à 96",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=parcs-stationnement"
+      },
+      {
+        "text": "Dispositions diversesArt. 97 à 99",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=divers"
+      },
+      {
+        "text": "Obligations des propriétairesArt. 100 à 104",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=obligations"
+      },
+      {
+        "text": "AgrémentArt. 105",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=agrement"
+      },
+      {
+        "text": "Application dans le tempsArt. 106 à 107",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=application"
+      },
+      {
+        "text": "ConformitéArt. 108",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=conformite"
+      },
+      {
+        "text": "Annexes1 à 3",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-liens.php?id=annexes"
+      },
+      {
+        "text": "Habitations individuelles et collectives",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-habitations-individuelles-collectives.php"
+      },
+      {
+        "text": "Logements-foyers",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-logements-foyers.php"
+      },
+      {
+        "text": "Dispositions spécifiques",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-habitat-inclusif.php"
+      },
+      {
+        "text": "Accès par thèmes",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-textes-satellites.php"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-construction-2021.php"
+      },
+      {
+        "text": "Textes classés par année",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-textes-satellites-par-annee.php"
+      },
+      {
+        "text": "Questions parlementaires",
+        "url": "https://sitesecurite.com/contenu/portail/hab/hab-questions-parlementaires.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

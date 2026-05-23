@@ -1,0 +1,2242 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php",
+  "extracted_at": "2026-05-19T14:18:59.156Z",
+  "content": {
+    "title": "Correspondance ancienne/nouvelles références — ERT",
+    "headings": {
+      "h1": [
+        "ERT / Établissements recevant des travailleurs",
+        "Code du travail (extraits)\n                Contrôle – santé et sécurité au travail :"
+      ],
+      "h2": [
+        "Tableau de bord ERT"
+      ],
+      "h3": [
+        "ERP",
+        "IGH / IMH",
+        "HAB",
+        "BUP / ERT",
+        "ICPE",
+        "Autres"
+      ]
+    },
+    "paragraphs": [
+      "Navigation rapide entre les différentes thématiques :",
+      "Dispositions réglementaires",
+      "Santé et sécurité au travail :",
+      "Autres textes de référence",
+      "Recodification de 2008"
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "ERP\n            Établissements recevant du public",
+        "url": "https://sitesecurite.com/portail-erp.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "IGH / IMH\n            Immeubles de grande et moyenne hauteur",
+        "url": "https://sitesecurite.com/portail-igh.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "HAB\n            Bâtiments d'habitation",
+        "url": "https://sitesecurite.com/portail-hab.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "BUP / ERT\n            Bâtiments à usage professionnel",
+        "url": "https://sitesecurite.com/portail-bup.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "ICPE\n            Installations classées pour la protection de l'environnement",
+        "url": "https://sitesecurite.com/portail-icpe.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "Autres\n            Campings, aires extérieures, grands rassemblements…",
+        "url": "https://sitesecurite.com/portail-divers.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php#"
+      },
+      {
+        "text": "R. 4221-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4221_01.php?id=R4221T1"
+      },
+      {
+        "text": "R. 4224-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_01a08.php?id=R4224T2"
+      },
+      {
+        "text": "R. 4224-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_09a13.php?id=R4224T9"
+      },
+      {
+        "text": "R. 4224-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_09a13.php?id=R4224T10"
+      },
+      {
+        "text": "R. 4224-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_09a13.php?id=R4224T11"
+      },
+      {
+        "text": "R. 4224-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_09a13.php?id=R4224T12"
+      },
+      {
+        "text": "R. 4224-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_09a13.php?id=R4224T13"
+      },
+      {
+        "text": "R. 4224-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_20a24.php?id=R4224T20"
+      },
+      {
+        "text": "R. 4224-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_01a08.php?id=R4224T4"
+      },
+      {
+        "text": "R. 4224-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_01a08.php?id=R4224T8"
+      },
+      {
+        "text": "R. 4224-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_14a16.php?id=R4224T14"
+      },
+      {
+        "text": "R. 4224-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_20a24.php?id=R4224T23"
+      },
+      {
+        "text": "R. 4224-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_20a24.php?id=R4224T21"
+      },
+      {
+        "text": "R. 4225-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_06a08.php?id=R4225T6"
+      },
+      {
+        "text": "R. 4224-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_01a08.php?id=R4224T3"
+      },
+      {
+        "text": "R. 4225-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_01.php?id=R4225T1"
+      },
+      {
+        "text": "R. 4224-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_01a08.php?id=R4224T1"
+      },
+      {
+        "text": "R. 4224-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_17a19.php?id=R4224T19"
+      },
+      {
+        "text": "R. 4224-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_17a19.php?id=R4224T17"
+      },
+      {
+        "text": "R. 4224-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_20a24.php?id=R4224T24"
+      },
+      {
+        "text": "R. 4224-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4224_17a19.php?id=R4224T18"
+      },
+      {
+        "text": "R. 4228-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_01.php?id=R4228T1"
+      },
+      {
+        "text": "R. 4228-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_02a06.php?id=R4228T2"
+      },
+      {
+        "text": "R. 4228-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_02a06.php?id=R4228T3"
+      },
+      {
+        "text": "R. 4228-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_02a06.php?id=R4228T4"
+      },
+      {
+        "text": "R. 4228-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_02a06.php?id=R4228T5"
+      },
+      {
+        "text": "R. 4228-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_02a06.php?id=R4228T6"
+      },
+      {
+        "text": "R. 4228-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_07a09.php?id=R4228T7"
+      },
+      {
+        "text": "R. 4228-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_07a09.php?id=R4228T8"
+      },
+      {
+        "text": "R. 4228-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_07a09.php?id=R4228T9"
+      },
+      {
+        "text": "R. 4228-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T10"
+      },
+      {
+        "text": "R. 4228-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T11"
+      },
+      {
+        "text": "R. 4228-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T12"
+      },
+      {
+        "text": "R. 4228-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T13"
+      },
+      {
+        "text": "R. 4228-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T14"
+      },
+      {
+        "text": "R. 4228-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_10a15.php?id=R4228T15"
+      },
+      {
+        "text": "R. 4225-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_06a08.php?id=R4225T7"
+      },
+      {
+        "text": "R. 4228-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_16a18.php?id=R4228T16"
+      },
+      {
+        "text": "R. 4225-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_02a04.php?id=R4225T2"
+      },
+      {
+        "text": "R. 4225-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_02a04.php?id=R4225T3"
+      },
+      {
+        "text": "R. 4225-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_02a04.php?id=R4225T4"
+      },
+      {
+        "text": "R. 4225-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4225_05.php?id=R4225T5"
+      },
+      {
+        "text": "R. 4222-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_01a03.php?id=R4222T1"
+      },
+      {
+        "text": "R. 4222-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_01a03.php?id=R4222T2"
+      },
+      {
+        "text": "R. 4222-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_01a03.php?id=R4222T3"
+      },
+      {
+        "text": "R. 4222-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T4"
+      },
+      {
+        "text": "R. 4222-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T5"
+      },
+      {
+        "text": "R. 4222-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T7"
+      },
+      {
+        "text": "R. 4222-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T6"
+      },
+      {
+        "text": "R. 4222-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T8"
+      },
+      {
+        "text": "R. 4222-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_04a09.php?id=R4222T9"
+      },
+      {
+        "text": "R. 4222-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T10"
+      },
+      {
+        "text": "R. 4222-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T11"
+      },
+      {
+        "text": "R. 4222-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T12"
+      },
+      {
+        "text": "R. 4222-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T13"
+      },
+      {
+        "text": "R. 4222-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T14"
+      },
+      {
+        "text": "R. 4222-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T15"
+      },
+      {
+        "text": "R. 4222-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T16"
+      },
+      {
+        "text": "R. 4222-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_10a17.php?id=R4222T17"
+      },
+      {
+        "text": "R. 4222-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_20a22.php?id=R4222T20"
+      },
+      {
+        "text": "R. 4222-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_20a22.php?id=R4222T21"
+      },
+      {
+        "text": "R. 4722-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_01a02.php?id=R4722T1"
+      },
+      {
+        "text": "R. 4722-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_01a02.php?id=R4722T2"
+      },
+      {
+        "text": "R. 4222-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_20a22.php?id=R4222T22"
+      },
+      {
+        "text": "R. 4222-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_23a24.php?id=R4222T23"
+      },
+      {
+        "text": "R. 4222-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_23a24.php?id=R4222T24"
+      },
+      {
+        "text": "R. 4222-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_25a26.php?id=R4222T25"
+      },
+      {
+        "text": "R. 4222-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_25a26.php?id=R4222T26"
+      },
+      {
+        "text": "R. 4222-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_18a19.php?id=R4222T18"
+      },
+      {
+        "text": "R. 4222-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4222_18a19.php?id=R4222T19"
+      },
+      {
+        "text": "R. 4223-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_13a15.php?id=R4223T13"
+      },
+      {
+        "text": "R. 4223-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_13a15.php?id=R4223T14"
+      },
+      {
+        "text": "R. 4223-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T1"
+      },
+      {
+        "text": "R. 4223-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T2"
+      },
+      {
+        "text": "R. 4223-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T3"
+      },
+      {
+        "text": "R. 4223-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T4"
+      },
+      {
+        "text": "R. 4223-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T5"
+      },
+      {
+        "text": "R. 4223-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T6"
+      },
+      {
+        "text": "R. 4223-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T7"
+      },
+      {
+        "text": "R. 4223-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T8"
+      },
+      {
+        "text": "R. 4223-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T9"
+      },
+      {
+        "text": "R. 4223-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T10"
+      },
+      {
+        "text": "R. 4223-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T11"
+      },
+      {
+        "text": "R. 4722-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_03a04.php?id=R4722T3"
+      },
+      {
+        "text": "R. 4722-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_03a04.php?id=R4722T4"
+      },
+      {
+        "text": "R. 4724-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T16"
+      },
+      {
+        "text": "R. 4724-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T17"
+      },
+      {
+        "text": "R. 4223-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_01a12.php?id=R4223T12"
+      },
+      {
+        "text": "R. 4223-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4223_13a15.php?id=R4223T15"
+      },
+      {
+        "text": "R. 4228-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_19a25.php?id=R4228T19"
+      },
+      {
+        "text": "R. 4228-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_19a25.php?id=R4228T22"
+      },
+      {
+        "text": "R. 4228-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_19a25.php?id=R4228T23"
+      },
+      {
+        "text": "R. 4228-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_19a25.php?id=R4228T24"
+      },
+      {
+        "text": "R. 4228-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_19a25.php?id=R4228T25"
+      },
+      {
+        "text": "R. 4228-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T27"
+      },
+      {
+        "text": "R. 4228-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T28"
+      },
+      {
+        "text": "R. 4228-29",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T29"
+      },
+      {
+        "text": "R. 4228-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T26"
+      },
+      {
+        "text": "R. 4228-31",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T31"
+      },
+      {
+        "text": "R. 4228-32",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T32"
+      },
+      {
+        "text": "R. 4228-33",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T33"
+      },
+      {
+        "text": "R. 4228-34",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T34"
+      },
+      {
+        "text": "R. 4228-35",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4228_26a37.php?id=R4228T35"
+      },
+      {
+        "text": "R. 4227-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_01a03.php?id=R4227T1"
+      },
+      {
+        "text": "R. 4227-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_01a03.php?id=R4227T2"
+      },
+      {
+        "text": "R. 4227-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_01a03.php?id=R4227T3"
+      },
+      {
+        "text": "R. 4227-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T4"
+      },
+      {
+        "text": "R. 4227-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T5"
+      },
+      {
+        "text": "R. 4227-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T8"
+      },
+      {
+        "text": "R. 4227-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T7"
+      },
+      {
+        "text": "R. 4227-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T6"
+      },
+      {
+        "text": "R. 4227-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T9"
+      },
+      {
+        "text": "R. 4227-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T10"
+      },
+      {
+        "text": "R. 4227-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T11"
+      },
+      {
+        "text": "R. 4227-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T12"
+      },
+      {
+        "text": "R. 4227-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T13"
+      },
+      {
+        "text": "R. 4227-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_04a14.php?id=R4227T14"
+      },
+      {
+        "text": "R. 4227-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T15"
+      },
+      {
+        "text": "R. 4227-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T16"
+      },
+      {
+        "text": "R. 4227-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T18"
+      },
+      {
+        "text": "R. 4227-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T17"
+      },
+      {
+        "text": "R. 4227-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T19"
+      },
+      {
+        "text": "R. 4227-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_15a20.php?id=R4227T20"
+      },
+      {
+        "text": "R. 4227-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T21"
+      },
+      {
+        "text": "R. 4227-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T22"
+      },
+      {
+        "text": "R. 4227-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T24"
+      },
+      {
+        "text": "R. 4227-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T25"
+      },
+      {
+        "text": "R. 4227-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T26"
+      },
+      {
+        "text": "R. 4227-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_21a27.php?id=R4227T27"
+      },
+      {
+        "text": "R. 4227-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T28"
+      },
+      {
+        "text": "R. 4227-29",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T29"
+      },
+      {
+        "text": "R. 4227-30",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T30"
+      },
+      {
+        "text": "R. 4227-31",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T31"
+      },
+      {
+        "text": "R. 4227-32",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T32"
+      },
+      {
+        "text": "R. 4227-33",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_28a33.php?id=R4227T33"
+      },
+      {
+        "text": "R. 4227-34",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_34a36.php?id=R4227T34"
+      },
+      {
+        "text": "R. 4227-35",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_34a36.php?id=R4227T35"
+      },
+      {
+        "text": "R. 4227-36",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_34a36.php?id=R4227T36"
+      },
+      {
+        "text": "R. 4227-41",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T41"
+      },
+      {
+        "text": "R. 4227-37",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T37"
+      },
+      {
+        "text": "R. 4227-38",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T38"
+      },
+      {
+        "text": "R. 4227-39",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T39"
+      },
+      {
+        "text": "R. 4227-40",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_37a41.php?id=R4227T40"
+      },
+      {
+        "text": "R. 4227-42",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T42"
+      },
+      {
+        "text": "R. 4227-43",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T43"
+      },
+      {
+        "text": "R. 4227-44",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T44"
+      },
+      {
+        "text": "R. 4227-45",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T45"
+      },
+      {
+        "text": "R. 4227-46",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T46"
+      },
+      {
+        "text": "R. 4227-47",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T47"
+      },
+      {
+        "text": "R. 4227-48",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T48"
+      },
+      {
+        "text": "R. 4227-49",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T49"
+      },
+      {
+        "text": "R. 4227-50",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T50"
+      },
+      {
+        "text": "R. 4227-51",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T51"
+      },
+      {
+        "text": "R. 4227-52",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T52"
+      },
+      {
+        "text": "R. 4227-53",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T53"
+      },
+      {
+        "text": "R. 4227-54",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_42a54.php?id=R4227T54"
+      },
+      {
+        "text": "R. 4721-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_04a05.php?id=R4721T5"
+      },
+      {
+        "text": "R. 4227-55",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_55a57.php?id=R4227T55"
+      },
+      {
+        "text": "R. 4227-56",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_55a57.php?id=R4227T56"
+      },
+      {
+        "text": "R. 4227-57",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4227_55a57.php?id=R4227T57"
+      },
+      {
+        "text": "R. 4211-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4211_01a02.php?id=R4211T1"
+      },
+      {
+        "text": "R. 4213-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_01a04.php?id=R4213T2"
+      },
+      {
+        "text": "R. 4213-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_01a04.php?id=R4213T3"
+      },
+      {
+        "text": "R. 4213-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_01a04.php?id=R4213T4"
+      },
+      {
+        "text": "R. 4212-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T1"
+      },
+      {
+        "text": "R. 4212-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T2"
+      },
+      {
+        "text": "R. 4212-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T3"
+      },
+      {
+        "text": "R. 4212-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T4"
+      },
+      {
+        "text": "R. 4212-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T5"
+      },
+      {
+        "text": "R. 4212-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T6"
+      },
+      {
+        "text": "R. 4212-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4212_01a07.php?id=R4212T7"
+      },
+      {
+        "text": "R. 4213-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_07a09.php?id=R4213T7"
+      },
+      {
+        "text": "R. 4213-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_07a09.php?id=R4213T8"
+      },
+      {
+        "text": "R. 4213-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_05a06.php?id=R4213T5"
+      },
+      {
+        "text": "R. 4213-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_05a06.php?id=R4213T6"
+      },
+      {
+        "text": "R. 4217-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4217_01a02.php?id=R4217T1"
+      },
+      {
+        "text": "R. 4217-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4217_01a02.php?id=R4217T2"
+      },
+      {
+        "text": "R. 4217-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4217_01a02.php?id=R4217T2"
+      },
+      {
+        "text": "R. 4214-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T1"
+      },
+      {
+        "text": "R. 4214-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T2"
+      },
+      {
+        "text": "R. 4214-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T3"
+      },
+      {
+        "text": "R. 4214-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T4"
+      },
+      {
+        "text": "R. 4215-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4215_01a02.php?id=R4215T1"
+      },
+      {
+        "text": "R. 4214-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T5"
+      },
+      {
+        "text": "R. 4214-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T6"
+      },
+      {
+        "text": "R. 4214-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T7"
+      },
+      {
+        "text": "R. 4214-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_01a08.php?id=R4214T8"
+      },
+      {
+        "text": "R. 4214-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T9"
+      },
+      {
+        "text": "R. 4214-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T10"
+      },
+      {
+        "text": "R. 4214-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T11"
+      },
+      {
+        "text": "R. 4214-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T12"
+      },
+      {
+        "text": "R. 4214-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T14"
+      },
+      {
+        "text": "R. 4214-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T15"
+      },
+      {
+        "text": "R. 4214-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T16"
+      },
+      {
+        "text": "R. 4214-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_18a21.php?id=R4214T18"
+      },
+      {
+        "text": "R. 4214-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_18a21.php?id=R4214T18"
+      },
+      {
+        "text": "R. 4214-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_18a21.php?id=R4214T20"
+      },
+      {
+        "text": "R. 4214-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_18a21.php?id=R4214T21"
+      },
+      {
+        "text": "R. 4214-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_22a25.php?id=R4214T22"
+      },
+      {
+        "text": "R. 4214-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_22a25.php?id=R4214T23"
+      },
+      {
+        "text": "R. 4214-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_26a28.php?id=R4214T26"
+      },
+      {
+        "text": "R. 4214-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_26a28.php?id=R4214T27"
+      },
+      {
+        "text": "R. 4214-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_26a28.php?id=R4214T28"
+      },
+      {
+        "text": "R. 4214-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_09a17.php?id=R4214T17"
+      },
+      {
+        "text": "R. 4214-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_22a25.php?id=R4214T24"
+      },
+      {
+        "text": "R. 4214-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4214_22a25.php?id=R4214T25"
+      },
+      {
+        "text": "R. 4216-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_01a04.php?id=R4216T2"
+      },
+      {
+        "text": "R. 4216-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_01a04.php?id=R4216T3"
+      },
+      {
+        "text": "R. 4216-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_01a04.php?id=R4216T4"
+      },
+      {
+        "text": "R. 4216-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T6"
+      },
+      {
+        "text": "R. 4216-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T5"
+      },
+      {
+        "text": "R. 4216-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T8"
+      },
+      {
+        "text": "R. 4216-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T9"
+      },
+      {
+        "text": "R. 4216-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T10"
+      },
+      {
+        "text": "R. 4216-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T11"
+      },
+      {
+        "text": "R. 4216-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_05a12.php?id=R4216T12"
+      },
+      {
+        "text": "R. 4216-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_13a16.php?id=R4216T13"
+      },
+      {
+        "text": "R. 4216-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_13a16.php?id=R4216T14"
+      },
+      {
+        "text": "R. 4216-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_13a16.php?id=R4216T15"
+      },
+      {
+        "text": "R. 4216-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_13a16.php?id=R4216T16"
+      },
+      {
+        "text": "R. 4216-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_17a20.php?id=R4216T18"
+      },
+      {
+        "text": "R. 4216-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_17a20.php?id=R4216T19"
+      },
+      {
+        "text": "R. 4216-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_17a20.php?id=R4216T20"
+      },
+      {
+        "text": "R. 4216-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_21a23.php?id=R4216T21"
+      },
+      {
+        "text": "R. 4216-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T24"
+      },
+      {
+        "text": "R. 4216-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T24"
+      },
+      {
+        "text": "R. 4216-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T25"
+      },
+      {
+        "text": "R. 4216-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T26"
+      },
+      {
+        "text": "R. 4216-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T27"
+      },
+      {
+        "text": "R. 4216-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T28"
+      },
+      {
+        "text": "R. 4216-29",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_24a29.php?id=R4216T29"
+      },
+      {
+        "text": "R. 4216-30",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_30.php?id=R4216T30"
+      },
+      {
+        "text": "R. 4216-31",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_31.php?id=R4216T31"
+      },
+      {
+        "text": "R. 4216-32",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_32a34.php?id=R4216T32"
+      },
+      {
+        "text": "R. 4216-33",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_32a34.php?id=R4216T33"
+      },
+      {
+        "text": "R. 4216-34",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4216_32a34.php?id=R4216T34"
+      },
+      {
+        "text": "R. 4211-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4211_03a05.php?id=R4211T3"
+      },
+      {
+        "text": "R. 4211-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4211_03a05.php?id=R4211T4"
+      },
+      {
+        "text": "R. 4211-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4211_03a05.php?id=R4211T5"
+      },
+      {
+        "text": "R. 4613-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_01a04.php?id=R4613T1"
+      },
+      {
+        "text": "R. 4613-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_01a04.php?id=R4613T3"
+      },
+      {
+        "text": "R. 4613-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_01a04.php?id=R4613T4"
+      },
+      {
+        "text": "R. 4613-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4213_07a09.php?id=R4213T7"
+      },
+      {
+        "text": "R. 4613-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_05a08.php?id=R4613T6"
+      },
+      {
+        "text": "R. 4613-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_09a12.php?id=R4613T12"
+      },
+      {
+        "text": "R. 4613-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_09a12.php?id=R4613T12"
+      },
+      {
+        "text": "R. 4614-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_02a05.php?id=R4614T2"
+      },
+      {
+        "text": "R. 4613-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_05a08.php?id=R4613T5"
+      },
+      {
+        "text": "R. 4613-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4613_05a08.php?id=R4613T8"
+      },
+      {
+        "text": "R. 4614-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_02a05.php?id=R4614T3"
+      },
+      {
+        "text": "R. 4614-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_02a05.php?id=R4614T4"
+      },
+      {
+        "text": "R. 4612-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4612_01a02.php?id=R4612T2"
+      },
+      {
+        "text": "R. 4614-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_02a05.php?id=R4614T4"
+      },
+      {
+        "text": "R. 4612-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4612_03a06.php?id=R4612T3"
+      },
+      {
+        "text": "R. 4612-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4612_03a06.php?id=R4612T4"
+      },
+      {
+        "text": "R. 4612-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4612_03a06.php?id=R4612T5"
+      },
+      {
+        "text": "R. 4612-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4612_03a06.php?id=R4612T6"
+      },
+      {
+        "text": "R. 4614-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_02a05.php?id=R4614T5"
+      },
+      {
+        "text": "R. 4614-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T20"
+      },
+      {
+        "text": "R. 4614-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_21a24.php?id=R4614T21"
+      },
+      {
+        "text": "R. 4614-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_21a24.php?id=R4614T22"
+      },
+      {
+        "text": "R. 4614-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_21a24.php?id=R4614T23"
+      },
+      {
+        "text": "R. 4614-31",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_30a32.php?id=R4614T31"
+      },
+      {
+        "text": "R. 4614-30",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_30a32.php?id=R4614T30"
+      },
+      {
+        "text": "R. 4614-32",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_30a32.php?id=R4614T32"
+      },
+      {
+        "text": "R. 4614-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_25a29.php?id=R4614T26"
+      },
+      {
+        "text": "R. 4614-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_25a29.php?id=R4614T27"
+      },
+      {
+        "text": "R. 4614-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_25a29.php?id=R4614T28"
+      },
+      {
+        "text": "R. 4614-29",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_25a29.php?id=R4614T29"
+      },
+      {
+        "text": "R. 4614-36",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_33a36.php?id=R4614T36"
+      },
+      {
+        "text": "R. 4614-33",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_33a36.php?id=R4614T33"
+      },
+      {
+        "text": "R. 4614-34",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_33a36.php?id=R4614T34"
+      },
+      {
+        "text": "R. 4614-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_21a24.php?id=R4614T24"
+      },
+      {
+        "text": "R. 4614-24",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_21a24.php?id=R4614T24"
+      },
+      {
+        "text": "R. 4614-36",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_33a36.php?id=R4614T36"
+      },
+      {
+        "text": "R. 4615-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T3"
+      },
+      {
+        "text": "R. 4615-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T4"
+      },
+      {
+        "text": "R. 4615-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_09a11.php?id=R4615T9"
+      },
+      {
+        "text": "R. 4615-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_09a11.php?id=R4615T11"
+      },
+      {
+        "text": "R. 4615-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_12a13.php?id=R4615T12"
+      },
+      {
+        "text": "R. 4615-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_09a11.php?id=R4615T10"
+      },
+      {
+        "text": "R. 4615-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T5"
+      },
+      {
+        "text": "R. 4615-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T6"
+      },
+      {
+        "text": "R. 4615-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T7"
+      },
+      {
+        "text": "R. 4615-13 §2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_12a13.php?id=R4615T13"
+      },
+      {
+        "text": "R. 4615-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_03a08.php?id=R4615T8"
+      },
+      {
+        "text": "R. 4615-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T14"
+      },
+      {
+        "text": "R. 4615-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T16"
+      },
+      {
+        "text": "R. 4615-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T17"
+      },
+      {
+        "text": "R. 4615-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T18"
+      },
+      {
+        "text": "R. 4615-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T15"
+      },
+      {
+        "text": "R. 4615-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T19"
+      },
+      {
+        "text": "R. 4615-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T20"
+      },
+      {
+        "text": "R. 4615-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4615_14a21.php?id=R4615T21"
+      },
+      {
+        "text": "R. 4614-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T6"
+      },
+      {
+        "text": "R. 4614-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T7"
+      },
+      {
+        "text": "R. 4614-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T8"
+      },
+      {
+        "text": "R. 4614-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T9"
+      },
+      {
+        "text": "R. 4614-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T10"
+      },
+      {
+        "text": "R. 4614-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T11"
+      },
+      {
+        "text": "R. 4614-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T12"
+      },
+      {
+        "text": "R. 4614-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T13"
+      },
+      {
+        "text": "R. 4614-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T14"
+      },
+      {
+        "text": "R. 4614-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T15"
+      },
+      {
+        "text": "R. 4614-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T16"
+      },
+      {
+        "text": "R. 4614-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4614_06a20.php?id=R4614T17"
+      },
+      {
+        "text": "R. 4511-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_01a04.php?id=R4511T1"
+      },
+      {
+        "text": "R. 4511-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_01a04.php?id=R4511T2"
+      },
+      {
+        "text": "R. 4511-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_01a04.php?id=R4511T3"
+      },
+      {
+        "text": "R. 4511-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_01a04.php?id=R4511T4"
+      },
+      {
+        "text": "R. 4511-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T5"
+      },
+      {
+        "text": "R. 4511-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T6"
+      },
+      {
+        "text": "R. 4511-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T7"
+      },
+      {
+        "text": "R. 4511-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T8"
+      },
+      {
+        "text": "R. 4511-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T9"
+      },
+      {
+        "text": "R. 4511-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T10"
+      },
+      {
+        "text": "R. 4511-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T11"
+      },
+      {
+        "text": "R. 4511-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4511_05a12.php?id=R4511T12"
+      },
+      {
+        "text": "R. 4512-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_02a05.php?id=R4512T2"
+      },
+      {
+        "text": "R. 4512-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_01.php?id=R4512T1"
+      },
+      {
+        "text": "R. 4512-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_02a05.php?id=R4512T3"
+      },
+      {
+        "text": "R. 4512-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_02a05.php?id=R4512T4"
+      },
+      {
+        "text": "R. 4512-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_02a05.php?id=R4512T5"
+      },
+      {
+        "text": "R. 4512-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T6"
+      },
+      {
+        "text": "R. 4512-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T8"
+      },
+      {
+        "text": "R. 4512-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T9"
+      },
+      {
+        "text": "R. 4512-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T10"
+      },
+      {
+        "text": "R. 4512-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T7"
+      },
+      {
+        "text": "R. 4512-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_06a12.php?id=R4512T12"
+      },
+      {
+        "text": "R. 4512-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_13a14.php?id=R4512T13"
+      },
+      {
+        "text": "R. 4512-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_13a14.php?id=R4512T14"
+      },
+      {
+        "text": "R. 4512-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_15a16.php?id=R4512T15"
+      },
+      {
+        "text": "R. 4512-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4512_15a16.php?id=R4512T16"
+      },
+      {
+        "text": "R. 4513-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T1"
+      },
+      {
+        "text": "R. 4513-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T2"
+      },
+      {
+        "text": "R. 4513-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T3"
+      },
+      {
+        "text": "R. 4513-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T4"
+      },
+      {
+        "text": "R. 4513-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T5"
+      },
+      {
+        "text": "R. 4513-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T6"
+      },
+      {
+        "text": "R. 4513-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_01a07.php?id=R4513T7"
+      },
+      {
+        "text": "R. 4513-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_08.php?id=R4513T8"
+      },
+      {
+        "text": "R. 4513-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_09a13.php?id=R4513T9"
+      },
+      {
+        "text": "R. 4513-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_09a13.php?id=R4513T10"
+      },
+      {
+        "text": "R. 4513-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_09a13.php?id=R4513T11"
+      },
+      {
+        "text": "R. 4513-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_09a13.php?id=R4513T12"
+      },
+      {
+        "text": "R. 4513-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4513_09a13.php?id=R4513T13"
+      },
+      {
+        "text": "R. 4514-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_01a05.php?id=R4514T1"
+      },
+      {
+        "text": "R. 4514-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_01a05.php?id=R4514T2"
+      },
+      {
+        "text": "R. 4514-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_01a05.php?id=R4514T3"
+      },
+      {
+        "text": "R. 4514-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_01a05.php?id=R4514T4"
+      },
+      {
+        "text": "R. 4514-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_01a05.php?id=R4514T5"
+      },
+      {
+        "text": "R. 4514-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_06a07.php?id=R4514T6"
+      },
+      {
+        "text": "R. 4514-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_06a07.php?id=R4514T7"
+      },
+      {
+        "text": "R. 4514-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_08a10.php?id=R4514T8"
+      },
+      {
+        "text": "R. 4514-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_08a10.php?id=R4514T9"
+      },
+      {
+        "text": "R. 4514-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4514_08a10.php?id=R4514T10"
+      },
+      {
+        "text": "R. 4532-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_02a03.php?id=R4532T2"
+      },
+      {
+        "text": "R. 4532-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_02a03.php?id=R4532T3"
+      },
+      {
+        "text": "R. 4532-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T10"
+      },
+      {
+        "text": "R. 4532-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T4"
+      },
+      {
+        "text": "R. 4532-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T5"
+      },
+      {
+        "text": "R. 4532-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T17"
+      },
+      {
+        "text": "R. 4532-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T18"
+      },
+      {
+        "text": "R. 4532-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T19"
+      },
+      {
+        "text": "R. 4532-29",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T29"
+      },
+      {
+        "text": "R. 4532-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_01.php?id=R4532T1"
+      },
+      {
+        "text": "R. 4532-23",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T23"
+      },
+      {
+        "text": "R. 4532-25",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T25"
+      },
+      {
+        "text": "R. 4532-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T26"
+      },
+      {
+        "text": "R. 4532-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T27"
+      },
+      {
+        "text": "R. 4532-28",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T28"
+      },
+      {
+        "text": "R. 4532-34",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T34"
+      },
+      {
+        "text": "R. 4532-35",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T35"
+      },
+      {
+        "text": "R. 4532-36",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T36"
+      },
+      {
+        "text": "R. 4532-30",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T30"
+      },
+      {
+        "text": "R. 4532-31",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T31"
+      },
+      {
+        "text": "R. 4532-32",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T32"
+      },
+      {
+        "text": "R. 4532-33",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T33"
+      },
+      {
+        "text": "R. 4532-37",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T37"
+      },
+      {
+        "text": "R. 4532-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T20"
+      },
+      {
+        "text": "R. 4532-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T21"
+      },
+      {
+        "text": "R. 4532-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T22"
+      },
+      {
+        "text": "R. 4532-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T6"
+      },
+      {
+        "text": "R. 4532-8",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T8"
+      },
+      {
+        "text": "R. 4532-9",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_04a10.php?id=R4532T9"
+      },
+      {
+        "text": "R. 4532-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T12"
+      },
+      {
+        "text": "R. 4532-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T13"
+      },
+      {
+        "text": "R. 4532-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T14"
+      },
+      {
+        "text": "R. 4532-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T15"
+      },
+      {
+        "text": "R. 4532-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_11a37.php?id=R4532T16"
+      },
+      {
+        "text": "R. 4532-38",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_38a41.php?id=R4532T38"
+      },
+      {
+        "text": "R. 4532-39",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_38a41.php?id=R4532T39"
+      },
+      {
+        "text": "R. 4532-40",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_38a41.php?id=R4532T40"
+      },
+      {
+        "text": "R. 4532-41",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_38a41.php?id=R4532T41"
+      },
+      {
+        "text": "R. 4532-42",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T42"
+      },
+      {
+        "text": "R. 4532-43",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T43"
+      },
+      {
+        "text": "R. 4532-44",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T44"
+      },
+      {
+        "text": "R. 4532-45",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T45"
+      },
+      {
+        "text": "R. 4532-47",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T47"
+      },
+      {
+        "text": "R. 4532-49",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T49"
+      },
+      {
+        "text": "R. 4532-51",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_42a51.php?id=R4532T51"
+      },
+      {
+        "text": "R. 4532-52",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_52a55.php?id=R4532T52"
+      },
+      {
+        "text": "R. 4532-54",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_52a55.php?id=R4532T54"
+      },
+      {
+        "text": "R. 4532-55",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_52a55.php?id=R4532T55"
+      },
+      {
+        "text": "R. 4532-57",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T57"
+      },
+      {
+        "text": "R. 4532-56",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T56"
+      },
+      {
+        "text": "R. 4532-58",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T58"
+      },
+      {
+        "text": "R. 4532-59",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T59"
+      },
+      {
+        "text": "R. 4532-60",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T60"
+      },
+      {
+        "text": "R. 4532-61",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T61"
+      },
+      {
+        "text": "R. 4532-62",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T62"
+      },
+      {
+        "text": "R. 4532-63",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T63"
+      },
+      {
+        "text": "R. 4532-64",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T64"
+      },
+      {
+        "text": "R. 4532-67",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T67"
+      },
+      {
+        "text": "R. 4532-66",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T66"
+      },
+      {
+        "text": "R. 4532-69",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T69"
+      },
+      {
+        "text": "R. 4532-70",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T70"
+      },
+      {
+        "text": "R. 4532-71",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T71"
+      },
+      {
+        "text": "R. 4532-72",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T72"
+      },
+      {
+        "text": "R. 4532-73",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T73"
+      },
+      {
+        "text": "R. 4532-74",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_56a74.php?id=R4532T74"
+      },
+      {
+        "text": "R. 4532-75",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_75a76.php?id=R4532T75"
+      },
+      {
+        "text": "R. 4532-76",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_75a76.php?id=R4532T76"
+      },
+      {
+        "text": "R. 4532-95",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_95a98.php?id=R4532T95"
+      },
+      {
+        "text": "R. 4532-96",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_95a98.php?id=R4532T96"
+      },
+      {
+        "text": "R. 4532-97",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_95a98.php?id=R4532T97"
+      },
+      {
+        "text": "R. 4532-98",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_95a98.php?id=R4532T98"
+      },
+      {
+        "text": "R. 4533-1",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_01a05.php?id=R4533T1"
+      },
+      {
+        "text": "R. 4533-2",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_01a05.php?id=R4533T2"
+      },
+      {
+        "text": "R. 4533-3",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_01a05.php?id=R4533T3"
+      },
+      {
+        "text": "R. 4533-4",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_01a05.php?id=R4533T4"
+      },
+      {
+        "text": "R. 4533-5",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_01a05.php?id=R4533T5"
+      },
+      {
+        "text": "R. 4533-6",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_06a07.php?id=R4533T6"
+      },
+      {
+        "text": "R. 4533-7",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4533_06a07.php?id=R4533T7"
+      },
+      {
+        "text": "R. 4532-77",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_77.php?id=R4532T77"
+      },
+      {
+        "text": "R. 4532-80",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_78a83.php?id=R4532T80"
+      },
+      {
+        "text": "R. 4532-82",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_78a83.php?id=R4532T82"
+      },
+      {
+        "text": "R. 4532-83",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_78a83.php?id=R4532T83"
+      },
+      {
+        "text": "R. 4532-84",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T84"
+      },
+      {
+        "text": "R. 4532-85",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T85"
+      },
+      {
+        "text": "R. 4532-86",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T86"
+      },
+      {
+        "text": "R. 4532-87",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T87"
+      },
+      {
+        "text": "R. 4532-88",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T88"
+      },
+      {
+        "text": "R. 4532-89",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T89"
+      },
+      {
+        "text": "R. 4532-90",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T90"
+      },
+      {
+        "text": "R. 4532-91",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T91"
+      },
+      {
+        "text": "R. 4532-92",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T92"
+      },
+      {
+        "text": "R. 4532-93",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T93"
+      },
+      {
+        "text": "R. 4532-94",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4532_84a94.php?id=R4532T94"
+      },
+      {
+        "text": "R. 4721-05",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_04a05.php?id=R4721T5"
+      },
+      {
+        "text": "R. 4721-07",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_06a10.php?id=R4721T7"
+      },
+      {
+        "text": "R. 4721-08",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_06a10.php?id=R4721T8"
+      },
+      {
+        "text": "R. 4721-09",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_06a10.php?id=R4721T9"
+      },
+      {
+        "text": "R. 4721-06",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_06a10.php?id=R4721T6"
+      },
+      {
+        "text": "R. 4721-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_06a10.php?id=R4721T10"
+      },
+      {
+        "text": "R. 4722-19",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_18a19.php?id=R4722T19"
+      },
+      {
+        "text": "R. 4724-01",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_01.php?id=R4724T1"
+      },
+      {
+        "text": "R. 4724-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T18"
+      },
+      {
+        "text": "R. 4722-20",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_20a21-1.php?id=R4722T20"
+      },
+      {
+        "text": "R. 4722-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T27"
+      },
+      {
+        "text": "R. 4722-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_16a17.php?id=R4722T17"
+      },
+      {
+        "text": "R. 4724-01",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_01.php?id=R4724T1"
+      },
+      {
+        "text": "R. 4724-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T18"
+      },
+      {
+        "text": "R. 4722-18",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_18a19.php?id=R4722T18"
+      },
+      {
+        "text": "R. 4722-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T27"
+      },
+      {
+        "text": "R. 4721-02",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_01a03.php?id=R4721T2"
+      },
+      {
+        "text": "R. 4723-01",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4723_01a06.php?id=R4723T1"
+      },
+      {
+        "text": "R. 4723-02",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4723_01a06.php?id=R4723T2"
+      },
+      {
+        "text": "R. 4723-03",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4723_01a06.php?id=R4723T3"
+      },
+      {
+        "text": "R. 4724-10",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T10"
+      },
+      {
+        "text": "R. 4724-08",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T8"
+      },
+      {
+        "text": "R. 4724-09",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T9"
+      },
+      {
+        "text": "R. 4724-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T11"
+      },
+      {
+        "text": "R. 4724-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T12"
+      },
+      {
+        "text": "R. 4724-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_08a13.php?id=R4724T13"
+      },
+      {
+        "text": "R. 4724-06",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_06a07.php?id=R4724T6"
+      },
+      {
+        "text": "R. 4724-07",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_06a07.php?id=R4724T7"
+      },
+      {
+        "text": "R. 4722-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_09a11.php?id=R4722T11"
+      },
+      {
+        "text": "R. 4722-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T26"
+      },
+      {
+        "text": "R. 4722-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_12a13.php?id=R4722T12"
+      },
+      {
+        "text": "R. 4723-05",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4723_01a06.php?id=R4723T5"
+      },
+      {
+        "text": "R. 4722-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_16a17.php?id=R4722T16"
+      },
+      {
+        "text": "R. 4722-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T27"
+      },
+      {
+        "text": "R. 4722-15",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_14a15.php?id=R4722T15"
+      },
+      {
+        "text": "R. 4724-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_14.php?id=R4724T14"
+      },
+      {
+        "text": "R. 4722-21",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_20a21-1.php?id=R4722T21"
+      },
+      {
+        "text": "R. 4722-22",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_22a24.php?id=R4722T22"
+      },
+      {
+        "text": "R. 4722-27",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T27"
+      },
+      {
+        "text": "R. 4722-01",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_01a02.php?id=R4722T1"
+      },
+      {
+        "text": "R. 4722-13",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_12a13.php?id=R4722T13"
+      },
+      {
+        "text": "R. 4722-02",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_01a02.php?id=R4722T2"
+      },
+      {
+        "text": "R. 4722-14",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_14a15.php?id=R4722T14"
+      },
+      {
+        "text": "R. 4722-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T26"
+      },
+      {
+        "text": "R. 4724-03",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_02a03.php?id=R4724T3"
+      },
+      {
+        "text": "R. 4724-02",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_02a03.php?id=R4724T2"
+      },
+      {
+        "text": "R. 4722-03",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_03a04.php?id=R4722T3"
+      },
+      {
+        "text": "R. 4722-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T26"
+      },
+      {
+        "text": "R. 4722-04",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_03a04.php?id=R4722T4"
+      },
+      {
+        "text": "R. 4724-16",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T16"
+      },
+      {
+        "text": "R. 4724-17",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_16a18.php?id=R4724T17"
+      },
+      {
+        "text": "R. 4721-05",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_04a05.php?id=R4721T5"
+      },
+      {
+        "text": "R. 4721-11",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_11a12.php?id=R4721T11"
+      },
+      {
+        "text": "R. 4721-12",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_11a12.php?id=R4721T12"
+      },
+      {
+        "text": "R. 4721-05",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4721_04a05.php?id=R4721T5"
+      },
+      {
+        "text": "R. 4722-06",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_05a08.php?id=R4722T6"
+      },
+      {
+        "text": "R. 4724-04",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_04a05.php?id=R4724T4"
+      },
+      {
+        "text": "R. 4724-05",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4724_04a05.php?id=R4724T5"
+      },
+      {
+        "text": "R. 4722-26",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_26a28.php?id=R4722T26"
+      },
+      {
+        "text": "R. 4722-07",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_05a08.php?id=R4722T7"
+      },
+      {
+        "text": "R. 4722-08",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_05a08.php?id=R4722T8"
+      },
+      {
+        "text": "R. 4722-09",
+        "url": "https://sitesecurite.com/contenu/_codes/cdt/r4722_09a11.php?id=R4722T9"
+      },
+      {
+        "text": "Document unique R. 4121 et R. 4741",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=document-unique"
+      },
+      {
+        "text": "Droit de retrait D. 4131 et L. 4131",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=retrait"
+      },
+      {
+        "text": "Information et formation R. 4141 à 4143",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-sante-securite.php?id=information"
+      },
+      {
+        "text": "Conception des lieux de travail R. 4211 à 4217",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-lieux-travail.php?id=accdct_id000"
+      },
+      {
+        "text": "Utilisation des lieux de travail R. 4221 à 4228",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-utilisation-lieux.php?id=accdct_id000"
+      },
+      {
+        "text": "Travaux par entreprise extérieures R. 4511 à 4514",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-entreprises-exterieures.php?id=travaux"
+      },
+      {
+        "text": "Coordination de chantier R. 4532 à 4533",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-entreprises-exterieures.php?id=operations"
+      },
+      {
+        "text": "Contrôle R. 4711 à 4724",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-controle.php?id=accdct_id000"
+      },
+      {
+        "text": "Accès par thèmes",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-textes-satellites.php"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-travail.php"
+      },
+      {
+        "text": "Textes classés par année",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-textes-satellites-par-annee.php"
+      },
+      {
+        "text": "Tableau de correspondance",
+        "url": "https://sitesecurite.com/contenu/portail/ert/ert-tableau-correspondance.php"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://sitesecurite.com/portail-ert.php",
+  "title": "SiteSecurite | Portail ERT",
+  "description": "",
+  "h1": "ERT / Établissements recevant des travailleurs",
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Les dernières actualités :"
+    },
+    {
+      "tag": "h2",
+      "text": "Parlons-Securite-Incendie.fr :"
+    },
+    {
+      "tag": "h2",
+      "text": "Nos ouvrages à la une :"
+    },
+    {
+      "tag": "h3",
+      "text": "Registre de sécurité Moyens de secours - Établissements du Code du travail - Format Broché"
+    },
+    {
+      "tag": "h3",
+      "text": "Registre de sécurité Moyens de secours - Établissements du Code du travail - Format Classeur"
+    },
+    {
+      "tag": "h3",
+      "text": "Carnet de permis de feu par 50"
+    },
+    {
+      "tag": "h3",
+      "text": "Carnet de permis de feu par 100 (2 fois 50 ou assemblé à la demande)"
+    },
+    {
+      "tag": "h3",
+      "text": "→ Voir tous nos livres"
+    }
+  ],
+  "paragraphs": [],
+  "links": [
+    {
+      "text": "Voir plus",
+      "url": "https://sitesecurite.com/news/actualites.php#ERT"
+    },
+    {
+      "text": "Registre de sécurité Moyens de secours - Établissements du Code du travail - Format Broché",
+      "url": "https://franceselection.fr/registres-et-formulaires/64-registre-de-securite-etablissements-du-code-du-travail-moyens-de-secours.html"
+    },
+    {
+      "text": "Registre de sécurité Moyens de secours - Établissements du Code du travail - Format Classeur",
+      "url": "https://franceselection.fr/registres-et-formulaires/64-registre-de-securite-etablissements-du-code-du-travail-moyens-de-secours.html#/format-classeur"
+    },
+    {
+      "text": "Carnet de permis de feu par 50",
+      "url": "https://franceselection.fr/registres-et-formulaires/75-carnet-de-permis-de-feu.html"
+    },
+    {
+      "text": "Carnet de permis de feu par 100 (2 fois 50 ou assemblé à la demande)",
+      "url": "https://franceselection.fr/registres-et-formulaires/76-carnet-de-permis-de-feu.html"
+    },
+    {
+      "text": "→ Voir tous nos livres",
+      "url": "https://franceselection.fr/62-registres-code-du-travail"
+    }
+  ]
+}

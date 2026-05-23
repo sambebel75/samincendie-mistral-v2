@@ -1,0 +1,504 @@
+{
+  "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php",
+  "extracted_at": "2026-05-19T14:16:10.864Z",
+  "content": {
+    "title": "Questions parlementaires ERP",
+    "headings": {
+      "h1": [
+        "ERP / Établissements Recevant du Public",
+        ""
+      ],
+      "h2": [
+        "Questions parlementaires",
+        "Tableau de bord ERP"
+      ],
+      "h3": [
+        "ERP",
+        "IGH / IMH",
+        "HAB",
+        "BUP / ERT",
+        "ICPE",
+        "Autres"
+      ]
+    },
+    "paragraphs": [
+      "Navigation rapide entre les différentes thématiques :",
+      "Dispositions réglementaires",
+      "Communes (1re à 5e cat.) :",
+      "Générales (1re à 4e cat.) :",
+      "Particulières (1re à 4e cat.) :",
+      "Dispositions regroupées",
+      "Gales + Particulières :",
+      "Instructions techniques",
+      "Autres textes de référence :",
+      "Réglementations antérieures\n             :"
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "ERP\n            Établissements recevant du public",
+        "url": "https://sitesecurite.com/portail-erp.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "IGH / IMH\n            Immeubles de grande et moyenne hauteur",
+        "url": "https://sitesecurite.com/portail-igh.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "HAB\n            Bâtiments d'habitation",
+        "url": "https://sitesecurite.com/portail-hab.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "BUP / ERT\n            Bâtiments à usage professionnel",
+        "url": "https://sitesecurite.com/portail-bup.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "ICPE\n            Installations classées pour la protection de l'environnement",
+        "url": "https://sitesecurite.com/portail-icpe.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "Autres\n            Campings, aires extérieures, grands rassemblements…",
+        "url": "https://sitesecurite.com/portail-divers.php"
+      },
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php#"
+      },
+      {
+        "text": "Questions parlementaires",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php?id="
+      },
+      {
+        "text": "GN",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-communes.php?id=accdct_GN"
+      },
+      {
+        "text": "GE",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GE"
+      },
+      {
+        "text": "CO",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_CO"
+      },
+      {
+        "text": "AM",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_AM"
+      },
+      {
+        "text": "DF",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_DF"
+      },
+      {
+        "text": "CH",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_CH"
+      },
+      {
+        "text": "GZ",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GZ"
+      },
+      {
+        "text": "EL",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_EL"
+      },
+      {
+        "text": "EC",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_EC"
+      },
+      {
+        "text": "AS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_AS"
+      },
+      {
+        "text": "GC",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_GC"
+      },
+      {
+        "text": "MS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-generales.php?id=accdct_MS"
+      },
+      {
+        "text": "Arrêté \"BOIS\"",
+        "url": "https://sitesecurite.com/contenu/portail/erp/tableau_bois.php"
+      },
+      {
+        "text": "J",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_J"
+      },
+      {
+        "text": "L",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_L"
+      },
+      {
+        "text": "M",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_M"
+      },
+      {
+        "text": "N",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_N"
+      },
+      {
+        "text": "O",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_O"
+      },
+      {
+        "text": "P",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_P"
+      },
+      {
+        "text": "R",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_R"
+      },
+      {
+        "text": "S",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_S"
+      },
+      {
+        "text": "T",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_T"
+      },
+      {
+        "text": "U",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_U"
+      },
+      {
+        "text": "V",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_V"
+      },
+      {
+        "text": "W",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_W"
+      },
+      {
+        "text": "X",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_X"
+      },
+      {
+        "text": "Y",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-particulieres.php?id=accdct_Y"
+      },
+      {
+        "text": "PE",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PE"
+      },
+      {
+        "text": "PO",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PO"
+      },
+      {
+        "text": "PU",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PU"
+      },
+      {
+        "text": "PX",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-5e-categorie.php?id=accdct_PX"
+      },
+      {
+        "text": "PA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_PA"
+      },
+      {
+        "text": "CTS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_CTS"
+      },
+      {
+        "text": "SG",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_SG"
+      },
+      {
+        "text": "OA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_OA"
+      },
+      {
+        "text": "REF",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_REF"
+      },
+      {
+        "text": "PS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_PS"
+      },
+      {
+        "text": "GA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_GA"
+      },
+      {
+        "text": "EF",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-dispositions-speciales.php?id=accdct_EF"
+      },
+      {
+        "text": "GEEM",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-grands-etablissements-exploitation-multiple.php"
+      },
+      {
+        "text": "EP",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-etablissements-penitentieres.php"
+      },
+      {
+        "text": "CRA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-centres_retention_administrative.php"
+      },
+      {
+        "text": "R. 143-15",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-etablissements-personnes-droit-public.php"
+      },
+      {
+        "text": "EIRP",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-itinerants.php"
+      },
+      {
+        "text": "J",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=j"
+      },
+      {
+        "text": "L",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=l"
+      },
+      {
+        "text": "M",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=m"
+      },
+      {
+        "text": "N",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=n"
+      },
+      {
+        "text": "O",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=o"
+      },
+      {
+        "text": "P",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=p"
+      },
+      {
+        "text": "R",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=r"
+      },
+      {
+        "text": "S",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=s"
+      },
+      {
+        "text": "T",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=t"
+      },
+      {
+        "text": "U",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=u"
+      },
+      {
+        "text": "V",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=v"
+      },
+      {
+        "text": "W",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=w"
+      },
+      {
+        "text": "X",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=x"
+      },
+      {
+        "text": "Y",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=y"
+      },
+      {
+        "text": "PA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=pa"
+      },
+      {
+        "text": "CTS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=cts"
+      },
+      {
+        "text": "SG",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=sg"
+      },
+      {
+        "text": "OA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=oa"
+      },
+      {
+        "text": "REF",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=ref"
+      },
+      {
+        "text": "PS",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=ps"
+      },
+      {
+        "text": "GA",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=ga"
+      },
+      {
+        "text": "EF",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-type.php?type=ef"
+      },
+      {
+        "text": "EP",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-ep.php"
+      },
+      {
+        "text": "Liste d'activités liées à chaque type d'ERP",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-liste-activites-type.php"
+      },
+      {
+        "text": "IT246",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it246"
+      },
+      {
+        "text": "IT247",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it247"
+      },
+      {
+        "text": "IT248",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it248"
+      },
+      {
+        "text": "IT249",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it249"
+      },
+      {
+        "text": "IT250",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it250"
+      },
+      {
+        "text": "IT263",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it263"
+      },
+      {
+        "text": "IT1975",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it16061975"
+      },
+      {
+        "text": "IT1976",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it01121976"
+      },
+      {
+        "text": "IT1980",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it24071980"
+      },
+      {
+        "text": "IT2006",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it06032006"
+      },
+      {
+        "text": "IT2009",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=it11122009"
+      },
+      {
+        "text": "IT PV",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-instructions-techniques.php?id=itpv"
+      },
+      {
+        "text": "Accès par thème",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-textes-satellites.php"
+      },
+      {
+        "text": "Codes",
+        "url": "https://sitesecurite.com/contenu/portail/code/code-construction-2021.php"
+      },
+      {
+        "text": "Textes satellites classés par année",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-textes-satellites-par-annee.php"
+      },
+      {
+        "text": "Jurisprudence",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-jurisprudence.php"
+      },
+      {
+        "text": "Questions parlementaires",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-questions-parlementaires.php?id=QE"
+      },
+      {
+        "text": "Historique ERP depuis 1954",
+        "url": "https://sitesecurite.com/contenu/portail/erp/erp-historique.php"
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "",
+      "keywords": "",
+      "canonical": ""
+    }
+  }
+}

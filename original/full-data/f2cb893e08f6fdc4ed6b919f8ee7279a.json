@@ -1,0 +1,118 @@
+{
+  "url": "https://sitesecurite.com/contenu/_igh/igh/ghtc_a08.php",
+  "extracted_at": "2026-05-19T14:10:08.385Z",
+  "content": {
+    "title": "SiteSecurite.com - IGH - GHTC - Tour de contrôle",
+    "headings": {
+      "h1": [],
+      "h2": [
+        "8.1 Distribution intérieure",
+        "8.2 Locaux à risques"
+      ],
+      "h3": []
+    },
+    "paragraphs": [
+      "Le fût de la tour est recoupé horizontalement par des planchers coupe-feu de degré deux heures, EI 120 ou REI 120, formant des compartiments dont la hauteur entre planchers est inférieure à 11 mètres. Toutefois, les compartiments ainsi formés comportent des planchers intermédiaires coupe-feu de degré une heure tous les 6 mètres maximum, EI 60 ou REI 60.",
+      "Les communications entre les locaux et les escaliers encloisonnés ou à l'air libre s'effectuent par des dispositifs d'intercommunication d'une surface comprise entre 3 et 6 mètres carrés, équipés de deux blocs-portes, pare-flammes de degré une demi-heure, munis de ferme-porte ou E 30-C.",
+      "Aucun local ne débouche directement dans le volume d'un escalier encloisonné ou à l'air libre.",
+      "8.1.2. Espace sous vigie",
+      "L'espace sous vigie constitue un compartiment dans lequel débouchent l'escalier et les ascenseurs venant du niveau d'accès de la tour et dans lequel prennent naissance les communications verticales menant au podium de la vigie. Cet espace peut comporter des « locaux de vie » du personnel de vigie, pouvant notamment disposer d'éléments de cuisson et de remise en température dont la puissance cumulée est limitée à 3,5 kW.",
+      "Les « locaux de vie » situés dans l'espace sous vigie, sont isolés du palier de distribution du niveau par des parois coupe-feu de degré une heure ou EI 60 et des blocs-portes coupe-feu de degré une demi-heure, munis de ferme-porte ou EI 30-C.",
+      "L'escalier menant à la vigie dispose d'un bloc-porte d'isolement pare-flammes de degré une demi-heure, équipé d'un ferme-porte ou E 30-C s'ouvrant dans le sens de l'évacuation depuis la vigie.",
+      "La vigie comprend l'espace de surveillance et le local technique associé (strictement en sous-face) ; ces espaces ne sont pas isolés entre eux. Cet ensemble forme un compartiment.",
+      "8.2.1. Locaux à risques importants",
+      "Les locaux à risques importants sont :",
+      "- les réserves limitées aux besoins de la tour ;",
+      "- les postes de transformation ;",
+      "- les locaux électriques « Haute tension ».",
+      "Ces locaux sont isolés par des parois et planchers coupe-feu de degré deux heures, EI 120 ou REI 120 et des blocs-portes coupe-feu de degré une heure, munis de ferme-porte ou EI 60-C. Ils sont isolés des dégagements par des dispositifs d'intercommunication.",
+      "8.2.2. Locaux à risques moyens",
+      "Les locaux à risques moyens sont :",
+      "- les machineries d'ascenseurs ;",
+      "- les locaux techniques de climatisation ;",
+      "- les locaux électriques ;",
+      "- les locaux batteries.",
+      "Ces locaux sont isolés par des parois et planchers coupe-feu de degré une heure, REI 60 ou EI 60 et des blocs-portes coupe-feu de degré une demi-heure, munis de ferme-porte ou EI 30-C.",
+      "Les locaux dits « volume technique protégé » (VTP) abritant des équipements du système de sécurité incendie sont traités comme des locaux à risques moyens."
+    ],
+    "links": [
+      {
+        "text": "",
+        "url": "https://sitesecurite.com/"
+      },
+      {
+        "text": "Recherche",
+        "url": "https://sitesecurite.com/recherche/"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      },
+      {
+        "text": "Boutique",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Connexion",
+        "url": "https://sitesecurite.com/connexion.php"
+      },
+      {
+        "text": "(Ré)abonnez-vous !",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "8.1 Distribution intérieure",
+        "url": "https://sitesecurite.com/contenu/_igh/igh/ghtc_a08.php?id="
+      },
+      {
+        "text": "8.2 Locaux à risques",
+        "url": "https://sitesecurite.com/contenu/_igh/igh/ghtc_a08.php?id="
+      },
+      {
+        "text": "Mentions légales",
+        "url": "https://sitesecurite.com/contenu/portail/mentions.php"
+      },
+      {
+        "text": "Politique de confidentialitéDonnées personnelles",
+        "url": "https://sitesecurite.com/contenu/portail/donnees-personnelles.php"
+      },
+      {
+        "text": "Crédits",
+        "url": "https://sitesecurite.com/contenu/portail/cphoto.php"
+      },
+      {
+        "text": "Abonnements",
+        "url": "https://sitesecurite.com/contenu/portail/abonnements.php"
+      },
+      {
+        "text": "Contact",
+        "url": "https://sitesecurite.com/contenu/portail/contact.php"
+      },
+      {
+        "text": "Dernières parutions et actualités",
+        "url": "https://sitesecurite.com/news/actualites.php"
+      },
+      {
+        "text": "FranceSelection.fr",
+        "url": "https://franceselection.fr/"
+      },
+      {
+        "text": "Parlons-Securite-Incendie.fr",
+        "url": "https://www.parlons-securite-incendie.fr/"
+      },
+      {
+        "text": "Mise à jour des ouvrages",
+        "url": "https://sitesecurite.com/contenu/portail/maj.php"
+      },
+      {
+        "text": "Web App",
+        "url": "https://sitesecurite.com/applicationfs.php"
+      }
+    ],
+    "metadata": {
+      "description": "Règlement de sécurité incendie pour les IGH, articles GHTC - IGHTC Appendice",
+      "keywords": " règlement de sécurité, construction des immeubles de grande hauteur, IGH, GHTC, tour de contrôle, protection contre les risques d'incendie et de panique, arrêté du 30 décembre 2011",
+      "canonical": ""
+    }
+  }
+}
