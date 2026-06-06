@@ -17,13 +17,39 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Sam Incendie",
-    "description": "Consultant et expert en sécurité incendie – Audit, Conseil, Information et Formation pour ERP",
-    "telephone": "+33781596364",
-    "email": "contact@sam-incendie.fr",
-    "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressRegion": "Île-de-France", "addressCountry": "FR" },
-    "serviceType": ["Audit sécurité incendie", "Formation incendie", "Conseil réglementaire", "Information réglementaire"]
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "name": "Sam Incendie",
+        "description": "Consultant et expert en sécurité incendie – Audit, Conseil, Information et Formation pour ERP",
+        "url": "https://samincendie.fr",
+        "logo": "https://samincendie.fr/img/og-image.png",
+        "image": "https://samincendie.fr/img/sam-expert.png",
+        "telephone": "+33781596364",
+        "email": "contact@samincendie.fr",
+        "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressRegion": "Île-de-France", "addressCountry": "FR" },
+        "serviceType": ["Audit sécurité incendie", "Formation incendie", "Conseil réglementaire", "Information réglementaire"],
+        "sameAs": [
+          "https://www.linkedin.com/in/sam-incendie/",
+          "https://www.instagram.com/samconforme/",
+          "https://www.tiktok.com/@samincendie"
+        ]
+      },
+      {
+        "@type": "Person",
+        "name": "Sam",
+        "url": "https://samincendie.fr/sam-incendie.html",
+        "image": "https://samincendie.fr/img/sam-expert.png",
+        "jobTitle": "Expert en Sécurité Incendie — SSIAP 3",
+        "worksFor": { "@type": "Organization", "name": "Sam Incendie", "url": "https://samincendie.fr" },
+        "knowsAbout": ["Sécurité incendie ERP", "Audit réglementaire incendie", "Formation SSIAP", "ERP conformité"],
+        "sameAs": [
+          "https://www.linkedin.com/in/sam-incendie/",
+          "https://www.instagram.com/samconforme/",
+          "https://www.tiktok.com/@samincendie"
+        ]
+      }
+    ]
   }
   </script>
 <style>
