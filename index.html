@@ -24,17 +24,30 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "ProfessionalService",
+      "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+      "@id": "https://samincendie.fr/#organization",
       "name": "Sam Incendie",
-      "description": "Expert certifié SSIAP 3 en sécurité incendie – Audit, Conseil, Formation et Kits de conformité pour ERP, IGH et bâtiments professionnels.",
+      "description": "Cabinet de conseil indépendant en sécurité incendie pour les ERP et entreprises. Expert certifié SSIAP 3 — Audit, Conseil, Formation et Kits de conformité.",
       "url": "https://samincendie.fr",
       "logo": "https://samincendie.fr/img/og-image.png",
       "image": "https://samincendie.fr/img/og-image.png",
       "priceRange": "€–€€€",
-      "areaServed": "France",
       "telephone": "+33781596364",
       "email": "contact@samincendie.fr",
-      "serviceType": ["Audit sécurité incendie ERP","Formation incendie","Conseil réglementaire","Mise en conformité ERP"],
+      "vatID": "819 209 461 00022",
+      "areaServed": ["Île-de-France", "France"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Paris",
+        "addressRegion": "Île-de-France",
+        "addressCountry": "FR"
+      },
+      "serviceType": [
+        "Audit sécurité incendie ERP",
+        "Formation incendie",
+        "Conseil réglementaire",
+        "Mise en conformité ERP"
+      ],
       "sameAs": [
         "https://www.linkedin.com/in/sam-incendie/",
         "https://www.instagram.com/samconforme/",
@@ -43,14 +56,71 @@
     },
     {
       "@type": "WebSite",
+      "@id": "https://samincendie.fr/#website",
       "name": "Sam Incendie",
       "url": "https://samincendie.fr",
       "inLanguage": "fr-FR",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": {"@type": "EntryPoint","urlTemplate": "https://samincendie.fr/actualites.html?q={search_term_string}"},
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://samincendie.fr/actualites.html?q={search_term_string}"
+        },
         "query-input": "required name=search_term_string"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quels établissements sont soumis à la réglementation ERP ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tout établissement qui reçoit des personnes extérieures (clients, usagers, visiteurs) est soumis à la réglementation ERP. Cela inclut les hôtels, restaurants, écoles, commerces, salles de spectacle, cliniques, gymnases, etc. Le classement dépend du type d'activité et du nombre de personnes accueillies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "À quelle fréquence dois-je organiser un exercice d'évacuation ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La réglementation prévoit au minimum deux exercices d'évacuation par an pour les établissements soumis à consigne de sécurité incendie. Le premier doit avoir lieu durant les 6 premiers mois suivant la prise de poste. Ces exercices doivent être consignés dans le registre de sécurité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Que contient un registre de sécurité incendie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le registre doit comporter : la liste des contrôles réglementaires, les dates des formations, les comptes-rendus des exercices, les travaux réalisés, les avis des organismes de contrôle et les visites de la commission. Il doit être tenu à disposition à tout moment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sanctions en cas de non-conformité incendie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les sanctions peuvent être graves : fermeture administrative de l'établissement, sanctions pénales pour l'exploitant (jusqu'à 1 an d'emprisonnement et 15 000 € d'amende pour mise en danger d'autrui, jusqu'à 5 ans et 75 000 € en cas d'homicide involontaire), et responsabilité civile engagée en cas d'accident."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien coûte un audit de sécurité incendie ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le coût dépend de la superficie, de la complexité et de la distance d'intervention. Sam Incendie propose un premier échange téléphonique gratuit pour évaluer vos besoins et fournir une proposition tarifaire transparente sous 24h. Des kits PDF autonomes sont disponibles à partir de 19 €."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "À qui s'adressent les kits de conformité PDF ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les kits s'adressent aux gérants de petits ERP (restaurants, commerces, salles de sport, coiffeurs...) qui souhaitent se mettre en conformité de manière autonome. Le Kit ERP 5e Catégorie (19 €) comprend le registre de sécurité, les consignes incendie, la checklist des 40 points de conformité et les guides réglementaires."
+          }
+        }
+      ]
     }
   ]
 }
@@ -68,7 +138,6 @@
   <link rel="stylesheet" href="css/chatbot.css" />
 </head>
 <body>
-
   <!-- ===================== HEADER ===================== -->
   <header class="header" id="header">
     <div class="container header__inner">
@@ -103,9 +172,7 @@
       </button>
     </div>
   </header>
-
   <main>
-
     <!-- ===================== HERO ===================== -->
     <section class="hero" id="accueil" aria-label="Présentation">
       <div class="hero__bg" aria-hidden="true"></div>
@@ -159,7 +226,6 @@
         </svg>
       </div>
     </section>
-
     <!-- ===================== CHIFFRES CLÉS ===================== -->
     <section class="stats" id="chiffres" aria-label="Chiffres clés">
       <div class="container stats__grid">
@@ -185,7 +251,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== OFFRES ===================== -->
     <section class="section offres" id="offres" aria-labelledby="offres-title">
       <div class="container">
@@ -195,7 +260,6 @@
           <p class="section__lead">Du kit autonome à l'accompagnement terrain complet — une solution pour chaque besoin et chaque budget.</p>
         </div>
         <div class="offres__grid">
-
           <!-- OFFRE 1 : Kit PDF 19€ -->
           <article class="offre-card" aria-label="Kit ERP 5e Catégorie">
             <div class="offre-card__header offre-card__header--digital">
@@ -223,7 +287,6 @@
               <p class="offre-card__reassurance">Paiement sécurisé · Livraison instantanée</p>
             </div>
           </article>
-
           <!-- OFFRE 2 : Guide complet 47€ -->
           <article class="offre-card offre-card--featured" aria-label="Guide complet conformité ERP">
             <div class="offre-card__badge">Meilleure valeur</div>
@@ -252,7 +315,6 @@
               <p class="offre-card__reassurance">Paiement sécurisé · Livraison instantanée</p>
             </div>
           </article>
-
           <!-- OFFRE 3 : Prestations terrain -->
           <article class="offre-card" aria-label="Accompagnement terrain">
             <div class="offre-card__header offre-card__header--terrain">
@@ -279,11 +341,9 @@
               <p class="offre-card__reassurance">Île-de-France &amp; déplacements nationaux</p>
             </div>
           </article>
-
         </div>
       </div>
     </section>
-
     <!-- ===================== ALERTE RÉGLEMENTAIRE ===================== -->
     <div class="alert-band" role="alert">
       <div class="container">
@@ -292,7 +352,6 @@
         <a href="formations.html">En savoir plus →</a>
       </div>
     </div>
-
     <!-- ===================== SERVICES ===================== -->
     <section class="section services" id="services" aria-labelledby="services-title">
       <div class="container">
@@ -302,7 +361,6 @@
           <p class="section__lead">Une offre complète pour accompagner les exploitants d'ERP de la prévention à la mise en conformité.</p>
         </div>
         <div class="services__grid">
-
           <article class="service-card" aria-label="Service Information">
             <div class="service-card__icon service-card__icon--info" aria-hidden="true">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
@@ -317,7 +375,6 @@
             </ul>
             <a href="services.html#information" class="service-card__link">En savoir plus →</a>
           </article>
-
           <article class="service-card" aria-label="Service Conseil">
             <div class="service-card__icon service-card__icon--conseil" aria-hidden="true">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
@@ -332,7 +389,6 @@
             </ul>
             <a href="services.html#conseil" class="service-card__link">En savoir plus →</a>
           </article>
-
           <article class="service-card service-card--featured" aria-label="Service Audit">
             <div class="service-card__badge">Populaire</div>
             <div class="service-card__icon service-card__icon--audit" aria-hidden="true">
@@ -348,7 +404,6 @@
             </ul>
             <a href="audit.html" class="service-card__link">En savoir plus →</a>
           </article>
-
           <article class="service-card" aria-label="Service Formation">
             <div class="service-card__icon service-card__icon--formation" aria-hidden="true">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
@@ -363,14 +418,12 @@
             </ul>
             <a href="formations.html" class="service-card__link">En savoir plus →</a>
           </article>
-
         </div>
         <div class="services__cta">
           <a href="#contact" class="btn btn--primary">Demander un devis gratuit pour votre établissement</a>
         </div>
       </div>
     </section>
-
     <!-- ===================== PROCESSUS ===================== -->
     <section class="section process" id="processus" aria-labelledby="process-title">
       <div class="container">
@@ -405,7 +458,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== SECTEURS ===================== -->
     <section class="section secteurs" id="secteurs" aria-labelledby="secteurs-title">
       <div class="container">
@@ -466,7 +518,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== BLOG / RESSOURCES ===================== -->
     <section class="section blog" id="blog" aria-labelledby="blog-title">
       <div class="container">
@@ -537,7 +588,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== À PROPOS ===================== -->
     <section class="section about" id="about" aria-labelledby="about-title">
       <div class="container about__inner">
@@ -585,7 +635,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== FAQ ===================== -->
     <section class="section faq" id="faq" aria-labelledby="faq-title">
       <div class="container">
@@ -651,7 +700,6 @@
         </div>
       </div>
     </section>
-
     <!-- ===================== CONTACT ===================== -->
     <section class="section contact" id="contact" aria-labelledby="contact-title">
       <div class="container contact__inner">
@@ -780,9 +828,7 @@
         </div>
       </div>
     </section>
-
   </main>
-
   <!-- ===================== FOOTER ===================== -->
   <footer class="footer" role="contentinfo">
     <div class="container footer__inner">
@@ -843,11 +889,9 @@
       </div>
     </div>
   </footer>
-
   <button class="back-to-top" id="backToTop" aria-label="Retour en haut de page" hidden>
     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18,15 12,9 6,15"/></svg>
   </button>
-
   <script src="js/main.js" defer></script>
   <script src="js/popup.js" defer></script>
   <script src="js/chatbot.js" defer></script>
