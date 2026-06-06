@@ -10,19 +10,3 @@ Crawl-delay: 2
 # Exclure fichiers inutiles pour le SEO
 Disallow: /node_modules/
 Disallow: /.claude/
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
