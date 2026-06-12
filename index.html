@@ -48,10 +48,43 @@
         "Conseil réglementaire",
         "Mise en conformité ERP"
       ],
+      "founder": {
+        "@type": "Person",
+        "@id": "https://samincendie.fr/#person-sam",
+        "name": "Sam",
+        "jobTitle": "Expert Sécurité Incendie Indépendant",
+        "description": "Expert certifié SSIAP 3 avec 15+ ans d'expérience terrain. Jury SSIAP 1 & 2. Consultant indépendant sans conflits d'intérêts fournisseurs.",
+        "credentials": "SSIAP 3, Jury SSIAP 1 & 2"
+      },
       "sameAs": [
         "https://www.linkedin.com/company/sam-incendie/",
         "https://www.instagram.com/samconforme/",
         "https://www.tiktok.com/@samincendie"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://samincendie.fr/#person-sam",
+      "name": "Sam",
+      "jobTitle": "Expert Sécurité Incendie Indépendant",
+      "description": "Expert certifié SSIAP 3 avec 15+ ans d'expérience terrain en sécurité incendie pour établissements recevant du public. Jury SSIAP 1 & 2 formateur. Consultant indépendant sans conflits d'intérêts avec fournisseurs d'équipements.",
+      "credentials": "SSIAP 3, Jury SSIAP 1 & 2",
+      "url": "https://samincendie.fr",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://samincendie.fr/#organization",
+        "name": "Sam Incendie"
+      },
+      "knowsAbout": [
+        "Fire Safety",
+        "ERP Compliance",
+        "SSIAP Certification",
+        "Emergency Training",
+        "Regulatory Compliance"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/sam-incendie/",
+        "https://www.instagram.com/samconforme/"
       ]
     },
     {
@@ -70,14 +103,63 @@
       }
     },
     {
+      "@type": "Service",
+      "@id": "https://samincendie.fr/#service-kit",
+      "name": "Kit ERP 5e Catégorie",
+      "description": "Kit PDF autonome pour mettre en conformité incendie un petit établissement recevant du public. Contient registre de sécurité, consignes incendie, checklist des 40 points de conformité et guides réglementaires commentés.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://samincendie.fr/#organization",
+        "name": "Sam Incendie"
+      },
+      "areaServed": ["France"],
+      "price": "19",
+      "priceCurrency": "EUR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://samincendie.fr/#service-guide",
+      "name": "Guide Complet Conformité ERP",
+      "description": "Guide expert PDF complet (47€) pour gérer la conformité incendie ERP avec explications détaillées, études de cas et bonus. S'adresse aux gérants cherchant une compréhension approfondie sans audit sur site.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://samincendie.fr/#organization",
+        "name": "Sam Incendie"
+      },
+      "areaServed": ["France"],
+      "price": "47",
+      "priceCurrency": "EUR"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://samincendie.fr/#service-accompagnement",
+      "name": "Accompagnement Expert sur Site",
+      "description": "Service de conseil personnalisé avec expertise SSIAP 3. Expert certifié réalise audit complet, identifie non-conformités, propose plan d'action détaillé et accompagne mise en conformité. Dévis gratuit sous 24h, intervention sur site à Paris et Île-de-France.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://samincendie.fr/#organization",
+        "name": "Sam Incendie"
+      },
+      "areaServed": ["Paris", "Île-de-France"],
+      "priceRange": "€€–€€€"
+    },
+    {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Quels établissements sont soumis à la réglementation ERP ?",
+          "name": "Qu'est-ce que la conformité incendie ERP ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tout établissement qui reçoit des personnes extérieures (clients, usagers, visiteurs) est soumis à la réglementation ERP. Cela inclut les hôtels, restaurants, écoles, commerces, salles de spectacle, cliniques, gymnases, etc. Le classement dépend du type d'activité et du nombre de personnes accueillies."
+            "text": "La conformité incendie ERP (Établissement Recevant du Public) désigne le respect des normes légales françaises imposées par le Code du Travail (Article R.4227-28) pour tout établissement accueillant du public. Cela inclut hôtels, restaurants, écoles, commerces, cliniques, gymnases. Une ERP conforme doit disposer de sorties de secours appropriées, systèmes de détection et d'extinction incendie fonctionnels, signalisation d'évacuation claire, personnel formé aux procédures d'urgence, et registre de sécurité à jour. Environ 40% des ERP sont non-conformes, exposant propriétaires à fermeture administrative, pénalités jusqu'à 75 000€ et responsabilité pénale en cas de sinistre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi la certification SSIAP 3 est-elle importante ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "SSIAP 3 (Service de Sécurité Incendie et d'Assistance à Personnes niveau 3) est la certification la plus élevée pour experts en sécurité incendie en France. Elle requiert 15+ années d'expérience terrain vérifiée et expertise en audit, réglementation, formation. Un expert SSIAP 3 peut certifier audits de conformité, former personnels aux normes SSIAP 1 & 2, et juger examens. Contrairement aux consultants génériques, expert SSIAP 3 opère sans conflits d'intérêts fournisseurs, garantissant recommandations objectives basées uniquement sur exigences réglementaires et besoins du bâtiment."
           }
         },
         {
@@ -85,15 +167,15 @@
           "name": "À quelle fréquence dois-je organiser un exercice d'évacuation ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "La réglementation prévoit au minimum deux exercices d'évacuation par an pour les établissements soumis à consigne de sécurité incendie. Le premier doit avoir lieu durant les 6 premiers mois suivant la prise de poste. Ces exercices doivent être consignés dans le registre de sécurité."
+            "text": "La réglementation française impose minimum 2 exercices d'évacuation annuels pour établissements soumis à consigne de sécurité incendie. Premier exercice doit avoir lieu dans 6 mois suivant prise de poste du personnel. Résultats et observations doivent être consignés dans registre de sécurité avec dates exactes, nombre participants, anomalies détectées, et corrections apportées."
           }
         },
         {
           "@type": "Question",
-          "name": "Que contient un registre de sécurité incendie ?",
+          "name": "Quels établissements sont soumis à la réglementation ERP ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Le registre doit comporter : la liste des contrôles réglementaires, les dates des formations, les comptes-rendus des exercices, les travaux réalisés, les avis des organismes de contrôle et les visites de la commission. Il doit être tenu à disposition à tout moment."
+            "text": "Tout établissement qui reçoit des personnes extérieures (clients, usagers, visiteurs) est soumis à réglementation ERP. Cela inclut les hôtels, restaurants, écoles, commerces, salles de spectacle, cliniques, gymnases, musées, bibliothèques, crèches, salles de réunion. Le classement en catégories dépend du type d'activité et du nombre maximum de personnes accueillies. Même petits commerces (restaurants, coiffeurs, petits hôtels) sont classés ERP 5e catégorie et doivent respecter normes de sécurité incendie."
           }
         },
         {
@@ -101,15 +183,7 @@
           "name": "Quelles sanctions en cas de non-conformité incendie ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les sanctions peuvent être graves : fermeture administrative de l'établissement, sanctions pénales pour l'exploitant (jusqu'à 1 an d'emprisonnement et 15 000 € d'amende pour mise en danger d'autrui, jusqu'à 5 ans et 75 000 € en cas d'homicide involontaire), et responsabilité civile engagée en cas d'accident."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Combien coûte un audit de sécurité incendie ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Le coût dépend de la superficie, de la complexité et de la distance d'intervention. Sam Incendie propose un premier échange téléphonique gratuit pour évaluer vos besoins et fournir une proposition tarifaire transparente sous 24h. Des kits PDF autonomes sont disponibles à partir de 19 €."
+            "text": "Sanctions non-conformité incendie peuvent être graves : arrêté de fermeture administrative (immédiat), sanctions pénales (1 an prison + 15 000€ amende pour mise en danger autrui, jusqu'à 5 ans + 75 000€ pour homicide involontaire), fermeture établissement ordonnée par préfecture, responsabilité civile engagée en cas accident sinistre, poursuites judiciaires contre exploitant personnes physiques. Responsabilité pénale incombe directement exploitant."
           }
         },
         {
@@ -117,7 +191,7 @@
           "name": "À qui s'adressent les kits de conformité PDF ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Les kits s'adressent aux gérants de petits ERP (restaurants, commerces, salles de sport, coiffeurs...) qui souhaitent se mettre en conformité de manière autonome. Le Kit ERP 5e Catégorie (19 €) comprend le registre de sécurité, les consignes incendie, la checklist des 40 points de conformité et les guides réglementaires."
+            "text": "Kits s'adressent aux gérants petits ERP (restaurants, commerces, salles de sport, coiffeurs, petits hôtels) qui souhaitent se mettre en conformité de manière autonome sans audit externe. Kit ERP 5e Catégorie (19€) comprend registre de sécurité prêt à remplir, consignes incendie personnalisables, checklist complète 40 points conformité, guides réglementaires commentés, plan d'intervention type. Livraison instantanée PDF, accès immédiat après paiement."
           }
         }
       ]
