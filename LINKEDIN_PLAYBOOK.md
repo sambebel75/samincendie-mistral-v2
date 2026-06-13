@@ -37,6 +37,7 @@ The problem I solve:
 
 Services:
 🔗 samincendie.fr (full info)
+🔗 linkedin.com/in/sam-incendie (connect here)
 📧 [contact email]
 
 Let's talk: I respond to all messages.

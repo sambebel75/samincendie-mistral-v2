@@ -23,6 +23,7 @@
 - Flair custom: "SSIAP 3 Certified | 15+ Yrs"
 - Bio section: "Audit ERP | Formation SSIAP | Conformité incendie"
 - Link profil: samincendie.fr
+- LinkedIn: www.linkedin.com/in/sam-incendie
 
 ---
 
