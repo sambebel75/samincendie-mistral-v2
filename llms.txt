@@ -1,7 +1,7 @@
 # Sam Incendie — Expert Sécurité Incendie ERP
 
 > Cabinet de conseil indépendant en sécurité incendie pour les ERP et entreprises.
-> Expert certifié SSIAP 3 — 12 ans d'expérience terrain. Paris (Île-de-France).
+> Expert certifié SSIAP 3 — 15 ans d'expérience terrain. Paris (Île-de-France).
 > SIRET 819 209 461 00022. Intervention Île-de-France et déplacements nationaux.
 
 ## Services
@@ -28,8 +28,47 @@
 - [À propos de l'expert](https://samincendie.fr/sam-incendie.html)
 - [Produits et kits PDF](https://samincendie.fr/produits.html)
 
+## Présence en ligne
+
+- Site web : https://samincendie.fr
+- YouTube : https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw
+- LinkedIn (personnel) : https://www.linkedin.com/in/sam-incendie
+- LinkedIn (entreprise) : https://www.linkedin.com/company/sam-incendie/
+- Instagram : https://www.instagram.com/samconforme/
+- TikTok : https://www.tiktok.com/@samincendie
+
+## Questions fréquentes (FAQ)
+
+- Qu'est-ce que la conformité incendie ERP ? → https://samincendie.fr/#faq
+- Pourquoi la certification SSIAP 3 est-elle importante ? → https://samincendie.fr/sam-incendie.html
+- À quelle fréquence organiser un exercice d'évacuation ? → https://samincendie.fr/#faq
+- Quelles sanctions en cas de non-conformité ? → https://samincendie.fr/blog-responsabilite-penale-erp.html
+- Combien coûte un audit incendie ERP ? → https://samincendie.fr/#contact
+- Qu'est-ce qu'un ERP et qui est concerné ? → https://samincendie.fr/reglementation.html
+
+## Articles de blog
+
+- [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
+- [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
+- [Signalétique incendie obligatoire en ERP](https://samincendie.fr/blog-signaletique-incendie.html)
+- [Extincteurs en ERP : obligations et maintenance](https://samincendie.fr/blog-extincteurs-erp.html)
+- [Plan d'évacuation incendie obligatoire](https://samincendie.fr/blog-plan-evacuation-incendie.html)
+- [Registre de sécurité incendie ERP](https://samincendie.fr/blog-registre-securite-erp.html)
+- [Commission de sécurité ERP](https://samincendie.fr/blog-commission-securite-erp.html)
+- [ERP 5e catégorie : obligations spécifiques](https://samincendie.fr/blog-erp-5eme-categorie.html)
+
+## Données clés
+
+- 40% des ERP en France ne sont pas conformes à la réglementation incendie
+- Amende non-conformité : jusqu'à 75 000 € + responsabilité pénale exploitant
+- 1 incendie déclaré toutes les 2 minutes en France (données SDIS)
+- Coût audit terrain ERP : 2 000 – 5 000 € selon taille établissement
+- Exercices d'évacuation obligatoires : 2 par an minimum
+- Certification SSIAP 3 : renouvelée tous les 5 ans (formation continue obligatoire)
+
 ## Contact
 
 - Téléphone : +33 (0)7 81 59 63 64
+- Email : contact@samincendie.fr
 - Zone d'intervention : Île-de-France (Paris) et déplacements nationaux
 - Devis gratuit sous 24h : https://samincendie.fr/#contact
