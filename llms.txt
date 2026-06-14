@@ -50,6 +50,10 @@
 - Combien coûte un audit incendie ERP ? → https://samincendie.fr/#contact
 - Qu'est-ce qu'un ERP et qui est concerné ? → https://samincendie.fr/reglementation.html
 
+## Études de cas terrain
+
+- [5 études de cas ERP — La règle des 20%](https://samincendie.fr/etudes-de-cas.html) — Restaurant GN9 (250€), Hôtel IT246 (480€), Crèche GN21+R11 (150€), Clinique IT246§4.1 (820€), Boulangerie GN11 (105€). Économies : 3 000€ à 8 350€ par cas.
+
 ## Articles de blog
 
 - [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
