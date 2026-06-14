@@ -44,17 +44,17 @@ Aujourd'hui je l'explique simplement."
 
 [YOU at desk or standing in office. Point to screen or gesture.]
 
-"SSIAP = Spécialiste de la Sécurité Incendie Assurant la Protection des Personnes.
+"SSIAP = Service de Sécurité Incendie et d'Assistance à Personnes.
 
-C'est certification française, reconnue par le gouvernement français.
+C'est une certification réglementée par l'État français, obligatoire dans les ERP.
 
 Il y a trois niveaux:
 
-Niveau un: SSIAP 1. C'est personnel de base en sécurité incendie. Ils s'occupent de l'évacuation du bâtiment en cas d'incendie.
+Niveau un: SSIAP 1. C'est l'Agent de Sécurité Incendie — l'ASI. Il surveille les installations, déclenche l'alerte et intervient en premier sur un début d'incendie.
 
-Niveau deux: SSIAP 2. C'est le manager sécurité. Ils coordonnent les entraînements d'évacuation, gèrent la maintenance de l'équipement, tiennent les dossiers.
+Niveau deux: SSIAP 2. C'est le chef d'équipe. Il encadre les agents SSIAP 1, organise les rondes et remonte les informations à la direction.
 
-Niveau trois — c'est moi — SSIAP 3. Chef des opérations sécurité. On fait les audits complets, on interprète les lois, on forme les autres niveaux. Haute responsabilité."
+Niveau trois — c'est moi — SSIAP 3. Chef de service sécurité incendie. Je dirige le service, j'interprète les textes réglementaires, je prépare les dossiers pour la commission de sécurité et je trouve des solutions conformes et moins onéreuses pour les exploitants."
 
 [B-roll while speaking: animated graphic showing 3 SSIAP levels, training footage, people in safety gear]
 
@@ -74,7 +74,7 @@ Connaissance complète des lois françaises ET lois européennes.
 
 Et — c'est important — certification renouvelée tous les trois ans. Pas une fois et c'est fait. Faut rester à jour.
 
-Moi, je suis SSIAP 3 depuis 2015. Donc quinze ans expérience total.
+Moi, je suis SSIAP 3 avec 15 ans de terrain ERP.
 
 Je fais quoi? 
 
