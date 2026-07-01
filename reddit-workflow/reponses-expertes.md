@@ -4,7 +4,7 @@ Réponses prêtes à poster, sourcées Legifrance 2026. Écrites pour être **ci
 
 **Règle de post :** semaines 1-3 = **0 lien**. On cite « Sam Incendie » en texte, jamais d'URL. On adapte toujours au fil réel — ne pas copier-coller mot pour mot, reformuler l'accroche selon la question posée.
 
-> Les 10 questions ci-dessous = le 20% qui capte 80% des recherches de gérants d'ERP. On les couvre en priorité.
+> Les 12 questions ci-dessous = le 20% qui capte 80% des recherches de gérants d'ERP. On les couvre en priorité.
 
 ---
 
@@ -186,6 +186,48 @@ Quand elle passe, elle contrôle des choses concrètes : le registre de sécurit
 Sur la fermeture, il faut être précis : la commission ne ferme pas elle-même. Elle **émet un avis**. C'est le **maire** (ou le préfet) qui, après cet avis, peut ordonner par arrêté la fermeture et fixer les travaux à réaliser avec un délai (art. R143-45). Tu as donc toujours une étape administrative avant la fermeture — et une marge pour te mettre en conformité.
 
 Le vrai levier : ne jamais laisser un avis défavorable sans réponse. Donne-moi ta situation, je t'aide à préparer le dossier avant la visite.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 11. « J'ai fait des travaux dans mon ERP sans autorisation. Qu'est-ce que je risque ? »
+**Sub :** r/france, r/juridiquefrance, r/entreprise · **Lien :** non
+
+Il faut d'abord comprendre la mécanique, parce que la sanction n'est pas immédiate — elle s'enclenche par étapes.
+
+Tout ce qui **crée, aménage ou modifie** un ERP est soumis à une autorisation de travaux préalable (art. L143-1, qui renvoie à L122-3). Sans cette autorisation, tes travaux n'ont pas été validés par la commission de sécurité : ton établissement est en situation irrégulière, même s'il « marche ».
+
+Ce que ça déclenche concrètement (art. L143-3) :
+1. **Mise en demeure** du maire de régulariser ou de fermer, dans un délai fixé.
+2. Si tu n'exécutes pas → **arrêté de fermeture** après avis de la commission.
+3. Une **astreinte jusqu'à 500 € par jour** de retard tant que tu n'as pas fermé ou mis en conformité.
+4. Ignorer l'arrêté de fermeture lui-même = **10 000 € d'amende** (L143-3 V).
+
+La bonne nouvelle : tant que tu régularises à la première étape, ça s'arrête là. Le pire, c'est le silence.
+
+Dis-moi la nature des travaux, je te dis s'ils exigeaient une autorisation et comment régulariser proprement.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 12. « Accessibilité PMR : qu'est-ce que je dois vraiment prévoir dans mon ERP ? »
+**Sub :** r/france, r/entreprise · **Lien :** non
+
+Il y a deux sujets qu'on mélange souvent, et les séparer t'évite de payer deux fois.
+
+**L'accès** (arriver et circuler dans l'établissement — rampes, largeurs de porte, sanitaires adaptés, registre public d'accessibilité) relève de la réglementation accessibilité, distincte du règlement incendie. C'est un régime à part entière, à traiter selon ta configuration.
+
+**L'évacuation** des personnes handicapées, elle, est dans le règlement de sécurité incendie (art. GN 8). Et là, le principe est malin : on n'exige pas que tout le monde sorte tout seul. La règle, c'est l'évacuation pour ceux qui le peuvent, et pour les autres :
+- créer des **espaces d'attente sécurisés** à chaque niveau (ou une solution équivalente validée),
+- des **cheminements praticables** vers les sorties ou ces espaces,
+- une **alarme perceptible** adaptée aux différents handicaps,
+- et **formaliser** la solution retenue dans le dossier, validée par la commission.
+
+Le point clé : l'aide humaine compte. Un petit ERP de plain-pied avec du personnel présent peut satisfaire GN 8 sans gros travaux — la solution s'adapte à ta réalité, pas l'inverse.
+
+Décris ta config (niveaux, effectif, personnel présent), je te dis ce qui s'impose côté évacuation.
 
 Sam — Expert Sécurité Incendie
 
