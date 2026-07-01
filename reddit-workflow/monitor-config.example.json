@@ -1,0 +1,7 @@
+{
+  "_comment": "Copier ce fichier en monitor-config.json et remplir. Ne jamais committer monitor-config.json (deja dans .gitignore). Creer une app type 'script' sur https://www.reddit.com/prefs/apps",
+  "client_id": "VOTRE_CLIENT_ID",
+  "client_secret": "VOTRE_CLIENT_SECRET",
+  "username": "sam_incendie_expert",
+  "password": "VOTRE_MOT_DE_PASSE_REDDIT"
+}
