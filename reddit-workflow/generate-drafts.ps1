@@ -20,6 +20,40 @@ if (-not (Test-Path $tplPath)) { Write-Error "templates.json introuvable"; exit 
 $cal = [System.IO.File]::ReadAllText($calPath, $enc) | ConvertFrom-Json
 $tpl = [System.IO.File]::ReadAllText($tplPath, $enc) | ConvertFrom-Json
 
+# Charger la bibliotheque de reponses expertes (reponses-expertes.md).
+# Chaque bloc "## N. <question>" + ligne "**Sub :** r/x, r/y" + corps jusqu'a la signature.
+$answers = @()
+$repPath = Join-Path $PSScriptRoot "reponses-expertes.md"
+if (Test-Path $repPath) {
+    $repLines = [System.IO.File]::ReadAllText($repPath, $enc) -split "`r?`n"
+    $cur = $null
+    foreach ($ln in $repLines) {
+        if ($ln -match '^##\s+(\d+)\.\s+(.*)$') {
+            if ($cur) { $answers += $cur }
+            $cur = [pscustomobject]@{
+                Num      = [int]$Matches[1]
+                Question = $Matches[2].Trim()
+                Subs     = @()
+                Body     = New-Object System.Collections.Generic.List[string]
+                InBody   = $false
+            }
+            continue
+        }
+        if (-not $cur) { continue }
+        if ($ln -match '^\*\*Sub') {
+            $cur.Subs = @([regex]::Matches($ln, 'r/\w+') | ForEach-Object { $_.Value })
+            $cur.InBody = $true
+            continue
+        }
+        if ($cur.InBody) {
+            if ($ln -match '^Sam ' -and $ln -match 'Expert') { $cur.Body.Add($ln); $cur.InBody = $false; continue }
+            if ($ln -eq '---') { continue }
+            $cur.Body.Add($ln)
+        }
+    }
+    if ($cur) { $answers += $cur }
+}
+
 # Trouver les posts de la semaine demandee (dans toutes les phases)
 $hits = @()
 foreach ($phase in $cal.phases) {
@@ -68,18 +102,39 @@ foreach ($m in $hits) {
         [void]$sb.AppendLine("    $($t.titre)")
         [void]$sb.AppendLine("")
     }
-    [void]$sb.AppendLine("**Corps (a adapter au thread) :**")
-    [void]$sb.AppendLine("")
-    foreach ($line in ($t.corps -split "`n")) { [void]$sb.AppendLine("    $line") }
-    [void]$sb.AppendLine("")
-    if ($post.lien -eq $true -and $t.cta_avec_lien) {
-        [void]$sb.AppendLine("**CTA (lien) :** $($t.cta_avec_lien)")
-    } elseif ($t.cta_sans_lien) {
-        [void]$sb.AppendLine("**CTA (sans lien) :** $($t.cta_sans_lien)")
+    if ($post.template -eq 'qa_reponse' -and $answers.Count -gt 0) {
+        # Injecter les vraies reponses expertes qui ciblent ce sub.
+        $match = @($answers | Where-Object { $_.Subs -contains $post.sub })
+        $note  = "cible $($post.sub)"
+        if ($match.Count -eq 0) { $match = $answers; $note = "aucune ne cible $($post.sub) explicitement, voici toute la bibliotheque" }
+
+        [void]$sb.AppendLine("**Reponses expertes pretes ($note)** - choisis celle qui colle au thread, adapte la 1re phrase :")
+        [void]$sb.AppendLine("")
+        foreach ($a in $match) {
+            [void]$sb.AppendLine("### Reponse $($a.Num) - $($a.Question)")
+            [void]$sb.AppendLine("")
+            $body = @($a.Body)
+            while ($body.Count -gt 0 -and $body[0].Trim() -eq '') { $body = $body[1..($body.Count-1)] }
+            while ($body.Count -gt 0 -and $body[-1].Trim() -eq '') { $body = $body[0..($body.Count-2)] }
+            foreach ($bl in $body) { [void]$sb.AppendLine("    $bl") }
+            [void]$sb.AppendLine("")
+        }
+        [void]$sb.AppendLine("_Rappel : 0 lien. Ne copie pas mot pour mot - adapte l'accroche a la question posee._")
+        [void]$sb.AppendLine("")
+    } else {
+        [void]$sb.AppendLine("**Corps (a adapter au thread) :**")
+        [void]$sb.AppendLine("")
+        foreach ($line in ($t.corps -split "`n")) { [void]$sb.AppendLine("    $line") }
+        [void]$sb.AppendLine("")
+        if ($post.lien -eq $true -and $t.cta_avec_lien) {
+            [void]$sb.AppendLine("**CTA (lien) :** $($t.cta_avec_lien)")
+        } elseif ($t.cta_sans_lien) {
+            [void]$sb.AppendLine("**CTA (sans lien) :** $($t.cta_sans_lien)")
+        }
+        [void]$sb.AppendLine("")
+        [void]$sb.AppendLine("_Rappel : $($t.regle_lien)_")
+        [void]$sb.AppendLine("")
     }
-    [void]$sb.AppendLine("")
-    [void]$sb.AppendLine("_Rappel : $($t.regle_lien)_")
-    [void]$sb.AppendLine("")
     [void]$sb.AppendLine("---")
     [void]$sb.AppendLine("")
 }
