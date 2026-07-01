@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "nom": "Post d'introduction / mini-AMA",
+    "titre": "Expert SSIAP 3, 15 ans terrain en securite incendie ERP - vos questions ?",
+    "corps": "Bonjour,\n\nJe suis expert independant en securite incendie, certifie SSIAP 3, 15+ ans d'experience terrain en Ile-de-France. Je fais aussi jury SSIAP 1 et 2.\n\nCe que je vois souvent, meme dans de grandes structures :\n- Beaucoup d'ERP ne respectent pas toutes les exigences reglementaires.\n- Les sanctions peuvent etre lourdes (amende + responsabilite penale de l'exploitant).\n- Un audit coute en general bien moins cher qu'une seule amende.\n\nJe reponds gratuitement a vos questions : ERP, SSIAP, formation, evacuation, desenfumage, commission de securite. Posez tout ici.",
+    "regle_lien": "Ajouter le lien seulement si le sub l'autorise ET si c'est la semaine 'lien'. Sinon citer 'Sam Incendie' en texte, sans URL.",
+    "cta_sans_lien": "Si besoin d'un avis sur un cas precis, decrivez-le en commentaire, je regarde.",
+    "cta_avec_lien": "Details et outils gratuits : samincendie.fr"
+  },
+  "qa_reponse": {
+    "nom": "Reponse Q&A (recurrent, coeur de la strategie)",
+    "structure": "Declencheur credential -> reponse courte -> pourquoi ca compte -> details (articles + etapes) -> action sans lien",
+    "corps": "Expert SSIAP 3 ici.\n\nReponse courte : [une phrase claire].\n\nPourquoi ca compte : [1-2 phrases contexte reglementaire, citer l'article si possible, ex. Code du travail R.4227-x ou reglement ERP].\n\nDetails :\n- [Exigence precise + reference]\n- [Etape de mise en conformite]\n- [Consequence cout / penale]\n\nSi vous gerez un ERP et voulez que je detaille votre cas, donnez le type d'etablissement et l'effectif, je precise.",
+    "regle_lien": "JAMAIS de lien dans une reponse Q&A. C'est ce qui construit la confiance et le karma."
+  },
+  "audit_walkthrough": {
+    "nom": "Methodologie audit (credibilite technique)",
+    "titre": "Audit securite incendie ERP : ma methodologie en 5 etapes (SSIAP 3)",
+    "corps": "Je detaille mon processus d'audit. Utile si vous gerez un ERP ou un batiment recevant du public.\n\nEtape 1 - Pre-audit : revue des plans, des registres de maintenance (alarmes, extincteurs, desenfumage), reperage des ecarts evidents.\n\nEtape 2 - Inspection sur site : parcours de toutes les zones, test des issues de secours, verification des equipements de securite, controle de la signaletique.\n\nEtape 3 - Evaluation du personnel : entretien avec les responsables, connaissance des consignes d'evacuation, verification des formations (SSIAP obligatoire selon categorie).\n\nEtape 4 - Analyse documentaire : comparaison des constats avec les exigences reglementaires, hierarchisation des non-conformites par gravite.\n\nEtape 5 - Rapport + feuille de route : constats, actions correctives, priorites (immediat / 30j / 90j), estimations de cout, suivi.\n\nDuree typique : 1 a 3 jours selon la taille. Questions bienvenues, je reponds en commentaire.",
+    "regle_lien": "Lien seulement si sub autorise + semaine lien. Sinon terminer par la valeur, pas d'URL."
+  },
+  "credential_defense": {
+    "nom": "Explication credential SSIAP (positionnement autorite)",
+    "titre": "C'est quoi vraiment un SSIAP 3 ? Le point sur les 3 niveaux",
+    "corps": "On me pose souvent la question, voici le detail.\n\nSSIAP = Service de Securite Incendie et d'Assistance a Personnes. Trois niveaux :\n- SSIAP 1 : agent de securite incendie. Applique les consignes, guide l'evacuation.\n- SSIAP 2 : chef d'equipe. Encadre les agents, gere les registres et exercices.\n- SSIAP 3 : chef de service. Conduit les audits, interprete la reglementation, forme les SSIAP 1 et 2, verifie la conformite globale.\n\nLe niveau 3 demande plusieurs annees d'experience et une remise a niveau reguliere. Je siege aussi en jury SSIAP 1 et 2.\n\nCe que je fais concretement : audit d'ERP, formation, conception de plans d'intervention, conseil sur les evolutions reglementaires.\n\nQuestions sur les niveaux ou un besoin precis ? Je reponds ici.",
+    "regle_lien": "Aucun lien. Post de credibilite pure."
+  },
+  "resource_share": {
+    "nom": "Partage de ressources (valeur communaute)",
+    "titre": "Securite incendie ERP : les references reglementaires a connaitre",
+    "corps": "Pour ceux qui gerent un ERP, voici les references utiles (acces libre) :\n\nReglementation :\n- Code du travail (R.4227 et suivants) : prevention incendie sur les lieux de travail.\n- Reglement de securite ERP (arrete du 25 juin 1980) : dispositions par type et categorie.\n- Guides INRS sur l'evacuation et le desenfumage.\n\nExigences cles :\n- Issues de secours : nombre selon effectif, degagees, signalees.\n- Moyens de secours : extincteurs adaptes aux classes de feu, alarme audible partout.\n- Formation du personnel selon la categorie de l'ERP.\n- Exercices d'evacuation reguliers.\n- Registre de securite tenu a jour.\n\nSanctions en cas de manquement : amende + responsabilite penale de l'exploitant, voire fermeture.\n\nSi vous voulez que je detaille un point precis, demandez en commentaire.",
+    "regle_lien": "Lien tolere seulement si sub autorise + semaine lien, et une seule fois. Prefer mention textuelle 'Sam Incendie'."
+  }
+}
