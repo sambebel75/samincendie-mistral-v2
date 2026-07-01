@@ -18,3 +18,169 @@
 /* FAQ answer hidden by default; JS adds .open to .faq__item */
 .faq__answer{display:none}
 .faq__item.open .faq__answer{display:block}
+
+/* ===== OFFRES SECTION (index.html #offres) ===== */
+
+.offres__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  align-items: stretch;
+}
+
+.offre-card {
+  background: var(--white);
+  border: 2px solid var(--grey-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: box-shadow var(--transition), border-color var(--transition), transform var(--transition);
+}
+
+.offre-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.offre-card--featured {
+  border-color: var(--red);
+  box-shadow: var(--shadow-sm);
+}
+
+.offre-card__badge {
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--red);
+  color: var(--white);
+  font-family: var(--font-head);
+  font-size: .72rem;
+  font-weight: 700;
+  padding: 4px 18px;
+  border-radius: 0 0 10px 10px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.offre-card__header {
+  padding: 32px 28px 24px;
+  text-align: center;
+  color: var(--white);
+}
+
+.offre-card__header--digital { background: linear-gradient(135deg, var(--navy) 0%, #253d61 100%); }
+.offre-card__header--guide   { background: linear-gradient(135deg, var(--red-dark) 0%, var(--red) 100%); }
+.offre-card__header--terrain { background: linear-gradient(135deg, #2c3e50 0%, #415a77 100%); }
+
+.offre-card__type {
+  display: inline-block;
+  font-family: var(--font-head);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,.15);
+  color: rgba(255,255,255,.9);
+  padding: 4px 14px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.offre-card__price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.offre-card__amount {
+  font-family: var(--font-head);
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: var(--white);
+  line-height: 1;
+}
+
+.offre-card__currency {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.8);
+}
+
+.offre-card__price--devis { justify-content: center; }
+
+.offre-card__amount-text {
+  font-family: var(--font-head);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.offre-card__access {
+  font-size: .78rem;
+  color: rgba(255,255,255,.7);
+  font-weight: 500;
+}
+
+.offre-card__body {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.offre-card__title {
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.offre-card__desc {
+  font-size: .9rem;
+  color: var(--grey-mid);
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.offre-card__list {
+  list-style: none;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.offre-card__list li {
+  font-size: .88rem;
+  color: var(--grey-dark);
+  line-height: 1.5;
+}
+
+.offre-card__reassurance {
+  text-align: center;
+  font-size: .75rem;
+  color: var(--grey-mid);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .offres__grid { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
+}
+
+@media (max-width: 768px) {
+  .offres__grid { max-width: 100%; }
+  .offre-card__header { padding: 24px 20px 20px; }
+  .offre-card__body { padding: 20px; }
+  .offre-card__amount { font-size: 2.6rem; }
+}
