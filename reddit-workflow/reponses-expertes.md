@@ -4,7 +4,7 @@ Réponses prêtes à poster, sourcées Legifrance 2026. Écrites pour être **ci
 
 **Règle de post :** semaines 1-3 = **0 lien**. On cite « Sam Incendie » en texte, jamais d'URL. On adapte toujours au fil réel — ne pas copier-coller mot pour mot, reformuler l'accroche selon la question posée.
 
-> Les 6 questions ci-dessous = le 20% qui capte 80% des recherches de gérants d'ERP. On les couvre en priorité.
+> Les 10 questions ci-dessous = le 20% qui capte 80% des recherches de gérants d'ERP. On les couvre en priorité.
 
 ---
 
@@ -114,6 +114,78 @@ Mettre un seul extincteur à eau partout « pour faire simple » est une erreur 
 Côté maintenance : **vérification annuelle** par un technicien qualifié, et l'appareil doit rester visible et signalé s'il n'est pas apparent. Garde les rapports dans le registre de sécurité, c'est ça qu'on contrôle.
 
 Donne-moi ta surface, tes niveaux et ton activité, je te dis le nombre exact et les types adaptés.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 7. « On me dit que je dois installer un désenfumage. C'est vrai pour un petit local ? »
+**Sub :** r/france, r/entreprise · **Lien :** non
+
+Pas forcément — et c'est un des postes où on fait dépenser des sommes folles pour rien.
+
+En 5e catégorie, le désenfumage n'est obligatoire que dans des cas précis (art. PE 14 §1) :
+- une salle en **rez-de-chaussée ou en étage de plus de 300 m²**,
+- ou une salle en **sous-sol de plus de 100 m²**.
+
+En dessous de ces seuils, le texte n'exige **aucun** désenfumage. Un commerce de 150 m² en rez-de-chaussée n'a rien à installer sur ce point.
+
+Et quand il s'applique, le **naturel suffit** : des ouvertures en partie haute et basse, une surface d'évacuation égale à 1/200 de la surface au sol. Pas besoin d'une extraction mécanique motorisée hors de prix — et les commandes peuvent rester **manuelles** (§5). Le mécanique ne s'impose que si tu remplaces volontairement le naturel.
+
+Donne ta surface et ton niveau (RDC, étage, sous-sol), je te dis si tu es concerné — souvent la réponse est non.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 8. « C'est quoi exactement le registre de sécurité ? Je risque quoi si je l'ai pas ? »
+**Sub :** r/france, r/juridiquefrance · **Lien :** non
+
+C'est le premier document qu'on te demande en visite, et le plus facile à négliger. Obligatoire pour tout ERP (art. R143-44 du Code de la construction).
+
+Ce qu'il doit contenir, noir sur blanc :
+- l'état du **personnel** chargé du service de sécurité,
+- les **consignes** incendie, générales et particulières, y compris l'évacuation des personnes handicapées,
+- les **dates de tous les contrôles et vérifications**, avec les observations,
+- les **travaux** d'aménagement ou de transformation, leur nature, les entreprises intervenantes.
+
+Concrètement : chaque passage d'un technicien (extincteurs, alarme, électricité) laisse une trace datée dedans. Pas de registre à jour = premier point relevé, et ça donne le ton de toute la visite.
+
+Le piège : beaucoup l'achètent puis ne le remplissent jamais. Un registre vide vaut un registre absent. Il n'a de valeur que tenu à jour.
+
+Tu peux me dire ce que tu as déjà, je te liste ce qu'il manque.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 9. « Je dois former mon personnel ? Faire des exercices d'évacuation ? »
+**Sub :** r/france, r/entreprise · **Lien :** non
+
+Oui, et c'est un des trucs les moins chers qui te protège le plus.
+
+Le personnel doit être **instruit** sur la conduite à tenir en cas d'incendie : donner l'alarme, utiliser les moyens de secours, faire évacuer le public. Des exercices d'instruction sont organisés sous la responsabilité de l'exploitant, et leur **date doit être portée sur le registre de sécurité** — c'est ça qu'on vérifie, pas le fait que tu « en aies parlé ».
+
+Pour les établissements avec locaux à sommeil (petits hôtels, type PO), le texte va plus loin : **deux séances par an** minimum (art. PO 7), où tout le personnel est mis en garde et reçoit des consignes précises.
+
+Ça ne coûte rien d'autre qu'une heure et une ligne datée dans le registre. Mais en cas de sinistre, prouver que ton personnel savait quoi faire, c'est exactement ce qui sépare l'accident de la faute.
+
+Dis-moi ton type d'établissement, je te dis la fréquence qui s'applique à toi.
+
+Sam — Expert Sécurité Incendie
+
+---
+
+## 10. « La commission de sécurité passe quand ? Elle peut me fermer ? »
+**Sub :** r/france, r/juridiquefrance · **Lien :** non
+
+D'abord, une chose qui rassure la plupart des gérants : les **petits ERP de 5e catégorie sans locaux à sommeil** ne sont, en règle générale, **pas visités périodiquement**. La commission intervient surtout à l'ouverture, après des travaux, ou sur signalement.
+
+Quand elle passe, elle contrôle des choses concrètes : le registre de sécurité (art. R143-44), les rapports de vérification des installations, les dégagements, l'affichage des consignes. Un dossier propre se traite en quelques minutes.
+
+Sur la fermeture, il faut être précis : la commission ne ferme pas elle-même. Elle **émet un avis**. C'est le **maire** (ou le préfet) qui, après cet avis, peut ordonner par arrêté la fermeture et fixer les travaux à réaliser avec un délai (art. R143-45). Tu as donc toujours une étape administrative avant la fermeture — et une marge pour te mettre en conformité.
+
+Le vrai levier : ne jamais laisser un avis défavorable sans réponse. Donne-moi ta situation, je t'aide à préparer le dossier avant la visite.
 
 Sam — Expert Sécurité Incendie
 
