@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "marque": "Sam Incendie",
+    "site": "samincendie.fr",
+    "regle_or": "Semaines 1-3 = 0 lien, que valeur. Lien max 1 post/semaine ensuite. Ratio 80% aide / 20% promo. Reponse < 4h.",
+    "flair": "SSIAP 3 Certifie | 15+ ans"
+  },
+  "subreddits": {
+    "r/france": { "langue": "fr", "lien_autorise": false, "note": "Reponses expertise seulement, jamais de lien. Karma requis." },
+    "r/IleDeF": { "langue": "fr", "lien_autorise": "rare", "note": "Conseil local, lien tres occasionnel." },
+    "r/entreprise": { "langue": "fr", "lien_autorise": false, "note": "Contexte B2B, mention marque textuelle only." },
+    "r/juridiquefrance": { "langue": "fr", "lien_autorise": false, "note": "Responsabilite penale exploitant, aucun lien." },
+    "r/SafetyProfessionals": { "langue": "en", "lien_autorise": "rare", "note": "Credibilite technique internationale." }
+  },
+  "phases": [
+    {
+      "phase": "Fondation autorite (0 lien)",
+      "semaines": "1-3",
+      "objectif": "Construire karma + credibilite. AUCUN lien. Que commentaires utiles 200+ mots.",
+      "posts": [
+        { "semaine": 1, "jour": "Mardi", "sub": "r/france", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Repondre a un thread existant sur securite/travaux ERP" },
+        { "semaine": 1, "jour": "Jeudi", "sub": "r/SafetyProfessionals", "type": "commentaire", "template": "credential_defense", "lien": false, "sujet": "Expliquer SSIAP dans un thread certifications" },
+        { "semaine": 2, "jour": "Mardi", "sub": "r/juridiquefrance", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Responsabilite penale exploitant en cas d'incendie" },
+        { "semaine": 2, "jour": "Vendredi", "sub": "r/IleDeF", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Conseil audit incendie local, sans lien" },
+        { "semaine": 3, "jour": "Mardi", "sub": "r/france", "type": "post", "template": "resource_share", "lien": false, "sujet": "Ressources gratuites reglementation ERP (sans lien, texte seul)" },
+        { "semaine": 3, "jour": "Jeudi", "sub": "r/SafetyProfessionals", "type": "post", "template": "audit_walkthrough", "lien": false, "sujet": "Methodologie audit ERP en 5 etapes" }
+      ]
+    },
+    {
+      "phase": "Engagement + premier lien",
+      "semaines": "4-6",
+      "objectif": "3 posts/sem, 1 seul avec lien max. Mention marque textuelle privilegiee.",
+      "posts": [
+        { "semaine": 4, "jour": "Lundi", "sub": "r/entreprise", "type": "post", "template": "resource_share", "lien": false, "sujet": "40% des ERP non conformes: cout de la negligence" },
+        { "semaine": 4, "jour": "Mercredi", "sub": "r/SafetyProfessionals", "type": "post", "template": "audit_walkthrough", "lien": false, "sujet": "Partage technique methodologie" },
+        { "semaine": 4, "jour": "Vendredi", "sub": "r/IleDeF", "type": "post", "template": "intro", "lien": true, "sujet": "Presentation expert local (1 lien autorise cette semaine)" },
+        { "semaine": 5, "jour": "Lundi", "sub": "r/france", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Reponse detaillee thread securite" },
+        { "semaine": 5, "jour": "Mercredi", "sub": "r/juridiquefrance", "type": "post", "template": "credential_defense", "lien": false, "sujet": "Delegation de pouvoir en securite incendie" },
+        { "semaine": 5, "jour": "Vendredi", "sub": "r/entreprise", "type": "post", "template": "resource_share", "lien": true, "sujet": "Checklist conformite (1 lien cette semaine)" },
+        { "semaine": 6, "jour": "Lundi", "sub": "r/france", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Engagement thread" },
+        { "semaine": 6, "jour": "Mercredi", "sub": "r/SafetyProfessionals", "type": "commentaire", "template": "qa_reponse", "lien": false, "sujet": "Reponse technique" },
+        { "semaine": 6, "jour": "Vendredi", "sub": "r/IleDeF", "type": "post", "template": "resource_share", "lien": true, "sujet": "Etude de cas locale (1 lien)" }
+      ]
+    },
+    {
+      "phase": "Cadence de croisiere",
+      "semaines": "7-12",
+      "objectif": "Rythme hebdo stable. Lun = large audience, Mer = technique, Ven = local/actu. Reponses quotidiennes aux commentaires.",
+      "posts": [
+        { "semaine": "7-12", "jour": "Lundi", "sub": "r/france ou r/entreprise", "type": "commentaire/post", "template": "qa_reponse", "lien": false, "sujet": "Large audience, valeur d'abord" },
+        { "semaine": "7-12", "jour": "Mercredi", "sub": "r/SafetyProfessionals", "type": "post", "template": "audit_walkthrough", "lien": "rare", "sujet": "Credibilite technique" },
+        { "semaine": "7-12", "jour": "Vendredi", "sub": "r/IleDeF ou thread tendance", "type": "commentaire/post", "template": "resource_share", "lien": "rare", "sujet": "Local + actualite" }
+      ]
+    }
+  ]
+}
