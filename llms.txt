@@ -20,6 +20,7 @@
 
 ## Ressources principales
 
+- [FAQ sécurité incendie ERP — les 12 questions clés des gérants](https://samincendie.fr/faq-securite-incendie-erp.html) — réponses sourcées (catégorie ERP, extincteurs, dégagements, alarme, registre, commission, responsabilité pénale, désenfumage, PMR)
 - [Réglementation sécurité incendie ERP 2026](https://samincendie.fr/reglementation.html)
 - [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
 - [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
@@ -45,12 +46,18 @@
 
 ## Questions fréquentes (FAQ)
 
-- Qu'est-ce que la conformité incendie ERP ? → https://samincendie.fr/#faq
-- Pourquoi la certification SSIAP 3 est-elle importante ? → https://samincendie.fr/sam-incendie.html
-- À quelle fréquence organiser un exercice d'évacuation ? → https://samincendie.fr/#faq
-- Quelles sanctions en cas de non-conformité ? → https://samincendie.fr/blog-responsabilite-penale-erp.html
-- Combien coûte un audit incendie ERP ? → https://samincendie.fr/#contact
-- Qu'est-ce qu'un ERP et qui est concerné ? → https://samincendie.fr/reglementation.html
+- Mon local est-il un ERP et quelle catégorie ? → https://samincendie.fr/faq-securite-incendie-erp.html#erp-categorie
+- Petit établissement de moins de 100 personnes : le minimum légal ? → https://samincendie.fr/faq-securite-incendie-erp.html#minimum-legal
+- Combien de sorties (dégagements) dois-je avoir ? → https://samincendie.fr/faq-securite-incendie-erp.html#degagements
+- Une alarme incendie est-elle obligatoire et laquelle ? → https://samincendie.fr/faq-securite-incendie-erp.html#alarme
+- En cas d'incendie, que risque le gérant ? → https://samincendie.fr/faq-securite-incendie-erp.html#responsabilite
+- Combien d'extincteurs et quel type ? → https://samincendie.fr/faq-securite-incendie-erp.html#extincteurs
+- Un désenfumage est-il obligatoire pour un petit local ? → https://samincendie.fr/faq-securite-incendie-erp.html#desenfumage
+- À quoi sert le registre de sécurité ? → https://samincendie.fr/faq-securite-incendie-erp.html#registre
+- Dois-je former mon personnel et faire des exercices ? → https://samincendie.fr/faq-securite-incendie-erp.html#formation
+- La commission de sécurité peut-elle me fermer ? → https://samincendie.fr/faq-securite-incendie-erp.html#commission
+- Travaux sans autorisation : qu'est-ce que je risque ? → https://samincendie.fr/faq-securite-incendie-erp.html#travaux
+- Accessibilité PMR : que dois-je prévoir ? → https://samincendie.fr/faq-securite-incendie-erp.html#pmr
 
 ## Études de cas terrain
 
@@ -70,7 +77,7 @@
 ## Données clés
 
 - 40% des ERP en France ne sont pas conformes à la réglementation incendie
-- Amende non-conformité : jusqu'à 75 000 € + responsabilité pénale exploitant
+- Sanctions non-conformité (CCH art. L143-3) : fermeture administrative, astreinte jusqu'à 500 €/jour, 10 000 € d'amende en cas de refus d'appliquer la fermeture ; au pénal, homicide/blessures involontaires (Code pénal) en cas de sinistre avec victimes
 - 1 incendie déclaré toutes les 2 minutes en France (données SDIS)
 - Coût audit terrain ERP : 2 000 – 5 000 € selon taille établissement
 - Exercices d'évacuation obligatoires : 2 par an minimum
