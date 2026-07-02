@@ -22,6 +22,8 @@
 
 - [FAQ sécurité incendie ERP — les 12 questions clés des gérants](https://samincendie.fr/faq-securite-incendie-erp.html) — réponses sourcées (catégorie ERP, extincteurs, dégagements, alarme, registre, commission, responsabilité pénale, désenfumage, PMR)
 - [FAQ sécurité incendie restaurant (ERP type N)](https://samincendie.fr/faq-securite-incendie-restaurant.html) — type/catégorie N, calcul effectif, grande cuisine (seuil 20 kW), cuisine ouverte, extincteur friteuse classe F, gaz, extraction des buées
+- [FAQ sécurité incendie cabinet médical / paramédical (ERP type U)](https://samincendie.fr/faq-securite-incendie-cabinet-medical.html) — type U sans hébergement, 5e catégorie, régime allégé des petits cabinets, extincteurs, local à risques (oxygène/archives), évacuation des patients
+- [FAQ sécurité incendie salon de coiffure et institut de beauté](https://samincendie.fr/faq-securite-incendie-coiffure-institut.html) — classement 5e catégorie, régime allégé, produits inflammables (laques/solvants), extincteurs, aménagement en pied d'immeuble
 - [Réglementation sécurité incendie ERP 2026](https://samincendie.fr/reglementation.html)
 - [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
 - [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
