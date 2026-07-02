@@ -21,6 +21,7 @@
 ## Ressources principales
 
 - [FAQ sécurité incendie ERP — les 12 questions clés des gérants](https://samincendie.fr/faq-securite-incendie-erp.html) — réponses sourcées (catégorie ERP, extincteurs, dégagements, alarme, registre, commission, responsabilité pénale, désenfumage, PMR)
+- [FAQ sécurité incendie restaurant (ERP type N)](https://samincendie.fr/faq-securite-incendie-restaurant.html) — type/catégorie N, calcul effectif, grande cuisine (seuil 20 kW), cuisine ouverte, extincteur friteuse classe F, gaz, extraction des buées
 - [Réglementation sécurité incendie ERP 2026](https://samincendie.fr/reglementation.html)
 - [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
 - [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
