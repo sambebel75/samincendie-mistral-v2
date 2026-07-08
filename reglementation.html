@@ -4723,7 +4723,11 @@
     });
     sidebar.innerHTML = html;
 
-    // Contenu de bienvenue
+    // Auto-sélectionner le premier code disponible
+    const firstCode = d.sidebar[0]?.rows[0]?.codes[0];
+    if (firstCode) { showArticle(firstCode); return; }
+
+    // Contenu de bienvenue (fallback si aucun code)
     const content = document.getElementById('detail-content');
     content.innerHTML = `
       <div class="info-box">
