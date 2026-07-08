@@ -3549,7 +3549,7 @@
     igh: {
       label: 'IGH / IMH — Immeubles de grande et moyenne hauteur',
       color: '#1A2E4A',
-      intro: "Règlement de sécurité pour la construction des IGH. Arrêté du 18 octobre 1977 modifié. Plancher bas du dernier niveau > 50 m (ou > 28 m pour habitation).",
+      intro: "Règlement de sécurité pour la construction des immeubles de grande hauteur (IGH). Arrêté du 30 décembre 2011. Plancher bas du dernier niveau > 50 m ou > 28 m pour les habitations.",
       sidebar: [
         {
           group: 'Titre II — Dispositions communes',
@@ -3571,16 +3571,988 @@
         }
       ],
       articles: {
-        GH: { title:'Dispositions communes à tous les IGH', sub:'Arrêté du 18 octobre 1977 modifié', legifrance:'https://www.legifrance.gouv.fr', intro:"Règles communes applicables à tout immeuble de grande hauteur (plancher bas du dernier niveau > 50 m, ou > 28 m pour l\'habitation) : construction, désenfumage, installations électriques, SSI, organisation des secours, service de sécurité.", chapters:[{title:'Titre I — Définitions et classement',ref:'GH 1 à 6'},{title:'Titre II, Chap. I — Construction et résistance au feu',ref:'GH 7 à 20'},{title:'Titre II, Chap. II — Désenfumage',ref:'GH 21 à 30'},{title:'Titre II, Chap. III — Installations électriques',ref:'GH 31 à 42'},{title:'Titre II, Chap. IV — Ascenseurs et monte-charge',ref:'GH 43 à 49'},{title:'Titre II, Chap. V — SSI et alarme',ref:'GH 50 à 57'},{title:'Titre II, Chap. VI — Moyens de secours',ref:'GH 58 à 65'}] },
-        GHA: { title:'GH A — IGH à usage d\'habitation', sub:'Logements en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles à usage d\'habitation de grande hauteur (plancher bas > 28 m). Compartimentage par niveaux, détection, désenfumage des circulations communes.", chapters:[{title:'Champ d\'application',ref:'GH A 1'},{title:'Construction et compartimentage',ref:'GH A 2 à 4'},{title:'Désenfumage',ref:'GH A 5'},{title:'Moyens de secours',ref:'GH A 6'}] },
-        GHO: { title:'GH O — IGH à usage hôtelier', sub:'Hôtels en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les hôtels en IGH. Détection automatique dans toutes les chambres, évacuation des personnes hébergées, compartimentage renforcé.", chapters:[{title:'Champ d\'application',ref:'GH O 1'},{title:'Construction et compartimentage',ref:'GH O 2 à 5'},{title:'Détection et alarme',ref:'GH O 6 à 7'},{title:'Moyens de secours',ref:'GH O 8'}] },
-        GHR: { title:'GH R — IGH à usage d\'enseignement', sub:'Écoles et universités en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les établissements d\'enseignement en IGH.", chapters:[{title:'Champ d\'application',ref:'GH R 1 à 2'},{title:'Construction',ref:'GH R 3 à 6'},{title:'Désenfumage et moyens de secours',ref:'GH R 7 à 9'}] },
-        GHS: { title:'GH S — IGH à usage de dépôt d\'archives', sub:'Dépôts d\'archives en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles de grande hauteur à usage de dépôt d\'archives (article unique).", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH S'}] },
-        GHU: { title:'GH U — IGH à usage sanitaire', sub:'Hôpitaux et cliniques en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les établissements de soins en IGH (hôpitaux, cliniques). Contraintes spécifiques liées à l\'évacuation de patients alités ou à mobilité réduite.", chapters:[{title:'Champ d\'application',ref:'GH U 1 à 3'},{title:'Construction et compartimentage',ref:'GH U 4 à 9'},{title:'Désenfumage',ref:'GH U 10 à 13'},{title:'Electricité et éclairage',ref:'GH U 14 à 16'},{title:'Moyens de secours',ref:'GH U 17 à 19'}] },
-        GHW: { title:'GH W — IGH à usage de bureaux', sub:'Tours de bureaux en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les immeubles de bureaux de grande hauteur.", chapters:[{title:'Champ d\'application',ref:'GH W 1'},{title:'Construction et compartimentage',ref:'GH W 2 à 3'},{title:'Désenfumage et moyens de secours',ref:'GH W 4 à 5'}] },
-        GHZ: { title:'GH Z — IGH à usage mixte habitation-bureaux', sub:'Usage mixte habitation et bureaux', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles de grande hauteur à usage mixte associant habitation et bureaux (article unique). Renvoi aux dispositions GH A et GH W.", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH Z'}] },
-        GHTC: { title:'GH TC — Tour de contrôle', sub:'Tour de contrôle aéroportuaire en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux tours de contrôle aéroportuaires répondant à la définition de l\'IGH (article unique).", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH TC'}] },
-        ITGH: { title:'ITGH — Immeuble de très grande hauteur (> 200 m)', sub:'Dispositions renforcées au-delà de 200 m', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions spécifiques pour les tours dépassant 200 m. Cellule de sécurité incendie permanente, moyens de secours intégrés, coordination renforcée avec les services de secours.", chapters:[{title:'Champ d\'application et définitions',ref:'Art. 1 à 3'},{title:'Construction renforcée',ref:'Art. 4 à 8'},{title:'Cellule de sécurité permanente',ref:'Art. 9 à 12'},{title:'Coordination avec les secours',ref:'Art. 13 à 14'}] },
+        GH: {
+          title: 'Dispositions communes à tous les IGH',
+          sub: 'Arrêté du 30 décembre 2011 — Titre I',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Règles communes applicables à tout immeuble de grande hauteur. Arrêté du 30 décembre 2011 portant règlement de sécurité pour la construction des IGH et leur protection contre les risques d'incendie et de panique.",
+          chapters: [
+            {
+              title: 'Généralités', ref: 'Art. GH 1',
+              text: [
+                '<span class="art-para-num">§ 1.</span> A l\'exception des dispositions à caractère administratif, de celles relatives aux contrôles et aux vérifications techniques ainsi qu\'à l\'entretien, le présent règlement ne s\'applique pas aux immeubles de grande hauteur (IGH) existants.<br>Lorsque des travaux de remplacement d\'installation, d\'aménagement ou d\'agrandissement sont entrepris dans ces immeubles, les dispositions du présent règlement sont applicables aux seules parties de la construction ou des installations modifiées.<br>Toutefois, si ces modifications ont pour effet d\'accroître le risque de l\'ensemble de l\'immeuble de grande hauteur, des mesures de sécurité complémentaires peuvent être imposées après avis de la commission de sécurité.',
+                '<span class="art-para-num">§ 2.</span> Conformément aux prescriptions de l\'article R. 122-4 du code de la construction et de l\'habitation, les dispositions du présent titre comportent les prescriptions générales communes aux diverses classes d\'immeubles.<br>Le titre II définit les dispositions complémentaires relatives au classement des immeubles de grande hauteur où sont installées plusieurs activités et à l\'indépendance prévue à l\'article R. 122-2 du code précité.<br>Elles sont complétées par les dispositions particulières propres à chaque classe d\'immeuble de grande hauteur insérées au titre III ci-après.<br>En application de l\'article R. 4216-1 du code du travail, les dispositions des sections concernées de ce code ne s\'appliquent pas dans le cadre du présent règlement.',
+                '<span class="art-para-num">§ 3.</span> Pour l\'application du présent règlement, ne sont pas considérés comme niveaux, au sens de l\'article R. 122-2 du code de la construction et de l\'habitation, les locaux ou groupes de locaux techniques qui couvrent une emprise inférieure à cinquante pour cent du niveau courant et qui sont accessibles uniquement depuis la terrasse.',
+                '<span class="art-para-num">§ 4.</span> Une seule mezzanine est autorisée par compartiment ; sa surface est prise en compte dans le calcul de la superficie du compartiment.<br>En atténuation de l\'article GH 9, les éventuelles mezzanines situées à l\'intérieur des compartiments et répondant aux dispositions de l\'article CO 11, § 4, du règlement de sécurité des établissement recevant du public, ne sont pas soumises à l\'exigence de stabilité au feu de l\'immeuble, sous réserve de vérification qu\'il n\'existe pas de risque d\'effondrement en chaîne en cas de ruine de la mezzanine.',
+                '<span class="art-para-num">§ 5.</span> Lorsque la conformité à une norme française ou à une norme européenne non harmonisée est exigée par le présent règlement, cette exigence ne s\'applique pas aux produits fabriqués conformément aux normes, spécifications techniques ou procédés de fabrication d\'un Etat membre de la Communauté européenne ou d\'un autre Etat partie à l\'accord instituant l\'Espace économique européen ou de la Turquie qui permettent d\'assurer un niveau de protection contre l\'incendie équivalent.<br>Toutefois, un produit peut se voir refuser la mise sur le marché ou être retiré du marché si celui-ci n\'assure pas ce niveau de protection. Ces décisions sont précédées d\'une procédure contradictoire.',
+                '<span class="art-para-num">§ 6.</span> Lorsqu\'une certification de produit, telle que l\'admission à la marque NF, est exigée par le présent règlement, cette exigence ne s\'applique pas aux produits dont l\'équivalence du niveau de protection contre l\'incendie a été certifiée dans un Etat membre de la Communauté européenne ou dans un autre Etat partie à l\'accord instituant l\'Espace économique européen ou en Turquie. Cette équivalence s\'apprécie notamment en termes d\'aptitude à l\'emploi dans les systèmes de protection contre l\'incendie mentionnés dans le présent règlement. L\'organisme certificateur est accrédité selon la norme NF EN 45011 par un organisme signataire de l\'accord européen multilatéral pris dans le cadre de la coordination européenne des organismes d\'accréditation. Il délivre des attestations de conformité selon les exigences du guide ISO/CEI 65.',
+                '<span class="art-para-num">§ 7.</span> Lorsque des produits sont soumis au marquage CE, tout élément de preuve de conformité autre que celle permettant ce marquage mentionné dans le présent règlement cesse d\'être exigible à compter de la date d\'entrée en vigueur de cette obligation de marquage.<br>Au cours de la période dite de coexistence pendant laquelle les producteurs peuvent utiliser les spécifications techniques françaises ou les spécifications techniques européennes, la preuve de la conformité de ces produits par référence aux spécifications techniques françaises est admise.',
+                '<span class="art-para-num">§ 8.</span> Lorsqu\'ils ont été effectués sur la base d\'un référentiel commun, les essais pratiqués par les laboratoires d\'autres Etats membres de la Communauté européenne ou d\'Etats parties à l\'accord instituant l\'Espace économique européen ou de la Turquie, accrédités selon la norme NF EN ISO/CEI 17025 par un organisme signataire de l\'accord européen multilatéral pris dans le cadre de la coordination européenne des organismes d\'accréditation sont acceptés au même titre que les essais pratiqués par les laboratoires français accrédités.',
+              ]
+            },
+            {
+              title: 'Activités autorisées', ref: 'Art. GH 2',
+              text: [
+                'En application de l\'article R. 122-7 du code de la construction et de l\'habitation et des dispositions du code de l\'environnement, les installations suivantes sont autorisées :<br>― groupes électrogènes ;<br>― installations de production de chaud et de froid ;<br>― onduleurs ;<br>― transformateurs.',
+              ]
+            },
+            {
+              title: 'Terminologie', ref: 'Art. GH 3',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les indications de résistance et de réaction au feu dont il sera fait état dans le présent règlement se réfèrent aux articles R. 121-1 à R. 121-13 du code de la construction et de l\'habitation et aux textes en vigueur. Le propriétaire est en mesure de justifier, notamment lors des visites des commissions de sécurité et lors des vérifications techniques réalisées par les organismes agréés, que les matériaux et éléments de construction utilisés ont un classement en réaction ou en résistance au feu au moins égal aux classements fixés dans la suite du présent règlement.<br>Lorsqu\'une exigence de résistance au feu exprimée selon les classes européennes est introduite, l\'exigence REI peut être réduite à EI si l\'élément considéré n\'a pas de fonction porteuse.',
+                '<span class="art-para-num">§ 2.</span> Pour l\'application du présent règlement, on appelle :<br>― <strong>alarme générale du compartiment</strong> : signaux diffusés dans le but d\'avertir les occupants du compartiment d\'avoir à évacuer les lieux. Il existe au moins un signal sonore ;<br>― <strong>alerte</strong> : action de demander l\'intervention d\'un service de secours et de lutte contre l\'incendie ;<br>― <strong>alimentation électrique de sécurité (AES)</strong> : dispositif qui fournit l\'énergie électrique nécessaire au fonctionnement des installations de sécurité afin de leur permettre d\'assurer leur fonction aussi bien en marche normale qu\'en marche en sécurité. L\'alimentation électrique de sécurité est dite spécifique si elle n\'alimente qu\'une seule des installations de sécurité et non spécifique si elle en alimente plusieurs ;<br>― <strong>ascenseur</strong> : appareil qui dessert des niveaux définis, à l\'aide d\'une cabine qui se déplace soit le long de guides rigides soit selon une course parfaitement définie dans l\'espace en l\'absence de tels guides ;<br>― <strong>câble non propagateur de l\'incendie ou C1, câble non propagateur de la flamme ou C2, câble résistant au feu ou CR 1</strong> : classifications de comportement au feu des câbles et conducteurs électriques fixées par l\'arrêté du 21 juillet 1994 modifié ;<br>― <strong>canalisation électrique</strong> : ensemble constitué par un ou plusieurs conducteurs électriques et par les éléments assurant leur fixation ainsi que, le cas échéant, par leur protection mécanique ;<br>― <strong>charge calorifique</strong> : somme des énergies calorifiques (exprimée en MJ) pouvant être dégagées par la combustion complète de l\'ensemble des matériaux incorporés dans la construction ou situés dans un local (revêtements, mobilier et agencement). On peut définir une charge calorifique par unité de surface au sol ou densité de charge calorifique (MJ/m²) ;<br>― <strong>cheminement technique protégé</strong> : galerie technique, gaine, caniveau ou vide de construction dont le volume est protégé d\'un incendie extérieur, de telle manière que les canalisations ou équipements qui l\'empruntent puissent continuer d\'assurer leur service pendant un temps déterminé ;<br>― <strong>circulation horizontale commune (CHC)</strong> : circulation horizontale qui relie l\'ensemble des dispositifs d\'accès aux escaliers, les paliers d\'ascenseurs et les dispositifs d\'intercommunication entre compartiments lorsqu\'ils existent. Les halls sont assimilés à des CHC ;<br>― <strong>circulation horizontale privative</strong> : circulation qui présente l\'une ou l\'autre des caractéristiques suivantes : cheminement délimité par un cloisonnement pouvant ne présenter aucune caractéristique de résistance au feu ; ou zone de circulation ou cheminement, non délimité par un cloisonnement, mais dont la conception et le balisage permettent aux personnes qui les empruntent de gagner la sortie sans hésiter sur la direction à suivre. Une circulation horizontale privative est obligatoire dans une surface paysagère de plus de 300 m² ;<br>― <strong>commission de sécurité</strong> : vaut pour la sous-commission ERP/IGH de la commission consultative départementale de sécurité et d\'accessibilité ;<br>― <strong>dégagements</strong> : les dégagements comprennent les escaliers et leurs dispositifs d\'accès, les circulations horizontales ;<br>― <strong>élément de construction primaire porteur</strong> : élément de construction dont la ruine entraîne la ruine de l\'ensemble de la structure ;<br>― <strong>espace d\'attente sécurisé</strong> : emplacement réalisé de façon à permettre l\'accès et le stationnement d\'un fauteuil roulant pour personne à mobilité réduite sans causer une gêne pour l\'évacuation des autres occupants. Il dispose d\'un éclairage de sécurité et d\'une liaison phonique permettant à la personne en situation de handicap de signaler sa présence au service de sécurité incendie et d\'assistance à personnes de l\'immeuble. L\'espace d\'attente sécurisé peut être placé soit dans un dispositif d\'intercommunication entre une circulation horizontale commune et un escalier, soit à proximité immédiate du dispositif d\'intercommunication précité dans des conditions équivalentes ayant fait l\'objet d\'un avis favorable de la commission de sécurité ;<br>― <strong>évacuation</strong> : action visant à permettre aux occupants de quitter un compartiment où est localisé un incendie ou tout autre événement pouvant porter atteinte à leur sécurité ;<br>― <strong>évacuation de première phase</strong> : les occupants du compartiment concerné rejoignent un compartiment où ils seront à l\'abri des effets d\'un incendie ;<br>― <strong>évacuation de deuxième phase</strong> : les occupants ayant réalisé une évacuation de première phase peuvent rejoindre le niveau d\'évacuation à l\'extérieur de l\'immeuble par les ascenseurs et les escaliers ;<br>― <strong>évacuation générale</strong> : évacuation de l\'ensemble des occupants à l\'extérieur de l\'immeuble, à l\'exception du service de sécurité incendie et d\'assistance à personnes ;<br>― <strong>installations de sécurité</strong> : installations qui sont mises ou maintenues en service en cas d\'incendie ou en cas de défaillance de la source normale-remplacement, pour assurer la sécurité des personnes. Elles comprennent : l\'éclairage minimal ; les installations du système de sécurité incendie (SSI) ; les ascenseurs ainsi que le non-arrêt de ces appareils dans le compartiment sinistré ; les secours en eau ; les pompes d\'exhaure ; la ventilation mécanique éventuelle des locaux de transformation et des locaux renfermant des batteries d\'accumulateurs ; les télécommunications de l\'immeuble ; la climatisation des locaux de service électrique ; la ventilation du local du groupe électrogène ; le système de ventilation mécanique ou de conditionnement d\'air des locaux de machineries d\'ascenseurs ;<br>― <strong>monte-charge</strong> : équipement de levage desservant des niveaux définis, comportant une cabine dont l\'intérieur est considéré inaccessible aux personnes en raison de ses dimensions et de sa constitution ;<br>― <strong>non-occupation</strong> : la situation de non-occupation d\'un IGH est considérée atteinte lorsque l\'effectif des personnes présentes dans tous les compartiments est inférieur à une personne pour 100 m² de surface hors œuvre nette ;<br>― <strong>permis de feu</strong> : document autorisant l\'exécution de travaux par points chauds. Il est signé par le maître d\'ouvrage ou son représentant qualifié, un représentant du service de sécurité incendie (SSIAP 2 minimum) et par l\'opérateur. La validité du permis de feu est limitée à un jour ou une opération (cinq jours maximum) ;<br>― <strong>propriétaire</strong> : terme valant pour le propriétaire, le copropriétaire et le syndicat des copropriétaires ;<br>― <strong>règlement de sécurité des établissements recevant du public</strong> : règlement pris par arrêtés du ministre de l\'intérieur en application de l\'article R.* 123-12 du code de la construction et de l\'habitation ;<br>― <strong>revêtement</strong> : produit ou ensemble de produits rapportés sur un élément de construction ou d\'ouvrage désigné support ;<br>― <strong>source normale</strong> : source constituée par un raccordement au réseau électrique de distribution publique haute tension ou basse tension ou une production interne autonome ;<br>― <strong>source de remplacement</strong> : source délivrant l\'énergie électrique permettant de poursuivre tout ou partie de l\'exploitation en cas de défaillance de la source normale. Dans la suite du présent règlement, l\'ensemble constitué par la source normale et la source de remplacement est appelé « source normale-remplacement » ;<br>― <strong>source de sécurité</strong> : source prévue pour maintenir le fonctionnement des matériels concourant à la sécurité contre les risques d\'incendie et de panique en cas de défaillance de la « source normale-remplacement » ;<br>― <strong>système de sécurité incendie (SSI)</strong> : ensemble des matériels servant à collecter toutes les informations ou ordres liés à la seule sécurité incendie, à les traiter et à effectuer les fonctions nécessaires à la mise en sécurité incendie d\'un bâtiment. Dans sa version la plus complexe, un SSI est composé d\'un système de détection incendie (SDI) et d\'un système de mise en sécurité incendie (SMSI). Tout SSI est conforme aux dispositions du chapitre XI, section V du règlement de sécurité des ERP ;<br>― <strong>tableau électrique</strong> : ensemble de dispositifs de commande, de protection, de distribution de l\'énergie électrique regroupés sur un même support. Il est dit « de sécurité » lorsque les dispositifs précités concernent exclusivement les installations de sécurité.<br>― <strong>temps de commutation</strong> : intervalle de temps entre le moment où apparaît une défaillance de l\'alimentation normale et le moment où la tension est disponible aux bornes de sortie de la source de sécurité ;<br>― <strong>volet de transfert</strong> : dispositif d\'obturation autocommandé constituant un dispositif actionné de sécurité (DAS), placé au droit d\'une bouche de transfert entre un dispositif d\'intercommunication et une circulation horizontale commune ;<br>― <strong>volume technique protégé</strong> : local ou placard dont le volume est protégé d\'un incendie extérieur de telle manière que les matériels qu\'il contient puissent continuer d\'assurer leur service pendant un temps déterminé.',
+              ]
+            },
+            {
+              title: 'Documents, contrôles et vérifications techniques', ref: 'Art. GH 4',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Au moment de la conception, la notice de sécurité accompagnant le dossier fourni à l\'occasion de travaux ou de changement d\'affectation et soumis à l\'avis de la commission de sécurité, est rédigée dans l\'ordre des articles du présent règlement et faire référence explicite à ces articles ainsi qu\'à tous les documents techniques complémentaires. La notice technique décrit les façades et les principes des installations techniques et de sécurité suivantes : la production et la distribution d\'électricité, haute, basse et moyenne tension, la distribution de l\'eau, le conditionnement d\'air, la ventilation, le désenfumage, le chauffage, l\'aménagement des locaux techniques et les moyens de secours. Les documents graphiques ainsi que les plans, coupes et élévations de façades nécessaires à une bonne lisibilité du projet sont joints à la notice de sécurité.<br>Avant le début des travaux portant sur les façades et les installations techniques, le maître d\'ouvrage complète la notice technique en y précisant les renseignements de détail sous la forme décrite par le règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 2.</span> Les renseignements de détail intéressant les installations techniques, fournis à l\'occasion de travaux ou de changement d\'affectation et soumis à l\'avis de la commission de sécurité, sont complétés et fournis par le constructeur ou le propriétaire avant le début des travaux portant sur ces installations.',
+                '<span class="art-para-num">§ 3.</span> En application des articles R. 122-23 et R. 122-28 du code de la construction et de l\'habitation, la commission de sécurité visite l\'immeuble selon la fréquence fixée ci-dessous :<br><table class="art-table"><tr><th>Classe</th><th>Périodicité</th></tr><tr><td>GH A</td><td>3 ans</td></tr><tr><td>GH O</td><td>3 ans</td></tr><tr><td>GH R</td><td>5 ans</td></tr><tr><td>GH S</td><td>5 ans</td></tr><tr><td>GHTC</td><td>5 ans</td></tr><tr><td>GH U</td><td>2 ans</td></tr><tr><td>GH W</td><td>5 ans</td></tr><tr><td>GH Z</td><td>3 ans</td></tr><tr><td>ITGH</td><td>3 ans</td></tr></table>Pour les immeubles abritant plusieurs classes d\'activités, la périodicité applicable est celle qui correspond à la classe d\'activité pour laquelle cette périodicité est la plus rapprochée.',
+                '<span class="art-para-num">§ 4.</span> Une ampliation des décisions prises par le maire à l\'issue des visites de contrôle prévues par l\'article R. 122-28 du code de la construction et de l\'habitation, est transmise au préfet.',
+                '<span class="art-para-num">§ 5.</span> Pour le visa du maire, prévu par l\'article R. 122-29 du code de la construction et de l\'habitation, le registre de sécurité est accompagné des deux derniers rapports de vérifications techniques établis, pour chaque catégorie d\'installation, en fonction de la périodicité définie à l\'article GH 5.',
+              ]
+            },
+            {
+              title: 'Vérifications techniques par des organismes agréés', ref: 'Art. GH 5',
+              text: [
+                'Les propriétaires font effectuer, dans les conditions définies ci-après, des vérifications techniques par des organismes visés à l\'article R. 122-16 du code de la construction et de l\'habitation. Les vérifications techniques concernant un même type d\'installation, hormis les vérifications de la charge calorifique, sont exécutées dans l\'ensemble de l\'immeuble sous la responsabilité d\'un même organisme agréé.',
+                '<span class="art-para-num">§ 1. Obligations du maître d\'ouvrage ou du propriétaire :</span> Le maître d\'ouvrage ou le propriétaire communique aux vérificateurs, sur support papier, la notice de sécurité, les plans et les renseignements de détail concernant les installations techniques, les prescriptions imposées par le permis de construire ou l\'autorisation de travaux, ainsi que l\'historique des principales modifications effectuées et les prescriptions notifiées à la suite des visites de contrôle des commissions de sécurité.',
+                '<span class="art-para-num">§ 2. Vérifications à l\'occasion de travaux :</span> Les vérifications dans les immeubles de grande hauteur neufs ou ayant fait l\'objet de travaux sont réalisées à l\'issue des visites effectuées pendant la phase construction par les vérificateurs techniques au sein de l\'IGH. Le résultat de ces visites permet de fournir au maître d\'ouvrage ou au propriétaire, dans le cadre d\'un référentiel préalablement défini, l\'évaluation de la conformité de l\'objet vérifié en fin de travaux par rapport aux dispositions réglementaires. Ces vérifications font l\'objet d\'un rapport de vérifications réglementaires après travaux (RVRAT).',
+                '<span class="art-para-num">§ 3. Vérifications dans les IGH existants :</span><br>3.1.1. <em>Tous les six mois</em> : le fonctionnement des ascenseurs équipés de dispositifs d\'appel prioritaire.<br>3.1.2. <em>Tous les ans</em> : les installations électriques et l\'éclairage des parties communes ; le fonctionnement des ascenseurs non équipés de dispositifs d\'appel prioritaire ; les scénarios du système de sécurité incendie ; l\'ensemble des dispositifs actionnés de sécurité ; les conditions d\'exploitation du SSI ; les exutoires de désenfumage des escaliers et 20 % des ouvrants de désenfumage de secours ; les vitesses, débits et pressions des installations de désenfumage mécanique de 20 % des compartiments ; les moyens d\'extinction prévus aux articles GH 51 à GH 55 ; les interphones, les moyens de liaisons phoniques prévus à l\'article GH 63 et les moyens de télécommunication de sécurité ; le déverrouillage des issues ; l\'ouverture des portes automatiques coulissantes de l\'immeuble ; les autres équipements ayant une fonction de sécurité incendie non cités par ailleurs ; les installations d\'appareils de cuisson ou de réchauffage destinés à la restauration ; les installations de chauffage et de cuisine.<br>3.1.3. <em>Tous les deux ans</em> : les paratonnerres.<br>3.1.4. <em>Tous les cinq ans</em> : les évaluations de la charge calorifique visée à l\'article GH 61.<br>Ces vérifications font l\'objet d\'un rapport de vérifications réglementaires en exploitation (RVRE).',
+                '<span class="art-para-num">§ 4. Vérifications sur mise en demeure :</span> Les vérifications effectuées à la suite d\'une mise en demeure de l\'autorité administrative après avis de la commission de sécurité, consistent à effectuer les vérifications de bon état et de bon fonctionnement de tout ou partie des équipements ou installations désignés, à vérifier la conformité ou la capacité des installations techniques à satisfaire aux exigences réglementaires applicables ou à des prescriptions particulières, à vérifier la conformité ou la capacité des dispositions constructives à satisfaire aux exigences réglementaires ou à des prescriptions particulières. La commission de sécurité précise l\'objet, la nature et le référentiel des vérifications demandées. Ces vérifications font l\'objet d\'un rapport de vérifications réglementaires sur mise en demeure (RVRMD).',
+                '<span class="art-para-num">§ 6.</span> Dès qu\'il en a le signalement, le propriétaire fait remédier à l\'indisponibilité des équipements de sécurité. Dans un délai d\'un mois suivant leur vérification, il prend toutes les dispositions nécessaires à la remise en état des diverses installations.',
+              ]
+            },
+            {
+              title: 'Voies d\'accès pour les véhicules de lutte contre l\'incendie', ref: 'Art. GH 6',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les sorties des immeubles sur les niveaux accessibles aux engins des services publics de secours et de lutte contre l\'incendie ne peuvent se trouver à plus de 30 mètres d\'une voie ouverte à la circulation à ses deux extrémités et permettant la circulation et le stationnement de ces engins.',
+                '<span class="art-para-num">§ 2.</span> Sur ces voies, un cheminement répondant aux caractéristiques minimales suivantes est réservé en permanence aux sapeurs-pompiers :<br>― hauteur libre : 3,50 mètres ;<br>― largeur de la chaussée, bandes réservées au stationnement exclues : 3,50 mètres ;<br>― force portante de 160 kilonewtons calculée pour un véhicule avec un maximum de 90 kilonewtons par essieu, ceux-ci étant distants de 3,60 mètres au minimum ;<br>― résistance au poinçonnement : 80 N/cm² sur une surface minimale de 0,20 m² ;<br>― rayon intérieur minimal R : 11 mètres ;<br>― surlargeur S = 15/R dans les virages de rayon intérieur inférieur à 50 mètres (S et R : surlargeur et rayon intérieur, étant exprimés en mètres) ;<br>― pente inférieure à 15 %.',
+                '<span class="art-para-num">§ 3.</span> Une aire de concentration des engins de secours, publique ou privée, existe à proximité de l\'immeuble. Ses caractéristiques sont déterminées en relation avec les services publics de secours et de lutte contre l\'incendie.',
+              ]
+            },
+            {
+              title: 'Isolement du voisinage, volume de protection', ref: 'Art. GH 7',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En application des articles R. 122-2 et R. 122-9 du code de la construction et de l\'habitation, un immeuble de grande hauteur est isolé des constructions voisines par un mur ou une façade verticale coupe-feu de degré deux heures ou REI 120 sur toute sa hauteur, ou par un volume de protection.',
+                '<span class="art-para-num">§ 2.</span> La limite latérale du volume de protection est constituée par une surface verticale située à 8 mètres au moins de tout point des façades de l\'immeuble qui ne sont pas coupe-feu de degré deux heures ou REI 120.<br>La limite inférieure du volume de protection est constituée soit par le sol, soit par des constructions ou parties de constructions voisines coupe-feu de degré deux heures ou REI 120.',
+                '<span class="art-para-num">§ 3.</span> Un immeuble de grande hauteur ne peut être construit si la limite latérale de son volume de protection empiète sur les fonds voisins. Toutefois, il peut être dérogé à cette règle dans les cas suivants :<br>― le propriétaire du fonds a obtenu des propriétaires des fonds voisins la création, par acte authentique, d\'une servitude conventionnelle assujettissant l\'empiétement précité aux dispositions de l\'article GH 8, § 3 ;<br>― les fonds voisins respectent les dispositions relatives à l\'indépendance des volumes situés dans l\'emprise d\'un immeuble de grande hauteur définis au titre II, chapitre II, du présent règlement.',
+              ]
+            },
+            {
+              title: 'Servitude du volume de protection', ref: 'Art. GH 8',
+              text: [
+                '<span class="art-para-num">§ 1.</span> A l\'exception des constructions visées aux paragraphes 2 et 3 ci-dessous, le volume de protection est dégagé de tout élément combustible, végétation exclue.',
+                '<span class="art-para-num">§ 2.</span> Les constructions, situées en tout ou partie à l\'intérieur du périmètre délimité sur le plan horizontal par la projection des éléments les plus saillants de l\'immeuble de grande hauteur, respectent les dispositions applicables à cet immeuble.<br>Cette disposition ne s\'oppose pas à la création d\'établissements recevant du public aux niveaux inférieurs de l\'immeuble dans les conditions définies au titre II, chapitre II, du présent règlement.',
+                '<span class="art-para-num">§ 3.</span> Les autres constructions, situées en tout ou partie dans le volume de protection, répondent aux dispositions suivantes :<br>― le plancher bas de l\'étage le plus élevé est situé à moins de 8 mètres du niveau extérieur accessible à la circulation publique des piétons ;<br>― les sorties sur ce niveau peuvent être atteintes en permanence à partir des voies accessibles aux engins des sapeurs-pompiers par un cheminement sûr de moins de 60 mètres. Toute dénivellation positive ou négative sur ce parcours est comptée dans le calcul de la longueur du cheminement pour une distance égale à cinq fois la différence de niveau ;<br>― les structures sont indépendantes de l\'immeuble de grande hauteur et stables au feu de degré deux heures ou R 120 ;<br>― les murs extérieurs, les couvertures et les façades, situés dans le volume de protection, sont pare-flammes de degré deux heures ou RE 120. Cette disposition n\'est pas applicable aux façades en retour par rapport à l\'immeuble de grande hauteur conformes aux dispositions de l\'article GH 13 ;<br>― les locaux ne peuvent abriter des installations classées interdites par l\'article R. 122-7 du code de la construction et de l\'habitation.',
+              ]
+            },
+            {
+              title: 'Stabilité au feu', ref: 'Art. GH 9',
+              text: [
+                'La stabilité au feu des éléments de la structure de l\'immeuble (poteaux, poutres, planchers, etc.) est de degré deux heures ou R 120.',
+              ]
+            },
+            {
+              title: 'Parois en contiguïté avec d\'autres constructions — Passerelles de liaisons', ref: 'Art. GH 10',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dispositifs de franchissement des parois de l\'immeuble en contiguïté avec d\'autres constructions, au nombre de deux au plus par compartiment, se situent dans les circulations horizontales communes pour l\'immeuble de grande hauteur et doivent déboucher dans les parties communes pour les tiers non immeubles de grande hauteur. Ils satisfont aux dispositions de l\'article GH 25.',
+                '<span class="art-para-num">§ 2.</span> Les parois séparant l\'immeuble de grande hauteur d\'un parc de stationnement qui ne lui est pas intégré sont de degré coupe-feu quatre heures ou REI 240 dans la limite du volume de protection de l\'immeuble de grande hauteur. Une seule communication avec un parc de stationnement indépendant peut être admise.<br>Elle débouche uniquement et directement dans le hall principal d\'accès des piétons et ne peut être comptée comme dégagement d\'évacuation.<br>Cette communication est réalisée au moyen d\'un dispositif d\'intercommunication coupe-feu de degré quatre heures ou EI 240, muni de deux blocs-portes, pare-flammes de degré deux heures ou E 120 et coupe-feu de degré une heure, équipés d\'un ferme-porte ou EI 60 - C.<br>Le dispositif d\'intercommunication est en surpression en cas d\'incendie.',
+                '<span class="art-para-num">§ 3.</span> Au cas où les locaux voisins de l\'immeuble présenteraient un danger d\'explosion, les mesures d\'isolement et les éléments de la structure de l\'immeuble de grande hauteur voisins de ces locaux sont déterminés en conséquence. Toute communication, directe ou indirecte, avec l\'immeuble de grande hauteur est interdite.',
+                '<span class="art-para-num">§ 4.</span> La mise en place de passerelles de liaison entre un immeuble de grande hauteur et un bâtiment en vis-à-vis est autorisée à condition de respecter les dispositions suivantes :<br>― le nombre de passerelles est limité à deux par compartiment ;<br>― elles aboutissent dans une circulation horizontale commune ;<br>― elles sont stables au feu de degré une demi-heure ou R 30 ;<br>― l\'accès à la passerelle depuis l\'immeuble de grande hauteur se fait au travers d\'un dispositif d\'intercommunication conforme aux dispositions de l\'article GH 25, § 6 ;<br>― aucun local ne débouche sur la passerelle ;<br>― seules les dispositions définies à l\'article GH 13 s\'appliquent en ce qui concerne les parois des passerelles ;<br>― chaque passerelle dispose d\'au moins un exutoire permettant l\'évacuation des fumées tel que défini à l\'article GH 29, § 3. Cette disposition ne s\'applique pas lorsque la passerelle relie deux immeubles de grande hauteur ;<br>― une passerelle ne peut être comptée comme dégagement d\'évacuation et elle ne comporte aucun local, aménagement, dépôt ou matériau constituant une charge calorifique appréciable.',
+              ]
+            },
+            {
+              title: 'Parcs de stationnement intégrés et locaux dangereux situés dans l\'immeuble', ref: 'Art. GH 11',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Un parc de stationnement qui fait partie intégrante de l\'immeuble de grande hauteur tel que défini à l\'article R. 122-2 du CCH répond :<br>― aux dispositions générales définies aux articles R. 122-9 et R. 122-10 du CCH ;<br>― aux dispositions techniques, non contradictoires ni atténuantes, fixées au chapitre VI du livre IV du règlement de sécurité des ERP, à l\'exception des paragraphes 2 et 3 de l\'article PS 9 ;<br>― aux dispositions suivantes, nonobstant les mesures définies dans les règlements de sécurité précités :<br>&nbsp;&nbsp;― le respect des mesures de sécurité incendie dans le parc de stationnement couvert est assuré par le propriétaire de l\'immeuble de grande hauteur ou son mandataire ;<br>&nbsp;&nbsp;― les locaux techniques non liés à l\'exploitation du parc de stationnement ne peuvent pas communiquer avec l\'intérieur du parc ;<br>&nbsp;&nbsp;― la détection automatique d\'incendie est généralisée à l\'ensemble du parc. La sensibilisation d\'un détecteur dans le parc entraîne uniquement et sans temporisation le fonctionnement des dispositions prévues à l\'article PS 27, § 2b ;<br>&nbsp;&nbsp;― en dérogation aux dispositions de l\'article PS 18, § 4.4, les commandes manuelles de désenfumage sont regroupées à l\'intérieur du poste central de sécurité incendie ;<br>&nbsp;&nbsp;― les planchers et les parois verticales séparant le parc de stationnement du reste de l\'IGH sont coupe-feu de degré deux heures ou REI 120 ;<br>&nbsp;&nbsp;― un système d\'extinction automatique de type sprinkleur, conforme aux dispositions de l\'article MS 25 du règlement de sécurité des ERP, est mis en place ;<br>&nbsp;&nbsp;― chaque compartiment du parc comporte une circulation horizontale commune.',
+                '<span class="art-para-num">§ 2.</span> Dans les locaux de l\'immeuble qui présentent des risques particuliers d\'incendie, la commission de sécurité peut demander, pour les éléments porteurs et les parois, des degrés de résistance au feu plus élevés, proportionnés aux risques.',
+              ]
+            },
+            {
+              title: 'Généralités relatives aux façades', ref: 'Art. GH 12',
+              text: [
+                'Les façades sont conçues et réalisées de façon à limiter la propagation du feu d\'un compartiment à l\'autre :<br>― par les jonctions des façades avec les structures et parois aux limites des compartiments ;<br>― par l\'extérieur.<br>Les façades ou parties de façades ayant une fonction porteuse sont stables au feu de degré deux heures ou R. 120.<br>La conformité des façades aux dispositions réglementaires des articles GH 12 et GH 13 est attestée par un visa du Centre scientifique et technique du bâtiment, d\'Efectis France ou de tout autre laboratoire reconnu compétent par la commission centrale de sécurité.',
+              ]
+            },
+            {
+              title: 'Comportement au feu des façades', ref: 'Art. GH 13',
+              text: [
+                'Les parties de façades soumises à exigence de résistance au feu ne comportent pas d\'ouvrants de confort susceptibles d\'être ouverts en cas d\'incendie.',
+                '<strong>A. ― Exigences pour toutes les façades.</strong><br><span class="art-para-num">§ 1.</span> La masse combustible mobilisable (M) de la façade est inférieure ou égale à 130 MJ/m², l\'ensemble des matériaux entrant dans sa constitution étant à prendre en compte.<br>Si la masse combustible mobilisable (M) de la façade est supérieure à 130 MJ/m², un dossier est soumis à l\'avis de la commission centrale de sécurité dans les conditions prévues à l\'article R. 122-11-6 du CCH. La même obligation s\'impose si la façade fait l\'objet d\'une innovation technique importante.<br>Les composants et équipements de façade sont classés M0 ou A2-s3, d0, à l\'exception :<br>― des cadres de menuiseries en bois ;<br>― des cadres de menuiseries classés M2 ou C-s3, d0 ;<br>― des cadres de menuiseries avec leurs remplissages verriers minéraux (et leurs éventuels intercalaires) classés C-s3, d0 ;<br>― des éléments verriers minéraux assemblés avec leurs intercalaires classés C-s3, d0 ;<br>― des peintures et systèmes d\'imperméabilisation classés M2 ou C-s3, d0 ;<br>― des stores extérieurs ou intégrés classés M1 ou B-s3, d0 ;<br>― des joints et garnitures de joints.',
+                '<strong>B. ― Exigences pour les façades vitrées.</strong><br>Pour les façades vitrées, il faut :<br>― soit mettre en œuvre les dispositions constructives décrites dans l\'instruction technique 249, avec application de la règle du C + D, en respectant :<br>&nbsp;&nbsp;C + D ≥ 1,20 m si M ≤ 80 MJ/m² ;<br>&nbsp;&nbsp;C + D ≥ 1,50 m si M ≤ 130 MJ/m² ;<br>― soit justifier d\'une performance de résistance au feu des façades de degré pare-flammes égale à une heure, feu extérieur vers intérieur ou E o i 60 avec utilisation du programme thermique normalisé.',
+                '<strong>C. ― Exigence pour les façades non vitrées.</strong><br>L\'exigence requise pour les façades non vitrées est un degré pare-flammes d\'une heure, feu extérieur vers intérieur ou E o i 60 avec utilisation du programme thermique normalisé.',
+              ]
+            },
+            {
+              title: 'Couvertures', ref: 'Art. GH 14',
+              text: [
+                'La couverture est classée B ROOF (t3) au sens de l\'arrêté du 14 février 2003, et l\'utilisation de matériaux susceptibles de s\'arracher enflammés en cas d\'incendie est interdite.',
+              ]
+            },
+            {
+              title: 'Réaction au feu des matériaux de construction (abrogé)', ref: 'Art. GH 15',
+              text: [ '<em>Article abrogé.</em>' ]
+            },
+            {
+              title: 'Limitation de la charge calorifique des éléments de construction hors revêtements des parois horizontales et latérales', ref: 'Art. GH 16',
+              text: [
+                '<span class="art-para-num">§ 1.</span> La charge calorifique surfacique des matériaux incorporés dans la construction des immeubles est inférieure, en moyenne et par compartiment, à 255 MJ/m² de surface hors œuvre nette.<br>La masse combustible de la façade n\'est pas prise en compte au titre de cet article.<br>Dans le calcul de cette charge calorifique surfacique, les matériaux de catégorie M0 ou classés A1 ou A2 incorporés dans la construction des immeubles sont exclus.',
+                '<span class="art-para-num">§ 2.</span> Le maître d\'œuvre apporte la justification au propriétaire de la charge calorifique définie au paragraphe 1 et liste les différents éléments pris en compte pour ce calcul.',
+              ]
+            },
+            {
+              title: 'Dispositions générales relatives aux cages, gaines et conduits', ref: 'Art. GH 17',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les gaines d\'ascenseur, de monte-charge et de monte-plats sont constituées de parois construites en matériaux classés A1 et coupe-feu de degré deux heures ou REI 120, sous réserve des prescriptions des articles GH 18 et GH 19 ci-après relatives aux trappes et aux portes de visite.<br>En atténuation aux dispositions ci-dessus, les cages d\'escalier peuvent être constituées de parois construites en matériaux classés A2-s1, d0, et coupe-feu de degré deux heures ou EI 120 dans les conditions de mise en œuvre qui font l\'objet d\'un avis favorable du CECMI garantissant la réalisation des performances précitées.',
+                '<span class="art-para-num">§ 2.</span> Lorsqu\'un conduit traverse une paroi, il possède les caractéristiques de résistance au feu de la paroi traversée. Cette résistance peut être obtenue :<br>― soit par le conduit seul s\'il possède une résistance au feu suffisante ;<br>― soit, dans le cas contraire, par l\'établissement du conduit dans une gaine de résistance au feu requise ou par la mise en place, au droit de la paroi traversée, d\'un dispositif d\'obturation automatique restituant une résistance au feu équivalente (clapet, volet ou tout autre dispositif classé selon la norme NF EN 1366-3).',
+                '<span class="art-para-num">§ 3.</span> D\'une manière générale, les gaines techniques ou conduits ne peuvent se trouver ou s\'ouvrir dans les cages d\'escalier et leurs dispositifs d\'accès, ni sur les paliers d\'ascenseur lorsque ceux-ci sont protégés en application de l\'article GH 31 ci-après.',
+              ]
+            },
+            {
+              title: 'Dispositions particulières aux gaines verticales non recoupées', ref: 'Art. GH 18',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les cages d\'escalier, les gaines d\'ascenseur et de monte-charge, les gaines techniques verticales dont le recoupement au droit des planchers est rendu impossible par leur destination, ne comportent que des dispositifs de communication, des trappes ou des portes de visite coupe-feu de degré deux heures ou EI 120 maintenus verrouillés.',
+                '<span class="art-para-num">§ 2.</span> Le degré coupe-feu deux heures ou EI 120 exigé ci-dessus peut être obtenu pour les gaines techniques par l\'addition des degrés coupe-feu de la trappe ou porte de visite et du bloc-porte du local d\'accès à ces dispositifs. Ce local ne comporte aucune matière combustible, à l\'exception des blocs-portes, et ses parois ont un degré coupe-feu au moins égal à celui de sa porte d\'accès.<br>Ces gaines, à l\'exception des gaines d\'ascenseur et de monte-charge, sont désenfumées automatiquement et protégées tous les cinq niveaux par une installation fixe d\'extinction automatique de type sprinkleur conforme aux dispositions de l\'article MS 25 du règlement de sécurité des ERP ou appropriée aux risques existants après avis de la commission de sécurité.',
+                '<span class="art-para-num">§ 3.</span> En aggravation des paragraphes 1 et 2 ci-dessus, les gaines de monte-courrier ou de transport mécanisé de documents ou d\'autres objets sont équipées, dans leur partie verticale, de détecteurs automatiques d\'incendie disposés au moins tous les trois niveaux. Les dispositifs mobiles d\'obturation de l\'accès à ces gaines font l\'objet, avant leur mise en œuvre, d\'un rapport d\'essai établi par un laboratoire agréé et attestant leur aptitude à la fonction d\'obturation.',
+                '<span class="art-para-num">§ 4.</span> L\'installation de conduits de vide-ordures est interdite dans un immeuble de grande hauteur.',
+              ]
+            },
+            {
+              title: 'Dispositions particulières aux gaines verticales recoupées', ref: 'Art. GH 19',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Toutes les gaines techniques verticales sont coupe-feu de degré deux heures ou EI 120 et doivent être recoupées au droit de chaque plancher par des séparations coupe-feu de degré deux heures ou EI 120 ne laissant aucun vide entre les conduits.',
+                '<span class="art-para-num">§ 2.</span> Les trappes et portes de visite de ces gaines sont coupe-feu de degré une demi-heure ou EI 30 et maintenues verrouillées.<br>Leur surface par gaine et par niveau est limitée à 0,80 m² pour les gaines contenant les conduits aérauliques de chauffage ou de ventilation et à 1,40 m² pour les gaines contenant les conduits d\'évacuation ou d\'alimentation en eau, des câbles, canalisations ou tableaux électriques.<br>Au-delà de ces surfaces, les trappes ou portes de visite sont coupe-feu de degré une heure ou EI 60.',
+              ]
+            },
+            {
+              title: 'Dispositions particulières aux gaines d\'allure horizontale', ref: 'Art. GH 20',
+              text: [
+                'Les portes et trappes de visite des gaines d\'allure horizontale sont d\'un degré coupe-feu égal à la moitié de celui de la gaine.',
+              ]
+            },
+            {
+              title: 'Plafonds, plafonds suspendus', ref: 'Art. GH 21',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les revêtements des plafonds sont de catégorie M1 ou classés B-s3, d0. En aggravation de cette disposition, ils sont de catégorie M0 ou classés A2-s2, d0, dans les dégagements communs, les halls et les cuisines collectives.<br>La paroi support du revêtement est toujours de catégorie M0 ou classée A2-s3, d0.',
+                '<span class="art-para-num">§ 2.</span> Les éléments constitutifs des plafonds suspendus sont classés B-s3, d0. En aggravation de cette disposition, ils sont classés A2-s2, d0, dans les dégagements communs, les halls et les cuisines collectives.',
+                '<span class="art-para-num">§ 3.</span> Les plafonds suspendus sont stables au feu de degré un quart d\'heure dans les dégagements communs et les halls.',
+                '<span class="art-para-num">§ 4.</span> Tout plénum existant entre le plancher haut et le plafond suspendu est recoupé tous les 25 mètres par des éléments en matériaux de catégorie M0 ou classés A2-s2, d0, et pare-flammes de degré une demi-heure ou E 30. Les cellules ainsi constituées ont une superficie maximale de 300 m². S\'il excède 0,20 mètre de hauteur, le plénum est visible dans toutes les cellules.<br>Le plénum ne peut contenir que des matériaux de catégorie M2 ou classés C-s3, d1, à l\'exception des canalisations électriques.',
+                '<span class="art-para-num">§ 5.</span> Les plafonds suspendus ne peuvent être pris en compte pour le calcul de la résistance au feu des planchers.',
+                '<span class="art-para-num">§ 6.</span> La suspente et la fixation des plafonds suspendus sont en matériaux classés A2 et réalisées selon les dispositions de la norme NF P 68-203.1.',
+                '<span class="art-para-num">§ 7.</span> Les plafonds suspendus installés dans les dégagements restent en place sous l\'effet des variations de pression dues au fonctionnement du désenfumage mécanique.',
+              ]
+            },
+            {
+              title: 'Revêtements de sol et revêtements des parois latérales', ref: 'Art. GH 22',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Toutes les parois supports de revêtements visées par le présent article sont réalisées en matériaux de catégorie M0 ou classés A2-s3, d0.',
+                '<span class="art-para-num">§ 2.</span> Les revêtements de sol sont de catégorie M3 ou classés CFL-s1.',
+                '<span class="art-para-num">§ 3.</span> Les revêtements des parois latérales sont de catégorie M1 ou classés B-s3, d0.<br>En aggravation de ces dispositions, dans les dégagements communs, les halls et les cuisines collectives, les revêtements des parois latérales sont de catégorie M0 ou classés A2-s2, d0.<br>Les matériaux de catégorie M3 ou classés D sont toutefois autorisés pour les blocs-portes et les plinthes, les matériaux de catégorie M1 ou classés A2FL pour les planchers techniques (côté plénum).<br>Le classement de réaction au feu des papiers peints collés et des peintures appliquées sur les parois est justifié dans les conditions prévues à l\'annexe III de l\'arrêté du 21 novembre 2002 modifié.',
+              ]
+            },
+            {
+              title: 'Dispositions générales — Dégagements', ref: 'Art. GH 23',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dégagements ont des largeurs offrant au moins deux unités de passage, au sens de l\'article CO 36, § 2, du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 2.</span> Ces dégagements sont conformes, en outre, aux dispositions des articles CO 37, CO 38, § 1, CO 42, CO 44, CO 45, CO 46, CO 48, CO 50, CO 51, CO 53, § 4, et CO 55 du règlement précité.',
+                '<span class="art-para-num">§ 3.</span> Les circulations horizontales communes sont encloisonnées par des parois verticales et horizontales coupe-feu de degré une heure ou REI 60 ne comportant pas de volume de rangement ouvrant dans les circulations. Les blocs-portes de ces parois sont pare-flammes de degré une demi-heure et équipés de ferme-porte ou E 30 - C. Les trappes de visite des plénums prévus à l\'article GH 21, § 4, restituent un coupe-feu de degré une heure ou EI 60 et doivent être maintenues fermées.<br>En atténuation, un espace « accueil » par compartiment, d\'une surface maximale de 15 m², donnant directement sur la circulation horizontale commune est autorisé sous les conditions suivantes :<br>― emprise en dehors de la circulation horizontale commune ;<br>― vocation exclusive d\'accueil ;<br>― mobilier en matériaux de catégorie M1 ou classés B-s3, d0, limité à 50 MJ/m², sans rangement ;<br>― un point de détection au moins, situé au-dessus de la zone « accueil », est raccordé à la détection de la circulation.',
+                '<span class="art-para-num">§ 4.</span> Les escaliers desservant les étages, d\'une part, et les niveaux inférieurs, d\'autre part, s\'arrêtent au niveau le plus élevé d\'accès des piétons. A ce niveau, chaque escalier dispose d\'une sortie directe sur l\'extérieur, sauf lorsque ces escaliers débouchent sur un hall s\'ouvrant largement sur l\'extérieur. Aucune communication n\'existe entre les volumes de ces escaliers.<br>A chaque niveau, les dispositifs d\'accès aux escaliers sont reliés par une circulation horizontale commune.',
+                '<span class="art-para-num">§ 5.</span> L\'accès utilisable par les sapeurs-pompiers est signalé et balisé.',
+                '<span class="art-para-num">§ 6.</span> Afin de définir les dégagements des locaux de l\'immeuble, l\'effectif des personnes qui sont admises dans ces locaux est déterminé, par type d\'activité, suivant les dispositions particulières des établissements recevant du public.',
+                '<span class="art-para-num">§ 7.</span> Le verrouillage des portes donnant directement sur l\'extérieur, dites portes principales de l\'immeuble, dans le sens de l\'entrée, est autorisé sous réserve du respect des dispositions suivantes :<br>― possibilité de sortir de l\'immeuble en actionnant la poignée de chaque porte équipée du dispositif de verrouillage ;<br>― déverrouillage de toutes les portes à partir du poste central de sécurité incendie ;<br>― déverrouillage de toutes les portes, commandé automatiquement, en cas de détection incendie dans un compartiment ;<br>― déverrouillage manuel par le service de sécurité incendie et d\'assistance à personnes à l\'aide de clés.',
+              ]
+            },
+            {
+              title: 'Escaliers', ref: 'Art. GH 24',
+              text: [
+                '<span class="art-para-num">§ 1.</span> A tous les niveaux, chaque escalier visé par l\'article R. 122-9 du code de la construction et de l\'habitation est accessible depuis tout local occupé. Ces escaliers sont à volées droites. La distance maximale, mesurée dans l\'axe des circulations horizontales communes à partir de la porte d\'un local situé en cul-de-sac jusqu\'à l\'embranchement de deux circulations menant chacune à un escalier, est de 10 mètres.<br>Par dérogation à l\'article GH 23, § 1, les escaliers peuvent ne comporter qu\'une unité de passage lorsqu\'ils desservent des compartiments abritant moins d\'une personne par 100 m² de surface hors œuvre nette.',
+                '<span class="art-para-num">§ 2.</span> Les dispositifs d\'accès aux escaliers sont à plus de 10 mètres et à moins de 30 mètres l\'un de l\'autre.<br>Ces distances sont mesurées dans l\'axe des circulations horizontales communes entre les dispositifs d\'accès aux escaliers. Dans le cas de pluralité de cheminements, l\'un d\'eux au moins est inférieur à 30 mètres.',
+                '<span class="art-para-num">§ 3.</span> Les parcours à l\'air libre n\'entrent pas dans le calcul des distances séparant les escaliers visés ci-dessus.',
+                '<span class="art-para-num">§ 4.</span> Dans le cas d\'escaliers extérieurs au corps du bâtiment, leurs parois peuvent ne pas être coupe-feu de degré deux heures ou EI 120 mais les protègent des flammes, des fumées ainsi que des intempéries. Si les conditions atmosphériques locales ne s\'y opposent pas, ces escaliers peuvent être à l\'air libre.',
+              ]
+            },
+            {
+              title: 'Dispositifs d\'intercommunication', ref: 'Art. GH 25',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Conformément aux dispositions de l\'article R. 122-10 du code de la construction et de l\'habitation, les communications d\'un compartiment à un autre et avec des escaliers sont assurées par des dispositifs coupe-feu de degré deux heures ou EI 120 munis de deux blocs-portes pare-flammes de degré une heure ou E 60 et coupe-feu de degré une demi-heure ou EI 30, pouvant être franchis par des personnes isolées sans mettre en communication directe l\'atmosphère des deux compartiments et d\'un compartiment avec un escalier. Un dispositif d\'intercommunication entre deux compartiments relie deux circulations horizontales communes.',
+                '<span class="art-para-num">§ 2.</span> En complément des dispositions de l\'article R. 122-9 du CCH, lors du fonctionnement du désenfumage, les dispositifs d\'intercommunication entre compartiments sont toujours en surpression.',
+                '<span class="art-para-num">§ 3.</span> Par dérogation aux dispositions de l\'article GH 23, paragraphes 1 et 2, les portes des dispositifs visés au paragraphe 1 peuvent ne comporter qu\'une unité de passage.',
+                '<span class="art-para-num">§ 4.</span> Les dispositifs d\'intercommunication ont une surface de 3 m² au moins et de 8 m² au plus. Ils ne comportent que deux blocs-portes ; le cheminement entre les deux blocs-portes est de 1,40 mètre de long au moins et est dépourvu de tout obstacle.',
+                '<span class="art-para-num">§ 5.</span> Lorsque les dispositifs d\'intercommunication donnent accès aux escaliers prévus par l\'article GH 24, leurs portes :<br>― s\'ouvrent dans le sens de la sortie vers l\'escalier ;<br>― sont équipées d\'un ferme-porte ;<br>― portent une plaque signalétique mentionnant exclusivement « Porte coupe-feu. A maintenir fermée », en lettres blanches sur fond rouge. Cette plaque est fixée sur chaque porte, côté circulation horizontale, d\'une part, côté intérieur du dispositif pour la porte donnant accès à l\'escalier, d\'autre part.<br>Lorsque les dispositifs font communiquer deux compartiments à un même niveau, leurs portes sont :<br>― soit maintenues fermées en position normale et équipées d\'un ferme-porte ;<br>― soit à fermeture automatique et admises à la marque NF ; leur fonctionnement se produit alors dans les conditions prévues à l\'article GH 49.',
+                '<span class="art-para-num">§ 6.</span> Par dérogation au paragraphe 1 ci-dessus et pour des impératifs d\'exploitation, l\'intercommunication entre deux compartiments situés sur un même niveau peut être réalisée par une baie, sous réserve de l\'avis de la commission de sécurité et du respect des dispositions suivantes :<br>― la baie est équipée d\'un dispositif à fermeture automatique coupe-feu de degré deux heures ou EI 120, admis à la marque NF ;<br>― les deux compartiments reliés sont équipés d\'un système d\'extinction automatique de type sprinkleur ;<br>― une plaque signalétique portant la mention : « Dispositif coupe-feu. Ne mettez pas d\'obstacle à la fermeture » est apposée bien en évidence, à proximité de la baie, dans chaque compartiment.',
+              ]
+            },
+            {
+              title: 'Surveillance permanente de l\'isolement des compartiments', ref: 'Art. GH 26',
+              text: [
+                'Les dispositifs suivants concourent à la réalisation de l\'isolement permanent des compartiments :<br>― les blocs-portes des dispositifs d\'intercommunication visés à l\'article GH 25, § 5 ;<br>― les portes d\'ascenseurs et de monte-charge visées à l\'article GH 31, § 1d, dont la seule porte palière assure l\'isolement coupe-feu de degré deux heures ou EI 120 ;<br>― les portes d\'accès aux gaines techniques non recoupées visées à l\'article GH 18.<br>Ces dispositifs constituent des dispositifs de sécurité non commandés dont la position normale de fonctionnement est identique à la position de sécurité.<br>Les défauts de position prolongés de ces dispositifs sont signalés. L\'affichage global des informations relatives à chacun des compartiments est reporté au poste central de sécurité, distinct de celui relatif à la fonction compartimentage, et indique un défaut de position d\'attente.<br>Une temporisation de 60 secondes au plus pourra être prévue pour signaler l\'ouverture de ces portes afin d\'éviter le signalement intempestif d\'anomalies.',
+              ]
+            },
+            {
+              title: 'Gestion des dispositifs de contrôle d\'accès en cas d\'incendie', ref: 'Art. GH 27',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Un système de contrôle d\'accès comprend des dispositifs qui peuvent concerner :<br>a) Au(x) niveau(x) d\'accès des piétons à l\'immeuble, les accès depuis les halls : aux paliers d\'ascenseurs ; aux escaliers ;<br>b) Dans les autres niveaux de l\'immeuble, les accès aux circulations horizontales communes des étages depuis : les paliers d\'ascenseurs ; les escaliers ;<br>c) Les accès aux zones privatives depuis les circulations horizontales communes des niveaux.',
+                '<span class="art-para-num">§ 2. Principe général de décondamnation :</span> La décondamnation des dispositifs de contrôle d\'accès permet :<br>― l\'évacuation des occupants du compartiment impliqué vers des compartiments non impliqués ou vers l\'extérieur de l\'immeuble ;<br>― la suppression des obstacles éventuels à l\'efficacité du désenfumage ;<br>― l\'intervention des secours à partir des compartiments non impliqués.<br>Quelle que soit l\'implantation des dispositifs de contrôle d\'accès, à l\'exception de ceux visés au c du paragraphe 1 ci-dessus, leur libération est automatique et généralisée à l\'ensemble des niveaux de l\'immeuble équipés de tels dispositifs, dès le déclenchement du processus d\'alarme dans l\'un quelconque des compartiments de l\'immeuble.',
+                '<span class="art-para-num">§ 3. Dispositions particulières :</span><br>a) Au(x) niveau(x) d\'entrée des piétons : la sortie des cages d\'escaliers répond aux exigences de l\'article CO 45, § 2, du règlement de sécurité des ERP ; le déverrouillage local des portes d\'accès aux cages d\'escaliers, à l\'aide de clés, est réalisable par le service de sécurité ;<br>b) Aux autres niveaux de l\'immeuble : un interphone permettant de dialoguer avec le poste central de sécurité incendie est placé sur chaque palier d\'ascenseur ; un dispositif de commande manuelle est situé près de chaque porte concernée ;<br>c) Accès aux zones privatives, depuis les circulations horizontales communes : le contrôle d\'accès aux locaux privatifs peut être réalisé par tout moyen permettant l\'évacuation des personnes et l\'accès à ces locaux par les agents du service de sécurité incendie et les services publics de secours.',
+              ]
+            },
+            {
+              title: 'Désenfumage', ref: 'Art. GH 28',
+              text: [
+                '<span class="art-para-num">§ 1. Généralités :</span><br>a) Le désenfumage a pour objet d\'extraire, en début d\'incendie, une partie des fumées et des gaz de combustion afin de maintenir praticables les cheminements destinés à l\'évacuation des occupants.<br>b) Les documents à fournir en application de l\'article GH 4 comprennent : un plan comportant les emplacements des évacuations de fumée et des amenées d\'air, le tracé des réseaux aérauliques, l\'emplacement des ventilateurs de désenfumage, l\'emplacement des dispositifs de commande des ouvrants de désenfumage de secours ; une note explicative précisant les caractéristiques techniques des différents équipements.',
+                '<span class="art-para-num">§ 2. Désenfumage des circulations horizontales communes :</span><br>a) Le désenfumage des circulations horizontales communes est réalisé conformément à l\'instruction technique relative au désenfumage dans les immeubles de grande hauteur. Ces dispositions ne concernent pas les paliers répondant aux dispositions de l\'article GH 31, § 1a.<br>b) Les matériels entrant dans la constitution de l\'installation de désenfumage répondent aux dispositions de l\'instruction technique relative au désenfumage dans les IGH et de l\'article GH 49.',
+                '<span class="art-para-num">§ 3. Désenfumage des locaux :</span> Les locaux collectifs visés à l\'article GH 71 d\'une superficie supérieure à 300 m² sont désenfumés dans les conditions prévues dans l\'instruction technique n° 246.',
+              ]
+            },
+            {
+              title: 'Désenfumage de secours', ref: 'Art. GH 29',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Afin de permettre l\'évacuation des fumées et gaz chauds du compartiment sinistré lorsque le système de désenfumage mécanique ne fonctionne plus ou est devenu insuffisant, des ouvrants en façade sont prévus à chaque niveau dans les immeubles qui ne comportent pas de châssis mobiles susceptibles d\'assurer la même fonction.',
+                '<span class="art-para-num">§ 2.</span> Le désenfumage de secours présente les caractéristiques suivantes :<br>― les ouvrants, au nombre d\'au moins un par fraction de 300 m² de surface de compartiment, ont une surface unitaire d\'un mètre carré minimum ;<br>― chaque compartiment ou niveau comporte au moins quatre ouvrants judicieusement répartis qui ne peuvent donc tous se trouver sur la même façade ;<br>― la commande d\'ouverture des ouvrants est facilement accessible aux services publics de secours et de lutte contre l\'incendie ;<br>― l\'ouverture des ouvrants s\'effectue par un des moyens suivants : une ou deux poignée(s) ; un dispositif de commande manuelle (DCM) admis à la marque NF ; un carré femelle de 6 millimètres de côté et de 10 millimètres de profondeur au moins permettant l\'utilisation de la clé spéciale des personnels des services publics de secours.',
+                '<span class="art-para-num">§ 3.</span> Chaque cage d\'escalier définie à l\'article R. 122-9 du CCH comporte à sa partie supérieure un exutoire, d\'une surface libre d\'un mètre carré, permettant l\'évacuation des fumées et s\'ouvrant sur l\'extérieur.<br>Son ouverture est exclusivement télécommandée par une action manuelle à partir du poste central de sécurité incendie de l\'immeuble. La commande est uniquement réservée aux sapeurs-pompiers. Un contrôle de position de l\'exutoire est installé dans le poste de sécurité incendie.',
+              ]
+            },
+            {
+              title: 'Gaines et cabines d\'ascenseurs et de monte-charges', ref: 'Art. GH 30',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les ascenseurs et monte-charges, et d\'une façon générale, tous les appareils élévateurs mettant en liaison deux ou plusieurs niveaux sont installés conformément au décret n° 2000-810 du 24 août 2000, relatif à la mise sur le marché des ascenseurs.',
+                '<span class="art-para-num">§ 2.</span> Pour les ascenseurs, en complément de ces dispositions, la température à l\'intérieur des gaines est compatible avec le fonctionnement sûr des ascenseurs, en particulier en évitant la déformation des guides. Ce fonctionnement est assuré pendant deux heures vis-à-vis d\'un feu extérieur à la gaine, supposé évoluer selon la courbe normalisée température/temps définie par la norme NF EN 13501-2.',
+                '<span class="art-para-num">§ 3.</span> Excepté pour les ascenseurs comportant le dispositif d\'appel prioritaire prévu à l\'article GH 34, les cabines d\'ascenseurs sont équipées d\'un dispositif de commande accompagnée, destiné, une fois actionné, à inhiber le fonctionnement de l\'ascenseur vis-à-vis des appels paliers et cabine déjà enregistrés et à permettre une utilisation uniquement à partir du panneau de commande en cabine. Quatre exemplaires de ce dispositif de commande sont tenus, au poste central de sécurité incendie, à la disposition du commandant des opérations de secours.',
+                '<span class="art-para-num">§ 4.</span> Les ascenseurs débouchent, dans tous les cas, sur des circulations horizontales communes et leurs accès sont protégés en cas d\'incendie selon les dispositions de l\'article GH 31 ci-dessous.',
+                '<span class="art-para-num">§ 7.</span> Les parois supports de la cabine sont en matériaux de catégorie M0 ou A1. Les revêtements de la cabine sont en matériaux de catégories : M3 ou Cfl-s1 au sol ; M1 ou C-s2, d0 pour les parois verticales, le plafond et les luminaires.',
+                '<span class="art-para-num">§ 8.</span> Le propriétaire est tenu de s\'assurer de la propreté des cuvettes des gaines et au besoin de faire procéder à leur nettoyage.',
+              ]
+            },
+            {
+              title: 'Protection des accès aux ascenseurs et monte-charges', ref: 'Art. GH 31',
+              text: [
+                '<span class="art-para-num">§ 1.</span> La durée coupe-feu de degré deux heures, exigée par l\'article GH 17, des dispositifs de communication entre les gaines d\'ascenseurs et de monte-charges, d\'une part, et les circulations horizontales communes, d\'autre part, nécessite le non-arrêt des ascenseurs et monte-charges dans le compartiment concerné et peut être obtenue de quatre manières différentes :<br>a) A l\'aide de portes coupe-feu isolant le palier du reste de l\'étage. Ce palier est alors équipé d\'un dispositif phonique supplémentaire tel que décrit à l\'article GH 50 ;<br>b) A l\'aide de portes coupe-feu non comprises dans l\'ascenseur ou le monte-charges, situées à l\'extérieur de la gaine et devant les portes palières de l\'appareil ;<br>c) A l\'aide de portes coupe-feu comprises dans l\'ascenseur ou le monte-charges, situées à l\'intérieur de la gaine et devant les portes palières de l\'appareil (dispositif appelé bouclier thermique) ;<br>d) A l\'aide de portes palières d\'ascenseur ou de monte-charges coupe-feu par elles-mêmes.',
+                '<span class="art-para-num">§ 2.</span> Si la protection est réalisée à l\'aide de portes palières coupe-feu par elles-mêmes, les conditions suivantes sont respectées :<br>a) Fermeture forcée des portes palières d\'ascenseur ou de monte-charges au bout de trente secondes maximum ;<br>b) Indication au poste central de sécurité incendie de la non-fermeture des portes lorsqu\'elle se prolonge au-delà de 60 secondes conformément à l\'article GH 26 ;<br>c) Signalisation de la position des cabines au poste central de sécurité incendie ;<br>d) Interdiction du maintien en position ouverte des portes palières lors des opérations de dépannage ou d\'entretien ;<br>e) Annulation de la manœuvre à commande accompagnée en cas de détection incendie ou d\'appel prioritaire.',
+              ]
+            },
+            {
+              title: 'Dispositions complémentaires concernant les paliers de desserte des ascenseurs', ref: 'Art. GH 32',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Une plaque signalétique bien visible rappelle la nécessité de laisser libre de tout obstacle le dégagement nécessaire au fonctionnement des portes coupe-feu à fermeture automatique. L\'inscription est en lettres blanches sur fond rouge.',
+                '<span class="art-para-num">§ 2.</span> Les dispositifs de fermeture des paliers de desserte quand ils existent et les portes d\'ascenseurs et monte-charge ne doivent ni recouper ni rétrécir les circulations horizontales communes du compartiment.',
+                '<span class="art-para-num">§ 3.</span> Les dispositions nécessaires sont prises pour que la destruction des dispositifs liés à l\'ascenseur au niveau sinistré (commandes, signalisation, tableaux ou panneaux pour les essais et opérations de secours) ne puisse perturber la desserte des autres niveaux.',
+              ]
+            },
+            {
+              title: 'Secours des cabines d\'ascenseurs', ref: 'Art. GH 33',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Sauf cas exceptionnel, les cabines sont, en cas de panne ou lors d\'une mise hors service volontaire, amenées à un niveau d\'accès.',
+                '<span class="art-para-num">§ 2.</span> S\'il n\'y a pas de porte palière ou de trappe d\'accès coupe-feu de degré deux heures à tous les niveaux, il y a, au minimum, deux ascenseurs dans la même gaine de sorte que l\'évacuation des passagers d\'une cabine en panne se fasse vers une autre cabine arrêtée à la même hauteur, les cabines étant équipées de portes de secours latérales.',
+                '<span class="art-para-num">§ 4.</span> Tout ascenseur isolé dans une gaine est muni d\'une trappe de secours et d\'une échelle métallique permettant d\'atteindre le toit de la cabine en cas d\'arrêt accidentel.',
+              ]
+            },
+            {
+              title: 'Ascenseurs prioritaires pompiers — Priorité des manœuvres', ref: 'Art. GH 34',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les pompiers peuvent accéder directement à chaque niveau de chaque compartiment non sinistré au moyen d\'au moins deux ascenseurs à dispositif d\'appel prioritaire pompiers.',
+                '<span class="art-para-num">§ 2.</span> Le cheminement emprunté par les pompiers pour atteindre les accès aux ascenseurs depuis les voies définies à l\'article GH 6 présente une largeur de deux unités de passage au moins et est d\'une longueur ne dépassant pas 50 mètres.',
+                '<span class="art-para-num">§ 3.</span> L\'ordre de priorité qui est respecté entre les différentes manœuvres des ascenseurs et monte-charges est défini comme suit :<br>― mise hors service ;<br>― manœuvre d\'inspection ou manœuvre de secours des cabines définies à l\'article GH 33 ;<br>― non arrêt aux étages sinistrés défini à l\'article GH 31 ;<br>― manœuvre d\'appel prioritaire pompiers ;<br>― manœuvre de la commande accompagnée, définie à l\'article GH 30 ;<br>― manœuvre au moyen d\'un dispositif de contrôle d\'accès (carte magnétique, digicode, clé, etc.) ;<br>― manœuvre normale de l\'appareil.',
+              ]
+            },
+            {
+              title: 'Chauffage, ventilation, conditionnement d\'air — Dispositions générales', ref: 'Art. GH 35',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dispositions de la présente section ont pour objectif d\'éviter les risques d\'éclosion, de développement et de propagation de l\'incendie ainsi que les risques d\'explosion dus aux installations de chauffage, de ventilation de confort, de climatisation et de conditionnement d\'air, de ventilation mécanique contrôlée, d\'eau chaude sanitaire, et de cuisson et de remise en température.',
+              ]
+            },
+            {
+              title: 'Interdiction de combustibles', ref: 'Art. GH 36',
+              text: [
+                'Le stockage et l\'utilisation de tous combustibles liquides, solides et gazeux, y compris les hydrocarbures liquéfiés, sont interdits à l\'intérieur des immeubles de grande hauteur et de leur volume de protection sauf dispositions particulières précisées dans le présent règlement.<br>Les chaufferies utilisant du gaz sont autorisées dans les conditions définies dans les articles suivants de la présente section.',
+              ]
+            },
+            {
+              title: 'Installations de production de chaud et de froid', ref: 'Art. GH 37',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les règles applicables aux appareils et aux installations de production de chaud et de froid sont celles décrites à l\'article CH 2 et aux articles ci-dessous du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 2.</span> Seuls sont autorisés à l\'intérieur de l\'immeuble : les sous-stations conformes à l\'article CH 11 ; les générateurs électriques conformes à l\'article CH 12 ; les appareils électriques de production de froid conformes à l\'article CH 35 ; les appareils électriques de production émission avec une température de surface inférieure à 100 °C conformes aux articles CH 44 et CH 45.',
+                '<span class="art-para-num">§ 3.</span> Les chaufferies sont autorisées dès lors qu\'elles sont implantées en terrasse supérieure de l\'immeuble (accès à l\'air libre depuis la terrasse, seul le gaz est autorisé, alimentation en gaz par canalisation à l\'extérieur ou en gaine ventilée), ou à l\'extérieur de l\'immeuble (en rez-de-chaussée ou enterrées/en sous-sol en dehors et sans communication avec les sous-sols de l\'IGH).',
+              ]
+            },
+            {
+              title: 'Installations de ventilation de confort et ventilation mécanique contrôlée', ref: 'Art. GH 38',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les réseaux de soufflage et de reprise d\'air destinés à assurer la ventilation de confort respectent les dispositions des articles CH 29 à CH 34, CH 36, CH 38 et CH 39 du règlement de sécurité des ERP. Quelle que soit la section des conduits, l\'isolement des compartiments, des sous-compartiments, des circulations horizontales communes ainsi que des locaux à risques importants ou à charge calorifique est assuré par des clapets. Ces dispositifs d\'obturation sont placés au droit de la paroi assurant le coupe-feu, leur résistance au feu est équivalente à celle de la paroi traversée.',
+                '<span class="art-para-num">§ 2.</span> Les réseaux de ventilation mécanique contrôlée respectent les dispositions des articles CH 41 et CH 42. En aggravation de ces dispositions, l\'exigence de non-propagation du feu et des fumées n\'est réputée satisfaite que dans les conditions suivantes : le conduit collectif vertical est implanté dans une gaine coupe-feu de degré deux heures ou EI 120 ; les conduits horizontaux sont équipés de dispositifs d\'obturation coupe-feu de degré deux heures ou EI 120 au droit des parois de la gaine, des compartiments, des sous-compartiments et coupe-feu de degré une heure ou EI 60 pour les parois des circulations horizontales communes.',
+              ]
+            },
+            {
+              title: 'Installations d\'appareils de cuisson et de remise en température destinés à la restauration', ref: 'Art. GH 39',
+              text: [
+                'Les installations d\'appareils de cuisson ou de remise en température destinés à la restauration sont réalisées conformément aux dispositions prévues aux articles GC du règlement de sécurité des ERP. En aggravation à ces dispositions, l\'extraction d\'air vicié dans toutes les grandes cuisines est obligatoirement mécanique.',
+              ]
+            },
+            {
+              title: 'Installations électriques — Objectifs et généralités', ref: 'Art. GH 40',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dispositions de la présente section ont pour objectifs : d\'éviter que les installations électriques ne présentent des risques d\'éclosion, de développement et de propagation d\'un incendie ; de permettre le fonctionnement des installations de sécurité lors d\'un incendie ; de permettre la continuation de certaines activités dans les compartiments non atteints ou menacés par le feu.',
+                '<span class="art-para-num">§ 2.</span> Les installations électriques doivent être conformes au décret n° 88-1056 du 14 novembre 1988 du ministère chargé du travail et à ses arrêtés d\'application.',
+                '<span class="art-para-num">§ 4.</span> A l\'exception des installations contenues dans les locaux de service électrique, la plus grande tension existant en régime normal entre deux conducteurs ou entre l\'un d\'eux et la terre ne doit pas être supérieure au domaine de la basse tension.',
+                '<span class="art-para-num">§ 5.</span> L\'immeuble est protégé contre la foudre (paratonnerre).',
+              ]
+            },
+            {
+              title: 'Locaux de service électrique', ref: 'Art. GH 41',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les locaux de service électrique sont les locaux renfermant des matériels électriques et dont l\'accès est réservé aux personnes qualifiées, chargées de l\'entretien et de la surveillance des matériels. Ils doivent : être faciles à atteindre par les services de secours ; être ventilés sur l\'extérieur soit directement soit par l\'intermédiaire d\'un conduit ou être climatisés ; être dotés de moyens d\'extinction adaptés au risque électrique ; disposer d\'un éclairage minimal.',
+                '<span class="art-para-num">§ 2.</span> Les groupes électrogènes, les postes de livraison, les postes de transformation, les cellules haute tension et les appareils électriques contenant des diélectriques liquides donnant lieu à émission de vapeurs inflammables ou toxiques, les tableaux électriques de sécurité, le tableau électrique général « normal-remplacement » sont installés dans un local de service électrique dont le plancher haut et les parois sont coupe-feu de degré deux heures ou REI 120 et les dispositifs de franchissement coupe-feu de degré une heure ou EI 60.',
+              ]
+            },
+            {
+              title: 'Transformateurs de puissance', ref: 'Art. GH 42',
+              text: [
+                'Les transformateurs de puissance peuvent être secs ou contenir un diélectrique liquide. Si les transformateurs contiennent un diélectrique liquide, le local comporte un cuvelage de rétention étanche dont les dimensions correspondent au volume total du diélectrique. Si le diélectrique est un liquide inflammable, la quantité ne doit pas être supérieure à 25 litres par cuve, bac, réservoir ou par groupe de tels récipients communicants.<br>Les transformateurs secs sont de classe F1 au sens de la norme NF EN 60-726.',
+              ]
+            },
+            {
+              title: 'Sources de sécurité et de remplacement', ref: 'Art. GH 43',
+              text: [
+                '<span class="art-para-num">§ 1. Généralités :</span><br>a) La source de sécurité est propre à l\'immeuble.<br>b) La source de remplacement est obligatoire. Le maître d\'ouvrage définit les installations qu\'il prévoit de réalimenter par la source de remplacement en cas de défaillance de la source normale. Cette source de remplacement reprend au minimum l\'éclairage de tous les dégagements et des locaux recevant plus de 50 personnes.<br>c) L\'énergie nécessaire à l\'alimentation des installations de sécurité est obtenue à partir d\'au moins deux groupes électrogènes conformes à la norme NF S 61-940, dont la puissance nominale de chacun est au moins égale à la puissance nécessaire au démarrage et au fonctionnement de tous les équipements de sécurité de l\'immeuble. Ces groupes constituent la source de sécurité de l\'immeuble. Le temps maximal de commutation est de 10 secondes. Leur réserve de combustible permet d\'assurer trente-six heures de fonctionnement.',
+                '<span class="art-para-num">§ 2. Les groupes électrogènes :</span> Les groupes électrogènes font l\'objet d\'une maintenance régulière, d\'essais conformes aux recommandations du constructeur et selon la périodicité minimale suivante :<br>― tous les quinze jours, vérification des niveaux d\'huile, d\'eau et de combustible, du dispositif de réchauffage du moteur et de l\'état de la source utilisée pour le démarrage ;<br>― tous les mois, en plus des vérifications ci-dessus, essai de démarrage automatique avec une charge minimale de 50 % de la puissance du groupe en incluant le fonctionnement des installations de sécurité et fonctionnement avec cette charge pendant trente minutes.',
+              ]
+            },
+            {
+              title: 'Circuits d\'alimentation en énergie des installations de sécurité', ref: 'Art. GH 44',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Chaque installation de sécurité est alimentée par deux canalisations issues chacune des tableaux de sécurité définis à l\'article GH 3. Ces canalisations sont sélectivement protégées, suivent des parcours distincts et aboutissent au tableau situé à proximité immédiate de chaque installation de sécurité sur un dispositif commutant automatiquement l\'alimentation sur la canalisation restant alimentée en cas d\'absence de tension sur l\'autre.',
+                '<span class="art-para-num">§ 2.</span> Toutes les canalisations alimentant les installations de sécurité sont de catégorie C2, exclusivement installées dans des cheminements techniques protégés avec des parois coupe-feu de degré deux heures ou EI 120.',
+              ]
+            },
+            {
+              title: 'Canalisations des installations normales — Remplacement', ref: 'Art. GH 45',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les installations ne comportent que des canalisations fixes, posées suivant les dispositions de la partie 5-52 de la norme NF C 15-100.',
+                '<span class="art-para-num">§ 2.</span> Les circuits sont réalisés soit en canalisations préfabriquées ; soit en conducteurs ou câbles de catégorie C2 s\'ils sont situés à l\'intérieur d\'un cheminement technique protégé avec des parois coupe-feu de degré deux heures ou EI 120 ou à l\'intérieur du même compartiment que les équipements qu\'elles alimentent.',
+              ]
+            },
+            {
+              title: 'Tableaux électriques', ref: 'Art. GH 46',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les tableaux de sécurité et le tableau général « normal-remplacement » sont installés dans les conditions de l\'article GH 41, § 2.',
+                '<span class="art-para-num">§ 2.</span> Les tableaux non visés au paragraphe 1 sont installés dans l\'une des conditions suivantes : dans un local de service électrique ; dans une gaine technique ; dans tous locaux et dégagements à l\'exception des circulations horizontales communes, à condition d\'être enfermés dans une armoire ou un coffret métallique.',
+              ]
+            },
+            {
+              title: 'Signalisations', ref: 'Art. GH 47',
+              text: [
+                'En complément et indépendamment des signalisations prévues sur l\'Unité de Signalisation (US) du système de sécurité incendie (SSI), les signalisations suivantes sont reportées au poste central de sécurité incendie :<br>― défauts d\'isolement des installations réalisées en application de l\'article GH 44, § 5 ;<br>― insuffisance de la réserve de combustible des groupes électrogènes ;<br>― synthèse de la position ouverte des dispositifs de protection placés dans les tableaux de sécurité à l\'exception des circuits terminaux d\'éclairage et de télécommunication.',
+              ]
+            },
+            {
+              title: 'Eclairage', ref: 'Art. GH 48',
+              text: [
+                '<span class="art-para-num">§ 1. Généralités :</span> Les appareils assurant l\'éclairage des dégagements sont fixes ou suspendus et reliés aux éléments stables de la construction. Les parties externes des luminaires satisfont à l\'essai au fil incandescent, la température du fil incandescent étant de 850 °C pour les luminaires dans les escaliers et les circulations horizontales communes, et 650 °C pour les luminaires dans les locaux.',
+                '<span class="art-para-num">§ 2. Eclairage minimal :</span><br>a) L\'éclairage minimal est obligatoire dans les circulations horizontales communes, les paliers, les escaliers et leur dispositif d\'accès. Il permet une circulation facile, la visibilité de la signalisation d\'orientation vers les escaliers et la bonne exécution des manœuvres intéressant la sécurité. Il est réalisé en réalimentant tout ou partie des circuits d\'éclairage par la source de sécurité.<br>b) L\'éclairage minimal de chaque dégagement horizontal commun et de chaque escalier est assuré par au moins deux circuits terminaux issus chacun d\'un circuit principal distinct. L\'éclairage minimal fonctionne en permanence pendant la période d\'occupation et ses dispositifs de commande ne sont accessibles qu\'au personnel de sécurité.<br>c) L\'éclairage minimal est réalisé avec des lampes dont le temps d\'allumage n\'excède pas 15 secondes.',
+              ]
+            },
+            {
+              title: 'Système de sécurité incendie (SSI)', ref: 'Art. GH 49',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les immeubles de grande hauteur sont équipés d\'un système de sécurité incendie (SSI) de catégorie A (option IGH) comportant exclusivement des zones de détection automatique.',
+                '<span class="art-para-num">§ 2.</span> Les dispositifs et équipements constituant le SSI répondent aux dispositions des articles MS 56, MS 57 §2, MS 58 du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 3.</span> Les parois des cheminements et volumes techniques protégés contenant les canalisations et matériels du SSI sont coupe-feu EI 120. Toutefois la paroi peut être EI 60 si elle se trouve dans un volume technique protégé. Les trappes d\'accès et blocs-portes des volumes techniques protégés sont EI 60 - C.',
+                '<span class="art-para-num">§ 4.</span> Les détecteurs d\'incendie sont implantés dans les circulations horizontales communes et privatives, les locaux visés à l\'article GH 71, les locaux ou volumes cités aux articles GH 10, GH 18 §2 et §3, GH 30 et GH 61 §3, et tous les locaux à risques particuliers.',
+                '<span class="art-para-num">§ 5.</span> La zone de diffusion d\'alarme est limitée à un compartiment.',
+                '<span class="art-para-num">§ 6. Scénarios de mise en sécurité :</span><br>6.1. Détection dans une circulation horizontale commune : alarme restreinte au PCS ; arrêt climatisation/ventilation propre au compartiment. Fonction évacuation : alarme générale audible dans le seul compartiment sinistré, déverrouillage portes sorties de secours et accès pompiers, déverrouillage contrôles d\'accès GH 27. Fonction compartimentage : fermeture DAS (clapets, portes, trappes) ; non-arrêt des cabines d\'ascenseurs dans le compartiment ; départ immédiat de tout ascenseur stationnant dans le compartiment. Fonction désenfumage : mise en surpression cages d\'escalier encloisonnées, désenfumage/surpression dispositifs d\'intercommunication GH 25, désenfumage circulations horizontales communes.<br>6.2. Détection dans une circulation horizontale privative : identique à 6.1 à l\'exception de la fonction désenfumage.<br>6.3. Détection dans un local visé à l\'article GH 71 : déclenchement de la fonction évacuation et des asservissements propres à ces locaux.<br>6.4. Détection dans un local à risque particulier : alarme restreinte au PCS et asservissements propres au local.',
+              ]
+            },
+            {
+              title: 'Alerte', ref: 'Art. GH 50',
+              text: [
+                '<span class="art-para-num">§ 1. Alerte intérieure :</span> Des dispositifs phoniques (téléphones sans cadran, interphones, etc.) permettant de donner l\'alerte au poste central de sécurité incendie sont installés à tous les niveaux dans les circulations horizontales communes, à proximité immédiate de chaque escalier, dans les dispositifs d\'intercommunication et au rez-de-chaussée à proximité des sorties. Ils sont placés à environ 1,30 m du sol, de couleur rouge, pourvus d\'un dispositif de protection contre les manœuvres accidentelles.',
+                '<span class="art-para-num">§ 2. Alerte extérieure :</span> Les services publics de secours doivent pouvoir être alertés immédiatement. Les liaisons nécessaires sont assurées : soit par téléphone urbain ; soit par ligne téléphonique directe au centre de traitement des appels ; soit par dispositif équivalent (avis favorable commission de sécurité, à poste fixe, aboutissant à un centre de réception défini avec la DDSIS, établissant la liaison à partir d\'une seule manœuvre élémentaire, permettant l\'identification automatique de l\'établissement et la liaison phonique).',
+              ]
+            },
+            {
+              title: 'Moyens de lutte contre l\'incendie', ref: 'Art. GH 51',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Des extincteurs portatifs appropriés aux risques (conformes aux articles MS 38 et MS 39) sont installés près des dispositifs d\'accès aux escaliers et, le cas échéant, des dispositifs d\'intercommunication. Des extincteurs de 6 litres à eau pulvérisée sont répartis avec un minimum d\'un appareil par 200 m² et un minimum de deux appareils par compartiment et par niveau.',
+                '<span class="art-para-num">§ 2.</span> Il y a à chaque niveau autant de robinets d\'incendie armés DN 25/8 que d\'escaliers. Ils sont installés dans les circulations horizontales communes, à proximité et hors des dispositifs d\'accès aux escaliers. Pression minimale au robinet d\'arrêt le plus défavorisé : 4 bars en régime d\'écoulement.',
+                '<span class="art-para-num">§ 3.</span> Un système d\'extinction automatique de type sprinkleur (ou installation fixe d\'extinction automatique appropriée ayant fait l\'objet d\'un avis favorable de la commission de sécurité) est installé dans les compartiments et locaux visés aux articles GH 25 §6 et GH 61 §2.',
+              ]
+            },
+            {
+              title: 'Alimentation des secours en eau', ref: 'Art. GH 52',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les IGH sont alimentés en eau potable à partir du réseau public par au moins deux branchements d\'un diamètre minimal de 100 mm. Les canalisations issues de ces branchements sont équipées de vannes et peuvent être mises en communication pour qu\'une seule canalisation puisse fournir le débit nécessaire aux secours.',
+                '<span class="art-para-num">§ 2.</span> L\'équipement hydraulique est réalisé de manière que tout incident sur une canalisation ou un appareil n\'affecte pas l\'alimentation en eau des équipements de secours.',
+              ]
+            },
+            {
+              title: 'Appareils d\'incendie et évacuation de l\'eau', ref: 'Art. GH 53',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les bouches ou poteaux d\'incendie sont installés conformément à l\'article MS 5. La distance les séparant des raccords d\'alimentation des colonnes sèches ou en charge n\'excède pas 60 mètres.',
+                '<span class="art-para-num">§ 2.</span> Les colonnes sèches ou en charge doivent pouvoir être alimentées ou réalimentées à raison de 1 000 l/min par colonne. Minimum deux appareils d\'incendie par IGH.',
+                '<span class="art-para-num">§ 3.</span> Des dispositions sont prises, sans altérer la qualité coupe-feu des planchers, pour que l\'eau déversée dans un étage au moment d\'un sinistre n\'envahisse pas les escaliers ni les gaines d\'ascenseurs et de monte-charge.',
+              ]
+            },
+            {
+              title: 'Colonnes sèches', ref: 'Art. GH 54',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les immeubles de hauteur inférieure ou égale à 50 mètres sont équipés sur toute leur hauteur de colonnes sèches. Pendant la construction, l\'une de ces colonnes est installée de façon à pouvoir être utilisée à chaque niveau dès le début des travaux de second œuvre.',
+                '<span class="art-para-num">§ 2.</span> Il y a une colonne sèche de diamètre nominal 100 mm par escalier, comportant : deux raccords d\'alimentation de 65 mm placés à proximité des accès utilisables par les services d\'incendie et de secours dont les zones de desserte sont clairement indiquées ; une prise simple de 65 mm et deux prises simples de 40 mm situées dans les dispositifs d\'intercommunication à chaque niveau.',
+              ]
+            },
+            {
+              title: 'Colonnes en charge', ref: 'Art. GH 55',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les immeubles d\'une hauteur supérieure à 50 mètres sont équipés sur toute leur hauteur de colonnes en charge. L\'utilisation provisoire en colonne sèche peut être admise jusqu\'à 100 mètres pendant la construction.',
+                '<span class="art-para-num">§ 2.</span> Les colonnes en charge sont situées dans chaque escalier, à l\'abri du gel. Elles comportent une prise simple de 65 mm et deux prises simples de 40 mm situées dans les dispositifs d\'intercommunication à chaque niveau.',
+                '<span class="art-para-num">§ 3.</span> Leur dispositif d\'alimentation assure en permanence, à l\'un quelconque des niveaux et dans chaque colonne, un débit de 1 000 l/min sous une pression comprise entre 7 et 9 bars.',
+                '<span class="art-para-num">§ 4.</span> Les réservoirs ont une capacité telle que 120 m³ au moins soient exclusivement réservés au service d\'incendie, alimentés en permanence avec un débit minimal de 1 000 l/min. Cette capacité peut être réduite à 60 m³ dans les immeubles de hauteur inférieure à 100 m et de moins de 750 m² par compartiment, sous conditions.',
+                '<span class="art-para-num">§ 6.</span> Chaque colonne en charge comporte deux raccords d\'alimentation de secours de 65 mm placés à proximité des accès utilisables par les services publics de secours.',
+              ]
+            },
+            {
+              title: 'Equipements visant à favoriser l\'action des pompiers', ref: 'Art. GH 56',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Tout IGH dispose d\'un poste central de sécurité incendie (PCS) à usage exclusif du personnel SSIAP. Le PCS est aménagé au niveau et à proximité de l\'accès des services publics de secours ; présente une surface d\'au moins 50 m² hors base de vie ; est constitué de parois REI 60 / blocs-portes E 30 (ou REI 120 / E 60 s\'il est contigu à un local à risque particulier) ; dispose des installations permettant au service SSIAP d\'assurer ses missions.',
+                '<span class="art-para-num">§ 2.</span> Outre les prises d\'incendie prévues aux articles GH 54 et GH 55, les dispositifs d\'intercommunication comportent : le numéro de l\'étage inscrit sur la porte de l\'escalier côté escalier ; un plan du niveau indiquant le repérage du dispositif d\'accès, la distribution générale du niveau, l\'emplacement des ouvrants de désenfumage et leurs commandes, l\'emplacement des moyens de secours, des vannes d\'arrêt et du téléphone d\'alerte.',
+                '<span class="art-para-num">§ 3.</span> Le service SSIAP doit pouvoir mettre à la disposition des services publics de secours : quatre appareils émetteurs-récepteurs radio au moins (fonctionnement possible dans la totalité de l\'IGH) ; les commandes d\'ascenseur prévues à l\'article GH 30 §3 ; des plans détaillés de l\'immeuble.',
+              ]
+            },
+            {
+              title: 'Mandataire et suppléant', ref: 'Art. GH 57',
+              text: [
+                'Lorsqu\'un mandataire est désigné par le propriétaire pour assurer l\'exécution des obligations qui leur incombent, conformément aux dispositions de l\'article R. 122-14 du CCH, le propriétaire porte les noms du mandataire et de son suppléant à la connaissance du maire.<br>Le mandataire de sécurité et son suppléant doivent pouvoir : justifier d\'une bonne connaissance des dispositions du présent règlement ; être contactés facilement par l\'autorité administrative ; se présenter rapidement à l\'adresse de l\'immeuble concerné.',
+              ]
+            },
+            {
+              title: 'Rôle du mandataire et de son suppléant', ref: 'Art. GH 58',
+              text: [
+                'Le rôle du mandataire de sécurité consiste notamment à :<br>― être l\'unique interlocuteur auprès des autorités administratives pour tout ce qui touche à l\'application du règlement de sécurité incendie ;<br>― assister aux visites périodiques des commissions de sécurité ;<br>― apposer son visa sur les dossiers techniques de travaux prévus aux articles GH 4 et GH 65 ;<br>― informer sans délai le propriétaire et le syndic sur le contenu des notifications des services publics et rapports de vérifications des organismes agréés ;<br>― vérifier que les dispositions relatives à la sécurité incendie sont réalisées par le propriétaire, notamment l\'existence des contrats d\'entretien, la qualité du personnel SSIAP, la mise en place des consignes et des contrats de maintenance ;<br>― s\'assurer de l\'existence et de la mise à jour du dossier technique amiante (DTA).',
+              ]
+            },
+            {
+              title: 'Entretien des installations', ref: 'Art. GH 59',
+              text: [
+                'Le propriétaire est tenu de faire effectuer l\'entretien des installations techniques et de sécurité de l\'immeuble (article R. 122-16 du CCH). Les installations sont exploitées par des personnes compétentes et maintenues en bon état de fonctionnement ; elles font toujours l\'objet d\'un contrat d\'entretien. La preuve de l\'existence des contrats, les fiches de procédures, les consignes écrites d\'exploitation et les rapports de vérifications sont annexés au registre de sécurité.',
+              ]
+            },
+            {
+              title: 'Surveillance, exercices, information des locataires', ref: 'Art. GH 60',
+              text: [
+                'Le propriétaire :<br>1. Met en place, dès le début des travaux de second œuvre, un service permanent SSIAP ainsi que des moyens de secours appropriés aux risques à combattre.<br>2. Organise au moins une fois chaque année un exercice d\'évacuation de chaque compartiment avec mise en œuvre des fonctions de sécurité après sensibilisation d\'un détecteur automatique d\'incendie dans une circulation horizontale commune.<br>3. Prévoit l\'évacuation de première et deuxième phase et procède à des exercices. Une note définissant l\'organisation de l\'évacuation est établie et tenue à la disposition de la commission de sécurité. Les modalités de prise en charge des personnes handicapées y figurent.<br>4. Etablit et affiche les consignes d\'incendie et les plans d\'évacuation dans les circulations horizontales communes près des accès aux escaliers et aux ascenseurs.<br>5. Informe les occupants des conditions dans lesquelles est assurée la protection contre l\'incendie et joint aux actes de vente et contrats de location une notice relative aux obligations des occupants.',
+              ]
+            },
+            {
+              title: 'Limitation de la charge calorifique surfacique', ref: 'Art. GH 61',
+              text: [
+                '<span class="art-para-num">§ 1.</span> La charge calorifique des éléments non pris en compte à l\'article GH 16 (revêtements, mobilier, agencement, stores…) est inférieure à 480 MJ/m² de SHON en moyenne par compartiment (article R. 122-18 du CCH).',
+                '<span class="art-para-num">§ 2.</span> Si un compartiment est protégé en totalité par une installation fixe d\'extinction automatique de type sprinkleur ou une installation appropriée aux risques, la valeur peut être portée à 680 MJ/m².',
+                '<span class="art-para-num">§ 3.</span> Des locaux peuvent être aménagés pour une charge calorifique surfacique supérieure si leur surface SHON est inférieure à 100 m², protégés par un système sprinkleur ou installation fixe adaptée (avis favorable de la commission de sécurité), et si leurs parois ont un degré : REI 180 (charge < 880 MJ/m²) ; REI 240 (charge 880 à 1 280 MJ/m²) ; REI 360 (charge 1 280 à 1 680 MJ/m²). Ces degrés peuvent être réduits à deux heures si le compartiment est entièrement sprinklerisé.',
+                '<span class="art-para-num">§ 5.</span> Dans les locaux autres que les locaux d\'habitation, les occupants sont tenus de faire établir par un organisme agréé un rapport de vérification de conformité de la charge calorifique dans l\'année suivant l\'installation dans les lieux ou toute modification importante, puis tous les cinq ans.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes (SSIAP)', ref: 'Art. GH 62',
+              text: [
+                '<span class="art-para-num">§ 1.</span> La composition et les missions particulières du service SSIAP sont précisées par les dispositions propres à chaque classe d\'immeuble. Le service est placé sous la direction d\'un chef de service ; celui-ci ne peut avoir la responsabilité que d\'un seul PCS.',
+                '<span class="art-para-num">§ 2.</span> Le chef d\'équipe et les agents permanents ne sont jamais distraits de leur fonction spécifique. Ils sont en liaison permanente avec le PCS et se rassemblent dans les meilleurs délais.',
+                '<span class="art-para-num">§ 3.</span> Ce service est chargé notamment : d\'assurer une permanence au PCS ; de diriger les secours en attendant l\'arrivée des services publics ; de faire appliquer les consignes en cas d\'incendie ; d\'organiser des rondes pour prévenir et détecter les risques d\'incendie y compris dans les locaux non occupés ; de veiller au bon fonctionnement du matériel de protection contre l\'incendie et de tenir à jour le registre de sécurité ; de surveiller les travaux visés à l\'article GH 65 et de délivrer les permis de feu.',
+                '<span class="art-para-num">§ 4.</span> Un service SSIAP peut être commun à plusieurs IGH si : il est installé dans un seul PCS sous une direction unique ; il est en mesure d\'activer le PCS de chaque IGH en cas d\'intervention des services publics ; le PCS de chaque IGH est situé à une distance maximale de 100 mètres du PCS commun par les cheminements piétons praticables. Ces dispositions font l\'objet d\'un avis de la commission de sécurité.',
+              ]
+            },
+            {
+              title: 'Mise en sécurité des occupants', ref: 'Art. GH 63',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Lors du déclenchement d\'une alarme incendie dans un compartiment, les occupants réalisent une évacuation de première phase en rejoignant un compartiment non concerné. Ils peuvent ensuite effectuer une évacuation de seconde phase en se rendant à un point de regroupement défini conformément aux dispositions de l\'article GH 60.',
+                '<span class="art-para-num">§ 2.</span> L\'évacuation de première phase des personnes en situation de handicap est réalisée par un déplacement horizontal au niveau où elles se trouvent jusqu\'à un autre compartiment ou un espace d\'attente sécurisé défini à l\'article GH 3, sans traverser le volume sinistré.',
+              ]
+            },
+            {
+              title: 'Interdictions diverses', ref: 'Art. GH 64',
+              text: [
+                'Il est interdit aux propriétaires, occupants et exploitants :<br>― d\'introduire, stocker et utiliser des combustibles solides, liquides ou gazeux et des hydrocarbures liquéfiés hors des cas prévus aux articles GH 11, GH 37, GH 43 et GH 65 (cette interdiction ne s\'applique pas aux infirmeries, locaux de soins ni aux appareils électroménagers non destinés aux opérations de cuisson, sous réserve de quantités limitées à la consommation courante) ;<br>― de déposer ou d\'installer des objets ou matériels pouvant concourir au non-respect des dispositions prévues par les articles GH 23 et GH 61 dans les dégagements communs ;<br>― de procéder à l\'application de nouveaux revêtements de parois avant d\'avoir enlevé la totalité des revêtements anciens ;<br>― de procéder à tous travaux ou modifications susceptibles de diminuer les qualités de réaction et de résistance au feu des éléments immobiliers (plancher, plafond, portes, etc.).',
+              ]
+            },
+            {
+              title: 'Précautions à prendre durant certains travaux', ref: 'Art. GH 65',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les travaux de maintenance, d\'entretien et de nettoyage susceptibles d\'entraîner une gêne dans l\'évacuation des personnes ou de créer des dangers d\'éclosion et d\'extension du feu font l\'objet de mesures de prévention adaptées de la part du service SSIAP.',
+                '<span class="art-para-num">§ 2.</span> Une autorisation est sollicitée en application de l\'article R. 122-11-1 du CCH : si la gêne doit excéder quarante-huit heures ; si les travaux nécessitent l\'introduction de combustibles par dérogation à l\'article GH 36 en quantité excédant 21 kg ; si les travaux, quelle qu\'en soit la durée, sont susceptibles d\'entraver l\'intervention des services publics. La demande est présentée un mois avant le début des travaux. Sans réponse dans ce délai, l\'autorisation est réputée accordée.',
+                '<span class="art-para-num">§ 3.</span> En cas d\'urgence, les travaux mentionnés au §2 peuvent être réalisés immédiatement sous réserve qu\'une déclaration mentionnant la nature des travaux entrepris et leurs mesures compensatrices soit adressée à l\'autorité désignée.',
+                '<span class="art-para-num">§ 4.</span> Les travaux dits « par points chauds » (soudage, oxycoupage, meulage…) font l\'objet de l\'établissement d\'un permis de feu tel que défini à l\'article GH 3.',
+              ]
+            },
+          ]
+        },
+        GHA: {
+          title: 'GH A — Dispositions particulières aux IGH à usage d\'habitation',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre I',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage d'habitation (h plancher bas > 28 m pour habitations ; > 50 m pour autres usages).",
+          chapters: [
+            {
+              title: 'Encloisonnement', ref: 'Art. GH A 1',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Chaque appartement est séparé des locaux voisins et des circulations horizontales communes par des éléments coupe-feu de degré une heure ou REI 60.',
+                '<span class="art-para-num">§ 2.</span> Toutefois, en aggravation de l\'article GH 23 § 3, les blocs-portes des appartements donnant sur les circulations horizontales communes sont pare-flammes de degré une heure et équipés d\'un ferme-porte ou E 60 - C.',
+              ]
+            },
+            {
+              title: 'Distance maximale d\'évacuation', ref: 'Art. GH A 2',
+              text: [
+                'En complément des dispositions de l\'article GH 24 § 1 et § 2, la distance séparant une porte d\'appartement de l\'entrée du dispositif d\'accès à l\'escalier le plus proche, mesurée dans l\'axe des circulations, est au maximum de vingt mètres.',
+              ]
+            },
+            {
+              title: 'Caves et celliers', ref: 'Art. GH A 3',
+              text: [
+                'Lorsque des caves ou des celliers sont groupés à un niveau quelconque de l\'immeuble, les dispositions de l\'article GH 61 ne s\'appliquent pas à l\'ensemble constitué par ces locaux mais il est recoupé en unités de surface inférieure à 500 m² qui répondent aux conditions suivantes :<br>a) Les parois extérieures sont coupe-feu de degré deux heures ou REI 120 et le cloisonnement intérieur, à l\'exception des blocs-portes, doit être en matériaux de catégorie M0 ou A1 ;<br>b) A l\'intérieur de chaque unité, la distance à parcourir entre toute porte de cave ou cellier et l\'issue de l\'unité ne doit pas excéder 20 mètres ;<br>c) Les issues donnent sur une circulation horizontale commune et sont fermées par des blocs-portes coupe-feu de degré une heure munis d\'un ferme-porte ou EI 60 - C et ouvrant sans clé dans le sens de la sortie en venant des caves. Les portes se trouvent à moins de 20 mètres du dispositif d\'accès à l\'escalier le plus proche ;<br>d) Les dispositions de l\'article GH 28 ne sont pas applicables aux circulations horizontales communes intérieures des unités. Toutefois, chaque unité est équipée d\'une détection automatique d\'incendie conforme aux dispositions de l\'article GH 49.',
+              ]
+            },
+            {
+              title: 'Installations électriques et VMC', ref: 'Art. GH A 4',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Par dérogation à l\'article GH 43, la source de sécurité peut : être constituée d\'un seul groupe électrogène ; alimenter, en plus des installations de sécurité, les installations de chauffage et les pompes de circulation des distributions d\'eau sanitaire et leurs surpresseurs.',
+                '<span class="art-para-num">§ 2.</span> A l\'intérieur des logements, les dispositions de l\'article GH 46 ne sont pas applicables.',
+                '<span class="art-para-num">§ 3.</span> Par dérogation aux dispositions de l\'article GH 48, hormis dans les locaux collectifs de plus de 50 m², aucun éclairage de sécurité n\'est exigé à l\'intérieur des locaux et appartements.',
+                '<span class="art-para-num">§ 4.</span> Pour ce qui concerne les installations de ventilation mécanique contrôlée, en complément des dispositions de l\'article GH 38 § 2, l\'exigence de non-propagation du feu et des fumées est également réputée satisfaite par le fonctionnement permanent du ventilateur, conformément aux dispositions de l\'article CH 43 du règlement de sécurité des ERP, et la mise en place du conduit collectif vertical dans une gaine coupe-feu de degré deux heures ou EI 120.<br>Le ventilateur est alimenté comme une installation de sécurité. Son fonctionnement doit pouvoir être assuré pendant une durée de deux heures avec une température de 200 °C. L\'alarme de panne du ventilateur est renvoyée au poste central de sécurité incendie.',
+              ]
+            },
+            {
+              title: 'Moyens d\'alarme et de secours', ref: 'Art. GH A 5',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les diffuseurs sonores sont installés dans les circulations horizontales communes, dans les locaux communs ainsi que dans les unités de caves et celliers définies à l\'article GH A 3. Ils doivent pouvoir être vérifiés dans les conditions définies à l\'article GH 5 § 3.',
+                '<span class="art-para-num">§ 2.</span> Par dérogation à l\'article GH 51 § 2, l\'installation de robinets d\'incendie armés n\'est pas obligatoire.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes', ref: 'Art. GH A 6',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En application de l\'article GH 62, l\'effectif du service de sécurité incendie et d\'assistance à personnes permet de faire assurer la permanence au poste central de sécurité incendie par un agent de sécurité au moins qualifié S.S.I.A.P.2.<br>En dérogation aux dispositions de l\'article GH 56, la surface du poste central de sécurité incendie d\'un I.GH A peut être réduite à 30 m², hors base de vie, sauf dans le cas à l\'article GH 62 § 4.',
+                '<span class="art-para-num">§ 2.</span> Des rondes sont effectuées tous les jours et aussi dans les cas particuliers ci-après : lors des aménagements ou déménagements ; après le travail des ouvriers lorsque des travaux ont été réalisés dans les parties communes.<br>Pendant les rondes et la surveillance des travaux visés à l\'article GH 65, la permanence est assurée au poste de sécurité par une personne connaissant parfaitement les consignes et leur application. Cette personne n\'est pas nécessairement qualifiée SSIAP.',
+                '<span class="art-para-num">§ 3.</span> La surveillance des travaux prévue par les dispositions de l\'article GH 62 § 3 ne s\'applique pas aux appartements.',
+              ]
+            },
+          ]
+        },
+        GHO: {
+          title: 'GH O — Dispositions particulières aux IGH à usage d\'hôtel',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre II',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage d'hôtel.",
+          chapters: [
+            {
+              title: 'Encloisonnement', ref: 'Art. GH O 1',
+              text: [
+                'Chaque chambre d\'hôtel et chaque local de service est séparé des locaux voisins et des circulations horizontales communes par des éléments coupe-feu de degré une heure ou REI 60. Les blocs-portes des chambres sont pare-flammes de degré une heure et munies de ferme-portes ou E 60 - C.',
+              ]
+            },
+            {
+              title: 'Distance maximale d\'évacuation', ref: 'Art. GH O 2',
+              text: [
+                'En complément des dispositions de l\'article GH 24 § 1 et § 2, la distance séparant une porte d\'appartement ou de chambre de l\'entrée du dispositif d\'accès à l\'escalier le plus proche ou au compartiment voisin, mesurée dans l\'axe des circulations horizontales communes, est au maximum de vingt mètres.<br>Lorsque les chambres d\'un appartement peuvent être louées séparément, la distance est mesurée depuis la porte de ces chambres et la circulation de l\'appartement est traitée comme une circulation horizontale commune.',
+              ]
+            },
+            {
+              title: 'Eclairage et prises de courant', ref: 'Art. GH O 3',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Un circuit électrique terminal d\'éclairage ne doit pas alimenter plusieurs chambres (ou appartements).',
+                '<span class="art-para-num">§ 2.</span> Les appareils assurant l\'éclairage des dégagements et des halls sont fixes ou suspendus.',
+                '<span class="art-para-num">§ 3.</span> Les lampes mobiles sont autorisées dans les chambres et dans les halls, sur les bureaux de direction et sur les tables de lecture ou de correspondance.',
+                '<span class="art-para-num">§ 4.</span> Dans les chambres et les appartements les prises de courant sont limitées à 16 ampères.',
+              ]
+            },
+            {
+              title: 'Accès des pompiers', ref: 'Art. GH O 4',
+              text: [
+                'Pour accéder aux ascenseurs prioritaires, les pompiers doivent pouvoir utiliser une entrée signalée et distincte des accès réservés au public.',
+              ]
+            },
+            {
+              title: 'Détection incendie — Dispositif de diffusion d\'alarme', ref: 'Art. GH O 5',
+              text: [
+                'En complément des dispositions prévues à l\'article GH 49, des détecteurs automatiques d\'incendie sont également implantés dans les chambres.<br>Les diffuseurs d\'alarme sont installés au moins dans chaque chambre, dans les locaux recevant plus de dix-neuf personnes et dans les circulations horizontales communes.<br>La sensibilisation d\'un détecteur automatique d\'incendie dans une chambre entraîne le seul déclenchement de l\'alarme restreinte au poste central de sécurité incendie.',
+              ]
+            },
+            {
+              title: 'Appareils de cuisson et de remise en température', ref: 'Art. GH O 6',
+              text: [
+                'Les appareils de cuisson et de remise en température installés dans les chambres sont exclusivement électriques et d\'une puissance inférieure à 3,5 kW.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes', ref: 'Art. GH O 7',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En application des dispositions de l\'article GH 62, le service SSIAP des IGH O comprend, sous la direction du chef du service de sécurité incendie, une équipe d\'au moins trois personnes dont un chef d\'équipe. La composition minimale selon la capacité :<br>― IGH O de moins de 250 chambres : un chef d\'équipe SSIAP 2, deux agents SSIAP 1 (pouvant être recrutés parmi le personnel de maintenance ou administratif ou de réception) ;<br>― IGH O de 250 à 550 chambres : un chef d\'équipe SSIAP 2, deux agents SSIAP 1 (pouvant être recrutés parmi le personnel de maintenance technique uniquement) ;<br>― IGH O de 551 à 850 chambres : un chef d\'équipe SSIAP 2 et un agent SSIAP 1 exclusivement affectés aux tâches de sécurité, plus un agent SSIAP 1 pouvant être recruté parmi le personnel de maintenance ;<br>― IGH O de plus de 850 chambres : un chef d\'équipe SSIAP 2 et deux agents SSIAP 1, tous exclusivement affectés aux tâches de sécurité.',
+                '<span class="art-para-num">§ 2.</span> Les rondes assurées par le service SSIAP ont lieu au moins trois fois par nuit.',
+                '<span class="art-para-num">§ 3.</span> Le personnel d\'étages et le personnel de permanence de nuit ont reçu une formation complémentaire sur : la conduite à tenir en cas d\'évacuation en prenant en compte la situation de personnes handicapées ; la mise en œuvre des moyens de premiers secours.',
+              ]
+            },
+            {
+              title: 'Plans et consignes', ref: 'Art. GH O 8',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Dans les locaux occupés par le public et, en particulier, dans les chambres, un plan sommaire indique la ou les directions à prendre en cas d\'évacuation du compartiment. Ce plan est accompagné de consignes simples sur la conduite à tenir en cas d\'incendie ou de diffusion du signal d\'alarme.',
+                '<span class="art-para-num">§ 2.</span> Les consignes sont affichées dans chaque chambre. Elles sont rédigées en français et complétées par une bande dessinée illustrant les consignes. Elles indiquent notamment :<br>― En cas d\'incendie dans votre chambre, si vous ne pouvez maîtriser l\'incendie : gagnez l\'escalier en refermant bien la porte de votre chambre et en suivant le balisage ; prévenez la réception.<br>― En cas de diffusion du signal d\'alarme, si le couloir est praticable : gagnez l\'escalier en refermant bien la porte de votre chambre et en suivant le balisage. Si la fumée rend le couloir ou l\'escalier impraticable : restez dans votre chambre ; manifestez votre présence en attendant l\'arrivée des pompiers.',
+              ]
+            },
+          ]
+        },
+        GHR: {
+          title: 'GH R — Dispositions particulières aux IGH à usage d\'enseignement',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre III',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage d'enseignement.",
+          chapters: [
+            {
+              title: 'Densité d\'occupation', ref: 'Art. GH R 1',
+              text: [
+                'Dans les immeubles de grande hauteur à usage exclusif d\'enseignement, l\'occupation moyenne d\'un compartiment peut, en application de l\'article R. 122-8 du CCH, être de plus d\'une personne par dix mètres carrés hors œuvre nette, sans dépasser une personne pour cinq mètres carrés.',
+              ]
+            },
+            {
+              title: 'Types de locaux', ref: 'Art. GH R 2',
+              text: [
+                'Les immeubles de grande hauteur à usage d\'enseignement sont réservés aux disciplines ne nécessitant pas l\'existence de laboratoires qui présentent des dangers particuliers d\'incendie ou d\'explosion ou dont l\'activité exige l\'emploi des produits prohibés par l\'article R. 122-7 du CCH et l\'article GH 36 du présent règlement.<br>Les locaux d\'internat sont interdits dans les immeubles de grande hauteur de classe R.',
+              ]
+            },
+            {
+              title: 'Gaines', ref: 'Art. GH R 3',
+              text: [
+                'En aggravation de l\'article GH 17 § 3, les gaines ne peuvent se trouver ni s\'ouvrir directement dans les circulations horizontales communes sauf lorsque les circulations horizontales communes desservent des locaux réservés à la formation de personnes adultes.',
+              ]
+            },
+            {
+              title: 'Plafonds suspendus', ref: 'Art. GH R 4',
+              text: [
+                'En aggravation, les dispositions de l\'article GH 21 § 3 sont applicables aux plafonds suspendus des locaux.',
+              ]
+            },
+            {
+              title: 'Encloisonnement', ref: 'Art. GH R 5',
+              text: [
+                'Outre l\'encloisonnement des circulations horizontales communes prévu par l\'article GH 23 § 3, le volume de chaque compartiment est recoupé en cellules d\'une superficie maximale de 500 m² par des éléments coupe-feu de degré une heure ou REI 60 et des blocs-portes pare-flammes de degré une demi-heure équipés de ferme-porte ou E 30 - C.',
+              ]
+            },
+            {
+              title: 'Réduction des risques', ref: 'Art. GH R 6',
+              text: [
+                'Les locaux annexes qui présentent des dangers particuliers d\'incendie (archives) sont éloignés le plus possible des dispositifs d\'accès aux escaliers.',
+              ]
+            },
+            {
+              title: 'Distance maximale d\'évacuation', ref: 'Art. GH R 7',
+              text: [
+                'En complément des dispositions de l\'article GH 24 § 1 et § 2, la distance mesurée dans l\'axe des circulations de tout poste de travail ou de repos à l\'entrée du dispositif d\'intercommunication avec l\'escalier le plus proche est au maximum de 35 mètres.',
+              ]
+            },
+            {
+              title: 'Aménagement des escaliers', ref: 'Art. GH R 8',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En complément des escaliers prévus par l\'article GH 24, un troisième escalier établi dans les mêmes conditions dessert, à partir du niveau d\'accès des piétons, tous les compartiments dont l\'effectif des occupants peut dépasser une personne par dix mètres carrés de surface hors œuvre nette.',
+                '<span class="art-para-num">§ 2.</span> Les dispositions de l\'article GH 25 § 3 ne sont pas applicables aux portes des dispositifs d\'intercommunication avec les escaliers qui ont toujours une largeur d\'au moins deux unités de passage.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes', ref: 'Art. GH R 9',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En application des dispositions de l\'article GH 62, le service SSIAP des immeubles de la classe GH R comprend, sous la direction du chef du service de sécurité incendie de l\'immeuble, un service central assuré en permanence par au moins un chef d\'équipe de sécurité qualifié SSIAP 2 et deux agents de sécurité qualifiés SSIAP 1.',
+                '<span class="art-para-num">§ 2.</span> Les rondes ont lieu : au moins deux fois pendant les heures de présence des étudiants ; puis une ronde immédiatement après le départ des étudiants, la suivante deux heures plus tard et une autre au moins dans le courant de la nuit. Des exercices d\'évacuations périodiques sont organisés dans les conditions prévues à l\'article GH 60 ; les occupants sont tenus d\'y participer.',
+                '<span class="art-para-num">§ 3.</span> En période de non-occupation de l\'immeuble et sous la responsabilité du mandataire, le service SSIAP de l\'immeuble peut être composé de deux agents seulement, dont un chef d\'équipe.',
+              ]
+            },
+          ]
+        },
+        GHS: {
+          title: 'GH S — Dispositions particulières aux IGH à usage de dépôt d\'archives',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre IV',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage de dépôt d'archives.",
+          chapters: [
+            {
+              title: 'Champ d\'application', ref: 'Art. GH S unique',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Conformément aux dispositions de l\'article R. 122-3 du code de la construction et de l\'habitation, la plupart des immeubles de ce type ne sont pas soumis au règlement de sécurité concernant les I.GH.<br>Le cas échéant, des mesures concernant la protection et le désenfumage des escaliers ainsi que la détection sont prises.',
+                '<span class="art-para-num">§ 2.</span> Des dispositions complémentaires peuvent être demandées par la commission de sécurité.',
+              ]
+            },
+          ]
+        },
+        GHU: {
+          title: 'GH U — Dispositions particulières aux IGH à usage sanitaire',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre V',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage sanitaire (hôpitaux, cliniques, établissements de soins).",
+          chapters: [
+            {
+              title: 'Champ d\'application', ref: 'Art. GH U 1',
+              text: [
+                'Les dispositions du présent chapitre sont applicables aux immeubles de grande hauteur dont l\'activité est définie à l\'article U 1 du règlement de sécurité des établissements recevant du public.',
+              ]
+            },
+            {
+              title: 'Activité psychiatrique', ref: 'Art. GH U 2',
+              text: [
+                'Un IGH U ne peut être destiné à l\'usage exclusif d\'hospitalisation psychiatrique. Néanmoins, une unité psychiatrique peut être autorisée dans un IGH U.',
+              ]
+            },
+            {
+              title: 'Communications entre bâtiments', ref: 'Art. GH U 3',
+              text: [
+                'Seuls les différents bâtiments de l\'ensemble hospitalier peuvent être reliés entre eux dans les conditions définies à l\'article GH 10.<br>Toutefois, la surface maximale d\'un dispositif d\'intercommunication telle que définie à l\'article GH 25 § 4 peut être dépassée lorsque les conditions de son désenfumage sont prévues en conséquence.',
+              ]
+            },
+            {
+              title: 'Nature des locaux admis dans l\'IGH', ref: 'Art. GH U 4',
+              text: [
+                'Ne peuvent être compris dans un IGH U que les locaux indispensables au fonctionnement de l\'établissement : locaux se rapportant aux services d\'hospitalisation, aux services médicaux, administratifs et généraux, à l\'exclusion des locaux dangereux visés à l\'article GH U 5.<br>Les services d\'hospitalisation peuvent comprendre une ou plusieurs unités de soins y compris celles impliquant une surveillance humaine particulière et permanente des malades (réanimation, soins intensifs, pédiatrie, etc.).<br>Les unités de soins peuvent comprendre les chambres de malades, les bureaux médicaux, les salles de soins et éventuellement les locaux d\'enseignement ou les logements intégrés au service, les offices alimentaires et les locaux techniques.',
+              ]
+            },
+            {
+              title: 'Locaux dangereux exclus de l\'IGH', ref: 'Art. GH U 5',
+              text: [
+                'En complément des dispositions applicables à tous types d\'IGH, sont implantés à l\'extérieur de l\'immeuble :<br>― tout local où le volume de liquides inflammables est supérieur ou égal à 10 litres ;<br>― tout local de stockage de gaz combustibles et d\'hydrocarbures liquéfiés ;<br>― les ateliers centraux d\'entretien, lingeries centrales et magasins généraux dont la charge calorifique dépasse les limites fixées par l\'article GH 61 § 1.<br>Les parois de ces locaux et leurs dispositifs d\'intercommunication avec l\'immeuble sont réalisés dans les mêmes conditions que celles définies à l\'article GH 10 § 2.',
+              ]
+            },
+            {
+              title: 'Sous-compartiments', ref: 'Art. GH U 6',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Chaque compartiment comportant des chambres de malades est divisé en au moins deux sous-compartiments d\'une capacité sensiblement équivalente, par des parois coupe-feu REI 120. Les intercommunications entre sous-compartiments, lorsqu\'elles ne se situent pas à la jonction entre deux compartiments, sont réalisées par des blocs-portes E 60 - C avec des portes en va-et-vient à fermeture automatique. Chaque sous-compartiment a une capacité maximale de 20 lits et doit être en mesure de recevoir les lits des malades du sous-compartiment contigu le plus important.<br>Sous réserve de ces dispositions, la distance de 30 mètres définie à l\'article GH 24 § 2 peut être portée à 40 mètres.',
+                '<span class="art-para-num">§ 2.</span> L\'implantation des escaliers dans un compartiment est réalisée de telle façon que les occupants puissent, à chaque niveau, accéder à un escalier sans transiter par un sous-compartiment sinistré.',
+                '<span class="art-para-num">§ 3.</span> Lorsque le compartiment est susceptible de recevoir plus d\'une unité de soins, le recoupement en sous-compartiments correspond, autant que possible, à la séparation des unités de soins.',
+              ]
+            },
+            {
+              title: 'Isolement', ref: 'Art. GH U 7',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En aggravation des dispositions générales, les baies entre les chambres de malades et les locaux de service sont obturées par des dispositifs pare-flammes de degré une heure ou E 60.',
+                '<span class="art-para-num">§ 2.</span> Ces chambres sont isolées des chambres voisines ainsi que des circulations horizontales par des parois coupe-feu REI 60, munies de blocs-portes E 30 équipés : soit de ferme-porte et éventuellement à fermeture automatique (E 30 - C) ; soit de ferme-porte avec arrêt réglé pour un angle d\'ouverture d\'au moins 90°.<br>Si des baies de surveillance sont nécessaires, elles seront fermées par des éléments pare-flammes E 30.<br>Une porte coulissante non motorisée peut être installée dans les locaux de moins de 10 m².',
+              ]
+            },
+            {
+              title: 'Cas particulier d\'isolement', ref: 'Art. GH U 8',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dispositions de l\'article GH U 7 ne sont pas applicables aux unités de soins impliquant une surveillance visuelle constante des malades, sous réserve qu\'elles soient isolées des autres unités de soins et des circulations horizontales communes par des parois coupe-feu REI 120, munies de blocs-portes E 60 - C asservies à la détection incendie. Ces portes peuvent disposer d\'un système d\'ouverture automatique devant être inhibé en cas de détection automatique d\'incendie.',
+                '<span class="art-para-num">§ 2.</span> Les blocs opératoires sont d\'une surface inférieure ou égale à 1 000 m² et délimités par des parois coupe-feu REI 120, munies de blocs-portes E 60 - C asservis à la détection incendie. Ces portes peuvent disposer d\'un système d\'ouverture automatique devant être inhibé en cas de détection automatique d\'incendie.',
+              ]
+            },
+            {
+              title: 'Aménagements intérieurs', ref: 'Art. GH U 9',
+              text: [
+                'En complément des dispositions de l\'article GH 22 § 3, les éventuels éléments de protection mécanique des cloisons sont réalisés en matériaux classés M2 ou C-s2 d1 et ne représentent pas plus de 20 % de la surface des parois. Les éléments de protection des portes sont de catégorie M1 ou B-s2 d0.<br>Les mains-courantes sont en matériaux de catégorie M2 ou en bois de catégorie M3.<br>Les matelas, draps, alèses et couvertures non matelassées (à l\'exception des dispositifs médicaux) satisfont aux essais encadrés par les normes NF EN 597-1 et NF EN ISO 12 952-1 et 2.',
+              ]
+            },
+            {
+              title: 'Locaux à risques particuliers', ref: 'Art. GH U 10',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En dérogation aux articles GH 61 et GH 64, les locaux visés au présent article sont autorisés dans les IGH U et assujettis aux dispositions de l\'article CO 28 du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 2.</span> Sont considérés comme locaux à risques importants : les locaux d\'archives d\'un volume compris entre 50 m³ et 100 m³ et les réserves d\'un volume supérieur à 100 m³.',
+                '<span class="art-para-num">§ 3.</span> Sont considérés comme locaux à risques moyens : cuisines (si puissance ≥ 20 kW ou friteuse ouverte) ; ateliers techniques (si point chaud ou 5 m³ ≤ V ≤ 100 m³ ou Q ≥ 10 l) ; local fermé d\'accès ambulance ; local d\'imagerie comprenant des transformateurs ; stérilisation ; stockage des gaz médicaux (50 l ≤ CE ≤ 200 l) ; locaux contenant des liquides inflammables (3 l ≤ Q ≤ 10 l) ; archives (V ≤ 50 m³) ; lingerie, locaux de déchets, réserves et pharmacie (5 m³ ≤ V ≤ 100 m³).',
+                '<span class="art-para-num">§ 5.</span> Les produits inflammables ayant un point éclair inférieur à 55 °C sont interdits dans les circulations.',
+              ]
+            },
+            {
+              title: 'Gaines et plafonds', ref: 'Art. GH U 11',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En aggravation des dispositions de l\'article GH 17, les gaines verticales mettant en communication l\'atmosphère de deux compartiments ne peuvent se trouver ni s\'ouvrir directement dans les circulations horizontales communes, à l\'exception des gaines d\'ascenseurs conformes à l\'article GH 30.',
+                '<span class="art-para-num">§ 2.</span> En aggravation des dispositions de l\'article GH 21 § 1, les éléments constitutifs des plafonds suspendus et les matériaux de revêtement des plafonds de toutes les circulations sont exclusivement de catégorie M0 ou A2 - s2, d0.',
+              ]
+            },
+            {
+              title: 'Dispositions diverses', ref: 'Art. GH U 12',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les dispositions des articles U 28 et U 29 du règlement de sécurité des ERP sont applicables.',
+                '<span class="art-para-num">§ 2.</span> Les espaces faisant l\'objet des cas particuliers d\'isolement cités à l\'article GH U 8 peuvent ne pas être désenfumés quelle que soit leur superficie. Dans le cas de compartiments divisés en sous-compartiments, les calculs de désenfumage sont réalisés sur la base du sous-compartiment.',
+                '<span class="art-para-num">§ 3.</span> En dérogation aux dispositions générales, le fonctionnement des installations de ventilation des locaux spécifiques (blocs opératoires, réanimation, soins intensifs) est indépendant du fonctionnement des installations de ventilation du reste de l\'IGH et ne doit pas être interrompu par la commande d\'arrêt d\'urgence prévue à l\'article CH 34 § 2 du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 4.</span> Les conditions d\'installation des gaz médicaux (section XVI du chapitre IX du livre II du règlement de sécurité des ERP type U) sont applicables. Chaque compartiment dispose d\'une vanne de sectionnement de l\'alimentation en gaz médicaux. Les installations de gaz médicaux sont vérifiées annuellement par un organisme agréé.',
+              ]
+            },
+            {
+              title: 'Circulations horizontales communes et portes', ref: 'Art. GH U 13',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En aggravation des dispositions de l\'article GH 23 § 1, les circulations horizontales communes des compartiments renfermant des chambres de malades ont une largeur de 3 UP au moins.',
+                '<span class="art-para-num">§ 2.</span> Les dispositions de l\'article GH 25 § 3 ne sont pas applicables. Les portes des dispositifs d\'intercommunication comportent au moins deux unités de passage.',
+              ]
+            },
+            {
+              title: 'Installations électriques', ref: 'Art. GH U 14',
+              text: [
+                '<span class="art-para-num">§ 1.</span> L\'alimentation par la source de sécurité des ascenseurs peut être limitée à quatre appareils dont au moins deux permettent le transport des malades alités, également répartis sur deux batteries différentes. Un dispositif manuel permet de commuter l\'alimentation sur d\'autres ascenseurs.',
+                '<span class="art-para-num">§ 2.</span> Les équipements indispensables à la sécurité hospitalière sont traités comme des installations de sécurité définies à l\'article GH 3.',
+                '<span class="art-para-num">§ 3.</span> Les installations électriques sont conformes aux dispositions de la norme NF C 15-211 relative aux installations électriques dans les locaux à usage médical. Les canalisations ne doivent pas traverser les blocs opératoires.',
+                '<span class="art-para-num">§ 5.</span> La présence physique d\'une personne qualifiée pour l\'exploitation et l\'entretien des installations électriques est requise en permanence.',
+              ]
+            },
+            {
+              title: 'Système de sécurité incendie', ref: 'Art. GH U 15',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En aggravation de l\'article GH 49 § 4, les détecteurs automatiques d\'incendie sont installés dans tous les locaux à l\'exception des escaliers et des sanitaires.',
+                '<span class="art-para-num">§ 2.</span> La sensibilisation d\'un détecteur d\'incendie dans une circulation horizontale commune entraîne l\'alarme générale sélective dans la zone d\'alarme définie au paragraphe 3 du présent article.',
+                '<span class="art-para-num">§ 3.</span> Une zone d\'alarme est étendue à un étage, une zone de compartimentage correspond à un compartiment et une zone de désenfumage correspond à un sous-compartiment.',
+                '<span class="art-para-num">§ 4.</span> L\'unité de gestion d\'alarme de type I.GH permet la diffusion de l\'alarme générale sélective. Dans chaque sous-compartiment est installé au minimum un tableau répétiteur d\'alarme sur lequel sont reportées synthétiquement les informations d\'alarme feu du système de détection incendie.',
+                '<span class="art-para-num">§ 5.</span> Une unité d\'aide à l\'exploitation est installée avec des tableaux normalisés de report de signalisation et des centralisateurs de mise en sécurité incendie dans les IGH U, alimentée par une alimentation électrique de sécurité.',
+              ]
+            },
+            {
+              title: 'Alerte', ref: 'Art. GH U 16',
+              text: [
+                'En application de l\'article GH 50 § 2, le poste central de sécurité incendie de l\'établissement est relié au centre de traitement de l\'alerte conformément aux dispositions de l\'article MS 71 du règlement de sécurité des ERP.',
+              ]
+            },
+            {
+              title: 'Extincteurs', ref: 'Art. GH U 17',
+              text: [
+                'Des extincteurs portatifs à eau pulvérisée de 6 litres minimum sont disposés de façon à répondre aux conditions suivantes :<br>― ils sont judicieusement répartis ;<br>― il existe un minimum d\'un appareil pour 200 m², de telle sorte que la distance maximale à parcourir pour atteindre un appareil ne dépasse pas 15 mètres ;<br>― un extincteur est placé à proximité des dispositifs de franchissement entre deux sous-compartiments.<br>Des extincteurs appropriés aux risques particuliers complètent ce dispositif.',
+              ]
+            },
+            {
+              title: 'Organisation de la sécurité en cas d\'incendie', ref: 'Art. GH U 18',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Les modalités d\'évacuation de première phase définies à l\'article GH 63 sont reconnues réalisées par le transfert horizontal des lits d\'un sous-compartiment à un autre. Les obligations relatives à la formation du personnel et l\'action du service SSIAP lors du déclenchement de l\'alarme sont précisées dans la note prévue à l\'article GH 60 § 3.',
+                '<span class="art-para-num">§ 2.</span> En aggravation des dispositions de l\'article GH 60, tout le personnel de l\'établissement est informé sur les dangers d\'un incendie dans un IGH U et est formé : à l\'exécution de consignes précises en vue de limiter l\'action d\'un feu et d\'assurer le transfert horizontal ou l\'évacuation ; à la mise en œuvre des moyens d\'extinction.',
+                '<span class="art-para-num">§ 3.</span> Des exercices d\'évacuation simulée sont organisés périodiquement. Une fois par an, les pompiers sont invités à s\'associer à un tel exercice. Ces exercices font l\'objet d\'une inscription sur le registre de sécurité de l\'IGH U.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes', ref: 'Art. GH U 19',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En application de l\'article GH 62, le service SSIAP comprend, sous la responsabilité du chef du service de sécurité incendie de l\'immeuble, un service central dont la composition permet d\'assurer une permanence de cinq agents de sécurité incendie au moins dont un chef d\'équipe.',
+                '<span class="art-para-num">§ 2.</span> Outre les missions énumérées à l\'article GH 62, le service central a notamment pour mission : de connaître les risques particuliers de certains services de l\'établissement ; d\'assurer les rondes au moins dans tous les locaux non surveillés en permanence (fréquence en fonction des risques, avec un minimum de quatre rondes par vingt-quatre heures) ; d\'agir en première intervention sur tout dysfonctionnement technique dans l\'IGH U.',
+                '<span class="art-para-num">§ 3.</span> Dans le cas d\'un site hospitalier comportant plusieurs bâtiments, l\'organisation du service SSIAP peut être centralisée sous réserve de respecter les dispositions de l\'article GH 62 § 3 et du § 2 ci-dessus.',
+              ]
+            },
+          ]
+        },
+        GHW: {
+          title: 'GH W — Dispositions particulières aux IGH à usage de bureau',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre VI',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage de bureau. La classe GH W 1 concerne les immeubles ≤ 100 m, la classe GH W 2 concerne les immeubles > 100 m.",
+          chapters: [
+            {
+              title: 'GH W 1 — Particularités', ref: 'Art. GH W 1',
+              text: [
+                'Conformément aux dispositions de l\'article R. 122-9 (2°) du CCH, les immeubles de la classe GH W1 peuvent ne comporter qu\'un escalier lorsque les conditions suivantes sont simultanément réalisées :<br>― il s\'agit de la situation existante à la date de publication du présent arrêté ;<br>― la surface hors œuvre nette de chaque compartiment n\'excède pas 750 m² ;<br>― la distance séparant les sorties des différents locaux sur les circulations horizontales communes de l\'un des dispositifs d\'accès à l\'escalier n\'excède pas 10 mètres ; il ne peut exister plus de deux dispositifs d\'accès à l\'escalier par niveau ;<br>― les locaux d\'archives visés à l\'article GH 61 § 4 ne sont aménagés qu\'aux derniers niveaux et ne comportent pas de bureaux.',
+              ]
+            },
+            {
+              title: 'Encloisonnement (W1 et W2)', ref: 'Art. GH W 2',
+              text: [
+                '<span class="art-para-num">§ 1.</span> En plus de l\'encloisonnement des circulations horizontales communes prévu par l\'article GH 23 §3, le volume occupé par les locaux privatifs dans chaque compartiment et à chaque niveau est recoupé en volumes au plus égaux à la moitié du volume total de ces locaux (à plus ou moins 5 % près), par des éléments coupe-feu REI 60 et des blocs-portes pare-flammes E 30 - C.',
+                '<span class="art-para-num">§ 2.</span> Par dérogation à l\'article GH 23 §3, les cloisons des circulations horizontales communes peuvent comporter des éléments verriers pare-flammes E 60 à partir d\'une hauteur de un mètre au-dessus du plancher, ou, sans allège, des éléments verriers EW 60.',
+                '<span class="art-para-num">§ 3.</span> Les portes prévues à l\'article GH 25 §3 et celles définies au §1 ci-dessus peuvent être à fermeture automatique si le dispositif répond aux exigences de la norme NF S 61-937 et si la fermeture de l\'ensemble des portes par compartiment est obtenue conformément aux dispositions de l\'article GH 49 §6.1 et 6.2.',
+              ]
+            },
+            {
+              title: 'Distance maximale d\'évacuation (W1 et W2)', ref: 'Art. GH W 3',
+              text: [
+                'En complément des dispositions de l\'article GH 24 §1 et §2, la distance mesurée dans l\'axe des circulations remplit l\'une des conditions suivantes :<br>― soit 35 mètres au maximum entre tout poste de travail et l\'entrée du dispositif d\'accès à l\'escalier le plus proche ;<br>― soit 25 mètres au maximum entre tout poste de travail et l\'accès à une circulation horizontale commune, sans que la distance entre un poste de travail et l\'entrée du dispositif d\'accès à l\'escalier le plus proche n\'excède 40 mètres.',
+              ]
+            },
+            {
+              title: 'Alarme (W1 et W2)', ref: 'Art. GH W 4',
+              text: [
+                'Les dispositifs sonores prévus par l\'article GH 49 sont installés dans les locaux recevant au moins vingt personnes et dans les circulations horizontales communes et privatives.',
+              ]
+            },
+            {
+              title: 'Service de sécurité incendie et d\'assistance à personnes (W1 et W2)', ref: 'Art. GH W 5',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Le service SSIAP des immeubles de classe GH W1 ou GH W2 comprend :<br>a) Un service central dont la composition est fixée comme suit :<br>― GH W1 ≤ 750 m² : deux agents de sécurité en permanence dont un chef d\'équipe ;<br>― GH W1 > 750 m² : en période d\'occupation trois agents dont un chef d\'équipe ; en période de non-occupation deux agents dont un chef d\'équipe ;<br>― GH W2 : trois agents en permanence dont un chef d\'équipe (peut être ramené à deux agents en période de non-occupation sur avis de la commission de sécurité) ;<br>b) Un service local de sécurité incendie par compartiment, constitué selon les dispositions du §2.',
+                '<span class="art-para-num">§ 2.</span> Les occupants de chaque compartiment participent au service local de sécurité. Il est composé d\'un chef de compartiment et d\'agents désignés parmi le personnel permanent de chaque entreprise au prorata de son effectif, avec un minimum de 1/25e des occupants du compartiment et un minimum de six.',
+                '<span class="art-para-num">§ 3.</span> Les rondes du service central ont lieu : la première immédiatement après le départ des employés, la suivante deux heures plus tard et une troisième au moins dans le courant de la nuit.',
+                '<span class="art-para-num">§ 4.</span> Le service local de sécurité a pour mission en cas de sinistre : d\'alerter le service central ; de vérifier l\'isolement du compartiment par la fermeture des portes coupe-feu ; d\'organiser l\'évacuation du compartiment, en prenant en compte la situation de personnes handicapées ; de mettre en œuvre les moyens de premiers secours ; de rendre compte au PCS.',
+              ]
+            },
+          ]
+        },
+        GHZ: {
+          title: 'GH Z — Dispositions particulières aux IGH d\'habitation 28-50 m avec locaux autres',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre VII',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions applicables aux immeubles d'habitation d'une hauteur supérieure à 28 mètres et inférieure ou égale à 50 mètres comprenant des locaux autres que ceux à usage d'habitation.",
+          chapters: [
+            {
+              title: 'Champ d\'application', ref: 'Art. GH Z unique',
+              text: [
+                '<span class="art-para-num">§ 1.</span> L\'aménagement dans un bâtiment d\'habitation, dont le plancher bas du dernier niveau est situé à plus de 28 mètres et au plus à 50 mètres, de locaux affectés à une ou plusieurs des activités autorisées par l\'article R. 122-5 du CCH, a pour effet de le placer dans la catégorie des immeubles de grande hauteur de la classe Z.',
+                '<span class="art-para-num">§ 2.</span> Toutefois, le bâtiment n\'est pas considéré comme IGH dans les cas suivants :<br>a) Les locaux sont affectés à une activité professionnelle et font partie du même ensemble de pièces que celles où se déroule la vie familiale.<br>b) Les locaux sont affectés à des activités professionnelles de bureaux ou constituent un ERP dépendant d\'une même personne physique ou morale et répondent simultanément aux conditions suivantes : ils forment un seul ensemble de locaux contigus de 200 m² au plus pouvant accueillir moins de vingt personnes à un même niveau ; ils sont isolés des autres parties du bâtiment par des parois coupe-feu REI 60 et des blocs-portes E 30.<br>c) Les locaux sont affectés à des activités professionnelles de bureaux ou constituent des ERP de 5e catégorie et le plancher bas du niveau le plus haut occupé par ces locaux est toujours situé à huit mètres au plus au-dessus du niveau du sol extérieur accessible aux piétons, chaque niveau a au moins une façade en bordure d\'une voie, et ces locaux sont isolés de la partie habitation par des parois REI 120, sans aucune intercommunication.',
+              ]
+            },
+          ]
+        },
+        GHTC: {
+          title: 'GHTC — Dispositions particulières aux IGH à usage de tour de contrôle',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre VIII',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions particulières applicables aux immeubles de grande hauteur à usage de tour de contrôle des aérogares.",
+          chapters: [
+            {
+              title: 'Champ d\'application', ref: 'Art. GHTC unique',
+              text: [
+                'Les dispositions jointes en appendice au présent titre constituant le cahier des charges relatif à la prévention incendie dans les tours de contrôle destinées à la navigation aérienne s\'appliquent aux tours de contrôle répondant aux conditions définies à l\'article R. 122-2 du CCH.<br>Sont concernées les tours de contrôle destinées à la navigation aérienne, non occupées en leur fût par des locaux autres que directement liés au fonctionnement de la tour de contrôle, et dont le plancher bas du niveau le plus haut (accessible aux contrôleurs aériens) est à plus de 28 mètres. Ces installations sont destinées à recevoir un effectif de moins de 19 personnes.<br>Les tours « habitées » ou accueillant des activités au sein de leur fût dont le plancher bas du niveau le plus haut est à plus de 28 mètres sont assujetties aux règles relatives aux immeubles de grande hauteur.',
+              ]
+            },
+          ]
+        },
+        ITGH: {
+          title: 'ITGH — Dispositions particulières aux immeubles de très grande hauteur (> 200 m)',
+          sub: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre IX',
+          legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025170449',
+          intro: "Dispositions spécifiques applicables aux immeubles de très grande hauteur, dont le plancher bas du dernier niveau est situé à plus de 200 mètres au-dessus du niveau du sol.",
+          chapters: [
+            {
+              title: 'Généralités', ref: 'Art. ITGH 1',
+              text: [
+                'Les dispositions de ce chapitre s\'appliquent en complément et en aggravation des dispositions prévues aux autres chapitres du présent règlement de sécurité.',
+              ]
+            },
+            {
+              title: 'Structures', ref: 'Art. ITGH 2',
+              text: [
+                'Les éléments de construction primaires porteurs sont stables au feu de degré trois heures ou R.180.',
+              ]
+            },
+            {
+              title: 'Escaliers', ref: 'Art. ITGH 3',
+              text: [
+                'Les gaines d\'escaliers sont recoupées tous les 100 mètres de hauteur environ pour former des volumes en superposition. Le passage entre deux volumes successifs est réalisé à un même niveau par un dispositif d\'intercommunication commun aux deux volumes. Ce dispositif d\'intercommunication permet également d\'accéder à la circulation horizontale commune.',
+              ]
+            },
+            {
+              title: 'Ascenseurs prioritaires pompiers', ref: 'Art. ITGH 4',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Chaque niveau de l\'ITGH dispose d\'un compartiment desservi par au moins trois ascenseurs « pompiers » tels que définis à l\'article GH 34. Conditions supplémentaires : deux ascenseurs capables de desservir le niveau le plus élevé depuis le niveau d\'accès des secours en 60 secondes maximum ; un troisième ascenseur, permettant d\'emporter une charge de 2 500 kg, capable de desservir le dernier niveau en 120 secondes maximum.',
+                '<span class="art-para-num">§ 2.</span> Lorsque l\'immeuble dispose de plusieurs compartiments par niveaux, au moins un compartiment répond aux dispositions du §1 ; les autres compartiments disposent chacun de deux ascenseurs pompiers, le premier desservant le niveau depuis le niveau d\'accès des secours en 60 secondes, le second (2 500 kg) en 120 secondes.',
+              ]
+            },
+            {
+              title: 'Moyens d\'extinction', ref: 'Art. ITGH 5',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Un système d\'extinction automatique de type sprinkleur couvre l\'ensemble de l\'immeuble, installé conformément à l\'article MS 25 du règlement de sécurité des ERP.',
+                '<span class="art-para-num">§ 2.</span> Les ITGH disposent d\'une colonne en charge par cage d\'escalier. Ces colonnes sont alimentées par deux dispositifs de surpression indépendants. Chaque groupe de surpresseurs assure en permanence, à chaque niveau et dans chaque colonne, un débit de 2 000 l/min sous une pression comprise entre 7 et 9 bars. Le réseau d\'alimentation en eau des colonnes en charge constitue un réseau maillé par immeuble. Les réservoirs d\'eau disposent d\'une capacité en eau telle que 240 m³ au moins soient exclusivement réservés au service d\'incendie, alimentés en permanence avec un débit minimal de 2 000 l/min.',
+              ]
+            },
+            {
+              title: 'Charge calorifique', ref: 'Art. ITGH 6',
+              text: [
+                'Les dispositions prévues à l\'article ITGH 5 § 1 (sprinkleur généralisé) ne s\'opposent pas à l\'application des mesures relatives aux charges calorifiques surfaciques définies à l\'article GH 61.',
+              ]
+            },
+            {
+              title: 'Local de gestion d\'intervention — Local de sécurité incendie avancé', ref: 'Art. ITGH 7',
+              text: [
+                '<span class="art-para-num">§ 1.</span> Un local de gestion d\'intervention, contigu au poste central de sécurité incendie, est installé afin de permettre aux services publics de secours d\'organiser et de gérer leurs moyens en cas d\'incendie. Ce local a une surface d\'au moins 150 m² et dispose d\'un moyen de liaison direct avec le PCS ainsi que d\'une liaison téléphonique urbaine fixe.<br>Un local identique, appelé local de sécurité incendie avancé, est installé à un niveau situé sensiblement aux deux tiers de la hauteur de l\'ITGH. Il peut être activé sans délai ni contrainte particulière dès que le responsable des pompiers en effectue la demande.',
+                '<span class="art-para-num">§ 2.</span> Les dispositions définies à l\'article GH 62 § 4 (service SSIAP commun à plusieurs IGH) ne sont pas autorisées pour les immeubles de très grande hauteur.',
+              ]
+            },
+            {
+              title: 'Composition du service de sécurité incendie et d\'assistance à personnes', ref: 'Art. ITGH 8',
+              text: [
+                'Le service SSIAP d\'un ITGH est composé d\'au moins un chef de service de sécurité incendie, deux chefs d\'équipe de sécurité qualifiés SSIAP 2 et trois agents de sécurité qualifiés SSIAP 1.<br>La composition de ce service peut être augmentée sur demande de la commission de sécurité selon les activités recensées dans l\'ITGH.',
+              ]
+            },
+          ]
+        },
       }
     },
 
@@ -3751,7 +4723,11 @@
     });
     sidebar.innerHTML = html;
 
-    // Contenu de bienvenue
+    // Auto-sélectionner le premier code disponible
+    const firstCode = d.sidebar[0]?.rows[0]?.codes[0];
+    if (firstCode) { showArticle(firstCode); return; }
+
+    // Contenu de bienvenue (fallback si aucun code)
     const content = document.getElementById('detail-content');
     content.innerHTML = `
       <div class="info-box">
