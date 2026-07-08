@@ -4562,7 +4562,19 @@
       intro: "Arrêté du 31 janvier 1986 modifié relatif à la protection contre l'incendie des bâtiments d'habitation.",
       sidebar: [
         {
-          group: 'Classification par famille',
+          group: 'Texte intégral — Arrêté 31 jan. 1986',
+          rows: [
+            { label: 'Titre I', sub: 'Généralités et classement (Art. 1–4)', codes: ['HAB-T1'] },
+            { label: 'Titre II', sub: 'Structures et enveloppe (Art. 5–16)', codes: ['HAB-T2'] },
+            { label: 'Titre III', sub: 'Dégagements (Art. 17–43)', codes: ['HAB-T3'] },
+            { label: 'Titre IV', sub: 'Conduits et gaines (Art. 44–64)', codes: ['HAB-T4'] },
+            { label: 'Titre V', sub: 'Logements-foyers (Art. 65–76)', codes: ['HAB-T5'] },
+            { label: 'Titre VI', sub: 'Parcs de stationnement (Art. 77–96)', codes: ['HAB-T6'] },
+            { label: 'Titre VII–XI', sub: 'Dispositions finales (Art. 97–109)', codes: ['HAB-T7'] },
+          ]
+        },
+        {
+          group: 'Accès rapide par famille',
           rows: [
             { label: '1re famille', sub: 'Maisons individuelles', codes: ['HAB1'] },
             { label: '2e famille', sub: 'Collectif ≤ 8 m', codes: ['HAB2'] },
@@ -4580,13 +4592,828 @@
         }
       ],
       articles: {
-        HAB1: { title:'1re famille — Maisons individuelles', sub:'Plain-pied ou R+1, accès indépendant', legifrance:'https://www.legifrance.gouv.fr', intro:'Maisons individuelles isolées ou jumelées dont tous les logements ont un accès direct à la voie ou à un espace librement accessible. Au plus 2 niveaux.', chapters:[{title:'Définition et champ',ref:'Art. 1'},{title:'Toitures et façades',ref:'Art. 2 à 4'},{title:'Locaux à risques',ref:'Art. 5 à 7'}] },
-        HAB2: { title:'2e famille — Immeubles collectifs bas', sub:'Plancher bas ≤ 8 m', legifrance:'https://www.legifrance.gouv.fr', intro:'Immeubles collectifs dont le plancher bas du dernier niveau est situé à 8 m maximum au-dessus du sol ou de la voie accessible aux échelles des sapeurs-pompiers.', chapters:[{title:'Définition',ref:'Art. 1'},{title:'Escaliers et circulations',ref:'Art. 8 à 12'},{title:'Installations électriques et gaz',ref:'Art. 13 à 18'}] },
-        HAB3A: { title:'3e famille A — Collectif intermédiaire (accès direct)', sub:'8 m < plancher bas ≤ 28 m', legifrance:'https://www.legifrance.gouv.fr', intro:'Immeubles dont les logements sont desservis par des escaliers comportant des accès à partir de circulations communes extérieures.', chapters:[{title:'Définition',ref:'Art. 1'},{title:'Escaliers encloisonnés',ref:'Art. 13 à 18'},{title:'Désenfumage',ref:'Art. 19 à 22'}] },
-        HAB3B: { title:'3e famille B — Collectif intermédiaire (escalier protégé)', sub:'Exigences renforcées 3e famille', legifrance:'https://www.legifrance.gouv.fr', intro:'Immeubles dont certains logements sont desservis par des escaliers intérieurs encloisonnés avec des exigences de désenfumage et de compartimentage renforcées.', chapters:[{title:'Définition',ref:'Art. 1'},{title:'Escaliers encloisonnés protégés',ref:'Art. 23 à 28'},{title:'Compartimentage',ref:'Art. 29 à 34'}] },
-        HAB4: { title:'4e famille — Immeubles > 28 m (→ IGH)', sub:'Soumis à la réglementation IGH', legifrance:'https://www.legifrance.gouv.fr', intro:'Les immeubles d\'habitation dont le plancher bas du dernier niveau dépasse 28 m sont soumis à la réglementation IGH (arrêté du 18 octobre 1977 modifié).', chapters:[{title:'Seuil de classement IGH habitation',ref:'28 m plancher bas'},{title:'Voir onglet IGH → GHA',ref:'GHA'}] },
-        DAAF: { title:'Détecteur Avertisseur Autonome de Fumée', sub:'Obligation depuis 2015 — tous logements', legifrance:'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021900986/', intro:'Loi n° 2010-238 du 9 mars 2010 : tout logement doit être équipé d\'au moins un DAAF. Responsabilité de l\'occupant (locataire ou propriétaire occupant). Norme NF EN 14604.', chapters:[{title:'Obligation légale',ref:'L. 129-8 CCH'},{title:'Caractéristiques du DAAF',ref:'NF EN 14604'},{title:'Installation et entretien',ref:'Arrêté du 5/02/2013'}] },
-        'PS-HAB': { title:'Parcs de stationnement annexes', sub:'Annexes aux bâtiments d\'habitation', legifrance:'https://www.legifrance.gouv.fr', intro:'Dispositions relatives aux parcs de stationnement couverts annexés aux bâtiments d\'habitation. Isolement, ventilation, détection.', chapters:[{title:'Isolement du parc',ref:'Art. 1 à 4'},{title:'Ventilation',ref:'Art. 5 à 8'},{title:'Détection et alarme',ref:'Art. 9 à 12'}] },
+        'HAB-T1': {
+          title: 'Titre I — Généralités et classement des bâtiments d\'habitation',
+          sub: 'Articles 1 à 4 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Champ d\'application, classification des matériaux, classement en familles et définition des voies d\'accès.',
+          chapters: [
+            {
+              title: 'Article 1 — Champ d\'application',
+              ref: 'Art. 1',
+              text: [
+                'Les dispositions du présent arrêté sont applicables aux bâtiments d\'habitation, y compris les logements-foyers, dont le plancher bas du logement le plus haut est situé à cinquante mètres au plus au-dessus du sol utilement accessible aux engins des services de secours et de lutte contre l\'incendie, ainsi qu\'aux parcs de stationnement couverts qui leur sont annexés et dont la superficie est supérieure à cent mètres carrés.<br><br>Pour les immeubles dont le plancher bas du logement le plus haut dépasse cinquante mètres, les dispositions spécifiques aux immeubles de grande hauteur s\'appliquent conformément à l\'arrêté relatif aux IGH.',
+              ]
+            },
+            {
+              title: 'Article 2 — Classification des matériaux',
+              ref: 'Art. 2',
+              text: [
+                'La classification des matériaux et éléments de construction employés dans la réalisation des bâtiments d\'habitation relativement au danger d\'incendie est déterminée par des arrêtés pris en application de l\'article R. 121-5 du code de la construction et de l\'habitation.',
+              ]
+            },
+            {
+              title: 'Article 3 — Classement des bâtiments d\'habitation',
+              ref: 'Art. 3',
+              text: [
+                '<strong>1re famille</strong> : Habitations individuelles isolées ou jumelées dont le nombre de logements superposés est au plus égal à deux (rez-de-chaussée + un étage), ou habitations individuelles groupées en bande à rez-de-chaussée seulement. Également en 1re famille : maisons individuelles groupées en bande d\'un étage sur rez-de-chaussée dont les structures sont indépendantes de cave en combles.',
+                '<strong>2e famille</strong> : a) Habitations individuelles isolées ou jumelées de plus de deux niveaux ; b) Habitations individuelles groupées en bande de plus d\'un étage sans structures indépendantes de cave en combles ; c) Immeubles collectifs dont le plancher bas du logement le plus haut est situé à 8 mètres au plus au-dessus du sol. <em>Précision</em> : pour les collectifs de 3 étages sur rez-de-chaussée dont le plancher bas du logement le plus haut est à plus de 8 mètres, l\'escalier doit être encloisonné sauf s\'il est extérieur.',
+                '<strong>3e famille A</strong> : Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, répondant aux trois conditions suivantes : a) comportant au plus 7 étages sur rez-de-chaussée ; b) dont les circulations horizontales ne font pas plus de 10 mètres entre la porte de logement la plus éloignée et la cage d\'escalier ; c) dont l\'accès aux escaliers est situé en façade sur voie accessible aux échelles.',
+                '<strong>3e famille B</strong> : Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres ne satisfaisant pas aux conditions de la 3e famille A. L\'accès aux escaliers doit être situé à moins de 50 mètres d\'une voie accessible aux engins de secours.',
+                '<strong>4e famille</strong> : Immeubles dont le plancher bas du logement le plus haut est situé entre 28 et 50 mètres, ne relevant pas des catégories précédentes. L\'accès aux escaliers protégés est situé à moins de 50 mètres d\'une voie engins.<br><br><em>Duplex et triplex</em> : pour les trois premières familles, seul le plancher bas du niveau inférieur du duplex ou triplex le plus élevé est pris en compte pour le classement, à condition que ce niveau comporte une pièce principale et la porte palière et réponde aux exigences de l\'article 6.',
+              ]
+            },
+            {
+              title: 'Article 4 — Définition des voies d\'accès',
+              ref: 'Art. 4',
+              text: [
+                '<strong>Voie engins</strong> — Voie permettant la circulation et l\'emploi des engins des services de secours et de lutte contre l\'incendie :<br>— Largeur : 3 mètres au minimum (places de stationnement non comprises) ;<br>— Force portante calculée pour un véhicule de 130 kilonewtons avec essieu avant de 40 kN et essieu arrière de 90 kN, espacés de 4,50 mètres ;<br>— Rayon intérieur minimal : 11 mètres ;<br>— Surlargeur S = 15/R dans les virages de rayon R inférieur à 50 mètres ;<br>— Hauteur libre : 3,50 mètres ;<br>— Pente maximale : 15 %.',
+                '<strong>Voie échelles</strong> — Section de voie engins permettant la mise en station et l\'emploi des échelles aériennes :<br>— Longueur minimale : 10 mètres ;<br>— Largeur : 4 mètres au minimum ;<br>— Pente maximale : 10 % ;<br>— Résistance au poinçonnement : 100 kilonewtons sur surface circulaire de 0,20 mètre de diamètre ;<br>— Raccordement obligatoire à une voie engins si non sur voie publique.<br><br><em>Position par rapport à la façade</em> (voies parallèles) : bord le plus proche à 1 mètre au moins et 8 mètres au plus pour les échelles de 30 mètres, 6 mètres pour 24 mètres, 3 mètres pour 18 mètres.<br>(Voies perpendiculaires) : extrémité à moins de 1 mètre de la façade, longueur minimale 10 mètres.',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T2': {
+          title: 'Titre II — Structures et enveloppe des bâtiments d\'habitation',
+          sub: 'Articles 5 à 16 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Résistance au feu des éléments porteurs, planchers, parois, façades, couvertures et isolation intérieure.',
+          chapters: [
+            {
+              title: 'Article 5 — Éléments porteurs verticaux',
+              ref: 'Art. 5',
+              text: [
+                'Les éléments porteurs verticaux des bâtiments d\'habitation doivent présenter les degrés de stabilité au feu minimaux suivants :<br><table class="art-table"><tr><th>Famille</th><th>Stabilité au feu</th></tr><tr><td>1re famille</td><td>15 minutes (SF ¼ h)</td></tr><tr><td>2e famille</td><td>30 minutes (SF ½ h)</td></tr><tr><td>3e famille</td><td>60 minutes (SF 1 h)</td></tr><tr><td>4e famille</td><td>90 minutes (SF 1 h 30)</td></tr></table><br>Les balcons, coursives et circulations extérieures des 2e, 3e et 4e familles doivent présenter une stabilité au feu de 30 minutes. Les charpentes de toiture sont exemptées de ces exigences. Pour les éléments porteurs de façade ou pignon, l\'exigence s\'applique uniquement à la face interne.',
+              ]
+            },
+            {
+              title: 'Article 6 — Planchers',
+              ref: 'Art. 6',
+              text: [
+                'Les planchers séparant des niveaux différents (à l\'exception des planchers intérieurs aux logements) doivent présenter les degrés de résistance au feu minimaux suivants :<br><table class="art-table"><tr><th>Famille</th><th>Coupe-feu</th></tr><tr><td>1re famille (plancher haut sous-sol)</td><td>15 minutes (CF ¼ h)</td></tr><tr><td>2e famille</td><td>30 minutes (CF ½ h)</td></tr><tr><td>3e famille</td><td>60 minutes (CF 1 h)</td></tr><tr><td>4e famille</td><td>90 minutes (CF 1 h 30)</td></tr></table><br>Les vides sanitaires non accessibles et les derniers niveaux dont les parois se prolongent jusqu\'à la couverture sont exemptés. Les coursives et passerelles extérieures exigent un degré pare-flammes de 15 minutes (1re famille) ou 30 minutes (autres familles).',
+              ]
+            },
+            {
+              title: 'Article 7 — Recoupement vertical',
+              ref: 'Art. 7',
+              text: [
+                'Les groupements de maisons en bande et les bâtiments de longueur importante doivent être recoupés tous les 45 mètres par des murs ou parois coupe-feu dont les degrés minimaux sont :<br><table class="art-table"><tr><th>Famille</th><th>Parois</th><th>Portes</th></tr><tr><td>1re famille</td><td>CF ½ h</td><td>PF ¼ h</td></tr><tr><td>2e famille</td><td>CF 1 h</td><td>PF ½ h</td></tr><tr><td>3e et 4e familles</td><td>CF 1 h 30</td><td>PF ½ h ou CF 1 h</td></tr></table>',
+              ]
+            },
+            {
+              title: 'Article 8 — Parois des logements',
+              ref: 'Art. 8',
+              text: [
+                '<strong>Parois séparatives entre maisons jumelées ou en bande (1re et 2e familles)</strong> : degré coupe-feu 15 minutes minimum.<br><br><strong>Parois verticales constituant l\'enveloppe des logements</strong> (séparant le logement de la circulation commune ou d\'un autre logement) :<br>— 2e et 3e familles : coupe-feu 30 minutes ;<br>— 4e famille : coupe-feu 60 minutes.<br><br><strong>Blocs-portes palières</strong> :<br>— 2e et 3e familles : pare-flammes 15 minutes ;<br>— 4e famille : pare-flammes 30 minutes.',
+              ]
+            },
+            {
+              title: 'Article 9 — Établissements recevant du public intégrés',
+              ref: 'Art. 9',
+              text: [
+                'Les locaux collectifs résidentiels dépassant 50 m² intégrés aux bâtiments collectifs (salles communes, salles de réunion) doivent être séparés des parties habitation conformément au règlement de sécurité applicable aux ERP pour le type et la catégorie correspondants. Les établissements recevant du public intégrés à l\'immeuble suivent intégralement le règlement ERP.',
+              ]
+            },
+            {
+              title: 'Article 10 — Celliers et caves',
+              ref: 'Art. 10',
+              text: [
+                'Les ensembles de celliers ou de caves situés en étage, en rez-de-chaussée ou en sous-sol doivent être séparés des parties habitables et des circulations communes par des parois coupe-feu de 60 minutes (3e et 4e familles).<br><br>Les blocs-portes d\'accès aux celliers et caves sont coupe-feu de 30 minutes, s\'ouvrant dans le sens de la sortie, équipés d\'un ferme-porte, sans être verrouillables depuis l\'intérieur.<br><br>Les accès aux caves et celliers se font depuis l\'extérieur, depuis un sous-sol communicant avec l\'extérieur (hors parkings), ou depuis les circulations horizontales communes. La distance maximale entre la porte la plus éloignée et une sortie vers l\'extérieur est de 20 mètres. Les volumes de caves doivent être recoupés par des parois coupe-feu de 60 minutes et des portes pare-flammes de 30 minutes avec ferme-porte.',
+              ]
+            },
+            {
+              title: 'Article 11 — Objectifs des dispositions sur les façades',
+              ref: 'Art. 11',
+              text: [
+                'La présente section a pour objectifs de limiter :<br>— la propagation du feu de façon latérale entre logements voisins ;<br>— la propagation du feu de façon verticale entre niveaux différents ;<br>— la propagation du feu dans l\'épaisseur même de la façade ;<br>— la propagation du feu à la jonction mur-plancher.<br><br><em>Définitions</em> : les couvertures d\'une pente inférieure à 30° sont assimilées à des façades. Les façades « sans ouverture » sont celles ne comportant pas de baie accessible depuis l\'intérieur (les orifices de ventilation d\'une section inférieure à 200 cm² ne sont pas pris en compte). Les appréciations de laboratoire sont délivrées par un organisme agréé par le ministre de l\'Intérieur.',
+              ]
+            },
+            {
+              title: 'Article 12 — Classement des matériaux de façade',
+              ref: 'Art. 12',
+              text: [
+                '<strong>1re famille</strong> : les parements extérieurs sont classés au minimum D-s3, d0 (ou bois). Exception pour les maisons isolées dont la façade est distante de plus de 4 mètres de la limite de propriété : classement E admis.<br><br><strong>2e famille</strong> : parements extérieurs classés au minimum D-s3, d0.',
+              ]
+            },
+            {
+              title: 'Article 13 — Systèmes de façade (3e et 4e familles)',
+              ref: 'Art. 13',
+              text: [
+                'Le système de façade comprend l\'ensemble des couches de matériaux depuis le nu extérieur jusqu\'au nu intérieur, incluant les équipements et la structure porteuse de la façade.<br><br>Ne sont pas soumis à ces exigences : les cadres de menuiseries en bois, les cadres classés M2 ou C-s3 d0, les cadres avec verres minéraux, les peintures et imperméabilisations M2 ou C-s3 d0, les stores M1 ou B-s3 d0, les joints et garnitures d\'étanchéité.<br><br><strong>3e famille — Solution 1</strong> : tous les éléments du système sont classés A2-s3, d0 et il n\'existe pas de lame d\'air. Les vides constructifs nécessitent des matériaux intumescents, bavettes ou bandes incombustibles en recoupement ; une appréciation de laboratoire peut être requise.<br><strong>3e famille — Solution 2</strong> : l\'efficacité globale du système est démontrée par une appréciation de laboratoire.<br><br><strong>4e famille — Solution 1</strong> : identique à la 3e famille.<br><strong>4e famille — Solution 2</strong> : classement général A2-s3, d0, mais un sous-ensemble non A2-s3, d0 est admis s\'il est protégé par un écran thermique EI 30 ou si ses performances sont démontrées par essai ; l\'efficacité globale est démontrée par appréciation de laboratoire.',
+              ]
+            },
+            {
+              title: 'Article 14 — Façades avec et sans ouvertures (règle C+D)',
+              ref: 'Art. 14',
+              text: [
+                '<strong>Façades avec ouvertures — Règle C + D</strong> : la somme C + D (allège sous baie + tableau de baie) est définie selon la masse combustible mobilisable M (en MJ/m²) :<br><table class="art-table"><tr><th>Masse combustible M</th><th>3e famille A</th><th>3e fam. B et 4e</th></tr><tr><td>M ≤ 80 MJ/m²</td><td>C + D ≥ 60 cm</td><td>C + D ≥ 80 cm</td></tr><tr><td>80 &lt; M ≤ 130 MJ/m²</td><td>C + D ≥ 80 cm</td><td>C + D ≥ 100 cm</td></tr><tr><td>M &gt; 130 MJ/m²</td><td>C + D ≥ 110 cm</td><td>C + D ≥ 130 cm</td></tr></table><br>Les orifices de ventilation de section inférieure à 200 cm² ne sont pas pris en compte.<br><br><strong>Façades sans ouverture</strong> : si contiguës à une façade avec ouvertures et formant un dièdre inférieur ou égal à 135°, elles sont traitées comme une façade avec ouvertures. Si le dièdre est supérieur à 135°, la façade sans ouverture assure EI i→o 30 et EI o→i 30 (ou REI si porteuse).',
+              ]
+            },
+            {
+              title: 'Article 15 — Couvertures',
+              ref: 'Art. 15',
+              text: [
+                '<strong>Revêtements M1 à M3</strong> : admis sans restriction sur support continu incombustible ou panneau de bois ou aggloméré. Sur support différent, ils sont traités comme les M4.<br><br><strong>Revêtements M4</strong> : l\'indice de propagation de flamme T requis varie selon la famille et la distance entre le bâtiment et la limite de propriété :<br><table class="art-table"><tr><th>Famille</th><th>Indice requis</th></tr><tr><td>1re famille</td><td>T/5, T/15 ou T/30 selon distance voisin</td></tr><tr><td>2e famille</td><td>T/15 ou T/30</td></tr><tr><td>3e et 4e familles</td><td>T/30</td></tr></table><br>Au-delà de 12 mètres de la limite de propriété ou du bâtiment voisin, aucune restriction particulière. Les matériaux M0 à M3 sont assimilés à l\'indice 1 (le plus favorable).',
+              ]
+            },
+            {
+              title: 'Article 16 — Isolation des parois par l\'intérieur',
+              ref: 'Art. 16',
+              text: [
+                'Les matériaux d\'isolation thermique ou acoustique par l\'intérieur ne doivent pas créer de risque d\'incendie inadmissible, notamment pas d\'embrasement généralisé du local avant son évacuation, ni d\'émission de fumées au-delà du logement sinistré.<br><br><strong>Disposition a)</strong> : classement minimal A2-s2, d0 pour les parois verticales, plafonds et toitures ; A2 fl-s1 pour les planchers et sols.<br><br><strong>Disposition b)</strong> : protection par écran thermique sur les faces exposées au feu intérieur, d\'une durée minimale :<br>— 15 minutes (toutes orientations) pour les 1re et 2e familles ;<br>— 30 minutes pour plafonds et sous-faces de planchers, 15 minutes pour parois verticales, sols et plafonds du dernier niveau pour les 3e et 4e familles.<br><br>La conformité au Guide isolation intérieure des bâtiments d\'habitation (édition 2016) est admise comme preuve de conformité à la disposition b).',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T3': {
+          title: 'Titre III — Dégagements',
+          sub: 'Articles 17 à 43 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Escaliers, circulations horizontales protégées, dégagements protégés. Conditions d\'encloisonnement, désenfumage et résistance au feu selon les familles.',
+          chapters: [
+            {
+              title: 'Article 17 — Prescriptions générales sur les dégagements',
+              ref: 'Art. 17',
+              text: [
+                'Les dégagements (escaliers et circulations horizontales) doivent permettre aux occupants de quitter rapidement l\'immeuble et aux services de secours d\'intervenir efficacement en cas d\'incendie. Ils comprennent : les escaliers (Chapitre Ier), les circulations horizontales protégées (Chapitre II) et les dégagements protégés associant les deux (Chapitre III).',
+              ]
+            },
+            {
+              title: 'Article 18 — Parois des cages d\'escalier en façade',
+              ref: 'Art. 18',
+              text: [
+                'Dans les habitations collectives, les parois des cages d\'escalier situées en façade doivent être pare-flammes de degré une demi-heure. Les parties de façade non pare-flammes doivent respecter des distances minimales par rapport aux baies des logements : 2 mètres dans le même plan, 4 mètres en retour d\'angle, 8 mètres en vis-à-vis.',
+              ]
+            },
+            {
+              title: 'Article 19 — Escaliers non en façade (2e famille)',
+              ref: 'Art. 19',
+              text: [
+                'En 2e famille, les parois des cages d\'escalier non situées en façade doivent être coupe-feu de degré une demi-heure. Les portes séparant l\'escalier des circulations horizontales communes ne sont requises que si le plancher bas du logement le plus élevé est à plus de 8 mètres.',
+              ]
+            },
+            {
+              title: 'Article 20 — Escaliers en 3e famille',
+              ref: 'Art. 20',
+              text: [
+                'En 3e famille, toutes les parois de la cage d\'escalier non situées en façade doivent être coupe-feu de degré une heure. Les impostes et oculus éventuels sont pare-flammes de degré une heure. Les blocs-portes d\'accès à l\'escalier depuis les circulations communes sont pare-flammes de degré une demi-heure, munis d\'un ferme-porte, s\'ouvrant dans le sens de la sortie. Aucun local ne peut déboucher directement dans la cage d\'escalier.',
+              ]
+            },
+            {
+              title: 'Article 21 — Escaliers en 4e famille',
+              ref: 'Art. 21',
+              text: [
+                'En 4e famille, les parois communes entre la cage d\'escalier et le reste du bâtiment doivent être coupe-feu de degré une heure au moins. Les impostes et oculus sont pare-flammes de degré une heure.',
+              ]
+            },
+            {
+              title: 'Article 22 — Matériaux des escaliers (3e et 4e familles)',
+              ref: 'Art. 22',
+              text: [
+                'En 3e et 4e familles, les escaliers (marches, paliers, structures) doivent être réalisés en matériaux incombustibles (classe M0 ou A2-s1, d0).',
+              ]
+            },
+            {
+              title: 'Article 23 — Revêtements des cages d\'escalier',
+              ref: 'Art. 23',
+              text: [
+                'En 2e famille : les parois verticales, rampants et plafonds des cages d\'escalier sont classés au moins M2 (bois admis dans les halls d\'entrée).<br><br>Dans tous les autres immeubles collectifs (3e et 4e familles) : les parois, rampants et plafonds sont classés M0 ; les marches sont classées au moins M3.',
+              ]
+            },
+            {
+              title: 'Article 24 — Communication avec les sous-sols',
+              ref: 'Art. 24',
+              text: [
+                'En 2e, 3e et 4e familles, les sous-sols communiquant avec les escaliers communs sont séparés par un bloc-porte coupe-feu de degré une demi-heure minimum, équipé d\'un ferme-porte, s\'ouvrant dans le sens de la sortie. L\'escalier desservant les sous-sols doit aboutir dans un hall ou une circulation horizontale au rez-de-chaussée et non directement dans l\'escalier desservant les étages.',
+              ]
+            },
+            {
+              title: 'Article 25 — Évacuation des fumées (2e famille et 3e famille A)',
+              ref: 'Art. 25',
+              text: [
+                'En partie haute des cages d\'escalier des 2e et 3e familles A, un dispositif fermé en service normal doit permettre une ouverture d\'au moins 1 m² pour l\'évacuation naturelle des fumées. Une commande doit être accessible aux services d\'incendie au niveau bas de l\'escalier (commande électrique, pneumatique, hydraulique ou électromagnétique ; tringlerie admise en 2e famille). En 3e famille A, l\'ouverture doit être asservie à un détecteur autonome de fumée. Cette disposition ne s\'applique pas aux escaliers extérieurs.',
+              ]
+            },
+            {
+              title: 'Article 26 — Type d\'escalier protégé en 3e famille B',
+              ref: 'Art. 26',
+              text: [
+                'En 3e famille B, l\'escalier doit être de type « protégé ». Un escalier protégé est soit « à l\'air libre », soit « à l\'abri des fumées ».',
+              ]
+            },
+            {
+              title: 'Article 27 — Caractéristiques de l\'escalier protégé',
+              ref: 'Art. 27',
+              text: [
+                'L\'escalier protégé doit être desservi par une circulation horizontale protégée comportant une seule issue (vers l\'extérieur ou vers une autre circulation protégée). Il ne peut pas contenir de gaine, trémie, canalisation ou vide-ordures (à l\'exception des canalisations électriques, colonnes sèches, alimentations en eau et gaz visées à l\'article 54). L\'éclairage de l\'escalier est alimenté par dérivation sélective depuis le tableau principal de l\'immeuble ou par blocs autonomes d\'éclairage de sécurité (obligatoires en 4e famille). Les câbles et conducteurs non encastrés sont de classe C2 au minimum.',
+              ]
+            },
+            {
+              title: 'Article 28 — Escalier protégé à l\'air libre',
+              ref: 'Art. 28',
+              text: [
+                'L\'escalier à l\'air libre est un escalier dont la paroi donnant sur l\'extérieur est ouverte sur au moins la moitié de sa surface sur toute la hauteur de l\'escalier. Il doit respecter les distances aux baies de logements définies à l\'article 18. Les portes desservant des circulations protégées depuis cet escalier répondent aux mêmes prescriptions que celles des escaliers à l\'abri des fumées.',
+              ]
+            },
+            {
+              title: 'Article 29 — Escalier protégé à l\'abri des fumées',
+              ref: 'Art. 29',
+              text: [
+                'L\'escalier à l\'abri des fumées est fermé sur toutes ses faces. Ses parois sont coupe-feu de degré une heure ; les impostes et oculus sont pare-flammes de degré une heure.<br><br>Le bloc-porte séparant l\'escalier de la circulation protégée est pare-flammes de degré une demi-heure, de largeur minimale 0,80 mètre, avec ferme-porte, s\'ouvrant dans le sens de la sortie, avec un passage libre minimal de 0,80 mètre. Il porte l\'inscription « Porte coupe-feu à maintenir fermée ».<br><br>L\'escalier est fermé en parties haute et basse (sans ventilation directe). En partie haute, une ouverture horizontale d\'au moins 1 m² donne à l\'air libre, ou une mise en surpression est assurée. La commande d\'ouverture répond aux mêmes prescriptions que l\'article 25. L\'escalier aboutit directement à l\'extérieur ou à une circulation largement ventilée au niveau de sortie.',
+              ]
+            },
+            {
+              title: 'Article 29 bis — Escalier extérieur',
+              ref: 'Art. 29 bis',
+              text: [
+                'L\'emprise volumétrique d\'un escalier extérieur doit être distante de : 2 mètres au moins des baies latérales (dièdre > 135°) ; 4 mètres en retour d\'angle (dièdre entre 90° et 135°) ; 8 mètres en vis-à-vis (dièdre < 90°). Ces distances se mesurent du nu extérieur de l\'escalier au nu extérieur des baies.',
+              ]
+            },
+            {
+              title: 'Article 30 — Circulations horizontales à l\'air libre',
+              ref: 'Art. 30',
+              text: [
+                'Les circulations horizontales à l\'air libre (coursives extérieures, galeries ouvertes) ne sont soumises à aucune prescription particulière de résistance au feu dès lors qu\'elles sont largement ouvertes sur l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Articles 31 à 38 — Circulations horizontales à l\'abri des fumées',
+              ref: 'Art. 31 à 38',
+              text: [
+                'Les circulations horizontales communes intérieures des 3e et 4e familles doivent être à l\'abri des fumées :<br>— Parois : coupe-feu de degré une heure ;<br>— Portes d\'accès aux logements : pare-flammes de degré une demi-heure avec ferme-porte ;<br>— Largeur minimale libre : 1,20 mètre ;<br>— Longueur maximale de circulation depuis l\'escalier jusqu\'à la porte de logement la plus éloignée : 20 mètres (3e A et 3e B) ; 20 mètres (4e famille) ;<br>— Ouvrants de désenfumage en partie haute : section minimale 1/100 de la surface au sol de la circulation, minimum 0,60 m² par tranche de 40 mètres ; commandables depuis la circulation et depuis l\'extérieur ;<br>— Portes d\'accès aux escaliers : ouvertes sans clé depuis l\'intérieur, marquées « Porte coupe-feu à maintenir fermée ».',
+              ]
+            },
+            {
+              title: 'Articles 39 à 43 — Dégagements protégés (3e famille B et 4e famille)',
+              ref: 'Art. 39 à 43',
+              text: [
+                'En 3e famille B et 4e famille, chaque logement doit être accessible depuis un dégagement protégé constitué de l\'association d\'un escalier protégé et d\'une circulation horizontale protégée.<br><br>Les dégagements protégés :<br>— Aboutissent directement à l\'extérieur ou à une zone de sécurité ;<br>— N\'ont pas d\'accès direct aux logements depuis l\'escalier (accès exclusivement depuis la circulation horizontale protégée) ;<br>— Comportent un éclairage de sécurité alimenté par dérivation sélective ou blocs autonomes ;<br>— Sont maintenus libres de tout dépôt ou stockage.',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T4': {
+          title: 'Titre IV — Conduits et gaines',
+          sub: 'Articles 44 à 64 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Dispositions relatives aux conduits et gaines mettant en communication des niveaux différents : gaines techniques, conduits de gaz, ventilation, vide-ordures, colonnes sèches et installations électriques.',
+          chapters: [
+            {
+              title: 'Articles 44 à 46 — Généralités sur les conduits et gaines',
+              ref: 'Art. 44 à 46',
+              text: [
+                'Les conduits et gaines mettant en communication des niveaux différents doivent être réalisés, recoupés ou protégés de manière à ne pas permettre le passage du feu et des fumées d\'un niveau à un autre. Cette obligation s\'applique aux gaines techniques, conduits de ventilation, gaines de câbles, conduits de fumée et tout dispositif traversant un plancher ou une paroi coupe-feu.<br><br>Les gaines collectives doivent être réalisées en matériaux incombustibles (M0 ou A2-s1, d0). Les trappes de visite donnant sur les gaines présentent les mêmes degrés de résistance au feu que les parois dans lesquelles elles sont situées.',
+              ]
+            },
+            {
+              title: 'Articles 47 à 49 — Traversées des parois coupe-feu',
+              ref: 'Art. 47 à 49',
+              text: [
+                'Les conduits et gaines traversant des planchers ou des parois coupe-feu doivent être munis de dispositifs mainteant le degré de résistance au feu requis pour ces éléments. Ces dispositifs sont :<br>— des clapets coupe-feu automatiques commandés par détection de fumée ou par température ;<br>— des fourreaux ou manchons coupe-feu intumescents ;<br>— ou une gaine coupe-feu présentant le degré de résistance au feu sur toute sa longueur entre deux niveaux.<br><br>Les conduits de béton, maçonnerie ou plâtre présentant naturellement le degré requis ne nécessitent pas de dispositif supplémentaire.',
+              ]
+            },
+            {
+              title: 'Articles 50 à 56 — Conduits et gaines de gaz',
+              ref: 'Art. 50 à 56',
+              text: [
+                'Les canalisations de gaz ne peuvent pas cheminer à l\'intérieur des vide-ordures, gaines d\'ascenseurs, gaines électriques ou gaines de ventilation. Elles sont séparées de tout matériau combustible par une distance minimale ou par un écran incombustible.<br><br>Les gaines renfermant des conduites de gaz collectif sont ventilées à leur partie haute vers l\'extérieur. Les robinets de coupure individuels sont accessibles depuis les circulations communes ou depuis le logement, dans un coffret à parois coupe-feu de 30 minutes.<br><br>Les colonnes montantes de gaz situées dans les escaliers sont isolées par des gaines coupe-feu de 30 minutes. Les appareils à gaz sont installés dans des locaux ventilés directement sur l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Articles 57 à 60 — Colonnes sèches',
+              ref: 'Art. 57 à 60',
+              text: [
+                '<strong>Obligation</strong> : les colonnes sèches sont obligatoires dans les immeubles dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol.<br><br><strong>Caractéristiques</strong> :<br>— Diamètre intérieur minimal : 70 mm ;<br>— Une colonne par cage d\'escalier ;<br>— Prise de raccordement sapeurs-pompiers (Ø 65 mm) au niveau bas accessible aux engins de secours, à moins de 60 mètres d\'une bouche d\'incendie sous pression ;<br>— Robinet de chaque niveau : Ø 40/49 mm avec bouchon, dans un coffret situé dans l\'escalier ou la circulation protégée ;<br>— Colonne fixée aux parois de la cage d\'escalier protégée ou sous la protection de parois coupe-feu ;<br>— Essai de pression (9 bars) et de débit périodique à la charge du propriétaire.',
+              ]
+            },
+            {
+              title: 'Articles 61 à 63 — Conduits et installations de ventilation',
+              ref: 'Art. 61 à 63',
+              text: [
+                'Les conduits de ventilation mécanique contrôlée (VMC) traversant des planchers coupe-feu sont équipés de clapets coupe-feu automatiques au droit de chaque plancher traversé, ou la gaine elle-même présente le degré coupe-feu requis.<br><br>Les extracteurs et ventilateurs de la VMC sont classés F400 (résistance au feu à 400 °C pendant 120 minutes) en 3e et 4e familles, conformément à la norme EN 12101-3. Les conduits flexibles de raccordement sont de longueur minimale pour limiter la charge calorifique.',
+              ]
+            },
+            {
+              title: 'Article 64 — Vide-ordures',
+              ref: 'Art. 64',
+              text: [
+                'Les vide-ordures sont isolés des parties communes et des logements par des parois coupe-feu de degré égal à celui exigé pour les planchers de l\'immeuble. Les portes de chargement (trappes) sont pare-flammes de degré une demi-heure, à fermeture automatique. La gaine du vide-ordures est réalisée en matériaux incombustibles. Un dispositif d\'extinction automatique ou d\'arrosage est recommandé en 3e et 4e familles.',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T5': {
+          title: 'Titre V — Logements-foyers',
+          sub: 'Articles 65 à 76 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Dispositions particulières applicables aux logements-foyers (résidences étudiantes, foyers de travailleurs, résidences pour personnes âgées autonomes, foyers pour personnes handicapées).',
+          chapters: [
+            {
+              title: 'Article 65 — Généralités et champ d\'application',
+              ref: 'Art. 65',
+              text: [
+                'Les dispositions du présent titre s\'appliquent aux logements-foyers, c\'est-à-dire aux résidences collectives comportant des locaux privatifs (chambres ou studios) et des locaux collectifs communs (cuisines, salles à manger, salles de réunion). Ces établissements restent soumis aux dispositions générales du présent arrêté, complétées par les prescriptions du présent titre.',
+              ]
+            },
+            {
+              title: 'Articles 66 à 71 — Logements-foyers hors personnes âgées et handicapées',
+              ref: 'Art. 66 à 71',
+              text: [
+                'Les logements-foyers (résidences étudiantes, foyers de travailleurs migrants, résidences sociales) comportant des locaux collectifs communs supérieurs à 50 m² appliquent les prescriptions ERP au titre des locaux accessibles au public si l\'effectif dépasse les seuils de la 5e catégorie ERP.<br><br>Les cuisines collectives sont séparées des locaux de vie par des parois coupe-feu de 1 heure et des blocs-portes coupe-feu de 30 minutes à fermeture automatique.<br><br>Un système d\'alarme incendie adapté (au moins type 4 selon NF S 61-936, soit un déclencheur manuel par niveau et des diffuseurs sonores) est mis en place dans les parties communes.',
+              ]
+            },
+            {
+              title: 'Article 72 — Logements-foyers pour personnes âgées',
+              ref: 'Art. 72',
+              text: [
+                'Les logements-foyers hébergeant des personnes âgées autonomes comportent des mesures renforcées :<br>— Système d\'alarme incendie avec détection automatique généralisée dans les parties communes et les locaux collectifs ;<br>— Report d\'alarme vers un poste de surveillance occupé de nuit ;<br>— Escaliers conformes aux prescriptions de l\'article 20 ou 29 selon la famille ;<br>— Circulations communes d\'une largeur minimale de 1,40 mètre pour permettre le passage des personnes avec aide de marche ;<br>— Éclairage de sécurité dans toutes les circulations communes.',
+              ]
+            },
+            {
+              title: 'Articles 73 à 76 — Logements-foyers pour personnes handicapées physiques autonomes',
+              ref: 'Art. 73 à 76',
+              text: [
+                'Les logements-foyers hébergeant des personnes handicapées physiques autonomes appliquent les mêmes dispositions que pour les personnes âgées, avec en supplément :<br>— Largeur minimale des circulations communes : 1,50 mètre libre ;<br>— Ascenseurs accessibles (cabines de 1,10 m × 1,40 m minimum) avec appel de détresse ;<br>— Portes des logements d\'une largeur minimale de 0,90 mètre libre ;<br>— Espaces d\'attente sécurisés à chaque niveau, proches de l\'escalier protégé, permettant l\'attente de l\'évacuation assistée.',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T6': {
+          title: 'Titre VI — Parcs de stationnement couverts annexes',
+          sub: 'Articles 77 à 96 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Dispositions applicables aux parcs de stationnement couverts annexes aux bâtiments d\'habitation d\'une superficie supérieure à 100 m² : isolement, structures, ventilation, moyens de secours.',
+          chapters: [
+            {
+              title: 'Articles 77 à 80 — Généralités et définitions',
+              ref: 'Art. 77 à 80',
+              text: [
+                'Les présentes dispositions s\'appliquent aux parcs de stationnement couverts annexes aux bâtiments d\'habitation d\'une superficie totale supérieure à 100 m², qu\'ils soient en sous-sol, en rez-de-chaussée ou en superstructure.<br><br>On entend par parc de stationnement couvert tout espace couvert, entièrement ou partiellement fermé, destiné au stationnement de véhicules à moteur. Sont inclus les abris permanents même sans murs.',
+              ]
+            },
+            {
+              title: 'Article 81 — Éléments porteurs',
+              ref: 'Art. 81',
+              text: [
+                'Les éléments porteurs verticaux et horizontaux des parcs de stationnement couverts annexes doivent présenter une stabilité au feu minimale de 30 minutes.',
+              ]
+            },
+            {
+              title: 'Articles 82 à 84 — Murs, parois et cloisonnement',
+              ref: 'Art. 82 à 84',
+              text: [
+                'Les parois et planchers séparant le parc du bâtiment d\'habitation sont coupe-feu de degré 2 heures (REI 120). Les canalisations et conduits traversant ces parois sont équipés de dispositifs coupe-feu maintenant ce degré.<br><br>Les communications piétons entre le parc et l\'habitation s\'effectuent par des blocs-portes coupe-feu de 1 heure à fermeture automatique (EI 60-C), situés dans les circulations communes. Au maximum deux communications piétons par cage d\'escalier.<br><br>Un recoupement du parc est réalisé tous les 45 mètres par des parois coupe-feu de 30 minutes et des portes pare-flammes de 15 minutes à fermeture automatique.',
+              ]
+            },
+            {
+              title: 'Articles 85 à 86 — Couvertures et revêtements de sol',
+              ref: 'Art. 85 à 86',
+              text: [
+                'Les couvertures des parcs de stationnement sont réalisées en matériaux incombustibles ou de classe M2 au minimum. Les revêtements de sol présentent une résistance mécanique suffisante pour supporter le trafic des véhicules et ne doivent pas présenter de risque de propagation du feu.',
+              ]
+            },
+            {
+              title: 'Article 87 — Communications et issues',
+              ref: 'Art. 87',
+              text: [
+                'Les accès véhicules (rampes, portes de garage motorisées) débouchent directement sur l\'extérieur. Lorsqu\'ils traversent la paroi coupe-feu séparant le parc de l\'habitation, ils sont équipés de portes ou rideaux coupe-feu de degré 2 heures à fermeture automatique commandée par détection d\'incendie.',
+              ]
+            },
+            {
+              title: 'Article 88 — Conduits et gaines',
+              ref: 'Art. 88',
+              text: [
+                'Les conduits de ventilation ou de désenfumage traversant les parois coupe-feu de séparation entre le parc et l\'habitation sont munis de clapets coupe-feu automatiques de degré 2 heures commandés par détection de fumée dans le conduit. Les gaines techniques communes entre le parc et l\'habitation sont coupe-feu sur toute leur hauteur.',
+              ]
+            },
+            {
+              title: 'Article 89 — Ventilation',
+              ref: 'Art. 89',
+              text: [
+                'Les parcs de stationnement couverts doivent être ventilés mécaniquement lorsque le renouvellement d\'air naturel ne peut être assuré (parcs en sous-sol ou sans ouvrants suffisants). Le débit minimal de ventilation en fonctionnement normal est de 6 volumes par heure.<br><br>Pour les parcs de superficie supérieure à 1 000 m², le désenfumage mécanique doit permettre l\'extraction de 600 m³/h par véhicule et par tranche de 1 000 m². Pour les parcs de superficie inférieure, le désenfumage naturel est admis si les ouvrants représentent au moins 1/50 de la surface au sol.',
+              ]
+            },
+            {
+              title: 'Article 90 — Revêtements de sol',
+              ref: 'Art. 90',
+              text: [
+                'Les revêtements de sol des parcs de stationnement sont incombustibles ou traités de façon à ne pas propager le feu. Les produits pétroliers éventuellement répandus sur le sol ne doivent pas atteindre les parties habitées par les caniveaux ou les gaines.',
+              ]
+            },
+            {
+              title: 'Articles 91 à 92 — Circulations et issues',
+              ref: 'Art. 91 à 92',
+              text: [
+                'Les voies de circulation des véhicules ont une largeur minimale de 3 mètres. Les issues piétons permettent aux occupants d\'atteindre l\'extérieur ou les parties habitables sans traverser la zone de stationnement, par des escaliers ou des couloirs protégés. Une sortie piétonne vers l\'extérieur est exigée à moins de 50 mètres de chaque place.',
+              ]
+            },
+            {
+              title: 'Articles 93 à 94 — Installations électriques et éclairage',
+              ref: 'Art. 93 à 94',
+              text: [
+                'Les installations électriques des parcs sont réalisées avec des câbles ne propageant pas l\'incendie (classement C2 minimum ou Cca-s1, d1, a1). Les tableaux électriques sont dans des coffrets métalliques fermant à clé, accessibles depuis l\'extérieur du parc ou depuis les circulations protégées, à plus de 3 mètres de tout stockage d\'hydrocarbures.<br><br>Un éclairage de sécurité est installé dans les circulations piétons et sur les issues, alimenté par source autonome (autonomie minimale 1 heure).',
+              ]
+            },
+            {
+              title: 'Article 95 — Moyens de détection et d\'alarme',
+              ref: 'Art. 95',
+              text: [
+                'Une détection automatique d\'incendie couvrant l\'ensemble du parc est obligatoire en 3e et 4e familles. La sensibilisation d\'un détecteur déclenche :<br>— la commande d\'ouverture des clapets coupe-feu vers l\'habitation ;<br>— le démarrage du désenfumage mécanique si présent ;<br>— la diffusion d\'une alarme sonore dans le parc et signalisation au logement de conciergerie ou au tableau de report si existant.',
+              ]
+            },
+            {
+              title: 'Article 96 — Moyens de lutte contre l\'incendie',
+              ref: 'Art. 96',
+              text: [
+                'Des extincteurs portatifs à poudre polyvalente de 6 kg ou à eau pulvérisée de 6 litres sont disposés à raison d\'au moins un extincteur pour 200 m² avec un minimum de deux extincteurs par parc, situés à moins de 15 mètres de chaque place de stationnement.<br><br>Des colonnes sèches sont exigées dans les parcs souterrains de plus de 3 niveaux. Une prise de raccordement (Ø 65 mm) est installée au niveau du sol de chaque sous-niveau, dans la cage d\'escalier ou à proximité de l\'accès piétons.',
+              ]
+            },
+          ]
+        },
+
+        'HAB-T7': {
+          title: 'Titres VII à XI — Dispositions finales',
+          sub: 'Articles 97 à 109 — Arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Ascenseurs, colonnes sèches, circulation des piétons, obligations des propriétaires, agréments des dispositifs et dispositions d\'application dans le temps.',
+          chapters: [
+            {
+              title: 'Article 97 — Ascenseurs',
+              ref: 'Art. 97 (Titre VII, Section 1)',
+              text: [
+                'Les ascenseurs installés dans les bâtiments d\'habitation doivent être conformes aux règles techniques fixées par la réglementation relative aux appareils de levage. En 4e famille, les gaines d\'ascenseur sont coupe-feu de degré 1 heure et les portes palières des ascenseurs sont pare-flammes de degré 30 minutes. Les machineries d\'ascenseur situées dans les dégagements protégés sont isolées par des parois coupe-feu de degré 1 heure.',
+              ]
+            },
+            {
+              title: 'Article 98 — Colonnes sèches',
+              ref: 'Art. 98 (Titre VII, Section 2)',
+              text: [
+                'Les colonnes sèches sont obligatoires dans les immeubles d\'habitation dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol (soit les immeubles de plus de 7 niveaux sur rez-de-chaussée). Voir articles 57 à 60 pour les caractéristiques techniques.',
+              ]
+            },
+            {
+              title: 'Article 99 — Circulation des piétons',
+              ref: 'Art. 99 (Titre VII, Section 3)',
+              text: [
+                'Les cheminements piétons extérieurs au bâtiment permettant d\'atteindre les voies accessibles aux engins de secours sont dégagés de tout obstacle permanent et d\'une largeur minimale de 1,40 mètre. Ils sont signalés par des marquages au sol ou des balises dans les immeubles de 3e et 4e familles.',
+              ]
+            },
+            {
+              title: 'Articles 100 à 104 — Obligations des propriétaires',
+              ref: 'Art. 100 à 104 (Titre VIII)',
+              text: [
+                'Les propriétaires des bâtiments d\'habitation sont tenus :<br>— de maintenir en bon état de fonctionnement les équipements de sécurité (colonnes sèches, désenfumage, éclairage de sécurité, détection) ;<br>— de faire réaliser les vérifications périodiques obligatoires par des techniciens compétents ;<br>— de tenir un carnet d\'entretien des équipements communs ;<br>— de ne pas modifier les dispositifs de sécurité sans respecter les prescriptions du présent arrêté ;<br>— d\'assurer la libre accessibilité des voies engins et voies échelles autour du bâtiment (Art. 102) ;<br>— de signaler les colonnes sèches et leurs prises de raccordement conformément à la signalisation réglementaire (Art. 103).',
+              ]
+            },
+            {
+              title: 'Article 105 — Agrément des dispositifs',
+              ref: 'Art. 105 (Titre IX)',
+              text: [
+                'Les dispositifs et procédés non prévus par le présent arrêté peuvent être agréés par le ministre de l\'Intérieur après avis de la Commission centrale de sécurité. L\'agrément est délivré sur la base d\'un dossier technique démontrant l\'équivalence de la protection assurée avec celle résultant de l\'application des présentes dispositions.',
+              ]
+            },
+            {
+              title: 'Articles 106 à 108 — Application dans le temps',
+              ref: 'Art. 106 à 108 (Titre X)',
+              text: [
+                '<strong>Article 106</strong> : Le présent arrêté s\'applique aux demandes de permis de construire déposées à compter de sa date d\'entrée en vigueur. Pour les bâtiments existants, les dispositions à caractère administratif et celles relatives à l\'entretien des équipements s\'appliquent immédiatement.<br><br><strong>Article 107</strong> : Lorsque des travaux sont entrepris dans un bâtiment existant, les dispositions du présent arrêté s\'appliquent aux seules parties modifiées. Si ces modifications accroissent le risque de l\'ensemble du bâtiment, des mesures complémentaires peuvent être imposées.<br><br><strong>Article 108</strong> : Les bâtiments construits sous l\'empire de réglementations antérieures restent régis par celles-ci, sauf dispositions contraires imposées par l\'autorité administrative en cas de risque grave pour la sécurité.',
+              ]
+            },
+            {
+              title: 'Article 109 — Dispositions finales',
+              ref: 'Art. 109 (Titre XI)',
+              text: [
+                'Le présent arrêté est applicable en métropole et dans les départements d\'outre-mer. Les arrêtés antérieurs relatifs à la protection contre l\'incendie des bâtiments d\'habitation sont abrogés à compter de l\'entrée en vigueur du présent texte pour les constructions neuves. Le ministre de l\'Intérieur est chargé de l\'exécution du présent arrêté.',
+              ]
+            },
+          ]
+        },
+
+        HAB1: {
+          title: '1re famille — Maisons individuelles',
+          sub: 'Accès indépendant à la voie — Art. 3, arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Habitations individuelles isolées ou jumelées dont chaque logement dispose d\'un accès propre à une voie ou à un espace librement accessible aux piétons, sans qu\'il soit nécessaire de traverser une partie privative d\'un autre logement. Arrêté du 31 janvier 1986 modifié, titre Ier.',
+          chapters: [
+            {
+              title: 'Champ d\'application et classification — 1re famille',
+              ref: 'Art. 1 et 3',
+              text: [
+                '<span class="art-para-num">Article 1.</span> Les dispositions du présent arrêté sont applicables aux bâtiments d\'habitation dont le plancher bas du logement le plus haut est situé à cinquante mètres au plus au-dessus du sol utilement accessible aux engins des services de secours et de lutte contre l\'incendie, ainsi qu\'aux parcs de stationnement couverts qui leur sont annexés et dont la superficie est supérieure à cent mètres carrés.',
+                '<span class="art-para-num">Article 3 — 1re famille.</span> Sont classées dans la première famille les habitations individuelles isolées ou jumelées dont chaque logement dispose d\'un accès propre à une voie ou à un espace librement accessible aux piétons, ainsi que les habitations individuelles groupées dont les logements ont tous accès à la voie ou à un espace librement accessible sans que cet accès soit commun à d\'autres logements.',
+              ]
+            },
+            {
+              title: 'Voies d\'accès pour les engins de secours',
+              ref: 'Art. 4',
+              text: [
+                '<span class="art-para-num">Article 4.</span> Tout bâtiment d\'habitation doit être accessible à partir d\'une voie permettant la circulation et l\'emploi des engins des services de secours et de lutte contre l\'incendie (voie engins). Cette voie doit avoir les caractéristiques suivantes :<br>— largeur de la chaussée : 3 mètres au moins ;<br>— force portante : calculée pour un véhicule de 13 tonnes ;<br>— hauteur libre : 3,50 mètres ;<br>— rayon intérieur minimal : 11 mètres ;<br>— distance maximale entre le bâtiment et la voie : 50 mètres.',
+              ]
+            },
+            {
+              title: 'Résistance au feu des structures et séparations',
+              ref: 'Art. 5, 6 et 7',
+              text: [
+                '<span class="art-para-num">Article 5.</span> Les éléments porteurs verticaux (poteaux, voiles porteurs) et horizontaux (planchers) des bâtiments doivent satisfaire aux règles de résistance au feu définies selon la famille de l\'immeuble. Pour la première famille, la stabilité au feu des éléments porteurs est de degré 1/2 heure (SF 1/2 h ou R 30).',
+                '<span class="art-para-num">Article 6.</span> Les parois séparant un logement d\'un autre logement, d\'une circulation commune ou d\'un local collectif doivent être coupe-feu. Pour les bâtiments de la première famille, les séparations entre logements contigus ou superposés présentent un degré coupe-feu de 1/2 heure (CF 1/2 h ou EI 30).',
+                '<span class="art-para-num">Article 7.</span> Les locaux présentant des risques particuliers d\'incendie (chaufferies, locaux à poubelles, locaux de stockage de combustibles solides ou liquides) sont isolés des parties du bâtiment destinées à l\'habitation par des parois coupe-feu de degré 1 heure et des blocs-portes coupe-feu de degré 1/2 heure à fermeture automatique.',
+              ]
+            },
+            {
+              title: 'Façades et toitures',
+              ref: 'Art. 8 à 14',
+              text: [
+                '<span class="art-para-num">Article 8.</span> Les façades des bâtiments d\'habitation doivent être réalisées de façon à s\'opposer à la propagation du feu entre niveaux. Les matériaux et éléments utilisés pour les revêtements extérieurs sont classés au moins M3 (ou D-s3,d2 selon classification européenne). Les balcons filants, acrotères et reliefs horizontaux extérieurs contribuent à limiter la propagation verticale des flammes.',
+                '<span class="art-para-num">Article 10.</span> Les toitures et leurs supports sont réalisés en matériaux de classe M0 ou M1 ou T30 (classification européenne BROOF), sauf pour les bâtiments de première famille où des dispositions allégées sont admises pour les maisons individuelles isolées dont les risques d\'exposition aux feux de voisinage sont limités.',
+              ]
+            },
+            {
+              title: 'DAAF — Obligation dans tous les logements',
+              ref: 'L. 129-8 CCH — Loi du 9 mars 2010',
+              text: [
+                '<span class="art-para-num">Art. L. 129-8 CCH.</span> Tout logement doit être équipé d\'au moins un détecteur de fumée normalisé. L\'occupant du logement, qu\'il soit locataire ou propriétaire, veille à l\'installation et au bon fonctionnement de ce dispositif. Le propriétaire non occupant veille à l\'équipement du logement lors de toute nouvelle location.<br><br>Le détecteur doit être conforme à la norme NF EN 14604. Il est installé de préférence dans la circulation ou le dégagement desservant les chambres, hors cuisine et salle de bains. Il ne peut pas être fixé dans les angles d\'une pièce.',
+              ]
+            },
+          ]
+        },
+
+        HAB2: {
+          title: '2e famille — Immeubles collectifs bas',
+          sub: 'Plancher bas du logement le plus haut ≤ 8 m — Art. 3, arrêté du 31 janvier 1986',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Immeubles collectifs dont le plancher bas du logement le plus haut est situé au plus à 8 mètres au-dessus du sol ou du terrain librement accessible, ainsi que les habitations individuelles groupées dont les logements superposés sont desservis par un escalier commun. Arrêté du 31 janvier 1986 modifié.',
+          chapters: [
+            {
+              title: 'Champ d\'application et classification — 2e famille',
+              ref: 'Art. 3',
+              text: [
+                '<span class="art-para-num">Article 3 — 2e famille.</span> Sont classées dans la deuxième famille :<br>a) Les habitations individuelles groupées dont les logements sont superposés sur plus de deux niveaux et desservis par un escalier commun ;<br>b) Les immeubles collectifs dont le plancher bas du logement le plus haut est situé à 8 mètres au plus au-dessus du sol utilement accessible aux engins de secours.<br><br>La hauteur de 8 mètres se mesure par rapport au sol naturel ou au terrain aménagé le plus utilement accessible à la façade la plus favorable de l\'immeuble.',
+              ]
+            },
+            {
+              title: 'Résistance au feu des structures et planchers',
+              ref: 'Art. 5 et 6',
+              text: [
+                '<span class="art-para-num">Article 5 — 2e famille.</span> La stabilité au feu des éléments porteurs (poteaux, voiles, poutres, planchers porteurs) est au moins de degré 1 heure (SF 1h ou R 60). Les planchers entre niveaux sont coupe-feu de degré 1 heure (CF 1h ou REI 60).',
+                '<span class="art-para-num">Article 6 — Séparations entre logements.</span> Les parois verticales séparant deux logements contigus sont coupe-feu de degré 1 heure. Les parois séparant un logement d\'une circulation commune horizontale sont coupe-feu de degré 1/2 heure. Les blocs-portes palières sont pare-flammes de degré 1/4 heure (PF 1/4h ou E 15).',
+              ]
+            },
+            {
+              title: 'Escaliers et circulations communes',
+              ref: 'Art. 17 à 27',
+              text: [
+                '<span class="art-para-num">Article 17.</span> Les escaliers des bâtiments de la deuxième famille desservent tous les niveaux. Ils sont droits ou en vis. Les rampes d\'escaliers à double quartier tournant sont admises. La largeur minimale de passage est de 0,90 mètre. Les marches sont non glissantes.',
+                '<span class="art-para-num">Article 19.</span> Dans les immeubles de deuxième famille, les escaliers n\'ont pas à être encloisonnés. Toutefois, lorsqu\'un bâtiment comporte des locaux en sous-sol autres que caves ou parkings réglementés, les escaliers desservant ces niveaux sont encloisonnés par des parois coupe-feu de degré 1/2 heure à partir du niveau de sortie vers l\'extérieur.',
+                '<span class="art-para-num">Article 24.</span> Les circulations communes horizontales de chaque niveau sont accessibles directement depuis les escaliers. Leur désenfumage n\'est pas obligatoire en deuxième famille pour des longueurs inférieures à 10 mètres. Au-delà, un ouvrant en partie haute permet l\'évacuation naturelle des fumées.',
+              ]
+            },
+            {
+              title: 'Gaines techniques et conduits de ventilation',
+              ref: 'Art. 44 à 56',
+              text: [
+                '<span class="art-para-num">Article 44.</span> Les gaines et conduits collectifs (vide-ordures, ventilations mécaniques contrôlées, gaines de câbles) sont réalisés en matériaux incombustibles ou M0. Les trappes de visite présentent une résistance au feu de degré 1/4 heure.',
+                '<span class="art-para-num">Article 45.</span> Les conduits de ventilation mécanique contrôlée (VMC) traversant des planchers coupe-feu doivent être munis de dispositifs coupe-feu (clapets ou gaines coupe-feu) assurant la continuité du degré de résistance au feu exigé pour le plancher traversé, sauf si la gaine elle-même présente ce degré de résistance au feu sur toute sa longueur.',
+                '<span class="art-para-num">Article 51.</span> Les canalisations de gaz ne peuvent pas cheminer à l\'intérieur des vide-ordures, gaines d\'ascenseur, gaines électriques ou gaines spécialement réservées à d\'autres fluides. Les appareils à gaz sont installés dans des locaux ventilés directement sur l\'extérieur ou équipés d\'une détection de fuite de gaz.',
+              ]
+            },
+            {
+              title: 'Installations de sécurité — Colonnes sèches',
+              ref: 'Art. 57 à 64',
+              text: [
+                '<span class="art-para-num">Article 57.</span> Les colonnes sèches sont obligatoires dans les immeubles collectifs d\'habitation dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol. Pour les bâtiments de la deuxième famille (plancher bas ≤ 8 m), les colonnes sèches ne sont pas exigées.',
+                '<span class="art-para-num">Article 58.</span> Les extincteurs portatifs ne sont pas obligatoires dans les parties communes des bâtiments d\'habitation, mais leur mise en place est recommandée dans les locaux présentant des risques particuliers (locaux techniques, caves, sous-sols).',
+              ]
+            },
+          ]
+        },
+
+        HAB3A: {
+          title: '3e famille A — Collectif intermédiaire (circulations extérieures)',
+          sub: '8 m < plancher bas ≤ 28 m — desservi par galeries ou coursives extérieures',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, desservis par des escaliers dont les accès aux logements sont assurés à partir de circulations communes extérieures (balcons-couloirs, galeries, coursives, loggias accessibles de l\'extérieur). Arrêté du 31 janvier 1986 modifié.',
+          chapters: [
+            {
+              title: 'Classification — 3e famille A',
+              ref: 'Art. 3',
+              text: [
+                '<span class="art-para-num">Article 3 — 3e famille A.</span> Sont classés dans la troisième famille A les immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 mètres et 28 mètres au-dessus du sol, à condition que les logements soient desservis par des escaliers dont les accès sont assurés à partir de circulations communes extérieures : balcons accessibles de l\'extérieur, galeries ou coursives.<br><br>Cette configuration permet aux sapeurs-pompiers d\'accéder aux niveaux par l\'extérieur à l\'aide des échelles, ce qui justifie des exigences allégées sur le désenfumage des escaliers par rapport à la 3e famille B.',
+              ]
+            },
+            {
+              title: 'Voie échelle et accessibilité façades',
+              ref: 'Art. 4 et 5',
+              text: [
+                '<span class="art-para-num">Article 4 — Voie échelle.</span> Pour les bâtiments de la troisième famille, une voie permettant la mise en station et l\'emploi des échelles des sapeurs-pompiers est nécessaire (voie échelle). Cette voie a une largeur minimale de 4 mètres, une hauteur libre de 3,50 mètres, une longueur minimale de 10 mètres devant chaque façade desservie, et peut permettre le positionnement d\'une échelle à moins de 8 mètres de toute fenêtre ou porte-fenêtre du logement le plus défavorisé.',
+                '<span class="art-para-num">Article 5 — 3e famille A.</span> Une des façades de chaque logement doit être accessible par voie échelle. Pour la 3e famille A, cette exigence est satisfaite si les circulations communes extérieures (coursives) sont elles-mêmes accessibles par les échelles et permettent l\'accès à chaque logement par au moins une baie vitrée ou une porte.',
+              ]
+            },
+            {
+              title: 'Résistance au feu — structures et séparations',
+              ref: 'Art. 5 et 6',
+              text: [
+                '<span class="art-para-num">Article 5 — 3e famille.</span> La stabilité au feu des éléments porteurs est de degré 1 heure (SF 1h ou R 60). Les planchers entre niveaux sont coupe-feu de degré 1 heure (CF 1h ou REI 60). Les parois séparant les logements entre eux et des circulations communes sont coupe-feu de degré 1 heure.',
+                '<span class="art-para-num">Article 6 — Portes palières.</span> Les blocs-portes palières des logements sont pare-flammes de degré 1/4 heure (PF 1/4h ou E 15). Pour la 3e famille A, les portes donnant sur les circulations extérieures n\'ont pas à être auto-fermantes.',
+              ]
+            },
+            {
+              title: 'Escaliers — Encloisonnement',
+              ref: 'Art. 28 à 35',
+              text: [
+                '<span class="art-para-num">Article 28.</span> Dans les immeubles de troisième famille, les escaliers sont encloisonnés. Les parois de cet encloisonnement présentent un degré coupe-feu de 1 heure. Les blocs-portes d\'accès aux escaliers depuis les coursives ou circulations communes sont coupe-feu de degré 1/2 heure équipés de ferme-porte (CF 1/2h ou EI 30-C).',
+                '<span class="art-para-num">Article 29 — 3e famille A.</span> Pour la 3e famille A, le désenfumage de l\'escalier peut être assuré par des ouvrants en partie haute de la cage d\'escalier ou par des ouvrants en façade à chaque niveau, dès lors que les accès aux logements se font depuis les circulations extérieures. La section des ouvrants est au moins d\'un centième de la superficie de la cage d\'escalier, avec un minimum de 0,50 m².',
+              ]
+            },
+            {
+              title: 'Désenfumage des circulations communes',
+              ref: 'Art. 36 à 40',
+              text: [
+                '<span class="art-para-num">Article 36.</span> Les circulations communes horizontales intérieures des immeubles de troisième famille doivent être désenfumées. Pour la 3e famille A, les coursives extérieures sont naturellement désenfumées par leur configuration ouverte. Les circulations intérieures de longueur supérieure à 10 mètres comportent en parties hautes des ouvrants de désenfumage dont la section est d\'au moins un centième de la surface au sol, avec un minimum de 0,60 m² pour une longueur maximale de 40 mètres.',
+                '<span class="art-para-num">Article 37.</span> Les ouvrants de désenfumage des circulations communes peuvent être actionnés manuellement depuis la circulation elle-même ou automatiquement par détection. Ils s\'ouvrent en position de sécurité en cas de déclenchement de l\'alarme incendie de l\'immeuble.',
+              ]
+            },
+            {
+              title: 'Colonnes sèches',
+              ref: 'Art. 57',
+              text: [
+                '<span class="art-para-num">Article 57.</span> Les immeubles dont le plancher bas du logement le plus haut est situé entre 18 et 28 mètres doivent être équipés de colonnes sèches. Ces colonnes sont situées dans la cage d\'escalier à chaque niveau avec un robinet de raccordement d\'un diamètre de 40/49 mm. La prise de raccordement pour les sapeurs-pompiers (diamètre 65 mm) est placée au niveau d\'accès des engins de secours, à moins de 60 mètres de la bouche d\'incendie la plus proche.<br><br>Pour les bâtiments de 3e famille A dont le plancher bas est inférieur à 18 m, les colonnes sèches ne sont pas exigées.',
+              ]
+            },
+          ]
+        },
+
+        HAB3B: {
+          title: '3e famille B — Collectif intermédiaire (escalier intérieur)',
+          sub: '8 m < plancher bas ≤ 28 m — escaliers intérieurs encloisonnés',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, desservis par des escaliers intérieurs dont les accès aux logements se font depuis des paliers ou couloirs intérieurs. Exigences plus contraignantes que la 3e famille A : désenfumage renforcé, colonnes sèches systématiques à partir de 7 niveaux. Arrêté du 31 janvier 1986 modifié.',
+          chapters: [
+            {
+              title: 'Classification — 3e famille B',
+              ref: 'Art. 3',
+              text: [
+                '<span class="art-para-num">Article 3 — 3e famille B.</span> Sont classés dans la troisième famille B les immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 mètres et 28 mètres, autres que ceux de la 3e famille A. Il s\'agit d\'immeubles dont les logements sont desservis par des escaliers intérieurs encloisonnés avec accès depuis des circulations communes intérieures (paliers, couloirs, halls d\'étage).<br><br>L\'absence d\'accès direct par l\'extérieur depuis les coursives implique des exigences plus strictes en matière de désenfumage et de cloisonnement.',
+              ]
+            },
+            {
+              title: 'Voie échelle et accessibilité façades',
+              ref: 'Art. 4 et 5',
+              text: [
+                '<span class="art-para-num">Article 5 — 3e famille B.</span> Pour les immeubles de 3e famille B, la voie échelle est exigée sur au moins une façade. Une fenêtre ou porte-fenêtre de chaque logement doit être accessible à moins de 8 mètres d\'une voie permettant la mise en œuvre des échelles. À défaut, un escalier extérieur ou des dispositions constructives équivalentes doivent permettre aux sapeurs-pompiers d\'accéder à chaque logement depuis l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Résistance au feu — structures et séparations renforcées',
+              ref: 'Art. 5 et 6',
+              text: [
+                '<span class="art-para-num">Article 5 — 3e famille B.</span> La stabilité au feu des éléments porteurs est de degré 1 heure (R 60). Les planchers entre niveaux sont coupe-feu de degré 1 heure (REI 60). Les parois séparant les logements entre eux sont coupe-feu de degré 1 heure. Les parois séparant les logements des circulations communes intérieures sont coupe-feu de degré 1 heure.',
+                '<span class="art-para-num">Article 6 — Portes palières.</span> Les blocs-portes palières donnant sur les circulations communes intérieures sont coupe-feu de degré 1/2 heure, équipés d\'un ferme-porte à action temporisée (CF 1/2h - C ou EI 30-C). Cette exigence est plus stricte qu\'en 3e famille A en raison de l\'impossibilité pour les résidents d\'emprunter directement une sortie extérieure depuis leur palier.',
+              ]
+            },
+            {
+              title: 'Escaliers encloisonnés et désenfumage',
+              ref: 'Art. 28 à 43',
+              text: [
+                '<span class="art-para-num">Article 28.</span> Dans les immeubles de 3e famille B, les escaliers sont encloisonnés par des parois coupe-feu de degré 1 heure (EI 60). Les blocs-portes d\'accès aux escaliers sont coupe-feu de degré 1/2 heure avec ferme-porte (EI 30-C). Ces portes sont maintenues fermées en permanence ou à fermeture automatique.',
+                '<span class="art-para-num">Article 30 — Désenfumage des escaliers.</span> Les cages d\'escalier des immeubles de 3e famille B doivent être désenfumées. Le désenfumage est assuré par des ouvrants en partie haute de la cage d\'escalier d\'une section minimale égale à 1/100 de la superficie de la cage, avec un minimum de 1 m². Ces ouvrants sont commandés depuis le bas de l\'escalier et depuis chaque niveau. Le désenfumage peut également être réalisé mécaniquement par un extracteur conforme à la norme NF S 61-938.',
+                '<span class="art-para-num">Article 36 — Désenfumage des circulations intérieures.</span> Les circulations communes horizontales intérieures des immeubles de 3e famille B doivent être désenfumées dès lors que leur longueur est supérieure à 10 mètres. Les ouvrants de désenfumage ont une section d\'au moins 1/100 de la surface au sol de la circulation, avec un minimum de 0,60 m² par tranche de 40 mètres. Ils sont commandables depuis la circulation et depuis l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Colonnes sèches',
+              ref: 'Art. 57',
+              text: [
+                '<span class="art-para-num">Article 57.</span> Les colonnes sèches sont obligatoires dans les immeubles de 3e famille B dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol.<br><br>Pour les immeubles de 3e famille B compris entre 7 et 18 mètres, les colonnes sèches ne sont pas exigibles mais recommandées. La prise de raccordement sapeurs-pompiers (Ø 65 mm) doit être accessible depuis la voie engins, à moins de 60 mètres d\'une bouche d\'incendie.',
+              ]
+            },
+            {
+              title: 'Compartimentage et locaux techniques',
+              ref: 'Art. 7 et 8',
+              text: [
+                '<span class="art-para-num">Article 7 — Locaux à risques.</span> Les chaufferies, locaux de stockage de combustibles, sous-stations de distribution, locaux d\'ordures ménagères et locaux d\'électricité générale sont isolés des parties habitables par des parois et planchers coupe-feu de degré 1 heure et des blocs-portes coupe-feu de degré 1/2 heure à fermeture automatique (EI 60 / EI 30-C).',
+                '<span class="art-para-num">Article 8.</span> Les caves et celliers individuels en sous-sol sont séparés des circulations communes et des locaux techniques par des parois coupe-feu de degré 1 heure. Les parois séparant les caves entre elles peuvent être pare-flammes de degré 1/2 heure. Les accès depuis les sous-sols aux escaliers communs s\'effectuent par des blocs-portes coupe-feu de degré 1 heure (EI 60-C).',
+              ]
+            },
+          ]
+        },
+
+        HAB4: {
+          title: '4e famille — Immeubles à grande hauteur d\'habitation',
+          sub: 'Plancher bas du logement le plus haut > 28 m — Réglementation IGH (GHA)',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Les bâtiments d\'habitation dont le plancher bas du logement le plus haut est situé à plus de 28 mètres au-dessus du sol entrent dans la catégorie des immeubles de grande hauteur (IGH). Ils sont soumis à l\'arrêté du 30 décembre 2011 relatif aux IGH (classe GHA) et non plus à l\'arrêté du 31 janvier 1986.',
+          chapters: [
+            {
+              title: 'Seuil de classement en 4e famille / IGH',
+              ref: 'Art. 3 — Arrêté du 31 janvier 1986',
+              text: [
+                '<span class="art-para-num">Article 3 — 4e famille.</span> Sont classés dans la quatrième famille les bâtiments d\'habitation dont le plancher bas du logement le plus haut est situé à plus de 28 mètres au-dessus du niveau du sol utilement accessible aux engins de secours.<br><br>Au-delà de ce seuil, l\'immeuble est soumis à la réglementation IGH (immeuble de grande hauteur) au sens de l\'article R. 122-2 du code de la construction et de l\'habitation, et non plus à l\'arrêté du 31 janvier 1986.',
+              ]
+            },
+            {
+              title: 'Réglementation applicable — Arrêté IGH du 30 décembre 2011',
+              ref: 'Arrêté du 30 décembre 2011 — Classe GHA',
+              text: [
+                'Les immeubles d\'habitation de 4e famille (plancher bas du logement le plus haut > 28 m) sont des IGH de classe GHA. Ils sont soumis au règlement de sécurité des IGH (arrêté du 30 décembre 2011 modifié) pour la totalité de leurs dispositions techniques : compartimentage, stabilité au feu, désenfumage, SSI, colonnes sèches humides, systèmes d\'extinction, service de sécurité incendie.<br><br>L\'arrêté du 31 janvier 1986 ne leur est plus applicable, à l\'exception des dispositions du code de la construction et de l\'habitation qui définissent le régime de contrôle (R. 122-22 à R. 122-29 CCH).',
+                '<span class="art-para-num">Rappel réglementaire.</span> Le seuil IGH habitation est fixé à 28 mètres (plancher bas du logement le plus haut), à distinguer du seuil IGH général de 50 mètres applicable à d\'autres activités (bureaux, hôtels). Ce seuil spécifique 28 m résulte de l\'article R. 122-2 du CCH.',
+              ]
+            },
+            {
+              title: 'Spécificités de la classe GHA',
+              ref: 'Arrêté du 30 décembre 2011 — Titre III, Chapitre Ier',
+              text: [
+                'La classe GHA (IGH à usage d\'habitation) comporte des dispositions particulières par rapport aux autres classes d\'IGH, notamment :<br>— compartimentage par niveau (chaque logement ou groupe de logements constitue un compartiment) ;<br>— stabilité au feu de degré 2 heures (R 120) pour tous les éléments porteurs ;<br>— désenfumage mécanique de toutes les circulations communes ;<br>— colonnes humides ou SSI de catégorie A selon la hauteur ;<br>— accès réservé aux sapeurs-pompiers par ascenseurs ;<br>— vérifications techniques périodiques par organismes agréés tous les 3 ans.<br><br>Pour le détail des articles GHA, consulter l\'onglet IGH → GHA du présent portail.',
+              ]
+            },
+          ]
+        },
+
+        DAAF: {
+          title: 'DAAF — Détecteur Avertisseur Autonome de Fumée',
+          sub: 'Obligation dans tous les logements depuis le 8 mars 2015',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021900986',
+          intro: 'Loi n° 2010-238 du 9 mars 2010 modifiée : tout logement doit être équipé d\'au moins un DAAF normalisé (norme NF EN 14604). L\'obligation est entrée en vigueur le 8 mars 2015 pour tous les logements, qu\'ils soient occupés par leur propriétaire ou loués.',
+          chapters: [
+            {
+              title: 'Obligation légale — Art. L. 129-8 CCH',
+              ref: 'L. 129-8 CCH — Loi du 9 mars 2010',
+              text: [
+                '<span class="art-para-num">Art. L. 129-8 CCH.</span> Tout logement doit être équipé d\'au moins un détecteur de fumée normalisé. L\'occupant du logement, qu\'il soit locataire ou propriétaire, veille à l\'installation et au bon fonctionnement de ce dispositif. En cas de logement loué, le locataire veille à l\'entretien courant. Le propriétaire assure l\'équipement du logement lors de toute nouvelle location et en cas de défaillance liée à la vétusté du dispositif.<br><br>Toute personne qui vend un bien immobilier à usage d\'habitation mentionne dans l\'acte de vente la présence ou non d\'un DAAF. La liste des logements pour lesquels l\'obligation est suspendue (logements-foyers, résidences hôtelières à vocation sociale, etc.) est fixée par décret.',
+              ]
+            },
+            {
+              title: 'Caractéristiques du DAAF — Norme NF EN 14604',
+              ref: 'NF EN 14604 — Arrêté du 5 février 2013',
+              text: [
+                '<span class="art-para-num">Caractéristiques techniques exigées.</span> Le détecteur avertisseur autonome de fumée doit être conforme à la norme NF EN 14604. Il doit :<br>— détecter les fumées optiquement (ionisation optique) ;<br>— émettre une alarme sonore d\'au moins 85 dB à 3 mètres ;<br>— être alimenté par piles ou secteur ;<br>— disposer d\'un signal d\'alerte de fin de vie des piles ;<br>— résister à des conditions normales de température et d\'humidité.<br><br>Le marquage CE (selon EN 14604) est obligatoire. Les dispositifs non conformes à cette norme ne peuvent pas être mis sur le marché.',
+              ]
+            },
+            {
+              title: 'Implantation et entretien',
+              ref: 'Arrêté du 5 février 2013',
+              text: [
+                '<span class="art-para-num">Implantation recommandée.</span> Le DAAF est de préférence installé dans la circulation ou le dégagement desservant les chambres (couloir de nuit), hors salle de bains et cuisine (risques de fausses alarmes liées à la vapeur et aux fumées de cuisson). Il ne doit pas être fixé dans un angle de plafond ou de mur (accumulation de poussières). La distance minimale aux murs est de 30 cm. Il est fixé au plafond, face interne vers le bas.',
+                '<span class="art-para-num">Entretien.</span> L\'occupant teste le DAAF au moins une fois par an par pression sur le bouton test. Il nettoie l\'appareil à l\'aide d\'un aspirateur ou d\'un chiffon sec. Il remplace les piles selon les indications du fabricant (généralement tous les 1 à 2 ans). Les DAAF à piles scellées (10 ans) sont recommandés. L\'occupant remplace le DAAF tous les 10 ans maximum ou dès que l\'appareil indique sa fin de vie.',
+              ]
+            },
+            {
+              title: 'Logements concernés et cas particuliers',
+              ref: 'Décret n° 2011-36 du 10 janvier 2011',
+              text: [
+                '<span class="art-para-num">Logements concernés.</span> L\'obligation s\'applique à tous les logements au sens du code de la construction et de l\'habitation, qu\'il s\'agisse de logements individuels ou collectifs, occupés par leurs propriétaires ou loués, meublés ou non, neufs ou anciens.<br><br>Sont exclus de l\'obligation les établissements recevant du public assujettis à d\'autres réglementations (hôtels, foyers, résidences étudiantes gérées en ERP), pour lesquels des systèmes d\'alarme incendie spécifiques sont imposés par le règlement ERP.',
+              ]
+            },
+          ]
+        },
+
+        'PS-HAB': {
+          title: 'Parcs de stationnement couverts annexes',
+          sub: 'Annexes aux bâtiments d\'habitation — superficie > 100 m²',
+          legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
+          intro: 'Les parcs de stationnement couverts annexes aux bâtiments d\'habitation d\'une superficie supérieure à 100 m² sont soumis aux dispositions du titre III de l\'arrêté du 31 janvier 1986 (articles 77 à 96). Ces dispositions couvrent l\'isolement vis-à-vis du bâtiment d\'habitation, la ventilation, les moyens de secours et les installations électriques.',
+          chapters: [
+            {
+              title: 'Champ d\'application et définitions',
+              ref: 'Art. 1 et 77',
+              text: [
+                '<span class="art-para-num">Article 1 — Champ.</span> Les dispositions du titre III sont applicables aux parcs de stationnement couverts annexes aux bâtiments d\'habitation dont la superficie totale dépasse 100 m², qu\'ils soient en sous-sol, en rez-de-chaussée ou en superstructure.',
+                '<span class="art-para-num">Article 77.</span> Les parcs de stationnement couverts annexes aux bâtiments d\'habitation doivent être isolés des parties du bâtiment destinées à l\'habitation. Cet isolement est assuré par des éléments de construction coupe-feu de degré 2 heures (REI 120) entre le parc et les logements, les circulations communes et les locaux collectifs du bâtiment.',
+              ]
+            },
+            {
+              title: 'Isolement vis-à-vis de l\'habitation',
+              ref: 'Art. 78 à 82',
+              text: [
+                '<span class="art-para-num">Article 78.</span> Les parois et planchers séparant le parc de stationnement du bâtiment d\'habitation présentent un degré coupe-feu de 2 heures (REI 120). Les canalisations et conduits traversant ces parois et planchers sont munis de dispositifs coupe-feu maintenant le degré de résistance au feu exigé.',
+                '<span class="art-para-num">Article 79.</span> Les communications entre le parc et le bâtiment d\'habitation (accès piétons) s\'effectuent par des blocs-portes coupe-feu de degré 1 heure, à fermeture automatique (EI 60-C). Ces accès sont situés dans les circulations communes du bâtiment d\'habitation, en dehors des gaines techniques. Au maximum deux communications piétons sont admises par cage d\'escalier.',
+                '<span class="art-para-num">Article 80.</span> Les accès véhicules (rampes, portes de garage) sont équipés de dispositifs à fermeture automatique résistant au feu, sauf s\'ils débouchent directement sur l\'extérieur du bâtiment sans franchissement de la limite séparant le parc de l\'habitation.',
+              ]
+            },
+            {
+              title: 'Ventilation et désenfumage',
+              ref: 'Art. 83 à 88',
+              text: [
+                '<span class="art-para-num">Article 83.</span> Les parcs de stationnement annexes doivent être ventilés de façon naturelle ou mécanique. La ventilation mécanique est obligatoire dès lors que le renouvellement d\'air naturel ne peut être assuré (parcs en sous-sol sans ouvrants sur l\'extérieur). Le débit minimal de renouvellement d\'air est fixé à 6 volumes/heure en fonctionnement normal.',
+                '<span class="art-para-num">Article 85.</span> Le désenfumage des parcs couverts de superficie supérieure à 1 000 m² doit être assuré par un système mécanique permettant l\'extraction de 600 m³/h par véhicule et par tranche de 1 000 m², avec un minimum de 6 volumes/heure. Pour les parcs de superficie inférieure, le désenfumage naturel par ouvrants en façade est admis dès lors que la surface des ouvrants représente au moins 1/50 de la surface au sol.',
+                '<span class="art-para-num">Article 87.</span> Les conduits de ventilation ou de désenfumage traversant les parois coupe-feu de séparation avec l\'habitation sont munis de clapets coupe-feu automatiques de degré 2 heures, commandés par détection de fumée dans le conduit.',
+              ]
+            },
+            {
+              title: 'Moyens de secours et installations électriques',
+              ref: 'Art. 89 à 96',
+              text: [
+                '<span class="art-para-num">Article 89.</span> Des extincteurs portatifs à poudre polyvalente ou à eau pulvérisée de 6 litres sont disposés à raison d\'au moins un extincteur pour 200 m² avec un minimum de deux extincteurs par parc, situés à moins de 15 mètres de chaque place de stationnement.',
+                '<span class="art-para-num">Article 91.</span> Les colonnes sèches sont exigées dans les parcs de stationnement souterrains de plus de 3 niveaux. Une prise de raccordement (Ø 65 mm) est installée au niveau du sol de chaque sous-niveau, dans la cage d\'escalier ou à proximité immédiate de l\'accès piétons.',
+                '<span class="art-para-num">Article 93.</span> Les installations électriques du parc de stationnement sont réalisées avec des câbles ne propageant pas l\'incendie (classement C2 au moins ou Cca-s1,d1,a1). Les canalisations électriques sont protégées mécaniquement contre les chocs de véhicules jusqu\'à 2 mètres de hauteur. Les tableaux électriques sont dans des coffrets métalliques fermant à clé, accessibles depuis l\'extérieur du parc ou depuis les circulations communes.',
+              ]
+            },
+          ]
+        },
       }
     },
 
