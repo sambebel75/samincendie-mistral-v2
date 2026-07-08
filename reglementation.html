@@ -3552,21 +3552,21 @@
       intro: "Règlement de sécurité pour la construction des immeubles de grande hauteur (IGH). Arrêté du 30 décembre 2011. Plancher bas du dernier niveau > 50 m ou > 28 m pour les habitations.",
       sidebar: [
         {
-          group: 'Titre II — Dispositions communes',
-          rows: [ { label: 'GH — Dispositions communes', sub: 'Art. GH 1 à 65', codes: ['GH'] } ]
+          group: 'Titre I — Dispositions communes GH',
+          rows: [ { label: 'GH — Commun tous IGH', sub: 'Art. GH 1 à GH 65', codes: ['GH'] } ]
         },
         {
           group: 'Titre III — Dispositions particulières',
           rows: [
-            { label: 'GHA — Habitation', sub: 'Art. GH A 1 à 6', codes: ['GHA'] },
-            { label: 'GHO — Hôtel', sub: 'Art. GH O 1 à 8', codes: ['GHO'] },
-            { label: 'GHR — Enseignement', sub: 'Art. GH R 1 à 9', codes: ['GHR'] },
-            { label: 'GHS — Dépôt d\'archives', sub: 'Art. GH S unique', codes: ['GHS'] },
-            { label: 'GHU — Établissements sanitaires', sub: 'Art. GH U 1 à 19', codes: ['GHU'] },
-            { label: 'GHW — Bureaux', sub: 'Art. GH W 1 à 5', codes: ['GHW'] },
-            { label: 'GHZ — Usage mixte habitation-bureaux', sub: 'Art. GH Z unique', codes: ['GHZ'] },
-            { label: 'GHTC — Tour de contrôle', sub: 'Art. GH TC unique', codes: ['GHTC'] },
-            { label: 'ITGH — Très grande hauteur', sub: '> 200 m', codes: ['ITGH'] },
+            { label: 'GH A — Habitation', sub: 'Art. GH A 1 à 6', codes: ['GHA'] },
+            { label: 'GH O — Hôtel', sub: 'Art. GH O 1 à 8', codes: ['GHO'] },
+            { label: 'GH R — Enseignement', sub: 'Art. GH R 1 à 9', codes: ['GHR'] },
+            { label: 'GH S — Dépôt d\'archives', sub: 'Art. GH S unique', codes: ['GHS'] },
+            { label: 'GH U — Sanitaire', sub: 'Art. GH U 1 à 19', codes: ['GHU'] },
+            { label: 'GH W — Bureaux', sub: 'Art. GH W 1 à 5', codes: ['GHW'] },
+            { label: 'GH Z — Habitation mixte', sub: 'Art. GH Z unique', codes: ['GHZ'] },
+            { label: 'GHTC — Tour de contrôle', sub: 'Art. GHTC unique', codes: ['GHTC'] },
+            { label: 'ITGH — Très grande hauteur', sub: '> 200 m — Art. ITGH 1 à 8', codes: ['ITGH'] },
           ]
         }
       ],
@@ -4839,17 +4839,94 @@
               ]
             },
             {
-              title: 'Articles 31 à 38 — Circulations horizontales à l\'abri des fumées',
-              ref: 'Art. 31 à 38',
+              title: 'Article 31 — Circulations horizontales protégées',
+              ref: 'Art. 31',
               text: [
-                'Les circulations horizontales communes intérieures des 3e et 4e familles doivent être à l\'abri des fumées :<br>— Parois : coupe-feu de degré une heure ;<br>— Portes d\'accès aux logements : pare-flammes de degré une demi-heure avec ferme-porte ;<br>— Largeur minimale libre : 1,20 mètre ;<br>— Longueur maximale de circulation depuis l\'escalier jusqu\'à la porte de logement la plus éloignée : 20 mètres (3e A et 3e B) ; 20 mètres (4e famille) ;<br>— Ouvrants de désenfumage en partie haute : section minimale 1/100 de la surface au sol de la circulation, minimum 0,60 m² par tranche de 40 mètres ; commandables depuis la circulation et depuis l\'extérieur ;<br>— Portes d\'accès aux escaliers : ouvertes sans clé depuis l\'intérieur, marquées « Porte coupe-feu à maintenir fermée ».',
+                'Circulations horizontales communes intérieures des immeubles collectifs des 3e et 4e familles doivent être à l\'abri des fumées. Parois CF 1h, blocs-portes PF ½h avec ferme-porte, largeur libre minimale 1,20 m.',
               ]
             },
             {
-              title: 'Articles 39 à 43 — Dégagements protégés (3e famille B et 4e famille)',
-              ref: 'Art. 39 à 43',
+              title: 'Article 32 — Longueur maximale',
+              ref: 'Art. 32',
               text: [
-                'En 3e famille B et 4e famille, chaque logement doit être accessible depuis un dégagement protégé constitué de l\'association d\'un escalier protégé et d\'une circulation horizontale protégée.<br><br>Les dégagements protégés :<br>— Aboutissent directement à l\'extérieur ou à une zone de sécurité ;<br>— N\'ont pas d\'accès direct aux logements depuis l\'escalier (accès exclusivement depuis la circulation horizontale protégée) ;<br>— Comportent un éclairage de sécurité alimenté par dérivation sélective ou blocs autonomes ;<br>— Sont maintenus libres de tout dépôt ou stockage.',
+                'Longueur maximale d\'une circulation horizontale protégée : 20 m entre la porte de logement la plus éloignée et la cage d\'escalier. Au-delà de 20 m, recoupement par bloc-porte CF ½h.',
+              ]
+            },
+            {
+              title: 'Article 33 — Désenfumage des circulations horizontales',
+              ref: 'Art. 33',
+              text: [
+                'Désenfumage des circulations horizontales protégées : ouvrants en partie haute, section minimale 1/100 de la surface au sol, minimum 0,60 m² pour 40 m de longueur. Commandés depuis la circulation et depuis l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Article 34 — Blocs-portes d\'accès aux escaliers',
+              ref: 'Art. 34',
+              text: [
+                'Les blocs-portes d\'accès aux escaliers depuis les circulations horizontales protégées sont PF ½h avec ferme-porte, s\'ouvrant dans le sens de la sortie sans être verrouillables depuis le couloir.',
+              ]
+            },
+            {
+              title: 'Article 35 — Portes des logements',
+              ref: 'Art. 35',
+              text: [
+                'Portes des logements donnant sur les circulations protégées : PF ½h avec ferme-porte en 4e famille ; PF ¼h avec ferme-porte en 3e famille B.',
+              ]
+            },
+            {
+              title: 'Article 36 — Éclairage de sécurité',
+              ref: 'Art. 36',
+              text: [
+                'Éclairage de sécurité des circulations horizontales communes : blocs autonomes ou dérivation sélective depuis le tableau général. Autonomie 1h minimum. Flux minimum 5 lux au sol.',
+              ]
+            },
+            {
+              title: 'Article 37 — Locaux et stockages interdits',
+              ref: 'Art. 37',
+              text: [
+                'Les circulations protégées ne peuvent pas comporter de locaux, de stockages ou d\'installations susceptibles d\'être à l\'origine d\'un incendie ou d\'en favoriser la propagation.',
+              ]
+            },
+            {
+              title: 'Article 38 — Signalisation',
+              ref: 'Art. 38',
+              text: [
+                'Signalisation des issues et des équipements de secours dans les circulations protégées conformément aux dispositions réglementaires sur la sécurité dans les lieux de travail adaptées aux bâtiments d\'habitation.',
+              ]
+            },
+            {
+              title: 'Article 39 — Définition du dégagement protégé',
+              ref: 'Art. 39',
+              text: [
+                'Dégagement protégé = association d\'un escalier protégé et d\'une circulation horizontale protégée. Obligatoire en 3e famille B et 4e famille.',
+              ]
+            },
+            {
+              title: 'Article 40 — Accès aux logements',
+              ref: 'Art. 40',
+              text: [
+                'Chaque logement accessible depuis la circulation protégée uniquement (aucun accès direct depuis l\'escalier). Distance maximale depuis la porte de logement jusqu\'à l\'escalier : 20 m.',
+              ]
+            },
+            {
+              title: 'Article 41 — Débouché du dégagement protégé',
+              ref: 'Art. 41',
+              text: [
+                'Le dégagement protégé aboutit directement à l\'extérieur au niveau de sortie ou à une zone permettant l\'évacuation en sécurité.',
+              ]
+            },
+            {
+              title: 'Article 42 — Éclairage des dégagements protégés',
+              ref: 'Art. 42',
+              text: [
+                'Éclairage de sécurité des dégagements protégés : alimentation par dérivation sélective ou blocs autonomes. Obligatoire en 4e famille.',
+              ]
+            },
+            {
+              title: 'Article 43 — Maintien libre des dégagements',
+              ref: 'Art. 43',
+              text: [
+                'Les dégagements protégés sont maintenus libres de tout dépôt, stockage ou équipement ne relevant pas de la sécurité.',
               ]
             },
           ]
@@ -4862,38 +4939,143 @@
           intro: 'Dispositions relatives aux conduits et gaines mettant en communication des niveaux différents : gaines techniques, conduits de gaz, ventilation, vide-ordures, colonnes sèches et installations électriques.',
           chapters: [
             {
-              title: 'Articles 44 à 46 — Généralités sur les conduits et gaines',
-              ref: 'Art. 44 à 46',
+              title: 'Article 44 — Conduits et gaines : matériaux',
+              ref: 'Art. 44',
               text: [
-                'Les conduits et gaines mettant en communication des niveaux différents doivent être réalisés, recoupés ou protégés de manière à ne pas permettre le passage du feu et des fumées d\'un niveau à un autre. Cette obligation s\'applique aux gaines techniques, conduits de ventilation, gaines de câbles, conduits de fumée et tout dispositif traversant un plancher ou une paroi coupe-feu.<br><br>Les gaines collectives doivent être réalisées en matériaux incombustibles (M0 ou A2-s1, d0). Les trappes de visite donnant sur les gaines présentent les mêmes degrés de résistance au feu que les parois dans lesquelles elles sont situées.',
+                'Conduits et gaines mettant en communication plusieurs niveaux doivent être réalisés en matériaux incombustibles (M0 ou A2-s1,d0). Gaines collectives : trappes de visite présentant le même degré coupe-feu que la paroi traversée.',
               ]
             },
             {
-              title: 'Articles 47 à 49 — Traversées des parois coupe-feu',
-              ref: 'Art. 47 à 49',
+              title: 'Article 45 — Traversées de parois coupe-feu',
+              ref: 'Art. 45',
               text: [
-                'Les conduits et gaines traversant des planchers ou des parois coupe-feu doivent être munis de dispositifs mainteant le degré de résistance au feu requis pour ces éléments. Ces dispositifs sont :<br>— des clapets coupe-feu automatiques commandés par détection de fumée ou par température ;<br>— des fourreaux ou manchons coupe-feu intumescents ;<br>— ou une gaine coupe-feu présentant le degré de résistance au feu sur toute sa longueur entre deux niveaux.<br><br>Les conduits de béton, maçonnerie ou plâtre présentant naturellement le degré requis ne nécessitent pas de dispositif supplémentaire.',
+                'Traversées de parois coupe-feu par des conduits : dispositifs maintenant le degré requis (clapets coupe-feu, fourreaux intumescents ou gaine CF). Conduits béton/maçonnerie présentant naturellement le degré : exemptés.',
               ]
             },
             {
-              title: 'Articles 50 à 56 — Conduits et gaines de gaz',
-              ref: 'Art. 50 à 56',
+              title: 'Article 46 — Recoupement des conduits',
+              ref: 'Art. 46',
               text: [
-                'Les canalisations de gaz ne peuvent pas cheminer à l\'intérieur des vide-ordures, gaines d\'ascenseurs, gaines électriques ou gaines de ventilation. Elles sont séparées de tout matériau combustible par une distance minimale ou par un écran incombustible.<br><br>Les gaines renfermant des conduites de gaz collectif sont ventilées à leur partie haute vers l\'extérieur. Les robinets de coupure individuels sont accessibles depuis les circulations communes ou depuis le logement, dans un coffret à parois coupe-feu de 30 minutes.<br><br>Les colonnes montantes de gaz situées dans les escaliers sont isolées par des gaines coupe-feu de 30 minutes. Les appareils à gaz sont installés dans des locaux ventilés directement sur l\'extérieur.',
+                'Conduits et gaines mettant en communication plusieurs niveaux sans être encloisonnés dans une gaine CF doivent être recoupés à chaque niveau par un clapet CF automatique commandé par détection de fumée ou par fusible thermique.',
               ]
             },
             {
-              title: 'Articles 57 à 60 — Colonnes sèches',
-              ref: 'Art. 57 à 60',
+              title: 'Article 47 — Conduit traversant un plancher sans gaine',
+              ref: 'Art. 47',
               text: [
-                '<strong>Obligation</strong> : les colonnes sèches sont obligatoires dans les immeubles dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol.<br><br><strong>Caractéristiques</strong> :<br>— Diamètre intérieur minimal : 70 mm ;<br>— Une colonne par cage d\'escalier ;<br>— Prise de raccordement sapeurs-pompiers (Ø 65 mm) au niveau bas accessible aux engins de secours, à moins de 60 mètres d\'une bouche d\'incendie sous pression ;<br>— Robinet de chaque niveau : Ø 40/49 mm avec bouchon, dans un coffret situé dans l\'escalier ou la circulation protégée ;<br>— Colonne fixée aux parois de la cage d\'escalier protégée ou sous la protection de parois coupe-feu ;<br>— Essai de pression (9 bars) et de débit périodique à la charge du propriétaire.',
+                'Conduit traversant un plancher sans gaine : le conduit lui-même est incombustible et le passage dans le plancher est obturé par matériau CF reconstituant le degré du plancher.',
               ]
             },
             {
-              title: 'Articles 61 à 63 — Conduits et installations de ventilation',
-              ref: 'Art. 61 à 63',
+              title: 'Article 48 — Conduit traversant un plancher avec gaine',
+              ref: 'Art. 48',
               text: [
-                'Les conduits de ventilation mécanique contrôlée (VMC) traversant des planchers coupe-feu sont équipés de clapets coupe-feu automatiques au droit de chaque plancher traversé, ou la gaine elle-même présente le degré coupe-feu requis.<br><br>Les extracteurs et ventilateurs de la VMC sont classés F400 (résistance au feu à 400 °C pendant 120 minutes) en 3e et 4e familles, conformément à la norme EN 12101-3. Les conduits flexibles de raccordement sont de longueur minimale pour limiter la charge calorifique.',
+                'Conduit traversant un plancher avec gaine exigée : la gaine est CF sur toute la hauteur entre deux niveaux. Trappes de visite CF de même degré que la gaine.',
+              ]
+            },
+            {
+              title: 'Article 49 — Conduits traversant des murs coupe-feu',
+              ref: 'Art. 49',
+              text: [
+                'Conduits traversant des murs coupe-feu : mêmes règles qu\'aux articles 47 et 48 selon que la gaine est exigée ou non.',
+              ]
+            },
+            {
+              title: 'Article 50 — Gaines de gaz : généralités',
+              ref: 'Art. 50',
+              text: [
+                'Canalisations de gaz ne peuvent pas cheminer dans vide-ordures, gaines d\'ascenseurs, gaines électriques ou gaines VMC.',
+              ]
+            },
+            {
+              title: 'Article 51 — Accessibilité des gaines de gaz',
+              ref: 'Art. 51',
+              text: [
+                'Robinets de coupure individuels dans coffret CF 30 min accessible depuis circulations communes ou depuis logement.',
+              ]
+            },
+            {
+              title: 'Article 52 — Colonnes montantes de gaz',
+              ref: 'Art. 52',
+              text: [
+                'Colonnes montantes de gaz dans escaliers : isolées par gaines CF 30 min. Colonne de gaz en gaine verticale ventilée en partie haute vers l\'extérieur.',
+              ]
+            },
+            {
+              title: 'Article 53 — Traversées CF des canalisations de gaz',
+              ref: 'Art. 53',
+              text: [
+                'Les canalisations de gaz traversant des parois et planchers CF sont munies de dispositifs maintenant le degré CF requis.',
+              ]
+            },
+            {
+              title: 'Article 54 — Robinets d\'arrêt',
+              ref: 'Art. 54',
+              text: [
+                'Robinets d\'arrêt sur chaque colonne montante, accessibles depuis l\'extérieur ou depuis les circulations communes, signalés.',
+              ]
+            },
+            {
+              title: 'Article 55 — Appareils à gaz',
+              ref: 'Art. 55',
+              text: [
+                'Appareils à gaz installés dans locaux ventilés directement sur l\'extérieur ou munis de détecteurs de fuite avec coupure automatique.',
+              ]
+            },
+            {
+              title: 'Article 56 — Référence réglementaire gaz',
+              ref: 'Art. 56',
+              text: [
+                'Conformité à l\'arrêté du 2 août 1977 relatif aux règles techniques et de sécurité applicables aux installations de gaz combustible et d\'hydrocarbures liquéfiés situées à l\'intérieur des bâtiments d\'habitation ou de leurs dépendances.',
+              ]
+            },
+            {
+              title: 'Article 57 — Colonnes sèches : obligation',
+              ref: 'Art. 57',
+              text: [
+                'Colonnes sèches obligatoires si plancher bas du logement le plus haut &gt; 18 m. Une colonne par cage d\'escalier.',
+              ]
+            },
+            {
+              title: 'Article 58 — Caractéristiques des colonnes sèches',
+              ref: 'Art. 58',
+              text: [
+                'Diamètre intérieur 70 mm minimum. Prise de raccordement SP (Ø 65 mm) au niveau bas, à moins de 60 m d\'une bouche d\'incendie sous pression.',
+              ]
+            },
+            {
+              title: 'Article 59 — Robinets de niveau',
+              ref: 'Art. 59',
+              text: [
+                'Robinet à chaque niveau : Ø 40/49 mm avec bouchon, dans coffret dans l\'escalier ou la circulation protégée.',
+              ]
+            },
+            {
+              title: 'Article 60 — Essais et fixation',
+              ref: 'Art. 60',
+              text: [
+                'Essai de pression (9 bars) et de débit périodique à la charge du propriétaire. Colonne fixée aux parois de la cage d\'escalier protégée.',
+              ]
+            },
+            {
+              title: 'Article 61 — VMC : clapets coupe-feu',
+              ref: 'Art. 61',
+              text: [
+                'VMC systèmes 1 et 2 : conduits traversant planchers CF équipés de clapets CF automatiques au droit de chaque plancher, ou gaine CF sur toute la hauteur.',
+              ]
+            },
+            {
+              title: 'Article 62 — VMC inversée et double flux',
+              ref: 'Art. 62',
+              text: [
+                'VMC inversée et double flux : même règle + traitement thermique des échangeurs. Ventilateur extraction classé F400 (résistance 400°C / 120 min, NF EN 12101-3) en 3e et 4e familles.',
+              ]
+            },
+            {
+              title: 'Article 63 — Conduits spécifiques',
+              ref: 'Art. 63',
+              text: [
+                'Conduits spécifiques (hottes de cuisine, sèche-linge) : conduits individuels débouchant directement à l\'extérieur. Si collectifs, équipés de clapets anti-refoulement CF.',
               ]
             },
             {
@@ -4920,10 +5102,45 @@
               ]
             },
             {
-              title: 'Articles 66 à 71 — Logements-foyers hors personnes âgées et handicapées',
-              ref: 'Art. 66 à 71',
+              title: 'Article 66 — Logements-foyers ordinaires',
+              ref: 'Art. 66',
               text: [
-                'Les logements-foyers (résidences étudiantes, foyers de travailleurs migrants, résidences sociales) comportant des locaux collectifs communs supérieurs à 50 m² appliquent les prescriptions ERP au titre des locaux accessibles au public si l\'effectif dépasse les seuils de la 5e catégorie ERP.<br><br>Les cuisines collectives sont séparées des locaux de vie par des parois coupe-feu de 1 heure et des blocs-portes coupe-feu de 30 minutes à fermeture automatique.<br><br>Un système d\'alarme incendie adapté (au moins type 4 selon NF S 61-936, soit un déclencheur manuel par niveau et des diffuseurs sonores) est mis en place dans les parties communes.',
+                'Logements-foyers ordinaires (étudiants, travailleurs) : locaux collectifs &gt; 50 m² appliquent les prescriptions ERP si effectif dépasse seuils 5e catégorie.',
+              ]
+            },
+            {
+              title: 'Article 67 — Cuisines collectives',
+              ref: 'Art. 67',
+              text: [
+                'Cuisines collectives : séparées des locaux de vie par parois CF 1h et blocs-portes CF ½h à fermeture automatique.',
+              ]
+            },
+            {
+              title: 'Article 68 — Système d\'alarme incendie',
+              ref: 'Art. 68',
+              text: [
+                'Système d\'alarme incendie : au moins type 4 (NF S 61-936) — déclencheur manuel par niveau et diffuseurs sonores dans parties communes.',
+              ]
+            },
+            {
+              title: 'Article 69 — Escaliers',
+              ref: 'Art. 69',
+              text: [
+                'Escaliers : conformes aux prescriptions des articles 20 (3e famille) ou 29 (3e B) selon la hauteur du bâtiment.',
+              ]
+            },
+            {
+              title: 'Article 70 — Circulations communes',
+              ref: 'Art. 70',
+              text: [
+                'Circulations communes : largeur minimale 1,20 m libre. Désenfumage conforme aux prescriptions de l\'article 33 si longueur &gt; 20 m.',
+              ]
+            },
+            {
+              title: 'Article 71 — Locaux à risques particuliers',
+              ref: 'Art. 71',
+              text: [
+                'Les locaux à risques particuliers (buanderies, chaufferies, locaux techniques) sont isolés des parties habitées par parois CF 1h et blocs-portes CF ½h.',
               ]
             },
             {
@@ -4934,10 +5151,31 @@
               ]
             },
             {
-              title: 'Articles 73 à 76 — Logements-foyers pour personnes handicapées physiques autonomes',
-              ref: 'Art. 73 à 76',
+              title: 'Article 73 — Logements-foyers personnes handicapées : base',
+              ref: 'Art. 73',
               text: [
-                'Les logements-foyers hébergeant des personnes handicapées physiques autonomes appliquent les mêmes dispositions que pour les personnes âgées, avec en supplément :<br>— Largeur minimale des circulations communes : 1,50 mètre libre ;<br>— Ascenseurs accessibles (cabines de 1,10 m × 1,40 m minimum) avec appel de détresse ;<br>— Portes des logements d\'une largeur minimale de 0,90 mètre libre ;<br>— Espaces d\'attente sécurisés à chaque niveau, proches de l\'escalier protégé, permettant l\'attente de l\'évacuation assistée.',
+                'Logements-foyers pour personnes handicapées physiques autonomes : mêmes dispositions que Art. 72 (personnes âgées), complétées par les articles 74 à 76.',
+              ]
+            },
+            {
+              title: 'Article 74 — Largeur des circulations',
+              ref: 'Art. 74',
+              text: [
+                'Largeur minimale des circulations communes : 1,50 m libre pour permettre croisement de deux fauteuils.',
+              ]
+            },
+            {
+              title: 'Article 75 — Ascenseurs et portes',
+              ref: 'Art. 75',
+              text: [
+                'Ascenseurs accessibles (cabines 1,10 × 1,40 m min) avec appel de détresse. Portes des logements : 0,90 m libre minimum.',
+              ]
+            },
+            {
+              title: 'Article 76 — Espaces d\'attente sécurisés',
+              ref: 'Art. 76',
+              text: [
+                'Espaces d\'attente sécurisés à chaque niveau, proches de l\'escalier protégé, permettant l\'attente de l\'évacuation assistée (zone de refuge au sens de l\'accessibilité).',
               ]
             },
           ]
@@ -4950,10 +5188,31 @@
           intro: 'Dispositions applicables aux parcs de stationnement couverts annexes aux bâtiments d\'habitation d\'une superficie supérieure à 100 m² : isolement, structures, ventilation, moyens de secours.',
           chapters: [
             {
-              title: 'Articles 77 à 80 — Généralités et définitions',
-              ref: 'Art. 77 à 80',
+              title: 'Article 77 — Champ d\'application',
+              ref: 'Art. 77',
               text: [
-                'Les présentes dispositions s\'appliquent aux parcs de stationnement couverts annexes aux bâtiments d\'habitation d\'une superficie totale supérieure à 100 m², qu\'ils soient en sous-sol, en rez-de-chaussée ou en superstructure.<br><br>On entend par parc de stationnement couvert tout espace couvert, entièrement ou partiellement fermé, destiné au stationnement de véhicules à moteur. Sont inclus les abris permanents même sans murs.',
+                'Champ d\'application : parcs de stationnement couverts annexes aux habitations, superficie &gt; 100 m², qu\'ils soient en sous-sol, rez-de-chaussée ou superstructure.',
+              ]
+            },
+            {
+              title: 'Article 78 — Définition parc couvert',
+              ref: 'Art. 78',
+              text: [
+                'Définition parc couvert : tout espace couvert, entièrement ou partiellement fermé, destiné au stationnement de véhicules à moteur. Abris permanents sans murs inclus.',
+              ]
+            },
+            {
+              title: 'Article 79 — Application des dispositions',
+              ref: 'Art. 79',
+              text: [
+                'Les parcs annexes sont soumis aux dispositions du présent titre en complément des dispositions générales de l\'arrêté.',
+              ]
+            },
+            {
+              title: 'Article 80 — Structures',
+              ref: 'Art. 80',
+              text: [
+                'Éléments porteurs : stabilité au feu minimale 30 min.',
               ]
             },
             {
@@ -4964,17 +5223,38 @@
               ]
             },
             {
-              title: 'Articles 82 à 84 — Murs, parois et cloisonnement',
-              ref: 'Art. 82 à 84',
+              title: 'Article 82 — Parois et planchers de séparation',
+              ref: 'Art. 82',
               text: [
-                'Les parois et planchers séparant le parc du bâtiment d\'habitation sont coupe-feu de degré 2 heures (REI 120). Les canalisations et conduits traversant ces parois sont équipés de dispositifs coupe-feu maintenant ce degré.<br><br>Les communications piétons entre le parc et l\'habitation s\'effectuent par des blocs-portes coupe-feu de 1 heure à fermeture automatique (EI 60-C), situés dans les circulations communes. Au maximum deux communications piétons par cage d\'escalier.<br><br>Un recoupement du parc est réalisé tous les 45 mètres par des parois coupe-feu de 30 minutes et des portes pare-flammes de 15 minutes à fermeture automatique.',
+                'Parois et planchers séparant le parc de l\'habitation : CF 2h (REI 120). Canalisations traversantes : dispositifs CF 2h.',
               ]
             },
             {
-              title: 'Articles 85 à 86 — Couvertures et revêtements de sol',
-              ref: 'Art. 85 à 86',
+              title: 'Article 83 — Communications piétons parc/habitation',
+              ref: 'Art. 83',
               text: [
-                'Les couvertures des parcs de stationnement sont réalisées en matériaux incombustibles ou de classe M2 au minimum. Les revêtements de sol présentent une résistance mécanique suffisante pour supporter le trafic des véhicules et ne doivent pas présenter de risque de propagation du feu.',
+                'Communications piétons entre parc et habitation : blocs-portes CF 1h à fermeture automatique (EI 60-C), situés dans circulations communes. Maximum 2 communications par cage d\'escalier.',
+              ]
+            },
+            {
+              title: 'Article 84 — Recoupement du parc',
+              ref: 'Art. 84',
+              text: [
+                'Recoupement du parc : tous les 45 m par parois CF ½h et portes PF ¼h à fermeture automatique.',
+              ]
+            },
+            {
+              title: 'Article 85 — Couvertures',
+              ref: 'Art. 85',
+              text: [
+                'Couvertures des parcs : matériaux incombustibles ou M2 minimum.',
+              ]
+            },
+            {
+              title: 'Article 86 — Revêtements de sol',
+              ref: 'Art. 86',
+              text: [
+                'Revêtements de sol : résistance mécanique suffisante, pas de propagation du feu. Produits pétroliers ne doivent pas atteindre les parties habitées.',
               ]
             },
             {
@@ -5006,17 +5286,31 @@
               ]
             },
             {
-              title: 'Articles 91 à 92 — Circulations et issues',
-              ref: 'Art. 91 à 92',
+              title: 'Article 91 — Voies de circulation',
+              ref: 'Art. 91',
               text: [
-                'Les voies de circulation des véhicules ont une largeur minimale de 3 mètres. Les issues piétons permettent aux occupants d\'atteindre l\'extérieur ou les parties habitables sans traverser la zone de stationnement, par des escaliers ou des couloirs protégés. Une sortie piétonne vers l\'extérieur est exigée à moins de 50 mètres de chaque place.',
+                'Voies de circulation véhicules : largeur minimale 3 m. Issues piétons permettant d\'atteindre l\'extérieur sans traverser zone stationnement.',
               ]
             },
             {
-              title: 'Articles 93 à 94 — Installations électriques et éclairage',
-              ref: 'Art. 93 à 94',
+              title: 'Article 92 — Sorties piétonnes',
+              ref: 'Art. 92',
               text: [
-                'Les installations électriques des parcs sont réalisées avec des câbles ne propageant pas l\'incendie (classement C2 minimum ou Cca-s1, d1, a1). Les tableaux électriques sont dans des coffrets métalliques fermant à clé, accessibles depuis l\'extérieur du parc ou depuis les circulations protégées, à plus de 3 mètres de tout stockage d\'hydrocarbures.<br><br>Un éclairage de sécurité est installé dans les circulations piétons et sur les issues, alimenté par source autonome (autonomie minimale 1 heure).',
+                'Sortie piétonne vers l\'extérieur à moins de 50 m de chaque place. Escaliers ou couloirs protégés.',
+              ]
+            },
+            {
+              title: 'Article 93 — Installations électriques',
+              ref: 'Art. 93',
+              text: [
+                'Câbles ne propageant pas l\'incendie (C2 min ou Cca-s1,d1,a1). Tableaux électriques en coffrets métalliques fermant à clé, à plus de 3 m de tout stockage d\'hydrocarbures.',
+              ]
+            },
+            {
+              title: 'Article 94 — Éclairage de sécurité',
+              ref: 'Art. 94',
+              text: [
+                'Éclairage de sécurité dans circulations piétons et issues, alimentation autonome, autonomie minimale 1h.',
               ]
             },
             {
@@ -5064,10 +5358,38 @@
               ]
             },
             {
-              title: 'Articles 100 à 104 — Obligations des propriétaires',
-              ref: 'Art. 100 à 104 (Titre VIII)',
+              title: 'Article 100 — Affichage et consignes',
+              ref: 'Art. 100 (Titre VIII)',
               text: [
-                'Les propriétaires des bâtiments d\'habitation sont tenus :<br>— de maintenir en bon état de fonctionnement les équipements de sécurité (colonnes sèches, désenfumage, éclairage de sécurité, détection) ;<br>— de faire réaliser les vérifications périodiques obligatoires par des techniciens compétents ;<br>— de tenir un carnet d\'entretien des équipements communs ;<br>— de ne pas modifier les dispositifs de sécurité sans respecter les prescriptions du présent arrêté ;<br>— d\'assurer la libre accessibilité des voies engins et voies échelles autour du bâtiment (Art. 102) ;<br>— de signaler les colonnes sèches et leurs prises de raccordement conformément à la signalisation réglementaire (Art. 103).',
+                'Affichage dans les parties communes des consignes d\'évacuation et des plans simplifiés des niveaux avec emplacement des sorties, escaliers, équipements de secours.',
+              ]
+            },
+            {
+              title: 'Article 101 — Vérifications périodiques',
+              ref: 'Art. 101',
+              text: [
+                'Vérifications périodiques des installations de sécurité (colonnes sèches, désenfumage, éclairage de sécurité, détection) par technicien compétent. Carnet d\'entretien tenu à disposition.',
+              ]
+            },
+            {
+              title: 'Article 102 — Voies engins et échelles',
+              ref: 'Art. 102',
+              text: [
+                'Maintien en bon état des voies engins et voies échelles. Aucun obstacle permanent. Libre accessibilité assurée à tout moment.',
+              ]
+            },
+            {
+              title: 'Article 103 — Signalisation colonnes sèches',
+              ref: 'Art. 103',
+              text: [
+                'Signalisation des colonnes sèches et de leurs prises de raccordement selon signalisation réglementaire. Robinets d\'alimentation signalés et accessibles.',
+              ]
+            },
+            {
+              title: 'Article 104 — Conservation des justificatifs',
+              ref: 'Art. 104',
+              text: [
+                'Justificatifs d\'entretien et vérifications tenus à disposition des services de contrôle. Conservation minimale 3 ans.',
               ]
             },
             {
@@ -5078,10 +5400,24 @@
               ]
             },
             {
-              title: 'Articles 106 à 108 — Application dans le temps',
-              ref: 'Art. 106 à 108 (Titre X)',
+              title: 'Article 106 — Application dans le temps',
+              ref: 'Art. 106 (Titre X)',
               text: [
-                '<strong>Article 106</strong> : Le présent arrêté s\'applique aux demandes de permis de construire déposées à compter de sa date d\'entrée en vigueur. Pour les bâtiments existants, les dispositions à caractère administratif et celles relatives à l\'entretien des équipements s\'appliquent immédiatement.<br><br><strong>Article 107</strong> : Lorsque des travaux sont entrepris dans un bâtiment existant, les dispositions du présent arrêté s\'appliquent aux seules parties modifiées. Si ces modifications accroissent le risque de l\'ensemble du bâtiment, des mesures complémentaires peuvent être imposées.<br><br><strong>Article 108</strong> : Les bâtiments construits sous l\'empire de réglementations antérieures restent régis par celles-ci, sauf dispositions contraires imposées par l\'autorité administrative en cas de risque grave pour la sécurité.',
+                'S\'applique aux demandes de permis de construire déposées à compter de la date d\'entrée en vigueur. Pour bâtiments existants : dispositions administratives et entretien applicables immédiatement.',
+              ]
+            },
+            {
+              title: 'Article 107 — Travaux dans bâtiment existant',
+              ref: 'Art. 107',
+              text: [
+                'Travaux dans bâtiment existant : dispositions applicables aux seules parties modifiées. Si modification accroît risque global : mesures complémentaires possibles.',
+              ]
+            },
+            {
+              title: 'Article 108 — Réglementations antérieures',
+              ref: 'Art. 108',
+              text: [
+                'Bâtiments construits sous réglementations antérieures restent régis par celles-ci, sauf risque grave imposant mesures par autorité administrative.',
               ]
             },
             {
@@ -5198,52 +5534,57 @@
           legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
           intro: 'Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, desservis par des escaliers dont les accès aux logements sont assurés à partir de circulations communes extérieures (balcons-couloirs, galeries, coursives, loggias accessibles de l\'extérieur). Arrêté du 31 janvier 1986 modifié.',
           chapters: [
-            {
-              title: 'Classification — 3e famille A',
-              ref: 'Art. 3',
-              text: [
-                '<span class="art-para-num">Article 3 — 3e famille A.</span> Sont classés dans la troisième famille A les immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 mètres et 28 mètres au-dessus du sol, à condition que les logements soient desservis par des escaliers dont les accès sont assurés à partir de circulations communes extérieures : balcons accessibles de l\'extérieur, galeries ou coursives.<br><br>Cette configuration permet aux sapeurs-pompiers d\'accéder aux niveaux par l\'extérieur à l\'aide des échelles, ce qui justifie des exigences allégées sur le désenfumage des escaliers par rapport à la 3e famille B.',
-              ]
-            },
-            {
-              title: 'Voie échelle et accessibilité façades',
-              ref: 'Art. 4 et 5',
-              text: [
-                '<span class="art-para-num">Article 4 — Voie échelle.</span> Pour les bâtiments de la troisième famille, une voie permettant la mise en station et l\'emploi des échelles des sapeurs-pompiers est nécessaire (voie échelle). Cette voie a une largeur minimale de 4 mètres, une hauteur libre de 3,50 mètres, une longueur minimale de 10 mètres devant chaque façade desservie, et peut permettre le positionnement d\'une échelle à moins de 8 mètres de toute fenêtre ou porte-fenêtre du logement le plus défavorisé.',
-                '<span class="art-para-num">Article 5 — 3e famille A.</span> Une des façades de chaque logement doit être accessible par voie échelle. Pour la 3e famille A, cette exigence est satisfaite si les circulations communes extérieures (coursives) sont elles-mêmes accessibles par les échelles et permettent l\'accès à chaque logement par au moins une baie vitrée ou une porte.',
-              ]
-            },
-            {
-              title: 'Résistance au feu — structures et séparations',
-              ref: 'Art. 5 et 6',
-              text: [
-                '<span class="art-para-num">Article 5 — 3e famille.</span> La stabilité au feu des éléments porteurs est de degré 1 heure (SF 1h ou R 60). Les planchers entre niveaux sont coupe-feu de degré 1 heure (CF 1h ou REI 60). Les parois séparant les logements entre eux et des circulations communes sont coupe-feu de degré 1 heure.',
-                '<span class="art-para-num">Article 6 — Portes palières.</span> Les blocs-portes palières des logements sont pare-flammes de degré 1/4 heure (PF 1/4h ou E 15). Pour la 3e famille A, les portes donnant sur les circulations extérieures n\'ont pas à être auto-fermantes.',
-              ]
-            },
-            {
-              title: 'Escaliers — Encloisonnement',
-              ref: 'Art. 28 à 35',
-              text: [
-                '<span class="art-para-num">Article 28.</span> Dans les immeubles de troisième famille, les escaliers sont encloisonnés. Les parois de cet encloisonnement présentent un degré coupe-feu de 1 heure. Les blocs-portes d\'accès aux escaliers depuis les coursives ou circulations communes sont coupe-feu de degré 1/2 heure équipés de ferme-porte (CF 1/2h ou EI 30-C).',
-                '<span class="art-para-num">Article 29 — 3e famille A.</span> Pour la 3e famille A, le désenfumage de l\'escalier peut être assuré par des ouvrants en partie haute de la cage d\'escalier ou par des ouvrants en façade à chaque niveau, dès lors que les accès aux logements se font depuis les circulations extérieures. La section des ouvrants est au moins d\'un centième de la superficie de la cage d\'escalier, avec un minimum de 0,50 m².',
-              ]
-            },
-            {
-              title: 'Désenfumage des circulations communes',
-              ref: 'Art. 36 à 40',
-              text: [
-                '<span class="art-para-num">Article 36.</span> Les circulations communes horizontales intérieures des immeubles de troisième famille doivent être désenfumées. Pour la 3e famille A, les coursives extérieures sont naturellement désenfumées par leur configuration ouverte. Les circulations intérieures de longueur supérieure à 10 mètres comportent en parties hautes des ouvrants de désenfumage dont la section est d\'au moins un centième de la surface au sol, avec un minimum de 0,60 m² pour une longueur maximale de 40 mètres.',
-                '<span class="art-para-num">Article 37.</span> Les ouvrants de désenfumage des circulations communes peuvent être actionnés manuellement depuis la circulation elle-même ou automatiquement par détection. Ils s\'ouvrent en position de sécurité en cas de déclenchement de l\'alarme incendie de l\'immeuble.',
-              ]
-            },
-            {
-              title: 'Colonnes sèches',
-              ref: 'Art. 57',
-              text: [
-                '<span class="art-para-num">Article 57.</span> Les immeubles dont le plancher bas du logement le plus haut est situé entre 18 et 28 mètres doivent être équipés de colonnes sèches. Ces colonnes sont situées dans la cage d\'escalier à chaque niveau avec un robinet de raccordement d\'un diamètre de 40/49 mm. La prise de raccordement pour les sapeurs-pompiers (diamètre 65 mm) est placée au niveau d\'accès des engins de secours, à moins de 60 mètres de la bouche d\'incendie la plus proche.<br><br>Pour les bâtiments de 3e famille A dont le plancher bas est inférieur à 18 m, les colonnes sèches ne sont pas exigées.',
-              ]
-            },
+          { title: 'Généralités — Champ d\'application', ref: 'Art. 1 et 2', text: ['<strong>Art. 1</strong> — Applicable aux bâtiments d\'habitation dont le plancher bas du logement le plus haut est situé à 50 m au plus au-dessus du sol utilement accessible aux engins de secours, ainsi qu\'aux parcs de stationnement couverts annexés de superficie > 100 m².<br><br><strong>Art. 2</strong> — Classification des matériaux par rapport au danger d\'incendie déterminée par arrêtés pris en application de l\'article R. 121-5 du CCH.'] },
+          { title: 'Classement des bâtiments d\'habitation', ref: 'Art. 3', text: ['<strong>3e famille A</strong> — Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, satisfaisant aux trois conditions : a) au plus 7 étages sur rez-de-chaussée ; b) circulations horizontales ≤ 10 m entre porte de logement la plus éloignée et cage d\'escalier ; c) accès aux escaliers situé en façade sur voie accessible aux échelles.'] },
+          { title: 'Voie engins', ref: 'Art. 4 A', text: ['Largeur chaussée ≥ 3 m (places de stationnement non comprises). Force portante calculée pour véhicule de 130 kN (essieu avant 40 kN, essieu arrière 90 kN, espacement 4,50 m). Rayon intérieur minimal 11 m. Surlargeur S = 15/R en virage. Hauteur libre ≥ 3,50 m. Pente ≤ 15 %.'] },
+          { title: 'Voie échelles', ref: 'Art. 4 B', text: ['Section de voie engins permettant la mise en station et l\'emploi des échelles aériennes. Longueur minimale 10 m. Largeur ≥ 4 m. Pente ≤ 10 %. Résistance au poinçonnement 100 kN sur cercle Ø 0,20 m.<br><br>Position par rapport façade (voies parallèles) : bord le plus proche à 1 m au moins et 8 m au plus. (Voies perpendiculaires) : extrémité à moins de 1 m de la façade, longueur minimale 10 m.'] },
+          { title: 'Éléments porteurs verticaux', ref: 'Art. 5', text: ['Stabilité au feu minimale pour 3e famille : <strong>SF 1 h (R 60)</strong>. Balcons, coursives et circulations extérieures : SF ½ h.'] },
+          { title: 'Planchers', ref: 'Art. 6', text: ['Planchers séparant des niveaux différents (hors planchers intérieurs aux logements) : <strong>CF 1 h (REI 60)</strong> en 3e famille.'] },
+          { title: 'Recoupement vertical', ref: 'Art. 7', text: ['Groupements en bande et bâtiments de grande longueur : recoupement tous les 45 m. Pour 3e et 4e familles : parois CF 1 h 30, portes PF ½ h ou CF 1 h.'] },
+          { title: 'Parois des logements', ref: 'Art. 8', text: ['Parois verticales constituant l\'enveloppe des logements (séparant logement de circulation commune ou d\'autre logement) :<br>— 3e famille : CF ½ h.<br><br>Blocs-portes palières :<br>— 3e famille : PF ¼ h (E 15).'] },
+          { title: 'Locaux collectifs résidentiels', ref: 'Art. 9', text: ['Locaux collectifs résidentiels > 50 m² intégrés aux immeubles collectifs : séparation conforme au règlement ERP pour le type et catégorie correspondants. Établissements recevant du public intégrés : règlement ERP intégral.'] },
+          { title: 'Celliers et caves', ref: 'Art. 10', text: ['Ensembles de celliers ou caves en étage, rez-de-chaussée ou sous-sol : séparés des parties habitables et circulations communes par parois CF 1 h (3e famille).<br>Blocs-portes d\'accès : CF ½ h, ferme-porte, sens de sortie. Accès depuis l\'extérieur, sous-sol communicant ou circulations horizontales. Distance max porte la plus éloignée / sortie : 20 m. Recoupement caves : parois CF 1 h, portes PF ½ h.'] },
+          { title: 'Objectifs des dispositions sur les façades', ref: 'Art. 11', text: ['Limiter la propagation du feu : latérale entre logements voisins, verticale entre niveaux, dans l\'épaisseur de la façade, à la jonction mur-plancher.<br><br>Définitions : couvertures de pente < 30° assimilées à des façades. Façades sans ouverture = pas de baie accessible depuis l\'intérieur (orifices ventilation < 200 cm² non comptés).'] },
+          { title: 'Systèmes de façade — Revêtements', ref: 'Art. 13', text: ['<strong>3e famille A — Solution 1</strong> : tous éléments du système classés A2-s3, d0, sans lame d\'air. Vides constructifs : matériaux intumescents, bavettes ou bandes incombustibles en recoupement.<br><strong>3e famille A — Solution 2</strong> : efficacité démontrée par appréciation de laboratoire délivrée par organisme agréé.'] },
+          { title: 'Résistance à la propagation verticale du feu — façades avec ouvertures', ref: 'Art. 14 A', text: ['<strong>Règle C + D</strong> (allège + tableau de baie) selon masse combustible mobilisable M (MJ/m²) pour 3e famille A :<br><table class="art-table"><tr><th>M</th><th>3e famille A</th></tr><tr><td>M ≤ 80</td><td>C + D ≥ 60 cm</td></tr><tr><td>80 < M ≤ 130</td><td>C + D ≥ 80 cm</td></tr><tr><td>M > 130</td><td>C + D ≥ 110 cm</td></tr></table>'] },
+          { title: 'Résistance à la propagation verticale du feu — façades sans ouvertures', ref: 'Art. 14 B', text: ['Façades sans ouverture contiguës à façade avec ouvertures formant dièdre ≤ 135° : traitées comme façade avec ouvertures.<br>Dièdre > 135° : façade sans ouverture assure EI i→o 30 et EI o→i 30 (ou REI si porteuse).'] },
+          { title: 'Couvertures', ref: 'Art. 15', text: ['M4 : indice T/30 requis en 3e et 4e familles. M0 à M3 assimilés à l\'indice 1. Au-delà de 12 m de la limite de propriété ou du bâtiment voisin : aucune restriction.'] },
+          { title: 'Isolation des parois par l\'intérieur', ref: 'Art. 16', text: ['Les matériaux d\'isolation ne doivent pas créer de risque inadmissible pour les occupants.<br><strong>Disposition a)</strong> : A2-s2, d0 pour parois verticales, plafonds, toitures ; A2 fl-s1 pour planchers.<br><strong>Disposition b)</strong> : écran thermique CF minimal — 30 min pour plafonds et sous-faces de planchers, 15 min pour parois verticales en 3e famille.<br>Conformité au Guide isolation intérieure 2016 admise comme preuve de conformité à la disposition b).'] },
+          { title: 'Prescriptions générales — dégagements', ref: 'Art. 17', text: ['Dégagements (escaliers + circulations horizontales) doivent permettre aux occupants de quitter l\'immeuble et aux services de secours d\'intervenir. Comprennent : escaliers (Chap. I), circulations horizontales protégées (Chap. II), dégagements protégés (Chap. III).'] },
+          { title: 'Parois des cages d\'escalier situées en façade', ref: 'Art. 18', text: ['Dans les habitations collectives, parois des cages d\'escalier situées en façade : PF ½ h.<br>Parties non PF : distances minimales aux baies des logements — 2 m dans le même plan, 4 m en retour d\'angle, 8 m en vis-à-vis.'] },
+          { title: 'Parois des cages d\'escalier non situées en façade (3e famille)', ref: 'Art. 20', text: ['En 3e famille, toutes les parois de la cage d\'escalier non situées en façade : CF 1 h. Impostes et oculus : PF 1 h. Blocs-portes d\'accès à l\'escalier depuis circulations communes : PF ½ h, ferme-porte, sens de sortie. Aucun local ne débouche directement dans la cage d\'escalier.'] },
+          { title: 'Marches, volées et paliers de l\'escalier', ref: 'Art. 22', text: ['En 3e famille, escaliers réalisés en matériaux incombustibles (M0 ou A2-s1, d0).'] },
+          { title: 'Revêtements de la cage d\'escalier', ref: 'Art. 23', text: ['En 3e famille : parois, rampants et plafonds des cages d\'escalier classés M0 ; marches classées au moins M3.'] },
+          { title: 'Communication de l\'escalier avec le sous-sol', ref: 'Art. 24', text: ['En 2e, 3e et 4e familles, sous-sols communiquant avec escaliers communs séparés par bloc-porte CF ½ h minimum, ferme-porte, sens de sortie. Escalier desservant sous-sols aboutit dans hall ou circulation horizontale au rez-de-chaussée, pas directement dans escalier des étages.'] },
+          { title: 'Désenfumage des escaliers', ref: 'Art. 25', text: ['En partie haute des cages d\'escalier (3e famille A) : dispositif fermé en service normal permettant ouverture ≥ 1 m² pour évacuation naturelle des fumées.<br>Commande accessible aux services d\'incendie au niveau bas (électrique, pneumatique, hydraulique ou électromagnétique).<br>En 3e famille A : ouverture asservie à un détecteur autonome de fumée. Ne s\'applique pas aux escaliers extérieurs.'] },
+          { title: 'Escalier extérieur', ref: 'Art. 29 bis', text: ['Emprise volumétrique de l\'escalier extérieur distante de :<br>— 2 m au moins des baies latérales (dièdre > 135°) ;<br>— 4 m en retour d\'angle (dièdre 90°–135°) ;<br>— 8 m en vis-à-vis (dièdre < 90°).<br>Distances mesurées du nu extérieur de l\'escalier au nu extérieur des baies.'] },
+          { title: 'Circulations horizontales à l\'air libre', ref: 'Art. 30', text: ['Circulations horizontales à l\'air libre (coursives extérieures, galeries ouvertes) : aucune prescription particulière de résistance au feu dès lors qu\'elles sont largement ouvertes sur l\'extérieur.'] },
+          { title: 'Généralités — conduits et gaines', ref: 'Art. 44', text: ['Conduits et gaines mettant en communication plusieurs niveaux : matériaux incombustibles (M0 ou A2-s1, d0). Gaines collectives : trappes de visite présentant même degré CF que la paroi traversée.'] },
+          { title: 'Traversées de parois par des conduits et gaines', ref: 'Art. 45', text: ['Conduits et gaines traversant parois CF : dispositifs maintenant le degré requis (clapets CF, fourreaux intumescents ou gaine CF). Conduits béton/maçonnerie présentant naturellement le degré : exemptés.'] },
+          { title: 'Conduits et gaines mettant en communication plusieurs niveaux', ref: 'Art. 46', text: ['Conduits et gaines non encloisonnés dans gaine CF : recoupement à chaque niveau par clapet CF automatique commandé par détection de fumée ou fusible thermique.'] },
+          { title: 'Conduits traversant des planchers (gaine non exigée)', ref: 'Art. 47', text: ['Conduit traversant un plancher sans gaine : conduit incombustible et passage obtouré par matériau CF reconstituant le degré du plancher.'] },
+          { title: 'Conduits traversant des planchers (gaine exigée)', ref: 'Art. 48', text: ['Gaine CF sur toute la hauteur entre deux niveaux. Trappes de visite CF de même degré que la gaine.'] },
+          { title: 'Conduits traversant des murs', ref: 'Art. 49', text: ['Mêmes règles qu\'aux articles 47 et 48 selon que la gaine est exigée ou non.'] },
+          { title: 'Gaines gaz — Généralités', ref: 'Art. 50', text: ['Canalisations de gaz ne peuvent pas cheminer dans vide-ordures, gaines d\'ascenseurs, gaines électriques ou gaines VMC.'] },
+          { title: 'Gaines gaz 3e et 4e famille', ref: 'Art. 52 à 56', text: ['Colonnes montantes de gaz en escaliers : gaines CF ½ h. Colonne verticale ventilée en partie haute vers l\'extérieur. Robinets d\'arrêt sur chaque colonne, accessibles depuis l\'extérieur ou circulations communes. Conformité à l\'arrêté du 2 août 1977.'] },
+          { title: 'Alvéoles techniques (installations de gaz — chauffage et eau chaude)', ref: 'Art. 57', text: ['Alvéoles techniques renfermant installations de gaz pour chauffage ou eau chaude : parois CF 30 min. Ventilation en partie basse et haute vers l\'extérieur.'] },
+          { title: 'Gaine électrique mixte', ref: 'Art. 58', text: ['Gaines électriques mixtes (câbles énergie + communication) : parois CF selon degré exigé pour la paroi traversée. Trappes de visite de même degré.'] },
+          { title: 'Ventilation naturelle et mécanique contrôlée (VMC) — Généralités', ref: 'Art. 59', text: ['VMC : conduits traversant planchers CF équipés de clapets CF automatiques au droit de chaque plancher, ou gaine CF sur toute la hauteur.'] },
+          { title: 'VMC systèmes 1 et 2', ref: 'Art. 60', text: ['VMC simple flux extraction (systèmes 1 et 2) : extracteur classé F200 minimum. Conduits de distribution : matériaux incombustibles. Clapets antirefoulement en pied de colonne.'] },
+          { title: 'VMC système 3', ref: 'Art. 61', text: ['VMC système 3 (extraction mécanique par réseau collectif) : conduits traversant planchers CF avec clapets CF automatiques. Extracteur F400 (400 °C / 120 min, NF EN 12101-3) en 3e famille.'] },
+          { title: 'VMC inversée et double flux', ref: 'Art. 62', text: ['VMC inversée et double flux : même règle + échangeurs thermiques. Ventilateur extraction F400 en 3e famille.'] },
+          { title: 'Conduits spécifiques', ref: 'Art. 63', text: ['Conduits de hottes de cuisine, sèche-linge : individuels, débouchant directement à l\'extérieur. Si collectifs : clapets anti-refoulement CF.'] },
+          { title: 'Vide-ordures', ref: 'Art. 64', text: ['Isolés des parties communes et logements par parois CF de degré égal à celui des planchers. Trappes de chargement PF ½ h à fermeture automatique. Gaine en matériaux incombustibles.'] },
+          { title: 'Ascenseurs', ref: 'Art. 97', text: ['Ascenseurs conformes aux règles techniques fixées par la réglementation appareils de levage. En 3e famille : gaines d\'ascenseur CF 1 h, portes palières PF ½ h. Machineries dans dégagements protégés isolées par parois CF 1 h.'] },
+          { title: 'Colonnes sèches', ref: 'Art. 98', text: ['Colonnes sèches obligatoires si plancher bas du logement le plus haut > 18 m. En 3e famille A dont plancher < 18 m : non exigées. Caractéristiques : Ø intérieur 70 mm, prise SP Ø 65 mm au niveau bas à moins de 60 m d\'une bouche sous pression, robinet Ø 40/49 mm à chaque niveau.'] },
+          { title: 'Circulation des piétons', ref: 'Art. 99', text: ['Cheminements piétons extérieurs permettant d\'atteindre les voies engins : dégagés de tout obstacle permanent, largeur minimale 1,40 m. Signalés par marquages ou balises en 3e famille.'] },
+          { title: 'Affichage consignes, plans', ref: 'Art. 100', text: ['Affichage dans parties communes : consignes d\'évacuation et plans simplifiés des niveaux avec emplacement des sorties, escaliers, équipements de secours.'] },
+          { title: 'Vérifications des installations + entretien + registre', ref: 'Art. 101', text: ['Vérifications périodiques des installations de sécurité (colonnes sèches, désenfumage, éclairage de sécurité, détection) par technicien compétent. Carnet d\'entretien tenu à disposition.'] },
+          { title: 'Conformité des transformations', ref: 'Art. 102', text: ['Maintien en bon état des voies engins et voies échelles. Aucun obstacle permanent. Libre accessibilité assurée à tout moment.'] },
+          { title: 'Organismes agréés ou techniciens compétents', ref: 'Art. 103', text: ['Signalisation des colonnes sèches et de leurs prises de raccordement selon signalisation réglementaire. Robinets d\'alimentation signalés et accessibles.'] },
+          { title: 'Justificatifs de l\'entretien et de la vérification des installations', ref: 'Art. 104', text: ['Justificatifs d\'entretien et vérifications conservés et tenus à disposition des services de contrôle. Conservation minimale 3 ans.'] },
+          { title: 'Agrément des dispositifs ou dispositions constructives non prévus par la réglementation', ref: 'Art. 105', text: ['Dispositifs non prévus par l\'arrêté : agrément possible par le ministre de l\'Intérieur après avis de la Commission centrale de sécurité. Dossier technique démontrant équivalence de protection.'] },
+          { title: 'Application dans le temps', ref: 'Art. 106', text: ['S\'applique aux demandes de permis de construire déposées à compter de la date d\'entrée en vigueur. Pour bâtiments existants : dispositions administratives et entretien applicables immédiatement. Travaux dans bâtiment existant : dispositions applicables aux seules parties modifiées.'] },
           ]
         },
 
@@ -5253,52 +5594,66 @@
           legifrance: 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032',
           intro: 'Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, desservis par des escaliers intérieurs dont les accès aux logements se font depuis des paliers ou couloirs intérieurs. Exigences plus contraignantes que la 3e famille A : désenfumage renforcé, colonnes sèches systématiques à partir de 7 niveaux. Arrêté du 31 janvier 1986 modifié.',
           chapters: [
-            {
-              title: 'Classification — 3e famille B',
-              ref: 'Art. 3',
-              text: [
-                '<span class="art-para-num">Article 3 — 3e famille B.</span> Sont classés dans la troisième famille B les immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 mètres et 28 mètres, autres que ceux de la 3e famille A. Il s\'agit d\'immeubles dont les logements sont desservis par des escaliers intérieurs encloisonnés avec accès depuis des circulations communes intérieures (paliers, couloirs, halls d\'étage).<br><br>L\'absence d\'accès direct par l\'extérieur depuis les coursives implique des exigences plus strictes en matière de désenfumage et de cloisonnement.',
-              ]
-            },
-            {
-              title: 'Voie échelle et accessibilité façades',
-              ref: 'Art. 4 et 5',
-              text: [
-                '<span class="art-para-num">Article 5 — 3e famille B.</span> Pour les immeubles de 3e famille B, la voie échelle est exigée sur au moins une façade. Une fenêtre ou porte-fenêtre de chaque logement doit être accessible à moins de 8 mètres d\'une voie permettant la mise en œuvre des échelles. À défaut, un escalier extérieur ou des dispositions constructives équivalentes doivent permettre aux sapeurs-pompiers d\'accéder à chaque logement depuis l\'extérieur.',
-              ]
-            },
-            {
-              title: 'Résistance au feu — structures et séparations renforcées',
-              ref: 'Art. 5 et 6',
-              text: [
-                '<span class="art-para-num">Article 5 — 3e famille B.</span> La stabilité au feu des éléments porteurs est de degré 1 heure (R 60). Les planchers entre niveaux sont coupe-feu de degré 1 heure (REI 60). Les parois séparant les logements entre eux sont coupe-feu de degré 1 heure. Les parois séparant les logements des circulations communes intérieures sont coupe-feu de degré 1 heure.',
-                '<span class="art-para-num">Article 6 — Portes palières.</span> Les blocs-portes palières donnant sur les circulations communes intérieures sont coupe-feu de degré 1/2 heure, équipés d\'un ferme-porte à action temporisée (CF 1/2h - C ou EI 30-C). Cette exigence est plus stricte qu\'en 3e famille A en raison de l\'impossibilité pour les résidents d\'emprunter directement une sortie extérieure depuis leur palier.',
-              ]
-            },
-            {
-              title: 'Escaliers encloisonnés et désenfumage',
-              ref: 'Art. 28 à 43',
-              text: [
-                '<span class="art-para-num">Article 28.</span> Dans les immeubles de 3e famille B, les escaliers sont encloisonnés par des parois coupe-feu de degré 1 heure (EI 60). Les blocs-portes d\'accès aux escaliers sont coupe-feu de degré 1/2 heure avec ferme-porte (EI 30-C). Ces portes sont maintenues fermées en permanence ou à fermeture automatique.',
-                '<span class="art-para-num">Article 30 — Désenfumage des escaliers.</span> Les cages d\'escalier des immeubles de 3e famille B doivent être désenfumées. Le désenfumage est assuré par des ouvrants en partie haute de la cage d\'escalier d\'une section minimale égale à 1/100 de la superficie de la cage, avec un minimum de 1 m². Ces ouvrants sont commandés depuis le bas de l\'escalier et depuis chaque niveau. Le désenfumage peut également être réalisé mécaniquement par un extracteur conforme à la norme NF S 61-938.',
-                '<span class="art-para-num">Article 36 — Désenfumage des circulations intérieures.</span> Les circulations communes horizontales intérieures des immeubles de 3e famille B doivent être désenfumées dès lors que leur longueur est supérieure à 10 mètres. Les ouvrants de désenfumage ont une section d\'au moins 1/100 de la surface au sol de la circulation, avec un minimum de 0,60 m² par tranche de 40 mètres. Ils sont commandables depuis la circulation et depuis l\'extérieur.',
-              ]
-            },
-            {
-              title: 'Colonnes sèches',
-              ref: 'Art. 57',
-              text: [
-                '<span class="art-para-num">Article 57.</span> Les colonnes sèches sont obligatoires dans les immeubles de 3e famille B dont le plancher bas du logement le plus haut est situé à plus de 18 mètres au-dessus du sol.<br><br>Pour les immeubles de 3e famille B compris entre 7 et 18 mètres, les colonnes sèches ne sont pas exigibles mais recommandées. La prise de raccordement sapeurs-pompiers (Ø 65 mm) doit être accessible depuis la voie engins, à moins de 60 mètres d\'une bouche d\'incendie.',
-              ]
-            },
-            {
-              title: 'Compartimentage et locaux techniques',
-              ref: 'Art. 7 et 8',
-              text: [
-                '<span class="art-para-num">Article 7 — Locaux à risques.</span> Les chaufferies, locaux de stockage de combustibles, sous-stations de distribution, locaux d\'ordures ménagères et locaux d\'électricité générale sont isolés des parties habitables par des parois et planchers coupe-feu de degré 1 heure et des blocs-portes coupe-feu de degré 1/2 heure à fermeture automatique (EI 60 / EI 30-C).',
-                '<span class="art-para-num">Article 8.</span> Les caves et celliers individuels en sous-sol sont séparés des circulations communes et des locaux techniques par des parois coupe-feu de degré 1 heure. Les parois séparant les caves entre elles peuvent être pare-flammes de degré 1/2 heure. Les accès depuis les sous-sols aux escaliers communs s\'effectuent par des blocs-portes coupe-feu de degré 1 heure (EI 60-C).',
-              ]
-            },
+          { title: 'Généralités — Champ d\'application', ref: 'Art. 1 et 2', text: ['<strong>Art. 1</strong> — Applicable aux bâtiments d\'habitation dont le plancher bas du logement le plus haut est situé à 50 m au plus au-dessus du sol utilement accessible aux engins de secours, ainsi qu\'aux parcs de stationnement couverts annexés de superficie > 100 m².<br><br><strong>Art. 2</strong> — Classification des matériaux par rapport au danger d\'incendie déterminée par arrêtés pris en application de l\'article R. 121-5 du CCH.'] },
+          { title: 'Classement des bâtiments d\'habitation', ref: 'Art. 3', text: ['<strong>3e famille B</strong> — Immeubles collectifs dont le plancher bas du logement le plus haut est situé entre 8 et 28 mètres, ne satisfaisant pas aux conditions de la 3e famille A (soit : plus de 7 étages sur rez-de-chaussée, ou circulations horizontales > 10 m entre porte de logement et cage d\'escalier, ou accès aux escaliers non situé en façade accessible aux échelles).'] },
+          { title: 'Voie engins', ref: 'Art. 4 A', text: ['Largeur chaussée ≥ 3 m (places de stationnement non comprises). Force portante calculée pour véhicule de 130 kN (essieu avant 40 kN, essieu arrière 90 kN, espacement 4,50 m). Rayon intérieur minimal 11 m. Surlargeur S = 15/R en virage. Hauteur libre ≥ 3,50 m. Pente ≤ 15 %.'] },
+          { title: 'Voie échelles', ref: 'Art. 4 B', text: ['Section de voie engins permettant la mise en station et l\'emploi des échelles aériennes. Longueur minimale 10 m. Largeur ≥ 4 m. Pente ≤ 10 %. Résistance au poinçonnement 100 kN sur cercle Ø 0,20 m.<br><br>Position par rapport façade (voies parallèles) : bord le plus proche à 1 m au moins et 8 m au plus. (Voies perpendiculaires) : extrémité à moins de 1 m de la façade, longueur minimale 10 m.'] },
+          { title: 'Éléments porteurs verticaux', ref: 'Art. 5', text: ['Stabilité au feu minimale pour 3e famille : <strong>SF 1 h (R 60)</strong>. Balcons, coursives et circulations extérieures : SF ½ h.'] },
+          { title: 'Planchers', ref: 'Art. 6', text: ['Planchers séparant des niveaux différents (hors planchers intérieurs aux logements) : <strong>CF 1 h (REI 60)</strong> en 3e famille.'] },
+          { title: 'Recoupement vertical', ref: 'Art. 7', text: ['Groupements en bande et bâtiments de grande longueur : recoupement tous les 45 m. Pour 3e et 4e familles : parois CF 1 h 30, portes PF ½ h ou CF 1 h.'] },
+          { title: 'Parois des logements', ref: 'Art. 8', text: ['Parois verticales constituant l\'enveloppe des logements (séparant logement de circulation commune ou d\'autre logement) :<br>— 3e famille : CF ½ h.<br><br>Blocs-portes palières :<br>— 3e famille : PF ¼ h (E 15).'] },
+          { title: 'Locaux collectifs résidentiels', ref: 'Art. 9', text: ['Locaux collectifs résidentiels > 50 m² intégrés aux immeubles collectifs : séparation conforme au règlement ERP pour le type et catégorie correspondants. Établissements recevant du public intégrés : règlement ERP intégral.'] },
+          { title: 'Celliers et caves', ref: 'Art. 10', text: ['Ensembles de celliers ou caves en étage, rez-de-chaussée ou sous-sol : séparés des parties habitables et circulations communes par parois CF 1 h (3e famille).<br>Blocs-portes d\'accès : CF ½ h, ferme-porte, sens de sortie. Accès depuis l\'extérieur, sous-sol communicant ou circulations horizontales. Distance max porte la plus éloignée / sortie : 20 m. Recoupement caves : parois CF 1 h, portes PF ½ h.'] },
+          { title: 'Objectifs des dispositions sur les façades', ref: 'Art. 11', text: ['Limiter la propagation du feu : latérale entre logements voisins, verticale entre niveaux, dans l\'épaisseur de la façade, à la jonction mur-plancher.<br><br>Définitions : couvertures de pente < 30° assimilées à des façades. Façades sans ouverture = pas de baie accessible depuis l\'intérieur (orifices ventilation < 200 cm² non comptés).'] },
+          { title: 'Systèmes de façade — Revêtements', ref: 'Art. 13', text: ['<strong>3e famille B — Solution 1</strong> : tous éléments du système classés A2-s3, d0, sans lame d\'air. Vides constructifs : matériaux intumescents, bavettes ou bandes incombustibles en recoupement.<br><strong>3e famille B — Solution 2</strong> : efficacité démontrée par appréciation de laboratoire délivrée par organisme agréé.'] },
+          { title: 'Résistance à la propagation verticale du feu — façades avec ouvertures', ref: 'Art. 14 A', text: ['<strong>Règle C + D</strong> (allège + tableau de baie) selon masse combustible mobilisable M (MJ/m²) pour 3e famille B :<br><table class="art-table"><tr><th>M</th><th>3e famille B</th></tr><tr><td>M ≤ 80</td><td>C + D ≥ 60 cm</td></tr><tr><td>80 < M ≤ 130</td><td>C + D ≥ 80 cm</td></tr><tr><td>M > 130</td><td>C + D ≥ 110 cm</td></tr></table>'] },
+          { title: 'Résistance à la propagation verticale du feu — façades sans ouvertures', ref: 'Art. 14 B', text: ['Façades sans ouverture contiguës à façade avec ouvertures formant dièdre ≤ 135° : traitées comme façade avec ouvertures.<br>Dièdre > 135° : façade sans ouverture assure EI i→o 30 et EI o→i 30 (ou REI si porteuse).'] },
+          { title: 'Couvertures', ref: 'Art. 15', text: ['M4 : indice T/30 requis en 3e et 4e familles. M0 à M3 assimilés à l\'indice 1. Au-delà de 12 m de la limite de propriété ou du bâtiment voisin : aucune restriction.'] },
+          { title: 'Isolation des parois par l\'intérieur', ref: 'Art. 16', text: ['Les matériaux d\'isolation ne doivent pas créer de risque inadmissible pour les occupants.<br><strong>Disposition a)</strong> : A2-s2, d0 pour parois verticales, plafonds, toitures ; A2 fl-s1 pour planchers.<br><strong>Disposition b)</strong> : écran thermique CF minimal — 30 min pour plafonds et sous-faces de planchers, 15 min pour parois verticales en 3e famille.<br>Conformité au Guide isolation intérieure 2016 admise comme preuve de conformité à la disposition b).'] },
+          { title: 'Prescriptions générales — dégagements', ref: 'Art. 17', text: ['Dégagements (escaliers + circulations horizontales) doivent permettre aux occupants de quitter l\'immeuble et aux services de secours d\'intervenir. Comprennent : escaliers (Chap. I), circulations horizontales protégées (Chap. II), dégagements protégés (Chap. III).'] },
+          { title: 'Parois des cages d\'escalier situées en façade', ref: 'Art. 18', text: ['Dans les habitations collectives, parois des cages d\'escalier situées en façade : PF ½ h.<br>Parties non PF : distances minimales aux baies des logements — 2 m dans le même plan, 4 m en retour d\'angle, 8 m en vis-à-vis.'] },
+          { title: 'Parois des cages d\'escalier non situées en façade (3e famille)', ref: 'Art. 20', text: ['En 3e famille, toutes les parois de la cage d\'escalier non situées en façade : CF 1 h. Impostes et oculus : PF 1 h. Blocs-portes d\'accès à l\'escalier depuis circulations communes : PF ½ h, ferme-porte, sens de sortie. Aucun local ne débouche directement dans la cage d\'escalier.'] },
+          { title: 'Marches, volées et paliers de l\'escalier', ref: 'Art. 22', text: ['En 3e famille, escaliers réalisés en matériaux incombustibles (M0 ou A2-s1, d0).'] },
+          { title: 'Revêtements de la cage d\'escalier', ref: 'Art. 23', text: ['En 3e famille : parois, rampants et plafonds des cages d\'escalier classés M0 ; marches classées au moins M3.'] },
+          { title: 'Communication de l\'escalier avec le sous-sol', ref: 'Art. 24', text: ['En 2e, 3e et 4e familles, sous-sols communiquant avec escaliers communs séparés par bloc-porte CF ½ h minimum, ferme-porte, sens de sortie. Escalier desservant sous-sols aboutit dans hall ou circulation horizontale au rez-de-chaussée, pas directement dans escalier des étages.'] },
+          { title: 'Désenfumage des escaliers protégés', ref: 'Art. 25', text: ['En 3e famille B, désenfumage de la cage d\'escalier protégée par désenfumage mécanique (extracteur F400, débit ≥ 1 m³/s) ou mise en surpression (≥ 20 Pa, ≤ 80 Pa portes fermées). Commande au niveau bas, accessible aux services d\'incendie.'] },
+          { title: 'Escalier protégé — généralités', ref: 'Art. 26', text: ['En 3e famille B, chaque escalier est protégé : soit à l\'air libre (Art. 28), soit à l\'abri des fumées (Art. 29). Les escaliers protégés sont accessibles depuis les circulations horizontales protégées.'] },
+          { title: 'Caractéristiques escalier protégé', ref: 'Art. 27', text: ['Escaliers protégés en 3e famille B : largeur minimale 0,90 m entre mains courantes. Marches et contremarches en matériaux incombustibles M0. Rampe continue de hauteur minimale 1 m. Éclairage de sécurité obligatoire.'] },
+          { title: 'Escalier à l\'air libre', ref: 'Art. 28', text: ['Escalier à l\'air libre : ouvert sur l\'extérieur sur au moins 50 % de sa superficie développée à chaque niveau. Baies d\'ouverture non fermables ou à ouverture automatique. Distance minimale des baies de logements : 2 m dans le même plan, 4 m en retour d\'angle, 8 m en vis-à-vis.'] },
+          { title: 'Escalier à l\'abri des fumées', ref: 'Art. 29', text: ['Escalier à l\'abri des fumées : encloisonné par parois CF 1 h, blocs-portes PF ½ h avec ferme-porte. Désenfumage par surpression ou extraction mécanique conforme Art. 25. Sas d\'accès CF 30 min possible en variante.'] },
+          { title: 'Escalier extérieur', ref: 'Art. 29 bis', text: ['Emprise volumétrique de l\'escalier extérieur distante de :<br>— 2 m au moins des baies latérales (dièdre > 135°) ;<br>— 4 m en retour d\'angle (dièdre 90°–135°) ;<br>— 8 m en vis-à-vis (dièdre < 90°).<br>Distances mesurées du nu extérieur de l\'escalier au nu extérieur des baies.'] },
+          { title: 'Circulations horizontales à l\'air libre', ref: 'Art. 30', text: ['Circulations horizontales à l\'air libre (coursives extérieures, galeries ouvertes) : aucune prescription particulière de résistance au feu dès lors qu\'elles sont largement ouvertes sur l\'extérieur.'] },
+          { title: 'Circulations horizontales protégées — parois et portes', ref: 'Art. 31', text: ['En 3e famille B, circulations horizontales protégées : parois CF 1 h, plafonds CF 1 h. Blocs-portes d\'accès depuis les logements : PF ½ h avec ferme-porte. Largeur minimale de la circulation : 1,20 m.'] },
+          { title: 'Longueur maximale des circulations protégées', ref: 'Art. 32', text: ['Longueur maximale d\'une circulation horizontale protégée en 3e famille B : 20 m entre deux sorties (escaliers ou issue de secours). Au-delà : recoupement par cloison CF 30 min et bloc-porte PF ¼ h.'] },
+          { title: 'Désenfumage des circulations horizontales protégées', ref: 'Art. 33', text: ['Circulations horizontales protégées en 3e famille B : ouvrants de désenfumage en parties hautes. Section totale ≥ 1/100 de la surface au sol, minimum 0,60 m² par tranche de 40 m. Commandés depuis la circulation et depuis l\'extérieur du bâtiment.'] },
+          { title: 'Blocs-portes d\'accès aux escaliers depuis circulations', ref: 'Art. 34', text: ['Blocs-portes entre circulations horizontales protégées et cage d\'escalier protégée : PF ½ h, ferme-porte, sens de sortie vers l\'escalier. En 3e famille B, ces portes sont obligatoirement à fermeture automatique.'] },
+          { title: 'Portes des logements sur circulations protégées', ref: 'Art. 35', text: ['En 3e famille B, blocs-portes palières des logements donnant sur circulations horizontales protégées : PF ½ h avec ferme-porte. (Exigence renforcée par rapport à la 3e famille A.)'] },
+          { title: 'Généralités — conduits et gaines', ref: 'Art. 44', text: ['Conduits et gaines mettant en communication plusieurs niveaux : matériaux incombustibles (M0 ou A2-s1, d0). Gaines collectives : trappes de visite présentant même degré CF que la paroi traversée.'] },
+          { title: 'Traversées de parois par des conduits et gaines', ref: 'Art. 45', text: ['Conduits et gaines traversant parois CF : dispositifs maintenant le degré requis (clapets CF, fourreaux intumescents ou gaine CF). Conduits béton/maçonnerie présentant naturellement le degré : exemptés.'] },
+          { title: 'Conduits et gaines mettant en communication plusieurs niveaux', ref: 'Art. 46', text: ['Conduits et gaines non encloisonnés dans gaine CF : recoupement à chaque niveau par clapet CF automatique commandé par détection de fumée ou fusible thermique.'] },
+          { title: 'Conduits traversant des planchers (gaine non exigée)', ref: 'Art. 47', text: ['Conduit traversant un plancher sans gaine : conduit incombustible et passage obtouré par matériau CF reconstituant le degré du plancher.'] },
+          { title: 'Conduits traversant des planchers (gaine exigée)', ref: 'Art. 48', text: ['Gaine CF sur toute la hauteur entre deux niveaux. Trappes de visite CF de même degré que la gaine.'] },
+          { title: 'Conduits traversant des murs', ref: 'Art. 49', text: ['Mêmes règles qu\'aux articles 47 et 48 selon que la gaine est exigée ou non.'] },
+          { title: 'Gaines gaz — Généralités', ref: 'Art. 50', text: ['Canalisations de gaz ne peuvent pas cheminer dans vide-ordures, gaines d\'ascenseurs, gaines électriques ou gaines VMC.'] },
+          { title: 'Gaines gaz 3e et 4e famille', ref: 'Art. 52 à 56', text: ['Colonnes montantes de gaz en escaliers : gaines CF ½ h. Colonne verticale ventilée en partie haute vers l\'extérieur. Robinets d\'arrêt sur chaque colonne, accessibles depuis l\'extérieur ou circulations communes. Conformité à l\'arrêté du 2 août 1977.'] },
+          { title: 'Alvéoles techniques (installations de gaz — chauffage et eau chaude)', ref: 'Art. 57', text: ['Alvéoles techniques renfermant installations de gaz pour chauffage ou eau chaude : parois CF 30 min. Ventilation en partie basse et haute vers l\'extérieur.'] },
+          { title: 'Gaine électrique mixte', ref: 'Art. 58', text: ['Gaines électriques mixtes (câbles énergie + communication) : parois CF selon degré exigé pour la paroi traversée. Trappes de visite de même degré.'] },
+          { title: 'Ventilation naturelle et mécanique contrôlée (VMC) — Généralités', ref: 'Art. 59', text: ['VMC : conduits traversant planchers CF équipés de clapets CF automatiques au droit de chaque plancher, ou gaine CF sur toute la hauteur.'] },
+          { title: 'VMC systèmes 1 et 2', ref: 'Art. 60', text: ['VMC simple flux extraction (systèmes 1 et 2) : extracteur classé F200 minimum. Conduits de distribution : matériaux incombustibles. Clapets antirefoulement en pied de colonne.'] },
+          { title: 'VMC système 3', ref: 'Art. 61', text: ['VMC système 3 (extraction mécanique par réseau collectif) : conduits traversant planchers CF avec clapets CF automatiques. Extracteur F400 (400 °C / 120 min, NF EN 12101-3) en 3e famille.'] },
+          { title: 'VMC inversée et double flux', ref: 'Art. 62', text: ['VMC inversée et double flux : même règle + échangeurs thermiques. Ventilateur extraction F400 en 3e famille.'] },
+          { title: 'Conduits spécifiques', ref: 'Art. 63', text: ['Conduits de hottes de cuisine, sèche-linge : individuels, débouchant directement à l\'extérieur. Si collectifs : clapets anti-refoulement CF.'] },
+          { title: 'Vide-ordures', ref: 'Art. 64', text: ['Isolés des parties communes et logements par parois CF de degré égal à celui des planchers. Trappes de chargement PF ½ h à fermeture automatique. Gaine en matériaux incombustibles.'] },
+          { title: 'Ascenseurs', ref: 'Art. 97', text: ['Ascenseurs conformes aux règles techniques fixées par la réglementation appareils de levage. En 3e famille : gaines d\'ascenseur CF 1 h, portes palières PF ½ h. Machineries dans dégagements protégés isolées par parois CF 1 h.'] },
+          { title: 'Colonnes sèches', ref: 'Art. 98', text: ['Colonnes sèches obligatoires si plancher bas du logement le plus haut > 18 m. En 3e famille B dont plancher < 18 m : non exigées. Caractéristiques : Ø intérieur 70 mm, prise SP Ø 65 mm au niveau bas à moins de 60 m d\'une bouche sous pression, robinet Ø 40/49 mm à chaque niveau.'] },
+          { title: 'Circulation des piétons', ref: 'Art. 99', text: ['Cheminements piétons extérieurs permettant d\'atteindre les voies engins : dégagés de tout obstacle permanent, largeur minimale 1,40 m. Signalés par marquages ou balises en 3e famille.'] },
+          { title: 'Affichage consignes, plans', ref: 'Art. 100', text: ['Affichage dans parties communes : consignes d\'évacuation et plans simplifiés des niveaux avec emplacement des sorties, escaliers, équipements de secours.'] },
+          { title: 'Vérifications des installations + entretien + registre', ref: 'Art. 101', text: ['Vérifications périodiques des installations de sécurité (colonnes sèches, désenfumage, éclairage de sécurité, détection) par technicien compétent. Carnet d\'entretien tenu à disposition.'] },
+          { title: 'Conformité des transformations', ref: 'Art. 102', text: ['Maintien en bon état des voies engins et voies échelles. Aucun obstacle permanent. Libre accessibilité assurée à tout moment.'] },
+          { title: 'Organismes agréés ou techniciens compétents', ref: 'Art. 103', text: ['Signalisation des colonnes sèches et de leurs prises de raccordement selon signalisation réglementaire. Robinets d\'alimentation signalés et accessibles.'] },
+          { title: 'Justificatifs de l\'entretien et de la vérification des installations', ref: 'Art. 104', text: ['Justificatifs d\'entretien et vérifications conservés et tenus à disposition des services de contrôle. Conservation minimale 3 ans.'] },
+          { title: 'Agrément des dispositifs ou dispositions constructives non prévus par la réglementation', ref: 'Art. 105', text: ['Dispositifs non prévus par l\'arrêté : agrément possible par le ministre de l\'Intérieur après avis de la Commission centrale de sécurité. Dossier technique démontrant équivalence de protection.'] },
+          { title: 'Application dans le temps', ref: 'Art. 106', text: ['S\'applique aux demandes de permis de construire déposées à compter de la date d\'entrée en vigueur. Pour bâtiments existants : dispositions administratives et entretien applicables immédiatement. Travaux dans bâtiment existant : dispositions applicables aux seules parties modifiées.'] },
           ]
         },
 
@@ -5422,25 +5777,192 @@
       color: '#8E44AD',
       intro: "Code du travail — Articles R. 4216 et R. 4227. Arrêté du 5 août 1992 modifié relatif aux dispositions générales contre l'incendie dans les lieux de travail.",
       sidebar: [
-        { group: 'Code du travail', rows: [
-            { label: 'Conception et construction', sub: '', codes: ['R4216'] },
-            { label: 'Prévention incendie', sub: '', codes: ['R4227'] },
+        { group: 'Code du travail — Sécurité incendie', rows: [
+            { label: 'Conception des locaux', sub: 'Dégagements, sorties, éclairage', codes: ['R4216'] },
+            { label: 'Prévention incendie', sub: 'Extincteurs, consignes, exercices', codes: ['R4227'] },
           ]
         },
-        { group: 'Formation et organisation', rows: [
-            { label: 'Service sécurité incendie', sub: '', codes: ['SSIAP'] },
-            { label: 'Exercices d\'évacuation', sub: '', codes: ['EVAC'] },
+        { group: 'Code du travail — Santé et sécurité', rows: [
+            { label: 'Document unique', sub: 'R. 4121-1 — Évaluation des risques', codes: ['R4121'] },
+            { label: 'Droit de retrait', sub: 'L. 4131-1 — Danger grave et imminent', codes: ['L4131'] },
+            { label: 'Information et formation', sub: 'R. 4141-1 à 4143-1', codes: ['R4141'] },
           ]
         },
-        { group: 'Textes complémentaires', rows: [
-            { label: 'ERT — Locaux de travail', sub: '', codes: ['ERT'] },
-            { label: 'Entrepôts', sub: 'ICPE 1510', codes: ['ENTR'] },
+        { group: 'CCH — Sécurité incendie BUP', rows: [
+            { label: 'Conception des BUP', sub: '⚠️ Applicable 01/01/2027', codes: ['CCH144'], isNew: true },
           ]
-        }
+        },
+        { group: 'CCH — Accessibilité BUP', rows: [
+            { label: 'Construction neuve', sub: 'R. 162-14 à R. 162-15', codes: ['CCH162'] },
+            { label: 'Bâtiments existants', sub: 'R. 163-5 à R. 163-8 — Décret 2026-531', codes: ['CCH163'], isNew: true },
+          ]
+        },
+        { group: 'Formation et textes complémentaires', rows: [
+            { label: 'Service sécurité incendie', sub: 'Formation SSIAP', codes: ['SSIAP'] },
+            { label: 'Exercices d\'évacuation', sub: 'R. 4227-39 — 2/an minimum', codes: ['EVAC'] },
+            { label: 'ERT — Locaux de travail', sub: 'Établissements recevant des travailleurs', codes: ['ERT'] },
+            { label: 'Entrepôts ICPE 1510', sub: 'Arrêté 11 avril 2017', codes: ['ENTR'] },
+          ]
+        },
       ],
       articles: {
-        R4216: { title:'Locaux de travail — Conception', sub:'Art. R. 4216-1 à R. 4216-28 Code du travail', legifrance:'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018533003/', intro:'Règles de conception et d\'aménagement des bâtiments de travail : dégagements, sorties de secours, portes, largeurs des voies d\'évacuation, signalisation.', chapters:[{title:'Dégagements et sorties',ref:'R. 4216-1 à 8'},{title:'Portes et issues de secours',ref:'R. 4216-9 à 16'},{title:'Signalisation des voies d\'évacuation',ref:'R. 4216-17 à 22'},{title:'Éclairage de sécurité',ref:'R. 4216-23 à 28'}] },
-        R4227: { title:'Locaux de travail — Prévention incendie', sub:'Art. R. 4227-1 à R. 4227-57 Code du travail', legifrance:'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018533057/', intro:'Obligations en matière de prévention des incendies dans les lieux de travail : extincteurs, RIA, consignes d\'évacuation, exercices, entretien des équipements.', chapters:[{title:'Matières inflammables et stockage',ref:'R. 4227-1 à 9'},{title:'Chauffage et installations',ref:'R. 4227-10 à 18'},{title:'Extincteurs',ref:'R. 4227-19 à 24'},{title:'Consignes et exercices',ref:'R. 4227-25 à 37'},{title:'SSI et détection',ref:'R. 4227-38 à 57'}] },
+        R4216: {
+  title: 'Locaux de travail — Conception et dégagements',
+  sub: 'Art. R. 4216-1 à R. 4216-28 — Code du travail',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018533003/',
+  intro: 'Section 1 (R.4216-1 à 8) : dégagements et sorties. Section 2 (R.4216-9 à 16) : portes et issues de secours. Section 3 (R.4216-17 à 22) : signalisation. Section 4 (R.4216-23 à 28) : éclairage de sécurité.',
+  chapters: [
+    { title: 'Dégagements — Obligation générale', ref: 'R. 4216-1', text: ['Chaque local de travail est desservi par des dégagements dont le nombre et la largeur sont proportionnés au nombre de personnes appelées à les utiliser. Ces dégagements comportent les portes, couloirs, circulations, escaliers, rampes et passages. Les escaliers mécaniques et trottoirs roulants ne sont pas considérés comme des dégagements.'] },
+    { title: 'Dégagements — Nombre et largeur', ref: 'R. 4216-2', text: ['Tout local de travail comportant plus de 50 personnes au plus bas niveau comporte au moins deux sorties, dont une peut être un escalier de secours extérieur. La largeur des dégagements est calculée en fonction de l\'effectif susceptible de les emprunter. La largeur minimale est de 0,90 m pour les portes et de 1 m pour les couloirs.'] },
+    { title: 'Dégagements — Escaliers', ref: 'R. 4216-3', text: ['Les escaliers desservant les locaux de travail répondent à des caractéristiques de résistance au feu adaptées au risque. Les cages d\'escalier des bâtiments de grande hauteur non IGH sont encloisonnées. Les revêtements de parois et marches respectent les classes de réaction au feu définies par la réglementation.'] },
+    { title: 'Sorties et issues de secours — Nombre', ref: 'R. 4216-4', text: ['Tout local de travail comporte un nombre suffisant de sorties. L\'effectif présent et la configuration des lieux conditionnent ce nombre. Le règlement de sécurité ERP s\'applique aux locaux ouverts au public. Pour les locaux fermés au public, l\'arrêté du 5 août 1992 relatif aux dispositions générales contre l\'incendie dans les lieux de travail fixe les minima.'] },
+    { title: 'Sorties — Disposition et accessibilité', ref: 'R. 4216-5', text: ['Les sorties sont réparties de manière à offrir plusieurs directions d\'évacuation. Elles permettent d\'atteindre rapidement l\'extérieur ou un espace protégé. Aucune sortie ne peut être condamnée ou obstruée pendant les heures de présence du personnel. Les clés des issues de secours sont disponibles en permanence.'] },
+    { title: 'Issues de secours — Éclairage', ref: 'R. 4216-6', text: ['Les issues de secours sont signalées et, le cas échéant, éclairées par un éclairage de sécurité conforme aux dispositions des articles R. 4216-23 à R. 4216-28.'] },
+    { title: 'Locaux à risques d\'incendie particuliers', ref: 'R. 4216-7', text: ['Les locaux dans lesquels sont mis en œuvre ou entreposés des matières ou produits inflammables doivent comporter au moins deux issues éloignées l\'une de l\'autre le plus possible. Ces sorties sont situées de manière à permettre l\'évacuation rapide de l\'ensemble des occupants.'] },
+    { title: 'Dégagements — Entretien', ref: 'R. 4216-8', text: ['Les dégagements sont maintenus constamment libres. Ils ne peuvent être utilisés, même temporairement, comme lieu de stockage ou de dépôt, ni pour le stationnement de chariots, emballages ou matériaux. Les tapis de sol sont fixés au sol et ne créent pas de danger pour les personnes.'] },
+    { title: 'Portes — Sens d\'ouverture', ref: 'R. 4216-9', text: ['Les portes des locaux de travail s\'ouvrent, de préférence, vers l\'extérieur du local lorsqu\'elles desservent des locaux pouvant accueillir plus de 50 personnes. Les portes coulissantes ou à tambour ne peuvent pas être utilisées comme issues de secours.'] },
+    { title: 'Portes — Caractéristiques', ref: 'R. 4216-10', text: ['Les portes qui ne s\'ouvrent pas vers l\'extérieur du local comportent, lorsque l\'effectif du local excède 50 personnes, un dispositif permettant leur ouverture de l\'intérieur sans manipulation difficile. Ces portes sont vitrées ou comportent un regard pour permettre d\'éviter les chocs. La largeur minimale de passage libre des issues principales est fixée à 0,90 m.'] },
+    { title: 'Portes — Transparence et signalisation', ref: 'R. 4216-11', text: ['Les portes entièrement ou partiellement vitrées comportent, à hauteur de vue, un marquage visible permettant de les identifier. Les portes vitrées des issues de secours comportent, en plus, une signalisation conforme à la réglementation en vigueur.'] },
+    { title: 'Portes — Ferme-porte et déverrouillage', ref: 'R. 4216-12', text: ['Les portes résistant au feu situées sur les dégagements sont équipées de ferme-porte ou sont maintenues en position ouverte par un dispositif à déclenchement automatique (asservissement à la détection incendie ou à la mise en sécurité). Les dispositifs de déverrouillage à distance sont conformes à la réglementation SSI.'] },
+    { title: 'Issues de secours — Définition', ref: 'R. 4216-13', text: ['Les issues de secours sont des issues supplémentaires, utilisées uniquement en cas d\'évacuation d\'urgence. Elles sont distinctes des issues normalement utilisées pour la circulation habituelle. Leur nombre, largeur et disposition répondent aux prescriptions du présent chapitre.'] },
+    { title: 'Issues de secours — Signalement', ref: 'R. 4216-14', text: ['Les issues de secours sont signalées par des panneaux conformes à la signalisation réglementaire : panneau vert de forme rectangulaire représentant une personne qui court vers une sortie avec une flèche directionnelle. Ces panneaux sont permanents et visibles de tout point du local.'] },
+    { title: 'Portes — Conditions d\'ouverture depuis l\'intérieur', ref: 'R. 4216-15', text: ['Toute issue de secours doit être facilement manœuvrable de l\'intérieur sans clé. Le dispositif de déverrouillage (poignée, barre anti-panique, etc.) est accessible à toute personne, y compris aux personnes handicapées motrices sur la largeur des dégagements accessibles.'] },
+    { title: 'Portes — Obligation de dégagement rapide', ref: 'R. 4216-16', text: ['Les portes de secours condamnées par un cadenas ou un verrou ne peuvent pas être utilisées comme issues de secours au sens du présent code. La condamnation des issues de secours pendant les heures de présence du personnel est interdite. L\'employeur prend les mesures organisationnelles pour que les issues de secours soient opérationnelles à tout instant.'] },
+    { title: 'Signalisation des voies d\'évacuation — Principe', ref: 'R. 4216-17', text: ['La signalisation relative aux mesures de sauvetage et de lutte contre l\'incendie est conforme à la réglementation de transposition de la directive 92/58/CEE. Elle est constituée de panneaux lumineux ou fluorescents placés aux endroits appropriés.'] },
+    { title: 'Signalisation — Implantation', ref: 'R. 4216-18', text: ['Les panneaux de signalisation des voies d\'évacuation sont disposés de manière à être visibles depuis tout point de chaque local. Leur implantation fait l\'objet d\'une étude préalable. La hauteur maximale des panneaux au-dessus du sol est fixée de manière à ce qu\'ils soient visibles en cas d\'enfumage à hauteur d\'homme.'] },
+    { title: 'Signalisation — Caractéristiques des panneaux', ref: 'R. 4216-19', text: ['Les panneaux de signalisation de sécurité répondent aux spécifications de la norme NF EN ISO 7010. Le fond vert et la pictographie blanche sont utilisés pour les issues de secours et les voies d\'évacuation. Les panneaux sont en matériau fluorescent ou rétroéclairés pour rester visibles dans l\'obscurité.'] },
+    { title: 'Signalisation — Entretien et vérification', ref: 'R. 4216-20', text: ['La signalisation de sécurité est maintenue en bon état. Elle est vérifiée périodiquement par l\'employeur ou un prestataire qualifié. Tout panneau manquant, illisible ou endommagé est remplacé sans délai. Le registre de sécurité comporte la liste des panneaux et les dates de vérification.'] },
+    { title: 'Signalisation — Locaux à risques particuliers', ref: 'R. 4216-21', text: ['Les locaux présentant des risques d\'incendie particuliers (stockage de matières inflammables, locaux à batteries, locaux techniques électriques) sont signalés par des panneaux d\'avertissement conformes à la norme ISO 7010 (pictogramme de flamme fond jaune triangulaire).'] },
+    { title: 'Signalisation — Plan d\'évacuation', ref: 'R. 4216-22', text: ['Un plan d\'évacuation de chaque niveau est affiché à l\'entrée de chaque escalier et à chaque issue de secours, en complément de la signalisation directionnelle. Ce plan indique la position du lecteur ("Vous êtes ici"), les voies d\'évacuation, les sorties, les équipements de secours (extincteurs, RIA, déclencheurs manuels).'] },
+    { title: 'Éclairage de sécurité — Obligation', ref: 'R. 4216-23', text: ['Les établissements doivent être équipés d\'un éclairage de sécurité assurant, en cas de défaillance de l\'alimentation normale, un éclairement suffisant pour permettre l\'évacuation du personnel. L\'éclairage de sécurité est régi par la norme NF C 71-800 et, pour les ERP, par les articles EL 1 à EL 18 du règlement ERP.'] },
+    { title: 'Éclairage de sécurité — Types', ref: 'R. 4216-24', text: ['L\'éclairage de sécurité comprend :<br>— l\'éclairage d\'évacuation : balisage des cheminements et des sorties, niveau minimum 5 lux au sol ;<br>— l\'éclairage d\'ambiance ou anti-panique : locaux de plus de 100 m², niveau minimum 5 lux ;<br>— l\'éclairage de remplacement : maintien de l\'activité dans certains locaux à risques.'] },
+    { title: 'Éclairage de sécurité — Alimentation', ref: 'R. 4216-25', text: ['L\'éclairage de sécurité est alimenté par une source autonome (blocs autonomes d\'éclairage de sécurité — BAES) ou par une source centralisée (groupe électrogène, batteries centrales). L\'autonomie minimale est de 1 heure en mode évacuation (5 lux) et d\'1 heure en mode ambiance (5 lux). Les BAES sont conformes à la norme NF EN 60598-2-22.'] },
+    { title: 'Éclairage de sécurité — Mise en œuvre', ref: 'R. 4216-26', text: ['Les blocs d\'éclairage de sécurité sont installés de manière à assurer l\'éclairage de chaque point de l\'itinéraire d\'évacuation. Ils sont placés à chaque changement de direction, à chaque intersection, de part et d\'autre de chaque porte de sortie, et à chaque équipement de lutte contre l\'incendie.'] },
+    { title: 'Éclairage de sécurité — Vérification', ref: 'R. 4216-27', text: ['L\'éclairage de sécurité est vérifié périodiquement : test mensuel de fonctionnement en mode évacuation (1 heure), vérification annuelle complète par organisme agréé ou technicien compétent. Les résultats des vérifications sont consignés dans le registre de sécurité.'] },
+    { title: 'Éclairage de sécurité — Entretien', ref: 'R. 4216-28', text: ['Les blocs d\'éclairage de sécurité défaillants sont remplacés sans délai. La durée de vie des batteries est conforme aux spécifications du fabricant (en général 4 ans pour les BAES NiCd, 6 à 10 ans pour les BAES Li-Fe). Le remplacement des batteries est tracé dans le registre de sécurité.'] },
+  ]
+},
+        R4227: {
+  title: 'Locaux de travail — Prévention des incendies',
+  sub: 'Art. R. 4227-1 à R. 4227-57 — Code du travail',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018533057/',
+  intro: 'Section 1 (R.4227-1 à 9) : matières inflammables. Section 2 (R.4227-10 à 18) : chauffage. Section 3 (R.4227-19 à 24) : moyens d\'extinction. Section 4 (R.4227-25 à 37) : consignes et exercices. Section 5 (R.4227-38 à 57) : établissements à risques particuliers.',
+  chapters: [
+    { title: 'Matières inflammables — Interdictions générales', ref: 'R. 4227-1', text: ['Il est interdit de laisser s\'accumuler des matières inflammables dans les endroits où elles pourraient prendre feu ou être la cause d\'un incendie. Les déchets, chiffons et papiers souillés de matières inflammables sont placés dans des récipients métalliques munis d\'un couvercle.'] },
+    { title: 'Matières inflammables — Stockage', ref: 'R. 4227-2', text: ['Les matières inflammables stockées dans les lieux de travail ne doivent pas y être en quantité supérieure aux besoins de la journée de travail, sauf si elles sont placées dans des locaux ou armoires coupe-feu spécialement aménagés. Les liquides inflammables sont conservés dans des récipients étanches hermétiquement clos.'] },
+    { title: 'Liquides inflammables — Manipulation', ref: 'R. 4227-3', text: ['Les liquides inflammables ne sont transvasés qu\'à l\'aide de récipients ou pompes appropriés. Les récipients contenant des liquides inflammables ne sont pas exposés à des sources de chaleur ou à des rayonnements solaires susceptibles de les porter à température dangereuse. Toute fuite est immédiatement contenue et les matières souillées éliminées.'] },
+    { title: 'Fumée et feu nu — Interdiction', ref: 'R. 4227-4', text: ['Il est interdit de fumer, d\'apporter du feu ou d\'utiliser des appareils produisant des flammes ou des étincelles dans les locaux où sont stockées ou mises en œuvre des matières inflammables. Cette interdiction est signalée par des panneaux visibles.'] },
+    { title: 'Matières explosives — Mesures de prévention', ref: 'R. 4227-5', text: ['Les matières susceptibles d\'exploser sous l\'effet de la chaleur ou d\'une flamme font l\'objet de mesures de prévention spécifiques fixées par le présent code et les réglementations sectorielles.'] },
+    { title: 'Solvants et produits chimiques inflammables', ref: 'R. 4227-6', text: ['Les solvants, colles, peintures et vernis inflammables utilisés dans les ateliers sont stockés dans des armoires coupe-feu ou dans des locaux ventilés spécialement aménagés. La ventilation de ces locaux est permanente ou commandée automatiquement par la présence de personnel.'] },
+    { title: 'Gaz inflammables — Stockage et utilisation', ref: 'R. 4227-7', text: ['Les bouteilles et réservoirs de gaz inflammables (propane, acétylène, hydrogène) sont stockés à l\'extérieur ou dans des locaux conformes aux règles ICPE et aux normes en vigueur. Les robinets de coupure sont accessibles et clairement identifiés.'] },
+    { title: 'Poussières inflammables et explosives', ref: 'R. 4227-8', text: ['Dans les locaux où se produisent des poussières susceptibles de s\'enflammer ou d\'exploser, les installations électriques sont de type antidéflagrant (ATEX). Les poussières sont captées à la source ou évacuées par aspiration. Le nettoyage est assuré sans utilisation d\'outils pouvant produire des étincelles.'] },
+    { title: 'Déchets et résidus inflammables', ref: 'R. 4227-9', text: ['Les déchets et résidus de matières inflammables sont enlevés des lieux de travail au moins une fois par poste de travail et placés dans des bacs ou conteneurs métalliques munis d\'un couvercle, situés à l\'extérieur des locaux ou dans des locaux coupe-feu spécialement aménagés.'] },
+    { title: 'Chauffage — Appareils à flamme nue', ref: 'R. 4227-10', text: ['L\'emploi d\'appareils de chauffage à flamme nue dans les locaux de travail est interdit, sauf dérogation accordée par l\'inspection du travail. Les appareils de chauffage sont installés à distance suffisante des matières inflammables.'] },
+    { title: 'Chauffage — Appareils fixes', ref: 'R. 4227-11', text: ['Les appareils de chauffage fixes sont installés de manière à ne pas constituer un risque d\'incendie. Les tubes et conduits de fumée traversant des parois combustibles sont isolés par des manchons incombustibles. Les chaudières et générateurs de chaleur sont installés dans des locaux réservés et séparés des autres locaux par des parois coupe-feu.'] },
+    { title: 'Chauffage — Appareils mobiles', ref: 'R. 4227-12', text: ['L\'utilisation d\'appareils de chauffage mobiles à combustion n\'est autorisée que dans des locaux bien ventilés et à titre temporaire. Ces appareils ne sont pas utilisés dans des locaux contenant des matières inflammables. Les radiateurs électriques mobiles sont conformes aux normes en vigueur.'] },
+    { title: 'Installations électriques — Entretien', ref: 'R. 4227-13', text: ['Les installations électriques sont entretenues en bon état et vérifiées périodiquement par un organisme accrédité. Les vérifications portent notamment sur l\'absence de risque de court-circuit, la continuité des liaisons à la terre et le bon fonctionnement des dispositifs de protection.'] },
+    { title: 'Travaux par points chauds', ref: 'R. 4227-14', text: ['Les travaux de soudage, de découpage, de meulage et tous travaux susceptibles de projeter des matières incandescentes sont effectués à distance des matières inflammables ou après avoir protégé ces dernières. Un plan de prévention ou un permis de feu est établi pour ces travaux.'] },
+    { title: 'Permis de feu', ref: 'R. 4227-15', text: ['Un permis de feu est délivré par le chef d\'établissement ou son représentant avant tout travail par points chauds en dehors des emplacements prévus à cet effet. Le permis de feu précise les mesures de prévention à mettre en œuvre : protection, surveillance, rondes après travaux.'] },
+    { title: 'Éclairage des locaux à risques', ref: 'R. 4227-16', text: ['L\'éclairage des locaux contenant des matières inflammables ou explosives est assuré par des appareils conformes aux règles relatives aux atmosphères explosibles (ATEX) lorsque la présence d\'une atmosphère explosive est possible.'] },
+    { title: 'Installations de chauffage — Vérifications périodiques', ref: 'R. 4227-17', text: ['Les installations de chauffage sont vérifiées périodiquement. Les chaudières et appareils à pression font l\'objet de contrôles réglementaires selon le code de l\'environnement. Les conduits de fumée sont ramonés au moins une fois par an.'] },
+    { title: 'Chauffage — Dispositions diverses', ref: 'R. 4227-18', text: ['Les matières combustibles ne peuvent être stockées à moins d\'un mètre des appareils de chauffage. Les matières à sécher ne peuvent être placées à l\'intérieur ou sur les appareils de chauffage. Les cendres et résidus de combustion sont conservés dans des récipients métalliques couverts.'] },
+    { title: 'Extincteurs — Obligation', ref: 'R. 4227-19', text: ['L\'employeur prend les mesures nécessaires pour que tout commencement d\'incendie puisse être rapidement et efficacement combattu. Il met à disposition du personnel des extincteurs appropriés aux risques. Le nombre et l\'emplacement des extincteurs sont déterminés en fonction des surfaces, des risques et de la configuration des lieux.'] },
+    { title: 'Extincteurs — Implantation', ref: 'R. 4227-20', text: ['Les extincteurs portatifs sont disposés de manière à être facilement accessibles et immédiatement utilisables. Ils sont placés de préférence près des sorties et des locaux à risques. La distance maximale à parcourir pour atteindre un extincteur est de 15 mètres dans les locaux à risques courants.'] },
+    { title: 'Extincteurs — Conformité', ref: 'R. 4227-21', text: ['Les extincteurs sont conformes aux normes en vigueur (NF EN 3 pour les extincteurs portatifs). Ils sont agréés par le ministère chargé de la sécurité civile. La mention "Extincteur à utiliser sur feux de classe A, B ou C" est portée sur l\'appareil. Les extincteurs à CO2 sont utilisés de préférence pour les feux sur matériel électrique.'] },
+    { title: 'Extincteurs — Vérification et entretien', ref: 'R. 4227-22', text: ['Les extincteurs sont vérifiés au moins une fois par an par une personne compétente (technicien agréé). La vérification porte sur le bon état général, la plomb (indication d\'utilisation), la pression, le poids, les étiquettes. Les extincteurs non conformes sont retirés du service et remplacés.'] },
+    { title: 'Robinets d\'Incendie Armés (RIA)', ref: 'R. 4227-23', text: ['Des robinets d\'incendie armés peuvent être installés en complément des extincteurs, notamment dans les locaux de grande surface. Les RIA sont conformes à la norme NF EN 671. Ils sont raccordés au réseau d\'eau et vérifiés annuellement par un technicien compétent.'] },
+    { title: 'Moyens de secours — Entretien général', ref: 'R. 4227-24', text: ['L\'employeur veille à la maintenance en bon état de tous les matériels de lutte contre l\'incendie (extincteurs, RIA, détecteurs, déclencheurs manuels). Ces matériels ne sont pas utilisés à d\'autres fins. Les vérifications sont consignées dans le registre de sécurité de l\'établissement.'] },
+    { title: 'Consignes de sécurité — Obligation et contenu', ref: 'R. 4227-25', text: ['Dans les établissements où existent des risques d\'incendie, l\'employeur prend les mesures nécessaires pour que toute personne présente dans l\'établissement soit informée des règles de sécurité à observer. Des consignes de sécurité sont établies et portées à la connaissance du personnel.'] },
+    { title: 'Consignes — Affichage', ref: 'R. 4227-26', text: ['Les consignes de sécurité incendie sont affichées de manière très apparente dans chaque local de travail ou à l\'entrée de l\'atelier. Elles indiquent : les matières dangereuses stockées, le moyen d\'alarme, les numéros d\'appel des secours (18, 15, 112), les consignes d\'évacuation.'] },
+    { title: 'Consignes — Personnel de nuit ou isolé', ref: 'R. 4227-27', text: ['Des consignes spéciales sont établies pour les personnes travaillant isolément ou de nuit. Ces consignes précisent les modalités d\'alarme, les moyens de communication disponibles, et les actions à mener en cas d\'incendie ou d\'accident.'] },
+    { title: 'Alarme incendie — Obligation', ref: 'R. 4227-28', text: ['Tout établissement disposant de locaux à risques d\'incendie particuliers doit être doté d\'un système d\'alarme permettant d\'avertir le personnel en cas d\'incendie. Le signal d\'alarme est distinct de tous les autres signaux et parfaitement audible dans tous les locaux.'] },
+    { title: 'Alarme — Caractéristiques', ref: 'R. 4227-29', text: ['Le signal d\'alarme général d\'évacuation est sonore, d\'une durée minimale de 30 secondes. Il est conforme aux dispositions du présent code et, pour les ERP, aux dispositions du règlement de sécurité ERP. Dans les ERP, le système d\'alarme est classifié selon la catégorie (SSI de type 1 à 5 pour les ERP).'] },
+    { title: 'Alarme — Déclencheurs manuels', ref: 'R. 4227-30', text: ['Des déclencheurs manuels d\'alarme (boutons poussoirs ou bris de glace) sont installés près des sorties à chaque niveau. Leur emplacement est signalé et ils sont facilement accessibles. Dans les ERP, les déclencheurs manuels sont conformes à la norme NF S 61-939.'] },
+    { title: 'Liaison avec les services de secours', ref: 'R. 4227-31', text: ['Tout commencement d\'incendie constaté dans l\'établissement doit être signalé immédiatement aux services d\'incendie et de secours. L\'employeur organise la liaison téléphonique avec les sapeurs-pompiers. Les numéros d\'appel sont affichés à tous les postes téléphoniques.'] },
+    { title: 'Évacuation — Organisation', ref: 'R. 4227-32', text: ['L\'employeur organise l\'évacuation de l\'établissement. Il désigne des travailleurs chargés de mettre en œuvre les mesures d\'évacuation. Ces travailleurs ont la formation nécessaire, en nombre suffisant et disposent des moyens adéquats compte tenu notamment de la taille et des risques spécifiques de l\'établissement.'] },
+    { title: 'Personnels de sécurité désignés', ref: 'R. 4227-33', text: ['Le nombre de travailleurs chargés de la sécurité incendie (guides file et serre-file d\'évacuation) est déterminé en fonction de l\'effectif présent et de la configuration des locaux. Ces travailleurs sont facilement identifiables (brassard, gilet). Ils sont formés à l\'utilisation des extincteurs et aux procédures d\'évacuation.'] },
+    { title: 'Formation du personnel — Principes', ref: 'R. 4227-34', text: ['L\'employeur organise la formation à la sécurité incendie de tous les travailleurs. Cette formation comprend :<br>— les risques d\'incendie propres à l\'établissement ;<br>— les moyens de prévention mis en place ;<br>— la conduite à tenir en cas d\'incendie (alerte, alarme, évacuation) ;<br>— l\'utilisation des extincteurs.<br>La formation est dispensée à l\'embauche et renouvelée périodiquement.'] },
+    { title: 'Formation — Utilisation des extincteurs', ref: 'R. 4227-35', text: ['Les travailleurs désignés comme chargés de l\'intervention contre l\'incendie (équipiers de première intervention) reçoivent une formation pratique à l\'utilisation des extincteurs. Cette formation comprend un exercice sur feux réels. Elle est renouvelée au moins tous les 3 ans.'] },
+    { title: 'Consignes — Affichage dans les locaux à risques', ref: 'R. 4227-36', text: ['Dans les locaux présentant des risques d\'incendie, les consignes de sécurité et les consignes d\'utilisation des matières présentes sont affichées à l\'entrée. Ces affichages sont en langue française et, le cas échéant, dans les langues des travailleurs présents ne comprenant pas le français.'] },
+    { title: 'Exercices d\'évacuation', ref: 'R. 4227-39', text: ['Des exercices pratiques d\'évacuation sont organisés dans les établissements mentionnés à l\'article L. 4141-1. Ces exercices ont lieu dans les six premiers mois d\'activité des nouvelles entreprises, puis au moins deux fois par an. Ils permettent de vérifier les délais d\'évacuation et de tester les procédures. Les résultats sont consignés dans le registre de sécurité.'] },
+    { title: 'Exercices — Rapport et suivi', ref: 'R. 4227-40', text: ['À l\'issue de chaque exercice d\'évacuation, un compte rendu est établi et consigné dans le registre de sécurité. Ce compte rendu précise la date, l\'heure, le type d\'exercice, le délai d\'évacuation, les dysfonctionnements constatés et les mesures correctives décidées.'] },
+    { title: 'Registre de sécurité', ref: 'R. 4227-54', text: ['Le registre de sécurité de l\'établissement est tenu à disposition de l\'inspection du travail et des représentants du personnel. Il recense les vérifications périodiques des installations électriques, de chauffage, des extincteurs, des RIA, des éclairages de sécurité et les comptes rendus des exercices d\'évacuation.'] },
+    { title: 'Vérifications périodiques — Installations électriques', ref: 'R. 4226-14 à 21', text: ['Les installations électriques des locaux de travail sont vérifiées par un organisme accrédité lors de leur mise en service et périodiquement (tous les ans pour les établissements à risques électriques particuliers, tous les 5 ans pour les autres). Le rapport de vérification est conservé et tenu à disposition de l\'inspecteur du travail.'] },
+    { title: 'Dispositions complémentaires — Établissements à risques particuliers', ref: 'R. 4227-55 à 57', text: ['Des dispositions complémentaires s\'appliquent à certains établissements à risques particuliers d\'incendie (théâtres, dépôts de liquides inflammables, etc.). Ces établissements font l\'objet de réglementations spécifiques définies par arrêtés ministériels et par les prescriptions de l\'inspection du travail.'] },
+  ]
+},
+        R4121: {
+  title: 'Document Unique d\'Évaluation des Risques Professionnels (DUERP)',
+  sub: 'Art. R. 4121-1 à R. 4121-4 — Code du travail',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043975555',
+  intro: 'Le DUERP recense l\'ensemble des risques professionnels auxquels sont exposés les travailleurs, dont le risque incendie. Il est obligatoire dans toute entreprise dès le premier salarié et mis à jour au moins annuellement.',
+  chapters: [
+    { title: 'Obligation d\'évaluation des risques', ref: 'R. 4121-1', text: ['L\'employeur transcrit et met à jour dans un document unique les résultats de l\'évaluation des risques pour la santé et la sécurité des travailleurs à laquelle il procède en application de l\'article L. 4121-3. Cette évaluation comporte un inventaire des risques identifiés dans chaque unité de travail de l\'entreprise ou de l\'établissement, y compris ceux liés aux risques psychosociaux.'] },
+    { title: 'Mise à jour du DUERP', ref: 'R. 4121-2', text: ['La mise à jour du document unique d\'évaluation des risques est réalisée :<br>1° Au moins chaque année ;<br>2° Lors de toute décision d\'aménagement important modifiant les conditions de santé et de sécurité ou les conditions de travail ;<br>3° Lorsqu\'une information supplémentaire intéressant l\'évaluation d\'un risque dans une unité de travail est recueillie.<br><br>Dans les entreprises d\'au moins onze salariés, le document unique est mis à jour lors de la mise à jour du programme annuel de prévention des risques professionnels.'] },
+    { title: 'Risque incendie dans le DUERP', ref: 'R. 4121-1 (risque incendie)', text: ['Le risque incendie doit figurer obligatoirement dans le DUERP. L\'évaluation porte sur :<br>— les sources d\'ignition (installations électriques, chauffage, travaux par points chauds, équipements) ;<br>— les matières combustibles ou inflammables présentes ;<br>— les personnes exposées (effectif, localisation, mobilité, présence de personnes vulnérables) ;<br>— les conséquences potentielles (propagation, évacuation difficile) ;<br>— les mesures de prévention et protection existantes.<br><br>Sur la base de cette évaluation, le plan d\'action de prévention du risque incendie est défini.'] },
+    { title: 'Conservation et accès au DUERP', ref: 'R. 4121-4', text: ['Le document unique est tenu à la disposition des travailleurs et de leurs représentants (CSE), du médecin du travail, des agents de l\'inspection du travail, des agents des services de prévention des organismes de sécurité sociale et des agents des organismes professionnels de santé, de sécurité et des conditions de travail.<br><br>Les versions successives du DUERP sont conservées pendant au moins 40 ans.'] },
+  ]
+},
+        L4131: {
+  title: 'Droit de retrait — Danger grave et imminent',
+  sub: 'Art. L. 4131-1 à L. 4131-4 et D. 4132-1 — Code du travail',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006903059',
+  intro: 'Tout travailleur peut se retirer d\'une situation de travail dont il a un motif raisonnable de penser qu\'elle présente un danger grave et imminent pour sa vie ou sa santé. L\'incendie en cours d\'évolution constitue par nature un tel danger.',
+  chapters: [
+    { title: 'Droit de retrait du travailleur', ref: 'L. 4131-1', text: ['Le travailleur alerte immédiatement l\'employeur de toute situation de travail dont il a un motif raisonnable de penser qu\'elle présente un danger grave et imminent pour sa vie ou sa santé ainsi que de toute défectuosité qu\'il constate dans les systèmes de protection.<br><br>Il peut se retirer d\'une telle situation.<br><br>L\'employeur ne peut demander au travailleur qui a fait usage de son droit de retrait de reprendre son activité dans une situation de travail où persiste un danger grave et imminent résultant notamment d\'une défectuosité du système de protection.'] },
+    { title: 'Exercice collectif du droit de retrait', ref: 'L. 4131-2', text: ['Le représentant du personnel au CSE (comité social et économique) peut exercer le droit d\'alerte en cas de danger grave et imminent. Si le désaccord persiste entre l\'employeur et le représentant du personnel, et en l\'absence de mise en demeure par l\'inspection du travail, le représentant du personnel au CSE peut saisir l\'inspection du travail.'] },
+    { title: 'Protection du travailleur', ref: 'L. 4131-3', text: ['Aucune sanction, aucune retenue de salaire ne peut être prise à l\'encontre d\'un travailleur ou d\'un groupe de travailleurs qui se sont retirés d\'une situation de travail dont ils avaient un motif raisonnable de penser qu\'elle présentait un danger grave et imminent pour la vie ou la santé de chacun d\'eux.'] },
+    { title: 'Application au risque incendie', ref: 'L. 4131-1 (incendie)', text: ['En matière d\'incendie, le droit de retrait s\'applique notamment :<br>— lors d\'un feu déclaré dans l\'établissement ou à proximité ;<br>— lors d\'une défaillance grave d\'un système de sécurité (alarme HS, issue bloquée) ;<br>— lors d\'une présence de matières inflammables en dehors des règles de sécurité ;<br>— lors d\'un risque d\'explosion avéré.<br><br>En cas d\'incendie déclaré, l\'évacuation est prioritaire sur toute autre considération. Le travailleur ne commet aucune faute en abandonnant son poste pour évacuer.'] },
+  ]
+},
+        R4141: {
+  title: 'Information et formation à la sécurité incendie',
+  sub: 'Art. R. 4141-1 à R. 4143-1 — Code du travail',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018531375/',
+  intro: 'Obligations d\'information et de formation des travailleurs en matière de sécurité, avec focus sur le risque incendie : formation à l\'embauche, renouvellement, contenu minimum.',
+  chapters: [
+    { title: 'Formation à la sécurité — Obligation générale', ref: 'R. 4141-1', text: ['Le chef d\'établissement ou d\'entreprise est tenu d\'organiser une formation pratique et appropriée à la sécurité au bénéfice des travailleurs qu\'il embauche, de ceux qui changent de poste de travail ou de technique, des travailleurs temporaires, ainsi que des travailleurs reprenant leur activité après un arrêt de travail. Cette formation est dispensée pendant le temps de travail.'] },
+    { title: 'Contenu de la formation incendie', ref: 'R. 4141-2', text: ['La formation incendie dispensée à chaque travailleur comprend :<br>— la connaissance des risques d\'incendie propres à son poste de travail et au secteur ;<br>— les mesures de prévention à respecter ;<br>— la conduite à tenir en cas d\'incendie : alerte, alarme, évacuation ;<br>— l\'utilisation des moyens de premier secours disponibles (extincteurs, RIA).<br><br>Pour les travailleurs désignés comme chargés de la sécurité incendie (ESI, guide-file, serre-file), la formation est renforcée et comprend des exercices pratiques.'] },
+    { title: 'Renouvellement de la formation', ref: 'R. 4141-3', text: ['La formation à la sécurité est renouvelée lors :<br>— d\'un changement de poste de travail ou de technique ;<br>— d\'une modification des équipements ou des conditions de travail ;<br>— d\'un changement dans la réglementation applicable ;<br>— en cas de nécessité constatée (exercice d\'évacuation révélant des lacunes).<br><br>Pour les équipiers de première intervention (EPI) et les agents SSIAP, le renouvellement est au moins tous les 3 ans.'] },
+  ]
+},
+        CCH144: {
+  title: 'Sécurité incendie des BUP — CCH Chapitre IV',
+  sub: '⚠️ Nouveau régime au 1er janvier 2027 — Décret n° 2025-1100 du 19 novembre 2025',
+  legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052611335',
+  isNew: true,
+  intro: 'Le Décret n° 2025-1100 du 19 novembre 2025 transfère dans le CCH (Titre IV — Articles R. 141-1 à R. 146-35) les règles de sécurité incendie applicables aux BUP, anciennement dans le Code du travail (arrêté du 5 août 1992). Jusqu\'au 1er janvier 2027 : l\'article R. 144-1 CCH actuel renvoie simplement au Code du travail. À partir du 1er janvier 2027 : nouveaux articles R. 144-1 à R. 144-20 CCH propres aux BUP.',
+  chapters: [
+    { title: 'R. 144-1 actuellement en vigueur (jusqu\'au 01/01/2027)', ref: 'R. 144-1 (version actuelle)', text: ['<strong>Texte en vigueur du 1er juillet 2021 au 1er janvier 2027 :</strong><br><br>"Pour l\'application des articles L. 141-1 à L. 141-4, les dispositions réglementaires applicables aux bâtiments ou parties de bâtiment à usage professionnel figurent au chapitre VI du titre I du livre II de la quatrième partie du code du travail."<br><br>→ Renvoie aux articles R. 4216-1 à R. 4216-28 et R. 4227-1 à R. 4227-57 du Code du travail (voir onglets R4216 et R4227 ci-dessus).'] },
+    { title: 'Décret 2025-1100 — Objet et structure du nouveau régime', ref: 'Décret n° 2025-1100 du 19/11/2025', text: ['Le Décret n° 2025-1100 du 19 novembre 2025 (JO n°0272 du 20 novembre 2025) crée au sein du Titre IV du CCH :<br><br><strong>Chapitre I — Règles générales (R. 141-1 à R. 141-17)</strong><br>— Section 1 : Définitions (R. 141-1 à R. 141-2)<br>— Section 2 : Exigences fonctionnelles (R. 141-3 à R. 141-9) : prévention, limitation propagation, évacuation, intervention<br>— Section 3 : Registre de sécurité incendie (R. 141-10 à R. 141-11)<br>— Section 4 : Classification des produits (réaction et résistance au feu) (R. 141-12 à R. 141-14)<br>— Section 5 : Agréments des laboratoires (R. 141-15 à R. 141-17)<br><br><strong>Chapitre IV — BUP (R. 144-1 à R. 144-20)</strong><br>Nouvelles règles propres aux bâtiments à usage professionnel, applicables au 1er janvier 2027.<br><br><strong>Articles modifiés</strong> : R. 142-1 (habitation), R. 143-44 (ERP), R. 146-35 (IGH).'] },
+    { title: 'Exigences fonctionnelles générales (CCH R. 141-3 à R. 141-9)', ref: 'R. 141-3 à R. 141-9', text: ['Les bâtiments doivent satisfaire aux exigences fonctionnelles suivantes en matière de sécurité incendie :<br>1° Limiter les risques d\'éclosion et de développement d\'un incendie ;<br>2° Limiter la propagation du feu et des fumées à l\'intérieur du bâtiment ;<br>3° Permettre l\'évacuation des occupants ;<br>4° Permettre l\'intervention des services de secours ;<br>5° Limiter les conséquences pour les bâtiments voisins.<br><br>Ces exigences sont mises en œuvre soit par application des dispositions réglementaires spécifiques à chaque type de bâtiment, soit par une solution d\'effet équivalent (SEE) justifiée par une étude technique.'] },
+    { title: 'Solutions d\'effet équivalent (SEE)', ref: 'R. 141-10 à R. 141-11', text: ['Le Décret 2025-1100 introduit formellement la notion de solution d\'effet équivalent (SEE) dans le CCH. Une SEE peut être retenue à la place d\'une règle prescriptive si elle démontre un niveau de sécurité au moins équivalent.<br><br>La SEE est documentée dans le registre de sécurité incendie prévu à l\'article R. 141-10 et validée dans les conditions fixées par arrêté du ministre chargé de la construction.'] },
+    { title: 'Nouveau régime BUP — R. 144-1 à R. 144-20 (à partir du 01/01/2027)', ref: 'R. 144-1 à R. 144-20 (applicable 01/01/2027)', text: ['À partir du 1er janvier 2027, les articles R. 144-1 à R. 144-20 du CCH fixeront les règles de sécurité incendie propres aux bâtiments à usage professionnel (BUP). Ces règles remplacent le renvoi actuel au Code du travail.<br><br>Le contenu détaillé de ces articles sera précisé par arrêtés d\'application pris en vertu du Décret 2025-1100. Dans l\'attente de la publication intégrale des arrêtés, les règles techniques actuelles (R. 4216 et R. 4227 Code du travail) restent la référence pratique.<br><br><a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052611335" target="_blank">Consulter le Décret 2025-1100 sur Legifrance →</a>'] },
+  ]
+},
+        CCH162: {
+  title: 'Accessibilité — Construction de BUP neufs',
+  sub: 'Art. R. 162-14 à R. 162-15 — CCH',
+  legifrance: 'https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000031748001/',
+  intro: 'Obligations d\'accessibilité aux personnes handicapées pour les bâtiments à usage professionnel neufs. Les BUP neufs doivent être accessibles, et les places, circulations, sanitaires, commandes répondre aux normes PMR.',
+  chapters: [
+    { title: 'Accessibilité des BUP neufs — Principe', ref: 'R. 162-14', text: ['Les bâtiments à usage professionnel neufs sont construits de façon à être accessibles aux personnes handicapées quelles que soient la nature de leur handicap. L\'obligation d\'accessibilité porte sur :<br>— les parties extérieures : stationnements, cheminements d\'accès ;<br>— les parties intérieures destinées aux travailleurs et visiteurs ;<br>— les équipements et dispositifs de communication.<br><br>Les caractéristiques minimales sont fixées par arrêté du ministre chargé de la construction.'] },
+    { title: 'Dérogations et adaptations', ref: 'R. 162-15', text: ['Des dérogations aux règles d\'accessibilité peuvent être accordées par le préfet dans les cas prévus par le décret, notamment :<br>— impossibilité technique résultant de l\'environnement du bâtiment ;<br>— contraintes liées à la conservation du patrimoine architectural ;<br>— disproportion manifeste entre les améliorations apportées et leurs conséquences.<br><br>La demande de dérogation est jointe au dossier de permis de construire.'] },
+  ]
+},
+        CCH163: {
+  title: 'Accessibilité — Modification de BUP existants',
+  sub: '⚠️ En vigueur au 1er octobre 2026 — Décret n° 2026-531 du 23 juin 2026',
+  legifrance: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054301010',
+  isNew: true,
+  intro: 'Décret n° 2026-531 du 23 juin 2026 fixant les règles relatives à l\'accessibilité lors de travaux d\'extension ou de modification des bâtiments à usage professionnel existants. Crée les articles R. 163-5 à R. 163-8 du CCH. Entrée en vigueur : 1er octobre 2026. Abroge simultanément les dispositions du Code du travail sur l\'accessibilité des lieux de travail.',
+  chapters: [
+    { title: 'Obligations d\'accessibilité lors des travaux', ref: 'R. 163-5', text: ['Lors de travaux d\'extension ou de modification d\'un bâtiment à usage professionnel existant, les parties concernées par les travaux sont rendues accessibles aux personnes handicapées, dans les conditions fixées par les articles R. 163-5 à R. 163-8.<br><br>Applicable aux travaux soumis à permis de construire ou déclaration préalable déposés à compter du 1er octobre 2026.'] },
+    { title: 'Conditions de dérogation accordées par le préfet', ref: 'R. 163-6', text: ['Des dérogations aux obligations d\'accessibilité peuvent être accordées par le préfet, dans les conditions prévues par la loi, lorsque la configuration des bâtiments existants rend techniquement impossible la mise en conformité ou lorsque les contraintes sont disproportionnées par rapport aux travaux projetés.'] },
+    { title: 'Procédure de demande de dérogation', ref: 'R. 163-7', text: ['La demande de dérogation est jointe au dossier de demande de permis de construire ou de déclaration préalable. Elle précise les motifs techniques ou économiques justifiant l\'impossibilité de satisfaire aux obligations d\'accessibilité et, le cas échéant, les mesures de substitution proposées.'] },
+    { title: 'Fixation des caractéristiques techniques par arrêté interministériel', ref: 'R. 163-8', text: ['Les caractéristiques techniques des parties de bâtiment à usage professionnel concernées par des travaux d\'extension ou de modification, relatives à l\'accessibilité aux personnes handicapées, sont fixées par arrêté conjoint du ministre chargé de la construction et du ministre chargé du travail.'] },
+  ]
+},
         SSIAP: { title:'Service de sécurité incendie — Formation SSIAP', sub:'⚠️ Nouvelles obligations — Arrêté ERP du 19 février 2026', legifrance:'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000426061', isNew:true, intro:"Missions, effectifs minimaux et qualifications du personnel de sécurité incendie (SSIAP 1, 2, 3) dans les ERP et IGH. L'arrêté ERP du 19 février 2026 modifie en profondeur les obligations des agents SSIAP : (1) Élargissement du périmètre des missions et nouveaux attendus réglementaires, (2) Modification de la liste des éléments de sécurité à contrôler et de leur fréquence, (3) Modules de perfectionnement rendus obligatoires quelle que soit l'expérience de l'agent, (4) Formation continue en ligne généralisée (arrêté du 27 janvier 2025). Entrée en vigueur de ces dispositions : 1er juin 2027.", chapters:[{title:'SSIAP 1 — Agent de service',ref:'Art. 1 à 5'},{title:'SSIAP 2 — Chef d\'équipe',ref:'Art. 6 à 9'},{title:'SSIAP 3 — Chef de service',ref:'Art. 10 à 14'},{title:'Maintien des acquis (MAC)',ref:'Art. 15 à 18'},{title:'⚠️ Modules perfectionnement obligatoires (arrêté 19/02/2026)',ref:'Applicable 01/06/2027'},{title:'⚠️ Formation en ligne généralisée (arrêté 27/01/2025)',ref:'En vigueur 2025'}] },
         EVAC: { title:'Exercices d\'évacuation incendie', sub:'Obligation réglementaire', legifrance:'https://www.legifrance.gouv.fr', intro:'Les exercices d\'évacuation incendie sont obligatoires dans les établissements recevant des travailleurs (R. 4227-39) et dans les ERP (MS 47). Fréquence, modalités, consignes de sécurité.', chapters:[{title:'Fréquence (au moins 2/an)',ref:'R. 4227-39'},{title:'Consignes de sécurité affichées',ref:'R. 4227-36'},{title:'Rapport d\'exercice',ref:'Registre de sécurité'}] },
         ERT: { title:'ERT — Établissements recevant des travailleurs', sub:'Locaux professionnels non ouverts au public', legifrance:'https://www.legifrance.gouv.fr', intro:'Règles applicables aux locaux professionnels fermés au public : ateliers, entrepôts, bureaux non accessibles au public.', chapters:[{title:'Classification des risques',ref:'Art. 1 à 4'},{title:'Conception et dégagements',ref:'Art. 5 à 12'},{title:'Moyens de secours',ref:'Art. 13 à 18'}] },

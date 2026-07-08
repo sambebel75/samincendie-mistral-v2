@@ -153,6 +153,7 @@
     .actu-filter-tab[data-cat="reglementation"].active { background: #2471A3; border-color: #2471A3; }
     .actu-filter-tab[data-cat="formation"].active  { background: #27AE60; border-color: #27AE60; }
     .actu-filter-tab[data-cat="incendie"].active   { background: #E67E22; border-color: #E67E22; }
+    .actu-filter-tab[data-cat="hab"].active        { background: #27AE60; border-color: #27AE60; }
 
     /* ── Main layout ── */
     .actu-layout {
@@ -238,6 +239,7 @@
     .actu-card__img--reglem     { background: linear-gradient(135deg, #2471A322, #2471A344); }
     .actu-card__img--formation  { background: linear-gradient(135deg, #27AE6022, #27AE6044); }
     .actu-card__img--incendie   { background: linear-gradient(135deg, #E67E2222, #E67E2244); }
+    .actu-card__img--hab        { background: linear-gradient(135deg, #27AE6022, #27AE6044); }
     .actu-card__body { padding: 20px; flex: 1; display: flex; flex-direction: column; }
     .actu-card__tags { display: flex; gap: 6px; margin-bottom: 10px; flex-wrap: wrap; }
     .actu-tag {
@@ -254,6 +256,7 @@
     .actu-tag--formation  { background: rgba(39,174,96,.1);  color: #1e8449; }
     .actu-tag--incendie   { background: rgba(230,126,34,.1); color: #d06b12; }
     .actu-tag--urgent     { background: rgba(192,57,43,.15); color: #C0392B; }
+    .actu-tag--hab        { background: rgba(39,174,96,.1);  color: #1e8449; }
 
     .actu-card__title {
       font-family: 'Montserrat', sans-serif;
@@ -502,6 +505,7 @@
           <button class="actu-filter-tab" data-cat="reglementation">&#x1F537; Réglementation ERP</button>
           <button class="actu-filter-tab" data-cat="formation">&#x1F7E2; Formations & Certifications</button>
           <button class="actu-filter-tab" data-cat="incendie">&#x1F536; Prévention incendie</button>
+          <button class="actu-filter-tab" data-cat="hab">&#x1F3E0; HAB — Bâtiments d'habitation</button>
         </div>
       </div>
     </nav>
@@ -790,6 +794,74 @@
                 <div class="actu-card__footer">
                   <div><div class="actu-card__date">📅 24 février 2026</div></div>
                   <a href="https://www.lemoniteur.fr/securite-incendie/" target="_blank" rel="noopener noreferrer" class="actu-card__link">Source →</a>
+                </div>
+              </article>
+
+              <article class="actu-card" data-cat="hab">
+                <div class="actu-card__img actu-card__img--hab" aria-hidden="true">&#x1F3E0;</div>
+                <div class="actu-card__body">
+                  <div class="actu-card__tags">
+                    <span class="actu-tag actu-tag--hab">HAB</span>
+                    <span class="actu-tag actu-tag--urgent">⚠️ En vigueur 2022</span>
+                  </div>
+                  <h3 class="actu-card__title">Arrêté du 13 août 2021 : nouvelles exigences sur les systèmes de façade des bâtiments d'habitation</h3>
+                  <p class="actu-card__excerpt">Modification des articles 11, 12 et 13 de l'arrêté du 31 janvier 1986. Les systèmes de façade des 3e et 4e familles doivent désormais satisfaire à des exigences renforcées en réaction au feu (classification européenne A2-s3, d0). Deux solutions admises : classement global ou appréciation de laboratoire. Applicable aux permis de construire déposés à compter du 20 février 2022.</p>
+                  <div class="actu-card__source">&#x1F7E2; Source : Légifrance · Arrêté du 13 août 2021</div>
+                </div>
+                <div class="actu-card__footer">
+                  <div><div class="actu-card__date">&#x1F4C5; Applicable 20 fév. 2022</div></div>
+                  <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000474032" target="_blank" rel="noopener noreferrer" class="actu-card__link">Voir texte →</a>
+                </div>
+              </article>
+
+              <article class="actu-card" data-cat="hab">
+                <div class="actu-card__img actu-card__img--hab" aria-hidden="true">&#x1F3D7;️</div>
+                <div class="actu-card__body">
+                  <div class="actu-card__tags">
+                    <span class="actu-tag actu-tag--hab">HAB</span>
+                    <span class="actu-tag actu-tag--reglementation">CCH</span>
+                  </div>
+                  <h3 class="actu-card__title">Décret n° 2025-1100 : transfert des règles habitation vers le Code de la construction</h3>
+                  <p class="actu-card__excerpt">Le décret du 19 novembre 2025 amorce le transfert des dispositions de sécurité incendie des bâtiments d'habitation vers les articles R. 142-1 et suivants du CCH. L'arrêté du 31 janvier 1986 reste en vigueur mais les nouvelles constructions seront progressivement régies par le cadre unifié du CCH à compter de 2027.</p>
+                  <div class="actu-card__source">&#x1F534; Source : Légifrance · Décret n° 2025-1100 du 19/11/2025</div>
+                </div>
+                <div class="actu-card__footer">
+                  <div><div class="actu-card__date">&#x1F4C5; Novembre 2025</div></div>
+                  <a href="https://www.legifrance.gouv.fr" target="_blank" rel="noopener noreferrer" class="actu-card__link">Voir →</a>
+                </div>
+              </article>
+
+              <article class="actu-card" data-cat="hab">
+                <div class="actu-card__img actu-card__img--hab" aria-hidden="true">&#x1F4A8;</div>
+                <div class="actu-card__body">
+                  <div class="actu-card__tags">
+                    <span class="actu-tag actu-tag--hab">HAB · DAAF</span>
+                    <span class="actu-tag actu-tag--incendie">Prévention</span>
+                  </div>
+                  <h3 class="actu-card__title">DAAF : 10 ans d'obligation — bilan et points de vigilance pour propriétaires et bailleurs</h3>
+                  <p class="actu-card__excerpt">Depuis le 8 mars 2015, tout logement doit être équipé d'au moins un DAAF conforme NF EN 14604. Dix ans après, les contrôles se renforcent : les bailleurs doivent vérifier la présence et le bon fonctionnement du dispositif à chaque changement de locataire, et joindre la preuve d'équipement à l'état des lieux. Durée de vie maximale : 10 ans.</p>
+                  <div class="actu-card__source">&#x1F7E2; Source : Art. L. 129-8 CCH · Arrêté du 5 février 2013</div>
+                </div>
+                <div class="actu-card__footer">
+                  <div><div class="actu-card__date">&#x1F4C5; Bilan 2025</div></div>
+                  <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000021900986" target="_blank" rel="noopener noreferrer" class="actu-card__link">Texte Loi 2010 →</a>
+                </div>
+              </article>
+
+              <article class="actu-card" data-cat="hab">
+                <div class="actu-card__img actu-card__img--hab" aria-hidden="true">&#x1F1EA;&#x1F1FA;</div>
+                <div class="actu-card__body">
+                  <div class="actu-card__tags">
+                    <span class="actu-tag actu-tag--hab">HAB · ERP · IGH</span>
+                    <span class="actu-tag actu-tag--reglementation">UE 2026</span>
+                  </div>
+                  <h3 class="actu-card__title">Règlement délégué UE 2026/331 : réaction au feu des produits de construction — impact habitation</h3>
+                  <p class="actu-card__excerpt">Le règlement délégué (UE) 2026/331 de la Commission européenne du 13 février 2026 (JOUE 22/03/2026) complète le règlement (UE) 2024/3110 sur les performances de résistance au feu. Il affecte directement les produits utilisés en façade, isolation et couverture des bâtiments d'habitation de 2e, 3e et 4e familles soumis aux articles 12, 13 et 15 de l'arrêté du 31 janvier 1986.</p>
+                  <div class="actu-card__source">&#x1F534; Source : Journal officiel de l'UE · 22/03/2026</div>
+                </div>
+                <div class="actu-card__footer">
+                  <div><div class="actu-card__date">&#x1F4C5; Parution 22/03/2026</div></div>
+                  <a href="https://eur-lex.europa.eu" target="_blank" rel="noopener noreferrer" class="actu-card__link">Voir →</a>
                 </div>
               </article>
 
