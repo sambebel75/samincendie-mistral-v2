@@ -3552,32 +3552,35 @@
       intro: "Règlement de sécurité pour la construction des IGH. Arrêté du 18 octobre 1977 modifié. Plancher bas du dernier niveau > 50 m (ou > 28 m pour habitation).",
       sidebar: [
         {
-          group: 'Dispositions communes',
-          rows: [ { label: 'Tous IGH', sub: '', codes: ['GH'] } ]
+          group: 'Titre II — Dispositions communes',
+          rows: [ { label: 'GH — Dispositions communes', sub: 'Art. GH 1 à 65', codes: ['GH'] } ]
         },
         {
-          group: 'Dispositions particulières par usage',
+          group: 'Titre III — Dispositions particulières',
           rows: [
-            { label: 'Habitation', sub: '', codes: ['GHA'] },
-            { label: 'Hôtel', sub: '', codes: ['GHO'] },
-            { label: 'Enseignement', sub: '', codes: ['GHR'] },
-            { label: 'Sanitaire', sub: '', codes: ['GHS'] },
-            { label: 'Bureaux', sub: '', codes: ['GHW1','GHW2'] },
-            { label: 'Usage mixte', sub: '', codes: ['GHU'] },
-            { label: 'Très grande hauteur', sub: '> 200 m', codes: ['GHTBM'] },
+            { label: 'GHA — Habitation', sub: 'Art. GH A 1 à 6', codes: ['GHA'] },
+            { label: 'GHO — Hôtel', sub: 'Art. GH O 1 à 8', codes: ['GHO'] },
+            { label: 'GHR — Enseignement', sub: 'Art. GH R 1 à 9', codes: ['GHR'] },
+            { label: 'GHS — Dépôt d\'archives', sub: 'Art. GH S unique', codes: ['GHS'] },
+            { label: 'GHU — Établissements sanitaires', sub: 'Art. GH U 1 à 19', codes: ['GHU'] },
+            { label: 'GHW — Bureaux', sub: 'Art. GH W 1 à 5', codes: ['GHW'] },
+            { label: 'GHZ — Usage mixte habitation-bureaux', sub: 'Art. GH Z unique', codes: ['GHZ'] },
+            { label: 'GHTC — Tour de contrôle', sub: 'Art. GH TC unique', codes: ['GHTC'] },
+            { label: 'ITGH — Très grande hauteur', sub: '> 200 m', codes: ['ITGH'] },
           ]
         }
       ],
       articles: {
-        GH: { title:'Dispositions communes à tous les IGH', sub:'Arrêté du 18 octobre 1977 modifié', legifrance:'https://www.legifrance.gouv.fr', intro:"Règles communes applicables à tout immeuble de grande hauteur (h plancher bas > 50 m) : construction, désenfumage, installations électriques, SSI, organisation des secours, service de sécurité.", chapters:[{title:'Construction et résistance au feu',ref:'GH 1 à 12'},{title:'Compartimentage',ref:'GH 13 à 20'},{title:'Désenfumage',ref:'GH 21 à 28'},{title:'Installations électriques',ref:'GH 29 à 36'},{title:'SSI et alarme',ref:'GH 37 à 44'},{title:'Service de sécurité incendie',ref:'GH 45 à 52'}] },
-        GHA: { title:'IGH à usage d\'habitation', sub:'Logements en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les logements en IGH. Détection, compartimentage renforcé, évacuation.", chapters:[{title:'Classement',ref:'GHA 1 à 3'},{title:'Compartimentage',ref:'GHA 4 à 8'},{title:'Détection et alarme',ref:'GHA 9 à 12'}] },
-        GHO: { title:'IGH à usage hôtelier', sub:'Hôtels en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les hôtels en IGH. Détection automatique généralisée, évacuation des personnes hébergées.", chapters:[{title:'Classement',ref:'GHO 1 à 3'},{title:'Chambres et compartimentage',ref:'GHO 4 à 10'},{title:'Détection et alarme',ref:'GHO 11 à 16'}] },
-        GHR: { title:'IGH à usage d\'enseignement', sub:'Écoles et universités en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les établissements scolaires et universitaires en IGH.", chapters:[{title:'Classement',ref:'GHR 1 à 3'},{title:'Dispositions constructives',ref:'GHR 4 à 10'},{title:'Moyens de secours',ref:'GHR 11 à 14'}] },
-        GHS: { title:'IGH à usage sanitaire', sub:'Hôpitaux et cliniques en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Hôpitaux, cliniques et établissements de soins en IGH. Contraintes d\'évacuation de patients alités.", chapters:[{title:'Classement',ref:'GHS 1 à 4'},{title:'Compartimentage et transfert',ref:'GHS 5 à 12'},{title:'Systèmes de sécurité',ref:'GHS 13 à 18'}] },
-        GHW1: { title:'IGH bureaux ≤ 100 m (GHW1)', sub:'Tours de bureaux', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les immeubles de bureaux de grande hauteur jusqu\'à 100 m.", chapters:[{title:'Construction',ref:'GHW1 1 à 6'},{title:'Désenfumage',ref:'GHW1 7 à 10'},{title:'Moyens de secours',ref:'GHW1 11 à 15'}] },
-        GHW2: { title:'IGH bureaux > 100 m (GHW2)', sub:'Très grandes tours de bureaux', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions renforcées pour les tours de bureaux de plus de 100 m. Cellule de sécurité incendie permanente.", chapters:[{title:'Construction renforcée',ref:'GHW2 1 à 6'},{title:'Systèmes automatiques',ref:'GHW2 7 à 12'},{title:'Organisation des secours',ref:'GHW2 13 à 16'}] },
-        GHU: { title:'IGH à usage mixte', sub:'Plusieurs destinations combinées', legifrance:'https://www.legifrance.gouv.fr', intro:"Immeubles de grande hauteur combinant plusieurs usages (habitation + bureaux, hôtel + commerce…). Dispositions croisées.", chapters:[{title:'Classement et dispositions applicables',ref:'GHU 1 à 5'},{title:'Interfaces entre usages',ref:'GHU 6 à 10'}] },
-        GHTBM: { title:'Immeubles de très grande hauteur (> 200 m)', sub:'ITGH — dispositions renforcées', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions spécifiques pour les tours dépassant 200 m. Cellule de sécurité incendie permanente, moyens de secours intégrés, coordination avec les services de secours.", chapters:[{title:'Exigences de sécurité renforcées',ref:'Art. 1 à 6'},{title:'Cellule de sécurité permanente',ref:'Art. 7 à 10'},{title:'Coordination avec les secours',ref:'Art. 11 à 14'}] },
+        GH: { title:'Dispositions communes à tous les IGH', sub:'Arrêté du 18 octobre 1977 modifié', legifrance:'https://www.legifrance.gouv.fr', intro:"Règles communes applicables à tout immeuble de grande hauteur (plancher bas du dernier niveau > 50 m, ou > 28 m pour l\'habitation) : construction, désenfumage, installations électriques, SSI, organisation des secours, service de sécurité.", chapters:[{title:'Titre I — Définitions et classement',ref:'GH 1 à 6'},{title:'Titre II, Chap. I — Construction et résistance au feu',ref:'GH 7 à 20'},{title:'Titre II, Chap. II — Désenfumage',ref:'GH 21 à 30'},{title:'Titre II, Chap. III — Installations électriques',ref:'GH 31 à 42'},{title:'Titre II, Chap. IV — Ascenseurs et monte-charge',ref:'GH 43 à 49'},{title:'Titre II, Chap. V — SSI et alarme',ref:'GH 50 à 57'},{title:'Titre II, Chap. VI — Moyens de secours',ref:'GH 58 à 65'}] },
+        GHA: { title:'GH A — IGH à usage d\'habitation', sub:'Logements en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles à usage d\'habitation de grande hauteur (plancher bas > 28 m). Compartimentage par niveaux, détection, désenfumage des circulations communes.", chapters:[{title:'Champ d\'application',ref:'GH A 1'},{title:'Construction et compartimentage',ref:'GH A 2 à 4'},{title:'Désenfumage',ref:'GH A 5'},{title:'Moyens de secours',ref:'GH A 6'}] },
+        GHO: { title:'GH O — IGH à usage hôtelier', sub:'Hôtels en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les hôtels en IGH. Détection automatique dans toutes les chambres, évacuation des personnes hébergées, compartimentage renforcé.", chapters:[{title:'Champ d\'application',ref:'GH O 1'},{title:'Construction et compartimentage',ref:'GH O 2 à 5'},{title:'Détection et alarme',ref:'GH O 6 à 7'},{title:'Moyens de secours',ref:'GH O 8'}] },
+        GHR: { title:'GH R — IGH à usage d\'enseignement', sub:'Écoles et universités en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les établissements d\'enseignement en IGH.", chapters:[{title:'Champ d\'application',ref:'GH R 1 à 2'},{title:'Construction',ref:'GH R 3 à 6'},{title:'Désenfumage et moyens de secours',ref:'GH R 7 à 9'}] },
+        GHS: { title:'GH S — IGH à usage de dépôt d\'archives', sub:'Dépôts d\'archives en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles de grande hauteur à usage de dépôt d\'archives (article unique).", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH S'}] },
+        GHU: { title:'GH U — IGH à usage sanitaire', sub:'Hôpitaux et cliniques en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les établissements de soins en IGH (hôpitaux, cliniques). Contraintes spécifiques liées à l\'évacuation de patients alités ou à mobilité réduite.", chapters:[{title:'Champ d\'application',ref:'GH U 1 à 3'},{title:'Construction et compartimentage',ref:'GH U 4 à 9'},{title:'Désenfumage',ref:'GH U 10 à 13'},{title:'Electricité et éclairage',ref:'GH U 14 à 16'},{title:'Moyens de secours',ref:'GH U 17 à 19'}] },
+        GHW: { title:'GH W — IGH à usage de bureaux', sub:'Tours de bureaux en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières pour les immeubles de bureaux de grande hauteur.", chapters:[{title:'Champ d\'application',ref:'GH W 1'},{title:'Construction et compartimentage',ref:'GH W 2 à 3'},{title:'Désenfumage et moyens de secours',ref:'GH W 4 à 5'}] },
+        GHZ: { title:'GH Z — IGH à usage mixte habitation-bureaux', sub:'Usage mixte habitation et bureaux', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux immeubles de grande hauteur à usage mixte associant habitation et bureaux (article unique). Renvoi aux dispositions GH A et GH W.", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH Z'}] },
+        GHTC: { title:'GH TC — Tour de contrôle', sub:'Tour de contrôle aéroportuaire en grande hauteur', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions particulières applicables aux tours de contrôle aéroportuaires répondant à la définition de l\'IGH (article unique).", chapters:[{title:'Dispositions applicables (article unique)',ref:'GH TC'}] },
+        ITGH: { title:'ITGH — Immeuble de très grande hauteur (> 200 m)', sub:'Dispositions renforcées au-delà de 200 m', legifrance:'https://www.legifrance.gouv.fr', intro:"Dispositions spécifiques pour les tours dépassant 200 m. Cellule de sécurité incendie permanente, moyens de secours intégrés, coordination renforcée avec les services de secours.", chapters:[{title:'Champ d\'application et définitions',ref:'Art. 1 à 3'},{title:'Construction renforcée',ref:'Art. 4 à 8'},{title:'Cellule de sécurité permanente',ref:'Art. 9 à 12'},{title:'Coordination avec les secours',ref:'Art. 13 à 14'}] },
       }
     },
 
