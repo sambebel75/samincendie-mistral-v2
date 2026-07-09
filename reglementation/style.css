@@ -1,0 +1,52 @@
+
+:root{--ink:#1a1a2e;--muted:#5a6270;--bg:#f7f5f2;--card:#fff;--line:#e5e1da;--accent:#C0392B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:var(--bg);color:var(--ink);line-height:1.7}
+a{color:var(--accent)}
+.topbar{background:#fff;border-bottom:1px solid var(--line);padding:.7rem 1rem;font-family:system-ui,sans-serif}
+.topbar .in{max-width:960px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.topbar .logo{font-weight:700;color:var(--ink);text-decoration:none;font-size:1.05rem}
+.topbar .logo span{color:var(--accent)}
+.topbar nav a{margin-left:1rem;text-decoration:none;color:var(--muted);font-size:.9rem}
+.crumbs{max-width:960px;margin:1rem auto 0;padding:0 1rem;font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted)}
+.crumbs a{color:var(--muted);text-decoration:none}
+.crumbs a:hover{color:var(--accent)}
+main{max-width:960px;margin:1rem auto 3rem;padding:0 1rem}
+.head-card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--cat,#C0392B);border-radius:10px;padding:1.4rem 1.6rem;margin-bottom:1.2rem}
+.badge{display:inline-block;font-family:system-ui,sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.05em;color:#fff;background:var(--cat,#C0392B);border-radius:4px;padding:.15rem .55rem;margin-bottom:.6rem;text-transform:uppercase}
+.badge-new{background:#27AE60;margin-left:.4rem}
+h1{font-size:1.55rem;line-height:1.3}
+.sub{color:var(--muted);font-family:system-ui,sans-serif;font-size:.92rem;margin-top:.3rem}
+.intro{margin-top:.8rem}
+.lf{font-family:system-ui,sans-serif;font-size:.85rem;margin-top:.8rem}
+.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1rem 1.4rem;margin-bottom:1.2rem;font-family:system-ui,sans-serif;font-size:.9rem}
+.toc strong{display:block;margin-bottom:.4rem}
+.toc ol{margin-left:1.2rem}
+.toc li{margin:.2rem 0}
+.tools{font-family:system-ui,sans-serif;font-size:.85rem;margin-bottom:.8rem}
+.tools button{background:none;border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;cursor:pointer;color:var(--muted)}
+details{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:.8rem}
+summary{cursor:pointer;padding:1rem 1.3rem;font-family:system-ui,sans-serif;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:1rem;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary .ref{font-weight:400;font-size:.8rem;color:var(--muted);white-space:nowrap}
+summary::after{content:"▸";color:var(--muted);transition:.15s}
+details[open] summary::after{transform:rotate(90deg)}
+.body{padding:0 1.4rem 1.2rem;border-top:1px solid var(--line)}
+.body p{margin:.9rem 0}
+.art-para-num{font-family:system-ui,sans-serif;font-weight:700;color:var(--cat,#C0392B)}
+.related,.cta,.pager{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.4rem;margin-top:1.2rem;font-family:system-ui,sans-serif}
+.related a{margin-right:.8rem}
+.cta{border-left:5px solid var(--accent)}
+.cta a{display:inline-block;margin:.35rem 1rem .1rem 0;font-weight:600}
+.pager{display:flex;justify-content:space-between;gap:1rem;font-size:.9rem}
+.pager a{text-decoration:none}
+footer{border-top:1px solid var(--line);background:#fff;font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);padding:1.2rem 1rem;text-align:center}
+/* hub */
+.cat-card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--cat);border-radius:10px;padding:1.3rem 1.5rem;margin-bottom:1.2rem}
+.cat-card h2{font-size:1.2rem}
+.group{margin-top:.8rem;font-family:system-ui,sans-serif}
+.group h3{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:.4rem}
+.chips a{display:inline-block;font-size:.83rem;border:1px solid var(--line);border-radius:6px;padding:.22rem .6rem;margin:0 .35rem .4rem 0;text-decoration:none;color:var(--ink)}
+.chips a:hover{border-color:var(--cat);color:var(--cat)}
+.chips b{color:var(--cat)}
+@media(max-width:600px){h1{font-size:1.25rem}summary{padding:.8rem 1rem}.body{padding:0 1rem 1rem}}
