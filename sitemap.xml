@@ -1,201 +1,880 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-
-  <!-- ===== HOMEPAGE ===== -->
-  <url>
-    <loc>https://samincendie.fr/</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://samincendie.fr/img/og-image.png</image:loc>
-      <image:title>Sam Incendie — Expert en Sécurité Incendie ERP</image:title>
-    </image:image>
-  </url>
-
-  <!-- ===== PAGES SERVICES (priorité haute) ===== -->
-  <url>
-    <loc>https://samincendie.fr/services.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/audit.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/formations.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ===== PAGES PRODUITS ===== -->
-  <url>
-    <loc>https://samincendie.fr/produits.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/kit-gratuit.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/kit-signaletique.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <!-- ===== CONTENU / BLOG (longue traîne SEO) ===== -->
-  <url>
-    <loc>https://samincendie.fr/reglementation.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/actualites.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-responsabilite-penale-erp.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-commission-securite-erp.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-registre-securite-erp.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-erp-5eme-categorie.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-signaletique-incendie.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-delegation-pouvoir.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-extincteurs-erp.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/blog-plan-evacuation-incendie.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/faq-securite-incendie-erp.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/faq-securite-incendie-restaurant.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/faq-securite-incendie-cabinet-medical.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/faq-securite-incendie-coiffure-institut.html</loc>
-    <lastmod>2026-07-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-
-  <!-- ===== PAGES SECONDAIRES ===== -->
-  <url>
-    <loc>https://samincendie.fr/secteurs.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/cours.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/exercices.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://samincendie.fr/sam-incendie.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- ===== PAGES LÉGALES (non prioritaires) ===== -->
-  <url>
-    <loc>https://samincendie.fr/mentions-legales.html</loc>
-    <lastmod>2026-05-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-<!-- ===== RÉGLEMENTATION (119 chapitres) ===== -->
-  <url><loc>https://samincendie.fr/reglementation/</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://samincendie.fr/reglementation/erp-am.html</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://samincendie.fr/reglementation/erp-ch.html</loc><lastmod>2026-07-09</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <!-- ... (tous les autres URLs du sitemap-fragment) -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  ===== PAGES PRINCIPALES =====  -->
+<url>
+<loc>https://samincendie.fr/</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/services.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/audit.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/formations.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<!--  ===== FAQ & RESSOURCES =====  -->
+<url>
+<loc>https://samincendie.fr/faq-securite-incendie-erp.html</loc>
+<lastmod>2026-07-02</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.95</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/faq-securite-incendie-restaurant.html</loc>
+<lastmod>2026-07-02</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/faq-securite-incendie-cabinet-medical.html</loc>
+<lastmod>2026-07-02</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/faq-securite-incendie-coiffure-institut.html</loc>
+<lastmod>2026-07-02</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<!--  ===== BLOG & ACTUALITÉS =====  -->
+<url>
+<loc>https://samincendie.fr/actualites.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-commission-securite-erp.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-erp-5eme-categorie.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-extincteurs-erp.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-plan-evacuation-incendie.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-registre-securite-erp.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-responsabilite-penale-erp.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-delegation-pouvoir.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/blog-signaletique-incendie.html</loc>
+<lastmod>2026-06-15</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<!--  ===== ÉTUDES DE CAS (NOUVEAU) =====  -->
+<url>
+<loc>https://samincendie.fr/etudes-de-cas.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<!--  ===== PRODUITS & KITS =====  -->
+<url>
+<loc>https://samincendie.fr/produits.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/kit-gratuit.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.85</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/kit-signaletique.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<!--  ===== APPRENTISSAGE =====  -->
+<url>
+<loc>https://samincendie.fr/cours.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/exercices.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<!--  ===== INFORMATIONS =====  -->
+<url>
+<loc>https://samincendie.fr/sam-incendie.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/secteurs.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/mentions-legales.html</loc>
+<lastmod>2026-07-09</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
+</url>
+<!--  ===== RÉGLEMENTATION (119 CHAPITRES) =====  -->
+<url>
+<loc>https://samincendie.fr/reglementation/</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-gn.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ge.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-co.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-am.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-df.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ch.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-gz.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-el.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ec.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-as.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-gc.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ms.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-bois.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-pe.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-po.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-pu.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-px.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-pa.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-cts.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-sg.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-oa.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ref.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ps.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ga.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ef.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-j.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-l.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-m.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-n.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-o.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-p.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-r.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-s.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-t.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-u.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-v.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-w.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-x.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-y.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-geem.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-ep.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-r-143-15.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-cra.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-eirp.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-it246.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-it248.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-it249.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-pi.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/erp-see.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-gh.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-gha.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-gho.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghr.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghs.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghu.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghw.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghz.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-ghtc.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/igh-itgh.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t2.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t3.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t4.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t5.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t6.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab-t7.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab2.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab3a.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab3b.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-hab4.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-daaf.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/hab-ps-hab.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-r4216.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-r4227.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-r4121.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-l4131.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-r4141.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-cch144.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-cch162.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-cch163.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-ssiap.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-evac.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-ert.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/bup-entr.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l511-1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l511-2.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l512-1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l514-1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l515-15.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-l516-1.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r512-a.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r512-e.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r512-d.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r512-cp.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-arr2016.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-arr2012.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1410.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1411.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1412.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1413.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1510.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r1530.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-seveso.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/icpe-r27xx.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-gen.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-impl.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-voies.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-eau.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-ext.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-alarme.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-cons.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-camp-reg.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-tunnel.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-nfs61.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-d9.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-pcs.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
+<url>
+<loc>https://samincendie.fr/reglementation/autres-resp.html</loc>
+<lastmod>2026-07-08</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.75</priority>
+</url>
 </urlset>
