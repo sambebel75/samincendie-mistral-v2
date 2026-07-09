@@ -25,3 +25,9 @@
 
 - Téléphone : +33 7 81 59 63 64
 - Zone : Île-de-France, déplacements nationaux
+## Base réglementaire consultable (texte intégral)
+
+- [Hub réglementation — 119 chapitres ERP/IGH/HAB/BUP/ICPE](https://samincendie.fr/reglementation/)
+- [ERP — Arrêté du 25 juin 1980...](https://samincendie.fr/reglementation/#erp)
+- [IGH — Immeubles de Grande Hauteur](https://samincendie.fr/reglementation/#igh)
+...
