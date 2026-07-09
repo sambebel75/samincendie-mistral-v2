@@ -1,94 +1,27 @@
-# Sam Incendie — Expert Sécurité Incendie ERP
+# Sam Incendie
 
-> Cabinet de conseil indépendant en sécurité incendie pour les ERP et entreprises.
-> Expert certifié SSIAP 3 — 15 ans d'expérience terrain. Paris (Île-de-France).
-> SIRET 819 209 461 00022. Intervention Île-de-France et déplacements nationaux.
+> Expert indépendant certifié SSIAP 3 en sécurité incendie pour les ERP
+> (Établissements Recevant du Public), basé à Paris, Île-de-France.
+> Audits réglementaires, conseil, formation, et kits de conformité téléchargeables.
+> 15 ans d'expérience terrain. SIRET 819 209 461 00022.
 
-## Services
+## Pages principales
 
-- Audit & Diagnostic incendie terrain (rapport complet + plan d'action priorisé)
-- Conseil réglementaire (Code de la Construction, Code du travail, arrêtés sectoriels)
-- Formation sécurité incendie (EPI, exercices d'évacuation, sensibilisation)
-- Kits PDF conformité ERP : Kit 5e catégorie (19 €), Guide complet toutes catégories (47 €)
+- [FAQ sécurité incendie ERP](https://samincendie.fr/faq-securite-incendie-erp.html) : 12 questions clés des gérants, réponses sourcées au règlement 2026
+- [Études de cas](https://samincendie.fr/etudes-de-cas.html) : 5 audits réels avec articles réglementaires et coûts (GN9, GN11, GN21, IT246)
+- [Réglementation](https://samincendie.fr/reglementation.html) : portail des textes ERP, IGH, HAB, ICPE à jour 2026
+- [Actualités](https://samincendie.fr/actualites.html) : veille réglementaire sécurité incendie 2025-2026
+- [Cours](https://samincendie.fr/cours.html) : 40 modules gratuits SSIAP 1/2/3, TFP APS
+- [Produits](https://samincendie.fr/produits.html) : kits de conformité ERP (19-47 €)
+- [Audit](https://samincendie.fr/audit.html) : audit terrain, devis gratuit sous 24h
 
-## Expertise
+## FAQ sectorielles
 
-- Certification SSIAP 3 (Service de Sécurité Incendie et d'Assistance à Personnes)
-- Jury SSIAP 1 & 2
-- Expert indépendant — aucun conflit d'intérêt avec les fournisseurs d'équipements
-- Secteurs couverts : ERP, ICPE, Industrie, Bureaux, Collectivités, Santé, Enseignement
-
-## Ressources principales
-
-- [FAQ sécurité incendie ERP — les 12 questions clés des gérants](https://samincendie.fr/faq-securite-incendie-erp.html) — réponses sourcées (catégorie ERP, extincteurs, dégagements, alarme, registre, commission, responsabilité pénale, désenfumage, PMR)
-- [FAQ sécurité incendie restaurant (ERP type N)](https://samincendie.fr/faq-securite-incendie-restaurant.html) — type/catégorie N, calcul effectif, grande cuisine (seuil 20 kW), cuisine ouverte, extincteur friteuse classe F, gaz, extraction des buées
-- [FAQ sécurité incendie cabinet médical / paramédical (ERP type U)](https://samincendie.fr/faq-securite-incendie-cabinet-medical.html) — type U sans hébergement, 5e catégorie, régime allégé des petits cabinets, extincteurs, local à risques (oxygène/archives), évacuation des patients
-- [FAQ sécurité incendie salon de coiffure et institut de beauté](https://samincendie.fr/faq-securite-incendie-coiffure-institut.html) — classement 5e catégorie, régime allégé, produits inflammables (laques/solvants), extincteurs, aménagement en pied d'immeuble
-- [Réglementation sécurité incendie ERP 2026](https://samincendie.fr/reglementation.html)
-- [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
-- [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
-- [Signalétique incendie obligatoire en ERP](https://samincendie.fr/blog-signaletique-incendie.html)
-- [Checklist 10 obligations incendie](https://samincendie.fr/kit-gratuit.html)
-- [À propos de l'expert](https://samincendie.fr/sam-incendie.html)
-- [Produits et kits PDF](https://samincendie.fr/produits.html)
-
-## Vidéos YouTube
-
-- [Causes et conséquences d'un incendie | SAM Incendie](https://youtu.be/FKuudmE4evo) — Causes incendie ERP, responsabilité pénale exploitant, prévention, publié 2026-06-14
-- [Attaque des feux | SAM Incendie](https://youtu.be/I_Jxypsw9Os) — Techniques d'attaque des feux, extincteurs, intervention ERP, publié 2026-06-14
-- [À chaque feu, son agent extincteur ! | SAM Incendie](https://youtu.be/dvdoK2-oA-E) — Classes de feux A/B/C/D/F, choix agent extincteur, obligations ERP, publié 2026-06-14
-
-## Présence en ligne
-
-- Site web : https://samincendie.fr
-- YouTube : https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw
-- LinkedIn (personnel) : https://www.linkedin.com/in/sam-incendie
-- LinkedIn (entreprise) : https://www.linkedin.com/company/sam-incendie/
-- Instagram : https://www.instagram.com/samconforme/
-- TikTok : https://www.tiktok.com/@samincendie
-
-## Questions fréquentes (FAQ)
-
-- Mon local est-il un ERP et quelle catégorie ? → https://samincendie.fr/faq-securite-incendie-erp.html#erp-categorie
-- Petit établissement de moins de 100 personnes : le minimum légal ? → https://samincendie.fr/faq-securite-incendie-erp.html#minimum-legal
-- Combien de sorties (dégagements) dois-je avoir ? → https://samincendie.fr/faq-securite-incendie-erp.html#degagements
-- Une alarme incendie est-elle obligatoire et laquelle ? → https://samincendie.fr/faq-securite-incendie-erp.html#alarme
-- En cas d'incendie, que risque le gérant ? → https://samincendie.fr/faq-securite-incendie-erp.html#responsabilite
-- Combien d'extincteurs et quel type ? → https://samincendie.fr/faq-securite-incendie-erp.html#extincteurs
-- Un désenfumage est-il obligatoire pour un petit local ? → https://samincendie.fr/faq-securite-incendie-erp.html#desenfumage
-- À quoi sert le registre de sécurité ? → https://samincendie.fr/faq-securite-incendie-erp.html#registre
-- Dois-je former mon personnel et faire des exercices ? → https://samincendie.fr/faq-securite-incendie-erp.html#formation
-- La commission de sécurité peut-elle me fermer ? → https://samincendie.fr/faq-securite-incendie-erp.html#commission
-- Travaux sans autorisation : qu'est-ce que je risque ? → https://samincendie.fr/faq-securite-incendie-erp.html#travaux
-- Accessibilité PMR : que dois-je prévoir ? → https://samincendie.fr/faq-securite-incendie-erp.html#pmr
-
-## Études de cas terrain
-
-- [5 études de cas ERP — La règle des 20%](https://samincendie.fr/etudes-de-cas.html) — Restaurant GN9 (250€), Hôtel IT246 (480€), Crèche GN21+R11 (150€), Clinique IT246§4.1 (820€), Boulangerie GN11 (105€). Économies : 3 000€ à 8 350€ par cas.
-
-## Articles de blog
-
-- [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
-- [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
-- [Signalétique incendie obligatoire en ERP](https://samincendie.fr/blog-signaletique-incendie.html)
-- [Extincteurs en ERP : obligations et maintenance](https://samincendie.fr/blog-extincteurs-erp.html)
-- [Plan d'évacuation incendie obligatoire](https://samincendie.fr/blog-plan-evacuation-incendie.html)
-- [Registre de sécurité incendie ERP](https://samincendie.fr/blog-registre-securite-erp.html)
-- [Commission de sécurité ERP](https://samincendie.fr/blog-commission-securite-erp.html)
-- [ERP 5e catégorie : obligations spécifiques](https://samincendie.fr/blog-erp-5eme-categorie.html)
-
-## Données clés
-
-- 40% des ERP en France ne sont pas conformes à la réglementation incendie
-- Sanctions non-conformité (CCH art. L143-3) : fermeture administrative, astreinte jusqu'à 500 €/jour, 10 000 € d'amende en cas de refus d'appliquer la fermeture ; au pénal, homicide/blessures involontaires (Code pénal) en cas de sinistre avec victimes
-- 1 incendie déclaré toutes les 2 minutes en France (données SDIS)
-- Coût audit terrain ERP : 2 000 – 5 000 € selon taille établissement
-- Exercices d'évacuation obligatoires : 2 par an minimum
-- Certification SSIAP 3 : renouvelée tous les 5 ans (formation continue obligatoire)
+- [Restaurant](https://samincendie.fr/faq-securite-incendie-restaurant.html)
+- [Cabinet médical](https://samincendie.fr/faq-securite-incendie-cabinet-medical.html)
+- [Coiffure & institut](https://samincendie.fr/faq-securite-incendie-coiffure-institut.html)
 
 ## Contact
 
-- Téléphone : +33 (0)7 81 59 63 64
-- Email : contact@samincendie.fr
-- Zone d'intervention : Île-de-France (Paris) et déplacements nationaux
-- Devis gratuit sous 24h : https://samincendie.fr/#contact
+- Téléphone : +33 7 81 59 63 64
+- Zone : Île-de-France, déplacements nationaux
