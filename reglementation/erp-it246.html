@@ -70,6 +70,14 @@
   <dd>En attente de procédure d'essai : surface utile = 0,5 × surface libre (ou surface libre calculée).</dd>
   <dt>Bouche</dt>
   <dd>Orifice d'un conduit d'amenée d'air ou d'évacuation des fumées, normalement obturé par un volet.</dd>
+  <dt>Surface géométrique de l'ouvrant de désenfumage</dt>
+  <dd>Surface d'ouverture de l'ouvrant, mesurée dans le plan de l'ouvrant.</dd>
+  <dt>Surface libre calculée d'un ouvrant</dt>
+  <dd>Ouvrant basculant : <strong>St = L × H × sin θ</strong> (θ = angle d'ouverture). Ouvrant pivotant : <strong>Sv = L × h</strong> (h = distance entre les deux bords libres). Ouvrant à la française ou soufflet inférieur : surface libre = surface géométrique × sin θ. Ces formules s'appliquent lorsque l'ouvrant présente une surface nette de passage de l'air inférieure à la surface géométrique.</dd>
+  <dt>Surface géométrique d'une bouche</dt>
+  <dd>Surface de la section droite du conduit à son débouché dans le local ou la circulation (avant déduction des grilles, grillages ou autres obstacles éventuels).</dd>
+  <dt>Surface libre d'une bouche</dt>
+  <dd>Surface réelle de passage de l'air à la bouche, compte tenu de la présence des grilles, grillages ou autres obstacles.</dd>
   <dt>Volet</dt>
   <dd>Dispositif d'obturation commandable à distance placé au droit d'une bouche desservie par un conduit aéraulique.</dd>
 </dl>
@@ -128,6 +136,8 @@
   <li>SSI catégorie A ou B : commandes manuelles exclusivement depuis le CMSI (NF S 61-934). SSI C, D, E : depuis DCS, DCMR ou DCM (NF S 61-938).</li>
   <li>Commande automatique par détection incendie lorsque les dispositions réglementaires l'imposent, doublée par la commande manuelle de l'UCMC.</li>
   <li>Réarmement (fermeture) possible depuis le sol de la zone de désenfumage.</li>
+  <li><strong>§ 3.6.2 — APS (alimentation pneumatique de sécurité) :</strong> Pour les cantons de superficie &gt; 500 m², une action unique sur la commande manuelle de mise en sécurité doit ouvrir simultanément toutes les évacuations de fumée et toutes les amenées d'air du canton concerné. Lorsque le système comporte une alimentation pneumatique de sécurité (APS), un dispositif de purge automatique doit être prévu pour évacuer les fuites d'air comprimé avant la commande de mise en sécurité.</li>
+  <li><strong>§ 3.6.3 — Neutralisation :</strong> La commande automatique des ouvrants de désenfumage des autres parties du bâtiment est neutralisée tant que la cause initiale de déclenchement n'a pas disparu. Toutefois, la commande manuelle depuis l'UCMC reste possible.</li>
 </ul>
 
 <h3>§ 3.7 — Caractéristiques des bouches et volets</h3>
@@ -135,18 +145,19 @@
   <li>Bouches obturées par volets <strong>pare-flammes</strong> (amenée d'air) ou <strong>coupe-feu</strong> (évacuation), fermés en position d'attente.</li>
   <li>Conduit collecteur (shunt) : aucun degré de résistance au feu imposé aux volets.</li>
   <li>Rapport grande/petite dimension d'une bouche ≤ 2.</li>
+  <li><strong>Conduit mononiveau :</strong> si le conduit ne dessert qu'un seul niveau, le volet n'est pas obligatoire. Si ce volet existe, aucun degré de résistance au feu ne lui est imposé.</li>
 </ul>
 
 <h3>§ 3.8 — Caractéristiques des exutoires</h3>
 <ul>
   <li>Classe de fiabilité : <strong>Re 300</strong> (300 cycles). Exutoires bifonction : 10 000 essais supplémentaires en ventilation.</li>
-  <li>Surcharge neige : SL 250 (altitude ≤ 400 m), SL 500 (400–800 m). Classe SL 0 admise si pas de risque d'enneigement.</li>
+  <li>Surcharge neige : SL 250 (altitude ≤ 400 m), SL 500 (400–800 m). Au-dessus de 800 m : classe SL 500 <em>et</em> dispositifs constructifs appropriés à la neige locale. Classe SL 0 admise si pas de risque d'enneigement.</li>
   <li>Classe de température ambiante : T00 (0 °C).</li>
-  <li>Exposition à la chaleur : <strong>B300 pendant 30 min</strong>.</li>
+  <li>Exposition à la chaleur : classe <strong>B3QQ 30</strong> (300 °C pendant 30 min).</li>
 </ul>
 
 <h3>§ 3.9 — Fenêtres et portes utilisées en désenfumage</h3>
-<p>Les portes utilisées pour les amenées d'air naturelles et certaines fenêtres actionnées directement ne constituent <strong>pas des DAS</strong> au sens de la norme NF S 61-937.</p>
+<p>Les portes utilisées pour les amenées d'air naturelles ne constituent <strong>pas des DAS</strong> au sens de la norme NF S 61-937. Dans certains locaux, lorsque cela est prévu par les dispositions particulières, il est admis d'ouvrir les fenêtres en actionnant directement leur dispositif de manœuvre ; dans ce cas, ces fenêtres ne constituent pas non plus des DAS.</p>
 </div>
 </details>
 
@@ -155,7 +166,7 @@
 <div class="body">
 <h3>§ 4.1 — Principe de fonctionnement</h3>
 <p>Le désenfumage par tirage mécanique est assuré par des <strong>extractions mécaniques de fumée</strong> et des amenées d'air naturelles ou mécaniques assurant un balayage du volume. Ce balayage peut être complété par une <strong>mise en surpression</strong> des espaces à mettre à l'abri des fumées.</p>
-<p>Un système de ventilation permanente (renouvellement d'air, chauffage, climatisation) peut être utilisé pour le désenfumage s'il répond aux dispositions du chapitre 4 et ne contrarie pas le mouvement naturel des fumées.</p>
+<p>Un système de ventilation permanente (renouvellement d'air, chauffage, climatisation) peut être utilisé pour le désenfumage s'il répond aux dispositions du chapitre 4 et ne contrarie pas le mouvement naturel des fumées. La présence de filtres ou de pièges à son est admise sur le réseau de soufflage dans les conditions définies aux articles <strong>CH 32 et CH 38</strong>.</p>
 
 <h3>§ 4.2 — Extraction des fumées</h3>
 <p>Réalisée par des bouches raccordées à un ventilateur d'extraction.</p>
@@ -186,13 +197,14 @@
 
 <h3>§ 4.7 — Caractéristiques des ventilateurs</h3>
 <ul>
-  <li>Dimensionnés pour : débit nominal + débit de fuite tolérable (~20 %).</li>
+  <li>Dimensionnés pour : débit nominal + débit de fuite tolérable (~20 %). <strong>La mesure des débits s'effectue à la température ambiante.</strong></li>
   <li>Commandés par coffret de relayage conforme à NF S 61-937.</li>
   <li>Ventilateurs d'extraction : fonctionnement garanti <strong>1 heure à 400 °C</strong> (ou classés F400 90).</li>
   <li>Liaison ventilateur-conduit : matériaux M0 ou A2 s2 d0.</li>
   <li>État du sectionneur reporté au poste de sécurité.</li>
   <li>Canalisations électriques : conformes aux articles EL.</li>
   <li>Ventilateurs d'extraction installés soit à l'extérieur, soit dans un local technique séparé par parois <strong>CF 1 h</strong>, porte CF 1/2 h avec ferme-porte. <em>(Note CCS 5 mai 2008 : le caisson de désenfumage ne peut pas tenir lieu de local technique.)</em></li>
+  <li>La ventilation du local technique sera compatible avec le fonctionnement des différents matériels installés dans ce local.</li>
 </ul>
 
 <h3>§ 4.8 — Dispositifs de commande</h3>
@@ -214,10 +226,12 @@
   <li>Amenée d'air de surface égale en partie basse de la cage.</li>
   <li>Commande du système : au niveau bas de la cage d'escalier.</li>
   <li>Réarmement possible depuis le niveau bas ou le dernier palier.</li>
+  <li>Si l'amenée d'air est assurée par une porte, celle-ci <strong>ne constitue pas un DAS</strong> au titre du désenfumage.</li>
 </ul>
 
 <h4>§ 5.2 — Mise en surpression</h4>
 <p>Lorsque le désenfumage naturel ne peut être assuré, l'escalier est mis en surpression par soufflage mécanique, obligatoirement associé au désenfumage du volume en communication directe avec l'escalier.</p>
+<p>La surpression doit être réalisée <strong>en même temps</strong> que le désenfumage du volume en communication directe avec l'escalier, et mise en route par la même commande de désenfumage.</p>
 <ul>
   <li>Surpression : <strong>20 à 80 Pa</strong> (toutes portes de l'escalier fermées).</li>
   <li>Vitesse de passage de l'air à la porte d'accès au niveau sinistré ≥ <strong>0,5 m/s</strong> (autres niveaux fermés).</li>
@@ -227,6 +241,8 @@
 
 <h4>§ 6.1 — Désenfumage naturel</h4>
 <ul>
+  <li>Les amenées d'air sont <strong>au moins aussi nombreuses</strong> que les évacuations de fumée.</li>
+  <li>Lorsqu'une évacuation est desservie par deux amenées d'air, celles-ci sont situées à égale distance de l'évacuation.</li>
   <li>Amenées d'air et évacuations de fumée réparties de façon <strong>alternée</strong> (en quinconce ou non).</li>
   <li>Distance horizontale entre amenée et évacuation ≤ <strong>10 m</strong> (parcours rectiligne), ≤ <strong>7 m</strong> (sinon).</li>
   <li>Toute porte de local accessible au public non située entre amenée et évacuation doit être à ≤ <strong>5 m</strong> de l'une d'elles. <em>(Note CCS 9 sept. 2004 : uniquement les portes des locaux accessibles au public.)</em></li>
@@ -276,6 +292,9 @@
   <li>Hauteur libre de fumée ≥ moitié de la hauteur de référence, &gt; linteau des portes, jamais &lt; 1,80 m.</li>
   <li>Épaisseur de la couche de fumée : ≥ <strong>25 % de H</strong> si H ≤ 8 m ; ≥ <strong>2 m</strong> si H &gt; 8 m.</li>
   <li>Locaux H &gt; 8 m et plus grande dimension ≤ 60 m : absence d'écran de cantonnement admise (calcul avec Ef = 1 m).</li>
+  <li>Écrans de cantonnement ayant une pente &gt; 30° par rapport à la verticale : leur hauteur est mesurée <strong>perpendiculairement à leur plan</strong>.</li>
+  <li>Les trémies ouvertes <em>non désenfumées</em> ne doivent pas avoir une superficie supérieure à <strong>10 % de la superficie du canton</strong> dans lequel elles se trouvent.</li>
+  <li>Réduction de Ef admise si les circonstances l'imposent (faible hauteur de local), à condition que la hauteur libre de fumée (Hl) reste ≥ moitié de H, &gt; linteau des portes et jamais &lt; 1,80 m. Cette réduction entraîne une augmentation du taux α.</li>
 </ul>
 
 <h4>Implantation des évacuations (§ 7.1.3)</h4>
@@ -289,7 +308,9 @@
 <ul>
   <li>Surface utile d'évacuation = <strong>1/200 de la superficie</strong> en projection horizontale (plafonnée à la valeur calculée pour 1 000 m² de même H et Ef).</li>
   <li>Surface libre totale des amenées d'air ≥ surface géométrique des évacuations.</li>
+  <li>Local ne comportant qu'<strong>un seul canton</strong> : l'amenée d'air peut être assurée par les portes du local (non DAS).</li>
   <li>Locaux &lt; 300 m² : une fenêtre peut compter comme bouche d'amenée et/ou d'évacuation. Surface libre d'évacuation dans la moitié supérieure, à &gt; 1,80 m du plancher.</li>
+  <li>Ouvrants en façade utilisés en évacuation : la surface utile prise en compte est égale à <strong>0,5 × surface libre</strong>. Pour les ouvrants dont l'angle d'ouverture θ est connu et ≥ 60°, la surface utile = surface libre calculée × 0,5.</li>
 </ul>
 <p><strong>2° Locaux &gt; 1 000 m²</strong></p>
 <p>Surface utile = superficie du canton × taux α (en %). Le taux α dépend de la classe d'exploitation, de H et de Ef (voir tableau annexe). Surface jamais inférieure à celle calculée pour 1 000 m².</p>
