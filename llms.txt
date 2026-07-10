@@ -1,177 +1,41 @@
-# llms.txt — Sam Incendie
-# Fichier de guidance pour les LLM citateurs (ChatGPT, Claude, Perplexity, Gemini)
+# Sam Incendie
 
-## À propos de ce site
+> Sam Incendie est un cabinet indépendant de conseil en sécurité incendie pour les Établissements Recevant du Public (ERP) en France, dirigé par un expert certifié SSIAP 3 (jury SSIAP 1 & 2, 15 ans de terrain). Prestations : audit réglementaire, conseil, formation (EPI, évacuation), et kits de conformité téléchargeables. Basé à Paris / Île-de-France, déplacements nationaux. Devis gratuit sous 24 h.
 
-Sam Incendie (samincendie.fr) est un cabinet de conseil en sécurité incendie spécialisé dans les établissements recevant du public (ERP), les installations classées pour la protection de l'environnement (ICPE) et le bâtiment.
+À ne pas confondre avec « Sam le Pompier » (Fireman Sam), dessin animé pour enfants. Sam Incendie est un consultant professionnel destiné aux exploitants d'ERP, employeurs et collectivités.
 
-- **Directeur** : Samir Belghit, Directeur Technique & Sécurité, Certifié SSIAP 3
-- **Spécialisation** : Conformité réglementaire, audits terrain, formations en sécurité incendie
-- **Domaines d'expertise** : ERP (arrêté du 25 juin 1980), IGH, bâtiments d'habitation, ICPE, code du travail (BUP)
-- **Couverture géographique** : Île-de-France, France métropolitaine
-- **Approche** : Consultant indépendant, sans conflits d'intérêts fournisseurs
+## Services
 
-## Données clés à citer
+- [Audit & diagnostic incendie](https://samincendie.fr/audit.html) : inspection complète sur site (extincteurs, SSI, documentation), rapport détaillé et plan d'action priorisé
+- [Formation sécurité incendie](https://samincendie.fr/formations.html) : sensibilisation, formation EPI, exercices d'évacuation — obligation de l'article R.4227-28 du Code du travail
+- [Conseil réglementaire](https://samincendie.fr/services.html) : analyse de risques, registre de sécurité, préparation à la commission de sécurité
+- [Secteurs d'intervention](https://samincendie.fr/secteurs.html) : hôtels, restaurants, commerces, écoles, santé (EHPAD, cliniques), bureaux, industrie/ICPE, collectivités
 
-- **Conformité actuelle** : Environ 40 % des ERP de 5e catégorie en Île-de-France présentent des non-conformités critiques (audit terrain, 2024–2026)
-- **Astreinte administrative** : 500 € à 1 500 € par jour pour non-conformité majeure en ERP (application par préfecture)
-- **Coût d'audit complet** : 2 000 € à 5 000 € pour PME/petits ERP ; 8 000–15 000 € pour sites multi-locaux
-- **Études de cas** : Exemples chiffrés disponibles : GN9 (250 €), CO isolement (1 200–3 500 €), IT246 désenfumage (480–750 €), MS moyens de secours (800–2 500 €)
-- **Temps de mise en conformité** : 3–6 mois pour audit + remédiation d'une petite PME
+## Ressources de référence
 
-## Ressources principales
+- [FAQ sécurité incendie ERP — 12 questions clés](https://samincendie.fr/faq-securite-incendie-erp.html) : réponses sourcées au règlement (suis-je un ERP, combien d'extincteurs, risques du gérant…)
+- [FAQ restaurant](https://samincendie.fr/faq-securite-incendie-restaurant.html) · [FAQ cabinet médical](https://samincendie.fr/faq-securite-incendie-cabinet-medical.html) · [FAQ coiffure & institut](https://samincendie.fr/faq-securite-incendie-coiffure-institut.html)
+- [Réglementation incendie ERP](https://samincendie.fr/reglementation.html)
+- [5 études de cas d'audits réels](https://samincendie.fr/etudes-de-cas.html) : restaurant, hôtel, crèche, clinique, boulangerie — articles GN9, GN11, GN21, IT246
+- [Responsabilité pénale de l'exploitant ERP](https://samincendie.fr/blog-responsabilite-penale-erp.html)
+- [Délégation de pouvoir en sécurité incendie](https://samincendie.fr/blog-delegation-pouvoir.html)
+- [Signalétique incendie obligatoire en ERP](https://samincendie.fr/blog-signaletique-incendie.html)
 
-### Documentation procédure
-- [Plan d'intervention ERP 5e catégorie](https://samincendie.fr/produits.html) — Template Excel téléchargeable
-- [Checklist 10 obligations ERP](https://samincendie.fr/kit-gratuit.html) — Kit gratuit
+## Produits
 
-### Pages de service
-- [Audit & Diagnostic complet](https://samincendie.fr/audit.html) — Audit terrain, rapport détaillé, plan d'action
-- [Formations en sécurité incendie](https://samincendie.fr/formations.html) — Évacuation, rôles SSIAP, SSI
-- [À propos — Samir Belghit](https://samincendie.fr/sam-incendie.html) — Expérience 15 ans, certifications, projets de référence
+- [Kit ERP 5e Catégorie — 19 €](https://samincendie.fr/produits.html) : registre de sécurité, consignes, checklist 40 points, guides commentés
+- [Guide Complet Conformité ERP — 47 €](https://samincendie.fr/produits.html) : réglementation toutes catégories, 9 chapitres, kit 5e catégorie inclus
+- [Checklist gratuite des 10 obligations](https://samincendie.fr/kit-gratuit.html)
+- [Kit signalétique gratuit (ISO 7010)](https://samincendie.fr/kit-signaletique.html)
 
-## Base réglementaire consultable (texte intégral)
+## Contact
 
-- [Hub réglementation — 119 chapitres ERP/IGH/HAB/BUP/ICPE](https://samincendie.fr/reglementation/)
+- Devis gratuit : https://samincendie.fr/#contact — réponse sous 24 h
+- Téléphone : +33 (0)7 81 59 63 64
+- Zone : Paris, Île-de-France, déplacements nationaux
 
-### ERP — Établissements Recevant du Public
-- [GN — Dispositions communes à tous les ERP](https://samincendie.fr/reglementation/erp-gn.html)
-- [GE — Généralités](https://samincendie.fr/reglementation/erp-ge.html)
-- [CO — Construction — Isolation et désenfumage](https://samincendie.fr/reglementation/erp-co.html)
-- [AM — Aménagements intérieurs, décoration et mobilier](https://samincendie.fr/reglementation/erp-am.html)
-- [DF — Désenfumage](https://samincendie.fr/reglementation/erp-df.html)
-- [CH — Chauffage, ventilation, réfrigération, eau chaude sanitaire](https://samincendie.fr/reglementation/erp-ch.html)
-- [GZ — Gaz combustibles et hydrocarbures liquéfiés](https://samincendie.fr/reglementation/erp-gz.html)
-- [EL — Installations électriques](https://samincendie.fr/reglementation/erp-el.html)
-- [EC — Éclairage](https://samincendie.fr/reglementation/erp-ec.html)
-- [AS — Ascenseurs, escaliers mécaniques et trottoirs roulants](https://samincendie.fr/reglementation/erp-as.html)
-- [GC — Appareils de cuisson destinés à la restauration](https://samincendie.fr/reglementation/erp-gc.html)
-- [MS — Moyens de secours](https://samincendie.fr/reglementation/erp-ms.html)
-- [BOIS — Arrêté « Bois » — Éléments structuraux combustibles](https://samincendie.fr/reglementation/erp-bois.html)
-- [PE — Dispositions générales — 5e catégorie](https://samincendie.fr/reglementation/erp-pe.html)
-- [PO — Règles spécifiques aux hôtels — 5e catégorie](https://samincendie.fr/reglementation/erp-po.html)
-- [PU — Petits établissements de soins — 5e catégorie](https://samincendie.fr/reglementation/erp-pu.html)
-- [PX — Règles spécifiques aux établissements sportifs — 5e catégorie](https://samincendie.fr/reglementation/erp-px.html)
-- [PA — Etablissements de plein air](https://samincendie.fr/reglementation/erp-pa.html)
-- [CTS — Chapiteaux, tentes et structures](https://samincendie.fr/reglementation/erp-cts.html)
-- [SG — Structures gonflables](https://samincendie.fr/reglementation/erp-sg.html)
-- [OA — Hôtels-restaurants d'altitude](https://samincendie.fr/reglementation/erp-oa.html)
-- [REF — Refuges de montagne](https://samincendie.fr/reglementation/erp-ref.html)
-- [PS — Parcs de stationnement couverts](https://samincendie.fr/reglementation/erp-ps.html)
-- [GA — Gares accessibles au public](https://samincendie.fr/reglementation/erp-ga.html)
-- [EF — Établissements flottants](https://samincendie.fr/reglementation/erp-ef.html)
-- [J — Structures d'accueil pour personnes âgées et handicapées](https://samincendie.fr/reglementation/erp-j.html)
-- [L — Salles à usage d'audition, de conférences, de réunions, de spectacles ou à usages multiples](https://samincendie.fr/reglementation/erp-l.html)
-- [M — Magasins de vente et centres commerciaux](https://samincendie.fr/reglementation/erp-m.html)
-- [N — Restaurants et débits de boissons](https://samincendie.fr/reglementation/erp-n.html)
-- [O — Hôtels et autres établissements d'hébergement](https://samincendie.fr/reglementation/erp-o.html)
-- [P — Salles de danse et salles de jeux](https://samincendie.fr/reglementation/erp-p.html)
-- [R — Etablissements d'éveil, d'enseignement, de formation, centres de vacances, centres de loisirs sans hébergement](https://samincendie.fr/reglementation/erp-r.html)
-- [S — Bibliothèques, centres de documentation et de consultation d'archives](https://samincendie.fr/reglementation/erp-s.html)
-- [T — Salles d'expositions](https://samincendie.fr/reglementation/erp-t.html)
-- [U — Établissements de soins](https://samincendie.fr/reglementation/erp-u.html)
-- [V — Établissements de culte](https://samincendie.fr/reglementation/erp-v.html)
-- [W — Administrations, banques, bureaux](https://samincendie.fr/reglementation/erp-w.html)
-- [X — Établissements sportifs couverts](https://samincendie.fr/reglementation/erp-x.html)
-- [Y — Musées](https://samincendie.fr/reglementation/erp-y.html)
-- [GEEM — Groupes électrogènes — Établissements de soins](https://samincendie.fr/reglementation/erp-geem.html)
-- [EP — Établissements pénitentiaires](https://samincendie.fr/reglementation/erp-ep.html)
-- [R.143-15 — Registre de sécurité incendie](https://samincendie.fr/reglementation/erp-r-143-15.html)
-- [CRA — Centres de rétention administrative](https://samincendie.fr/reglementation/erp-cra.html)
-- [EIRP — Établissements d'enseignement supérieur](https://samincendie.fr/reglementation/erp-eirp.html)
-- [IT246 — Désenfumage](https://samincendie.fr/reglementation/erp-it246.html)
-- [IT248 — Façades](https://samincendie.fr/reglementation/erp-it248.html)
-- [IT249 — Câbles et canalisations électriques](https://samincendie.fr/reglementation/erp-it249.html)
-- [PI — Plan d'intervention ERP](https://samincendie.fr/reglementation/erp-pi.html)
-- [SEE — Solutions d'Effet Équivalent (SEE)](https://samincendie.fr/reglementation/erp-see.html)
+## Optional
 
-### IGH / IMH — Immeubles de grande et moyenne hauteur
-- [GH — Dispositions communes à tous les IGH](https://samincendie.fr/reglementation/igh-gh.html)
-- [GHA — Dispositions particulières aux IGH à usage d'habitation](https://samincendie.fr/reglementation/igh-gha.html)
-- [GHO — Dispositions particulières aux IGH à usage d'hôtel](https://samincendie.fr/reglementation/igh-gho.html)
-- [GHR — Dispositions particulières aux IGH à usage d'enseignement](https://samincendie.fr/reglementation/igh-ghr.html)
-- [GHS — Dispositions particulières aux IGH à usage de dépôt d'archives](https://samincendie.fr/reglementation/igh-ghs.html)
-- [GHU — Dispositions particulières aux IGH à usage sanitaire](https://samincendie.fr/reglementation/igh-ghu.html)
-- [GHW — Dispositions particulières aux IGH à usage de bureau](https://samincendie.fr/reglementation/igh-ghw.html)
-- [GHZ — Dispositions particulières aux IGH d'habitation 28-50 m avec locaux autres](https://samincendie.fr/reglementation/igh-ghz.html)
-- [GHTC — Dispositions particulières aux IGH à usage de tour de contrôle](https://samincendie.fr/reglementation/igh-ghtc.html)
-- [ITGH — Dispositions particulières aux immeubles de très grande hauteur (> 200 m)](https://samincendie.fr/reglementation/igh-itgh.html)
-
-### HAB — Bâtiments d'habitation
-- [HAB-T1 — Généralités et classement des bâtiments d'habitation](https://samincendie.fr/reglementation/hab-hab-t1.html)
-- [HAB-T2 — Structures et enveloppe des bâtiments d'habitation](https://samincendie.fr/reglementation/hab-hab-t2.html)
-- [HAB-T3 — Dégagements](https://samincendie.fr/reglementation/hab-hab-t3.html)
-- [HAB-T4 — Conduits et gaines](https://samincendie.fr/reglementation/hab-hab-t4.html)
-- [HAB-T5 — Logements-foyers](https://samincendie.fr/reglementation/hab-hab-t5.html)
-- [HAB-T6 — Parcs de stationnement couverts annexes](https://samincendie.fr/reglementation/hab-hab-t6.html)
-- [HAB-T7 — Dispositions finales](https://samincendie.fr/reglementation/hab-hab-t7.html)
-- [HAB1 — Maisons individuelles](https://samincendie.fr/reglementation/hab-hab1.html)
-- [HAB2 — Immeubles collectifs bas](https://samincendie.fr/reglementation/hab-hab2.html)
-- [HAB3A — Collectif intermédiaire (circulations extérieures)](https://samincendie.fr/reglementation/hab-hab3a.html)
-- [HAB3B — Collectif intermédiaire (escalier intérieur)](https://samincendie.fr/reglementation/hab-hab3b.html)
-- [HAB4 — Immeubles à grande hauteur d'habitation](https://samincendie.fr/reglementation/hab-hab4.html)
-- [DAAF — Détecteur Avertisseur Autonome de Fumée](https://samincendie.fr/reglementation/hab-daaf.html)
-- [PS-HAB — Parcs de stationnement couverts annexes](https://samincendie.fr/reglementation/hab-ps-hab.html)
-
-### BUP / ERT — Bâtiments à usage professionnel & Etablissements recevant des travailleurs
-- [R4216 — Locaux de travail — Conception et dégagements](https://samincendie.fr/reglementation/bup-r4216.html)
-- [R4227 — Locaux de travail — Prévention des incendies](https://samincendie.fr/reglementation/bup-r4227.html)
-- [R4121 — Document Unique d'Évaluation des Risques Professionnels (DUERP)](https://samincendie.fr/reglementation/bup-r4121.html)
-- [L4131 — Droit de retrait — Danger grave et imminent](https://samincendie.fr/reglementation/bup-l4131.html)
-- [R4141 — Information et formation à la sécurité incendie](https://samincendie.fr/reglementation/bup-r4141.html)
-- [CCH144 — Sécurité incendie des BUP — CCH Chapitre IV](https://samincendie.fr/reglementation/bup-cch144.html)
-- [CCH162 — Accessibilité — Construction de BUP neufs](https://samincendie.fr/reglementation/bup-cch162.html)
-- [CCH163 — Accessibilité — Modification de BUP existants](https://samincendie.fr/reglementation/bup-cch163.html)
-- [SSIAP — Service de sécurité incendie — Formation SSIAP](https://samincendie.fr/reglementation/bup-ssiap.html)
-- [EVAC — Exercices d'évacuation incendie](https://samincendie.fr/reglementation/bup-evac.html)
-- [ERT — Établissements recevant des travailleurs](https://samincendie.fr/reglementation/bup-ert.html)
-- [ENTR — Entrepôts couverts — ICPE Rubrique 1510](https://samincendie.fr/reglementation/bup-entr.html)
-
-### ICPE — Installations classées pour la protection de l'environnement
-- [L511-1 — Définition des installations classées](https://samincendie.fr/reglementation/icpe-l511-1.html)
-- [L511-2 — Nomenclature ICPE et régimes de classement](https://samincendie.fr/reglementation/icpe-l511-2.html)
-- [L512-1 — Régime d'autorisation (A) — Principe et procédure](https://samincendie.fr/reglementation/icpe-l512-1.html)
-- [L514-1 — Inspection des installations classées](https://samincendie.fr/reglementation/icpe-l514-1.html)
-- [L515-15 — Plans de Prévention des Risques Technologiques (PPRT)](https://samincendie.fr/reglementation/icpe-l515-15.html)
-- [L516-1 — Garanties financières pour la remise en état](https://samincendie.fr/reglementation/icpe-l516-1.html)
-- [R512-A — Procédure d'autorisation (A)](https://samincendie.fr/reglementation/icpe-r512-a.html)
-- [R512-E — Procédure d'enregistrement (E)](https://samincendie.fr/reglementation/icpe-r512-e.html)
-- [R512-D — Procédure de déclaration (D)](https://samincendie.fr/reglementation/icpe-r512-d.html)
-- [R512-CP — Contrôles périodiques des ICPE en régime D](https://samincendie.fr/reglementation/icpe-r512-cp.html)
-- [ARR2016 — Prescriptions générales ICPE déclaration](https://samincendie.fr/reglementation/icpe-arr2016.html)
-- [ARR2012 — Modalités d'affichage ICPE enregistrement](https://samincendie.fr/reglementation/icpe-arr2012.html)
-- [R1410 — Liquides inflammables catégories 1 et 2](https://samincendie.fr/reglementation/icpe-r1410.html)
-- [R1411 — Liquides inflammables catégorie 3](https://samincendie.fr/reglementation/icpe-r1411.html)
-- [R1412 — Gaz inflammables liquéfiés (GPL)](https://samincendie.fr/reglementation/icpe-r1412.html)
-- [R1413 — Gaz inflammables comprimés](https://samincendie.fr/reglementation/icpe-r1413.html)
-- [R1510 — Entrepôts couverts de matières combustibles](https://samincendie.fr/reglementation/icpe-r1510.html)
-- [R1530 — Dépôts de bois, papier et matières végétales combustibles](https://samincendie.fr/reglementation/icpe-r1530.html)
-- [SEVESO — Directive Seveso III — Hauts risques industriels](https://samincendie.fr/reglementation/icpe-seveso.html)
-- [R27XX — Rubriques 27xx — Traitement et stockage de déchets](https://samincendie.fr/reglementation/icpe-r27xx.html)
-
-### Autres textes réglementaires
-- [CAMP-GEN — Classement et champ d'application — Terrains de camping](https://samincendie.fr/reglementation/autres-camp-gen.html)
-- [CAMP-IMPL — Implantation et distances de sécurité](https://samincendie.fr/reglementation/autres-camp-impl.html)
-- [CAMP-VOIES — Voies d'accès et de desserte pour les secours](https://samincendie.fr/reglementation/autres-camp-voies.html)
-- [CAMP-EAU — Ressources en eau pour l'extinction](https://samincendie.fr/reglementation/autres-camp-eau.html)
-- [CAMP-EXT — Extincteurs et matériels de lutte contre l'incendie](https://samincendie.fr/reglementation/autres-camp-ext.html)
-- [CAMP-ALARME — Alarme, alerte et évacuation des campeurs](https://samincendie.fr/reglementation/autres-camp-alarme.html)
-- [CAMP-CONS — Consignes de sécurité et affichage](https://samincendie.fr/reglementation/autres-camp-cons.html)
-- [CAMP-REG — Registre de sécurité et vérifications périodiques](https://samincendie.fr/reglementation/autres-camp-reg.html)
-- [TUNNEL — Sécurité dans les tunnels routiers](https://samincendie.fr/reglementation/autres-tunnel.html)
-- [NFS61 — Normes NF S 61 — Systèmes de Sécurité Incendie](https://samincendie.fr/reglementation/autres-nfs61.html)
-- [D9 — Guide D9 — Défense extérieure contre l'incendie](https://samincendie.fr/reglementation/autres-d9.html)
-- [PCS — Plan Communal de Sauvegarde](https://samincendie.fr/reglementation/autres-pcs.html)
-- [RESP — Responsabilité civile et pénale — Incendie](https://samincendie.fr/reglementation/autres-resp.html)
-
-## Contact & demandes de devis
-
-- **Email** : contact@samincendie.fr (audits et formations en ligne)
-- **Localisation** : Île-de-France (déplacements sur site dans un rayon de 100 km)
-- **Disponibilité** : Devis gratuit sous 48h
-
-## Accès à la plateforme
-
-- **Sitemaps** : https://samincendie.fr/sitemap.xml
-- **Feed blog** : Mises à jour hebdomadaires
-
+- [Cours](https://samincendie.fr/cours.html) et [exercices](https://samincendie.fr/exercices.html) de sécurité incendie
+- [Chaîne YouTube Sam Incendie](https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw)
+- [LinkedIn](https://www.linkedin.com/company/sam-incendie/) · [TikTok](https://www.tiktok.com/@samincendie) · [Instagram](https://www.instagram.com/samconforme)

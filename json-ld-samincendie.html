@@ -1,0 +1,233 @@
+<!-- ============================================================
+  BLOCS JSON-LD À DÉPLOYER — samincendie.fr
+  Copier chaque bloc <script> dans le <head> des pages indiquées.
+  Valider ensuite sur https://validator.schema.org et
+  https://search.google.com/test/rich-results
+============================================================ -->
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 1 — TOUTES LES PAGES (identité + désambiguïsation vs "Sam le Pompier")
+  À inclure dans le <head> de chaque page du site.
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "https://samincendie.fr/#organization",
+  "name": "Sam Incendie",
+  "alternateName": "Sam Incendie — Expert Sécurité Incendie ERP",
+  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
+  "url": "https://samincendie.fr/",
+  "logo": "https://samincendie.fr/img/logo-sam.png",
+  "image": "https://samincendie.fr/img/og-image.png",
+  "telephone": "+33781596364",
+  "email": "contact@samincendie.fr",
+  "priceRange": "€€",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Paris",
+    "addressRegion": "Île-de-France",
+    "addressCountry": "FR"
+  },
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Île-de-France" },
+    { "@type": "Country", "name": "France" }
+  ],
+  "knowsAbout": [
+    "Sécurité incendie ERP",
+    "Audit sécurité incendie",
+    "Réglementation ERP",
+    "Formation incendie EPI",
+    "Commission de sécurité",
+    "Registre de sécurité",
+    "SSIAP"
+  ],
+  "founder": { "@id": "https://samincendie.fr/#expert" },
+  "sameAs": [
+    "https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw",
+    "https://www.linkedin.com/company/sam-incendie/",
+    "https://www.linkedin.com/in/sam-incendie",
+    "https://www.tiktok.com/@samincendie",
+    "https://www.instagram.com/samconforme"
+  ],
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Audit & diagnostic incendie",
+      "url": "https://samincendie.fr/audit.html"
+    },
+    {
+      "@type": "Offer",
+      "name": "Formation sécurité incendie (EPI, évacuation)",
+      "url": "https://samincendie.fr/formations.html"
+    },
+    {
+      "@type": "Offer",
+      "name": "Conseil réglementaire sécurité incendie",
+      "url": "https://samincendie.fr/services.html"
+    }
+  ]
+}
+</script>
+
+<!-- Bloc Person (l'expert) — même bloc sur toutes les pages, ou au minimum
+     accueil + à-propos + articles de blog. Renforce le E-E-A-T. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://samincendie.fr/#expert",
+  "name": "Sam — Sam Incendie",
+  "jobTitle": "Consultant expert en sécurité incendie, certifié SSIAP 3",
+  "worksFor": { "@id": "https://samincendie.fr/#organization" },
+  "url": "https://samincendie.fr/sam-incendie.html",
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "certification",
+    "name": "SSIAP 3 — Chef de service de sécurité incendie"
+  },
+  "knowsAbout": ["Sécurité incendie", "Réglementation ERP", "Formation SSIAP"],
+  "sameAs": [
+    "https://www.linkedin.com/in/sam-incendie",
+    "https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw"
+  ]
+}
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 2 — PAGES FAQ (faq-securite-incendie-erp.html + FAQ sectorielles)
+  Modèle : reprendre chaque question/réponse RÉELLE de la page.
+  Les textes ci-dessous sont des exemples à remplacer par vos réponses exactes
+  (le texte du JSON doit correspondre au texte visible sur la page).
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quels établissements sont soumis à la réglementation ERP ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tout établissement recevant du public : hôtels, restaurants, commerces, écoles, établissements de santé, salles de spectacle, etc. La catégorie (1 à 5) dépend de l'effectif du public admis et détermine les obligations applicables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quelles sanctions en cas de non-conformité incendie ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'exploitant s'expose à une fermeture administrative, des amendes pouvant atteindre 75 000 € et une responsabilité pénale en cas de sinistre (jusqu'à 5 ans d'emprisonnement selon les faits)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien coûte un audit de sécurité incendie ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le coût dépend de la taille et de la catégorie de l'établissement. Sam Incendie fournit un devis gratuit sous 24 h. Pour les petits ERP de 5e catégorie, un kit de conformité autonome existe à partir de 19 €."
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 3 — ARTICLES DE BLOG (blog-*.html, études de cas)
+  Adapter headline, description, dates et URL pour chaque article.
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Responsabilité pénale de l'exploitant ERP en cas d'incendie",
+  "description": "Quelles sanctions encourt un exploitant ERP en cas de sinistre ? De 1 an à 5 ans d'emprisonnement selon les faits.",
+  "url": "https://samincendie.fr/blog-responsabilite-penale-erp.html",
+  "image": "https://samincendie.fr/img/og-image.png",
+  "inLanguage": "fr-FR",
+  "datePublished": "2025-11-01",
+  "dateModified": "2026-06-15",
+  "author": { "@id": "https://samincendie.fr/#expert" },
+  "publisher": { "@id": "https://samincendie.fr/#organization" },
+  "isPartOf": { "@id": "https://samincendie.fr/#organization" }
+}
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 4 — PAGE PRODUITS (produits.html)
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "Kit ERP 5e Catégorie",
+      "description": "Tous les documents pour mettre un petit ERP en conformité incendie : registre de sécurité prêt à remplir, consignes personnalisables, checklist des 40 points, guides réglementaires commentés, plan d'intervention type. PDF téléchargeable, accès immédiat.",
+      "image": "https://samincendie.fr/img/og-image.png",
+      "brand": { "@id": "https://samincendie.fr/#organization" },
+      "offers": {
+        "@type": "Offer",
+        "price": "19",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://samincendie.fr/produits.html"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "Guide Complet Conformité ERP",
+      "description": "Guide de référence de la réglementation incendie ERP toutes catégories : 9 chapitres, responsabilité pénale, équipements obligatoires par type d'ERP, préparation à la commission de sécurité. Kit 5e catégorie inclus.",
+      "image": "https://samincendie.fr/img/og-image.png",
+      "brand": { "@id": "https://samincendie.fr/#organization" },
+      "offers": {
+        "@type": "Offer",
+        "price": "47",
+        "priceCurrency": "EUR",
+        "availability": "https://schema.org/InStock",
+        "url": "https://samincendie.fr/produits.html"
+      }
+    }
+  ]
+}
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 5 — BREADCRUMB (toutes les pages internes)
+  Exemple pour un article ; adapter les 2e/3e niveaux à chaque page.
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://samincendie.fr/" },
+    { "@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://samincendie.fr/actualites.html" },
+    { "@type": "ListItem", "position": 3, "name": "Responsabilité pénale de l'exploitant ERP" }
+  ]
+}
+</script>
+
+
+<!-- ═══════════════════════════════════════════════════════════
+  BLOC 6 — VIDÉOS YOUTUBE INTÉGRÉES (accueil, cours.html)
+  Un objet par vidéo ; adapter titres, descriptions et dates réelles.
+═══════════════════════════════════════════════════════════ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Causes et conséquences d'un incendie en entreprise | Sam Incendie",
+  "description": "Formation sécurité incendie par un expert SSIAP 3 : les causes réelles d'incendie en ERP et leurs conséquences pour l'exploitant.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/FKuudmE4evo/hqdefault.jpg",
+  "uploadDate": "2026-01-15",
+  "embedUrl": "https://www.youtube.com/embed/FKuudmE4evo",
+  "publisher": { "@id": "https://samincendie.fr/#organization" }
+}
+</script>
