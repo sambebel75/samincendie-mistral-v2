@@ -3,7 +3,7 @@
 /* ===== FIXES nav alignment + mobile ===== */
 
 /* Compress nav on medium screens to prevent overflow */
-@media (max-width:1100px) and (min-width:769px){
+@media (max-width:1500px) and (min-width:769px){
   .nav__link{font-size:.8rem;padding:7px 9px}
   .nav__link--cta{padding:8px 14px;margin-left:4px}
   .logo__tagline{display:none}
