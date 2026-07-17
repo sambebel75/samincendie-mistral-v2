@@ -1,0 +1,604 @@
+diff --git a/404.html b/404.html
+index 6a5f53e..34e31cb 100644
+--- a/404.html
++++ b/404.html
+@@ -18,7 +18,7 @@ a{display:inline-block;margin:.4rem .5rem;color:#C0392B;font-weight:600}
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/actualites.html b/actualites.html
+index 2469626..218106c 100644
+--- a/actualites.html
++++ b/actualites.html
+@@ -440,7 +440,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/ar/index.html b/ar/index.html
+index c2ebdd7..71b5b78 100644
+--- a/ar/index.html
++++ b/ar/index.html
+@@ -43,7 +43,7 @@
+       "areaServed": ["France", "Île-de-France"],
+       "address": { "@type": "PostalAddress", "addressLocality": "Paris", "addressRegion": "Île-de-France", "addressCountry": "FR" },
+       "serviceType": ["تدقيق السلامة من الحرائق للمنشآت المستقبلة للجمهور", "تدريب على السلامة من الحرائق", "استشارة تنظيمية", "مساعدة على الامتثال"],
+-      "founder": { "@type": "Person", "@id": "https://samincendie.fr/#person-sam", "name": "Sam", "alternateName": "Sam Incendie", "jobTitle": "خبير مستقل في السلامة من الحرائق", "description": "خبير معتمد SSIAP 3 يمتلك أكثر من 15 سنة خبرة ميدانية. عضو لجنة امتحانات SSIAP 1 و2. مستشار مستقل دون أي تضارب مصالح مع الموردين.", "credentials": "SSIAP 3, Jury SSIAP 1 & 2" },
++      "founder": { "@type": "Person", "@id": "https://samincendie.fr/#person-sam", "name": "Sam", "alternateName": "Sam Incendie", "jobTitle": "خبير مستقل في السلامة من الحرائق", "description": "خبير معتمد SSIAP 3 يمتلك أكثر من 12 سنة خبرة ميدانية. عضو لجنة امتحانات SSIAP 1 و2. مستشار مستقل دون أي تضارب مصالح مع الموردين.", "credentials": "SSIAP 3, Jury SSIAP 1 & 2" },
+       "sameAs": ["https://www.linkedin.com/company/sam-incendie/", "https://www.linkedin.com/in/sam-incendie", "https://www.youtube.com/channel/UCZJOkgMqE-4ZNV-EHWDydIw", "https://www.instagram.com/samconforme/", "https://www.tiktok.com/@samincendie"]
+     },
+     {
+@@ -93,7 +93,7 @@
+         {
+           "@type": "Question",
+           "name": "لماذا تُعد شهادة SSIAP 3 مهمة؟",
+-          "acceptedAnswer": { "@type": "Answer", "text": "SSIAP 3 هي أعلى شهادة لخبراء السلامة من الحرائق في فرنسا، وتتطلب 15 سنة أو أكثر من الخبرة الميدانية الموثقة وخبرة في التدقيق والتنظيم والتدريب. يمكن لحامل هذه الشهادة اعتماد تدقيقات الامتثال، تدريب الموظفين على معايير SSIAP 1 و2، والعمل كعضو في لجان الامتحانات الوطنية. خلافًا للمستشارين العامين، يعمل خبير SSIAP 3 دون أي تضارب مصالح مع موردي المعدات، مما يضمن توصيات موضوعية." }
++          "acceptedAnswer": { "@type": "Answer", "text": "SSIAP 3 هي أعلى شهادة لخبراء السلامة من الحرائق في فرنسا، ويتم الحصول عليها إما من خلال شهادة من المستوى 4 على الأقل، أو من خلال شهادة SSIAP 2 مع 3 سنوات من الخبرة المهنية الموثقة، وخبرة في التدقيق والتنظيم والتدريب. يمكن لحامل هذه الشهادة اعتماد تدقيقات الامتثال، تدريب الموظفين على معايير SSIAP 1 و2، والعمل كعضو في لجان الامتحانات الوطنية. خلافًا للمستشارين العامين، يعمل خبير SSIAP 3 دون أي تضارب مصالح مع موردي المعدات، مما يضمن توصيات موضوعية." }
+         },
+         {
+           "@type": "Question",
+@@ -182,7 +182,7 @@
+       <div class="container hero__inner">
+         <div class="hero__badge">
+           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#C0392B"/><path d="M5 8l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+-          خبير معتمد SSIAP 3 — 15 سنة خبرة ميدانية
++          خبير معتمد SSIAP 3 — 12 سنة خبرة ميدانية
+         </div>
+         <h1 class="hero__title">
+           هل منشأتك المستقبلة للجمهور<br />
+@@ -206,7 +206,7 @@
+         <div class="hero__trust">
+           <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg> معتمد SSIAP 3</span>
+           <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg> عضو لجنة SSIAP 1 و2</span>
+-          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg> 15 سنة خبرة ميدانية</span>
++          <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg> 12 سنة خبرة ميدانية</span>
+           <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg> خبير مستقل</span>
+         </div>
+       </div>
+@@ -220,7 +220,7 @@
+       <div class="container stats__grid">
+         <div class="stat-card"><span class="stat-card__number" data-target="40">40</span><span class="stat-card__unit">%</span><span class="stat-card__label">من المنشآت غير ممتثلة للتنظيم</span></div>
+         <div class="stat-card"><span class="stat-card__number" data-target="1">1</span><span class="stat-card__unit">كل دقيقتين</span><span class="stat-card__label">حريق يُعلن في فرنسا</span></div>
+-        <div class="stat-card"><span class="stat-card__number" data-target="15">15</span><span class="stat-card__unit">سنة</span><span class="stat-card__label">خبرة ميدانية في المنشآت المستقبلة للجمهور</span></div>
++        <div class="stat-card"><span class="stat-card__number" data-target="12">12</span><span class="stat-card__unit">سنة</span><span class="stat-card__label">خبرة ميدانية في المنشآت المستقبلة للجمهور</span></div>
+         <div class="stat-card"><span class="stat-card__number" data-target="100">100</span><span class="stat-card__unit">%</span><span class="stat-card__label">مسؤولية جنائية على صاحب المنشأة</span></div>
+       </div>
+     </section>
+@@ -400,7 +400,7 @@
+         <div class="about__content">
+           <span class="section__tag">من نحن</span>
+           <h2 class="section__title" id="about-title">خبير في خدمتك</h2>
+-          <p>سام إنسندي خبير معتمد SSIAP 3 يمتلك أكثر من 15 سنة خبرة ميدانية في السلامة من الحرائق للمنشآت المستقبلة للجمهور. عضو لجنة امتحانات SSIAP 1 و2، ومدرّب. مكتب مستقل مقره باريس وإيل دو فرانس: إتقان كامل للإطار التنظيمي الفرنسي (قانون البناء، قانون العمل، القرارات القطاعية). خبرة معترف بها دون مصطلحات معقدة — توصيات واضحة وقابلة للتطبيق. استقلالية مضمونة: دون أي تضارب مصالح مع موردي المعدات. سرعة استجابة: رد خلال 24 ساعة، تدخل سريع في الموقع.</p>
++          <p>سام إنسندي خبير معتمد SSIAP 3 يمتلك أكثر من 12 سنة خبرة ميدانية في السلامة من الحرائق للمنشآت المستقبلة للجمهور. عضو لجنة امتحانات SSIAP 1 و2، ومدرّب. مكتب مستقل مقره باريس وإيل دو فرانس: إتقان كامل للإطار التنظيمي الفرنسي (قانون البناء، قانون العمل، القرارات القطاعية). خبرة معترف بها دون مصطلحات معقدة — توصيات واضحة وقابلة للتطبيق. استقلالية مضمونة: دون أي تضارب مصالح مع موردي المعدات. سرعة استجابة: رد خلال 24 ساعة، تدخل سريع في الموقع.</p>
+           <div class="about__values">
+             <div class="about__value"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C0392B" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg><span><strong>الاستقلالية</strong> — دون أي تضارب مصالح مع موردي المعدات</span></div>
+             <div class="about__value"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C0392B" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg><span><strong>الخبرة</strong> — إتقان كامل للإطار التنظيمي الفرنسي</span></div>
+@@ -423,7 +423,7 @@
+           </div>
+           <div class="faq__item" role="listitem">
+             <button class="faq__question" aria-expanded="false">لماذا تُعد شهادة SSIAP 3 مهمة؟<span class="faq__icon" aria-hidden="true">+</span></button>
+-            <div class="faq__answer" hidden><p>هي أعلى شهادة لخبراء السلامة من الحرائق في فرنسا، وتتطلب 15 سنة أو أكثر من الخبرة الميدانية الموثقة. يعمل حاملها دون أي تضارب مصالح مع الموردين، مما يضمن توصيات موضوعية.</p></div>
++            <div class="faq__answer" hidden><p>هي أعلى شهادة لخبراء السلامة من الحرائق في فرنسا، ويتم الحصول عليها إما من خلال شهادة من المستوى 4 على الأقل، أو من خلال شهادة SSIAP 2 مع 3 سنوات من الخبرة المهنية الموثقة. يعمل حاملها دون أي تضارب مصالح مع الموردين، مما يضمن توصيات موضوعية.</p></div>
+           </div>
+           <div class="faq__item" role="listitem">
+             <button class="faq__question" aria-expanded="false">ما هي المنشآت الخاضعة لهذا التنظيم؟<span class="faq__icon" aria-hidden="true">+</span></button>
+diff --git a/audit.html b/audit.html
+index b1d40c7..4caac89 100644
+--- a/audit.html
++++ b/audit.html
+@@ -112,7 +112,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/cours.html b/cours.html
+index f0bfe53..998cd65 100644
+--- a/cours.html
++++ b/cours.html
+@@ -607,7 +607,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/de/audit.html b/de/audit.html
+index 3efaedf..07d2886 100644
+--- a/de/audit.html
++++ b/de/audit.html
+@@ -88,7 +88,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 15 Jahre Praxiserfahrung.",
++  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 12 Jahre Praxiserfahrung.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/de/formations.html b/de/formations.html
+index fb07ea2..a84581d 100644
+--- a/de/formations.html
++++ b/de/formations.html
+@@ -91,7 +91,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 15 Jahre Praxiserfahrung.",
++  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 12 Jahre Praxiserfahrung.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/de/index.html b/de/index.html
+index 0fc26fb..96d6b8b 100644
+--- a/de/index.html
++++ b/de/index.html
+@@ -64,7 +64,7 @@
+         "name": "Sam",
+         "alternateName": "Sam Incendie",
+         "jobTitle": "Unabhängiger Brandschutzexperte",
+-        "description": "SSIAP-3-zertifizierter Experte mit über 15 Jahren Praxiserfahrung. Mitglied der Prüfungskommission SSIAP 1 & 2. Unabhängiger Berater ohne Interessenkonflikte mit Lieferanten.",
++        "description": "SSIAP-3-zertifizierter Experte mit über 12 Jahren Praxiserfahrung. Mitglied der Prüfungskommission SSIAP 1 & 2. Unabhängiger Berater ohne Interessenkonflikte mit Lieferanten.",
+         "credentials": "SSIAP 3, Prüfungskommission SSIAP 1 & 2"
+       },
+       "sameAs": [
+@@ -81,7 +81,7 @@
+       "name": "Sam",
+       "alternateName": "Sam Incendie",
+       "jobTitle": "Unabhängiger Brandschutzexperte",
+-      "description": "SSIAP-3-zertifizierter Experte mit über 15 Jahren Praxiserfahrung im Brandschutz für öffentlich zugängliche Gebäude. Mitglied und Ausbilder der Prüfungskommission SSIAP 1 & 2. Unabhängiger Berater ohne Interessenkonflikte mit Ausrüstungslieferanten.",
++      "description": "SSIAP-3-zertifizierter Experte mit über 12 Jahren Praxiserfahrung im Brandschutz für öffentlich zugängliche Gebäude. Mitglied und Ausbilder der Prüfungskommission SSIAP 1 & 2. Unabhängiger Berater ohne Interessenkonflikte mit Ausrüstungslieferanten.",
+       "credentials": "SSIAP 3, Prüfungskommission SSIAP 1 & 2",
+       "url": "https://samincendie.fr",
+       "worksFor": {
+@@ -183,7 +183,7 @@
+           "name": "Warum ist die SSIAP-3-Zertifizierung wichtig?",
+           "acceptedAnswer": {
+             "@type": "Answer",
+-            "text": "SSIAP 3 ist die höchste in Frankreich verfügbare Brandschutzzertifizierung. Sie erfordert über 15 Jahre nachgewiesene Praxiserfahrung sowie Expertise in Audit, Vorschriften und Schulung. Ein SSIAP-3-Experte kann Compliance-Audits zertifizieren, Personal nach SSIAP-1- und -2-Standards schulen und in nationalen Prüfungskommissionen mitwirken. Anders als generische Berater arbeitet ein SSIAP-3-Experte frei von Lieferanten-Interessenkonflikten und garantiert Empfehlungen, die ausschließlich auf regulatorischen Anforderungen und dem tatsächlichen Bedarf des Gebäudes beruhen."
++            "text": "SSIAP 3 ist die höchste in Frankreich verfügbare Brandschutzzertifizierung. Sie wird entweder durch einen Abschluss mindestens auf Niveau 4 erworben, oder durch das SSIAP-2-Diplom in Verbindung mit 3 Jahren nachgewiesener Berufserfahrung, sowie Expertise in Audit, Vorschriften und Schulung. Ein SSIAP-3-Experte kann Compliance-Audits zertifizieren, Personal nach SSIAP-1- und -2-Standards schulen und in nationalen Prüfungskommissionen mitwirken. Anders als generische Berater arbeitet ein SSIAP-3-Experte frei von Lieferanten-Interessenkonflikten und garantiert Empfehlungen, die ausschließlich auf regulatorischen Anforderungen und dem tatsächlichen Bedarf des Gebäudes beruhen."
+           }
+         },
+         {
+@@ -277,7 +277,7 @@
+       <div class="container hero__inner">
+         <div class="hero__badge">
+           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#C0392B"/><path d="M5 8l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+-          SSIAP-3-zertifizierter Experte — 15 Jahre Praxiserfahrung
++          SSIAP-3-zertifizierter Experte — 12 Jahre Praxiserfahrung
+         </div>
+         <h1 class="hero__title">
+           Ist Ihr ERP-Gebäude<br />
+@@ -309,7 +309,7 @@
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+-            15 Jahre Praxiserfahrung
++            12 Jahre Praxiserfahrung
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+@@ -337,7 +337,7 @@
+           <span class="stat-card__label">Brand gemeldet in Frankreich</span>
+         </div>
+         <div class="stat-card">
+-          <span class="stat-card__number" data-target="15">15</span>
++          <span class="stat-card__number" data-target="12">12</span>
+           <span class="stat-card__unit">Jahre</span>
+           <span class="stat-card__label">Praxiserfahrung mit ERP-Gebäuden</span>
+         </div>
+diff --git a/de/reglementation.html b/de/reglementation.html
+index 5581872..a899e7b 100644
+--- a/de/reglementation.html
++++ b/de/reglementation.html
+@@ -64,7 +64,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 15 Jahre Praxiserfahrung.",
++  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 12 Jahre Praxiserfahrung.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/de/services.html b/de/services.html
+index 3758eb0..dab88ec 100644
+--- a/de/services.html
++++ b/de/services.html
+@@ -75,7 +75,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 15 Jahre Praxiserfahrung.",
++  "description": "Unabhängiges Beratungsunternehmen für Brandschutz für französische ERP-Gebäude: regulatorisches Audit, Beratung, Schulung, Compliance-Kits. SSIAP-3-zertifizierter Experte, 12 Jahre Praxiserfahrung.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/en/audit.html b/en/audit.html
+index 0223355..4a5482c 100644
+--- a/en/audit.html
++++ b/en/audit.html
+@@ -113,7 +113,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 15 years of field experience.",
++  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 12 years of field experience.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/en/formations.html b/en/formations.html
+index 952ed9d..409d4a6 100644
+--- a/en/formations.html
++++ b/en/formations.html
+@@ -174,7 +174,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 15 years of field experience.",
++  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 12 years of field experience.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/en/index.html b/en/index.html
+index ce06103..9259658 100644
+--- a/en/index.html
++++ b/en/index.html
+@@ -163,7 +163,7 @@
+       "@type": "VideoObject",
+       "@id": "https://samincendie.fr/#video-ssiap3",
+       "name": "Causes et conséquences d'un incendie | SAM Incendie",
+-      "description": "SSIAP 3-certified expert with 15 years of field experience in public establishments explains the main causes of fire in ERP buildings: electrical faults, negligence, non-compliant storage. Regulatory and human consequences: criminal liability for the operator, administrative closure, fines up to €75,000. Fire prevention in ERP buildings — legal obligations and concrete actions.",
++      "description": "SSIAP 3-certified expert with 12 years of field experience in public establishments explains the main causes of fire in ERP buildings: electrical faults, negligence, non-compliant storage. Regulatory and human consequences: criminal liability for the operator, administrative closure, fines up to €75,000. Fire prevention in ERP buildings — legal obligations and concrete actions.",
+       "uploadDate": "2026-06-14",
+       "inLanguage": "fr-FR",
+       "url": "https://youtu.be/FKuudmE4evo",
+@@ -203,7 +203,7 @@
+           "name": "Why does SSIAP 3 certification matter?",
+           "acceptedAnswer": {
+             "@type": "Answer",
+-            "text": "SSIAP 3 is the highest fire safety certification available in France. It requires 15+ years of verified field experience and expertise in auditing, regulation and training. An SSIAP 3 expert can certify compliance audits, train staff to SSIAP 1 & 2 standards, and sit on national exam boards. Unlike generic consultants, an SSIAP 3 expert works free of supplier conflicts of interest, guaranteeing recommendations based solely on regulatory requirements and the building's actual needs."
++            "text": "SSIAP 3 is the highest fire safety certification available in France. It is obtained either through a minimum level-4 diploma, or through the SSIAP 2 diploma combined with 3 years of verified professional experience, with expertise in auditing, regulation and training. An SSIAP 3 expert can certify compliance audits, train staff to SSIAP 1 & 2 standards, and sit on national exam boards. Unlike generic consultants, an SSIAP 3 expert works free of supplier conflicts of interest, guaranteeing recommendations based solely on regulatory requirements and the building's actual needs."
+           }
+         },
+         {
+@@ -297,7 +297,7 @@
+       <div class="container hero__inner">
+         <div class="hero__badge">
+           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#C0392B"/><path d="M5 8l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+-          SSIAP 3-certified expert — 15 years in the field
++          SSIAP 3-certified expert — 12 years in the field
+         </div>
+         <h1 class="hero__title">
+           Is your ERP establishment<br />
+@@ -329,7 +329,7 @@
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+-            15 years of field experience
++            12 years of field experience
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+@@ -357,7 +357,7 @@
+           <span class="stat-card__label">fire reported in France</span>
+         </div>
+         <div class="stat-card">
+-          <span class="stat-card__number" data-target="15">15</span>
++          <span class="stat-card__number" data-target="12">12</span>
+           <span class="stat-card__unit">years</span>
+           <span class="stat-card__label">of field experience with ERP buildings</span>
+         </div>
+diff --git a/en/reglementation.html b/en/reglementation.html
+index a9f7c41..8dd5a60 100644
+--- a/en/reglementation.html
++++ b/en/reglementation.html
+@@ -68,7 +68,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 15 years of field experience.",
++  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 12 years of field experience.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/en/services.html b/en/services.html
+index 0408ba4..d717c6d 100644
+--- a/en/services.html
++++ b/en/services.html
+@@ -85,7 +85,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 15 years of field experience.",
++  "description": "Independent fire safety consulting firm for French ERP establishments: regulatory audit, consulting, training, compliance kits. SSIAP 3-certified expert, 12 years of field experience.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/etudes-de-cas.html b/etudes-de-cas.html
+index e7076fd..0543f3c 100644
+--- a/etudes-de-cas.html
++++ b/etudes-de-cas.html
+@@ -147,7 +147,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+@@ -199,7 +199,7 @@
+         <div class="article-meta">
+           <span>&#x1F4C5; Juin 2026</span>
+           <span>⏱ 12 min de lecture</span>
+-          <span>✍️ Sam — Expert SSIAP 3, 15 ans terrain</span>
++          <span>✍️ Sam — Expert SSIAP 3, 12 ans terrain</span>
+         </div>
+       </div>
+     </section>
+@@ -413,7 +413,7 @@
+         <!-- ══════════════════════════════════════════════ -->
+         <h2>Le modèle Pareto en pratique</h2>
+ 
+-        <p>Ces cinq cas illustrent une vérité que 15 ans de terrain ont confirmée : 80 % des problèmes de conformité ERP se règlent par 20 % des actions bien ciblées. Ce 20 %, c'est identifier précisément ce que le texte <em>autorise</em>, pas seulement ce qu'il impose. C'est connaître la hiérarchie des articles — l'article particulier prime sur l'article général. C'est poser une seule question décisive : <em>puis-je faire autrement et rester conforme ?</em></p>
++        <p>Ces cinq cas illustrent une vérité que 12 ans de terrain ont confirmée : 80 % des problèmes de conformité ERP se règlent par 20 % des actions bien ciblées. Ce 20 %, c'est identifier précisément ce que le texte <em>autorise</em>, pas seulement ce qu'il impose. C'est connaître la hiérarchie des articles — l'article particulier prime sur l'article général. C'est poser une seule question décisive : <em>puis-je faire autrement et rester conforme ?</em></p>
+ 
+         <p>La solution la plus coûteuse n'est jamais la seule. Elle n'est même pas souvent la meilleure. Ce que les gérants retiennent de ces interventions : la sécurité n'a pas besoin d'être ruineuse pour être réelle. Un escalier repeint est aussi sûr qu'un escalier neuf si les marches tiennent. Une sirène mécanique évacue aussi vite qu'un SSI électronique si le personnel est formé. Une porte existante protège autant qu'une porte supplémentaire si elle est correctement signalée et dégagée.</p>
+ 
+diff --git a/exercices.html b/exercices.html
+index c95ec18..8235d79 100644
+--- a/exercices.html
++++ b/exercices.html
+@@ -535,7 +535,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/faq-securite-incendie-cabinet-medical.html b/faq-securite-incendie-cabinet-medical.html
+index 81680c1..4c69bc8 100644
+--- a/faq-securite-incendie-cabinet-medical.html
++++ b/faq-securite-incendie-cabinet-medical.html
+@@ -180,7 +180,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/faq-securite-incendie-coiffure-institut.html b/faq-securite-incendie-coiffure-institut.html
+index 8048d9e..2107c7d 100644
+--- a/faq-securite-incendie-coiffure-institut.html
++++ b/faq-securite-incendie-coiffure-institut.html
+@@ -180,7 +180,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/faq-securite-incendie-erp.html b/faq-securite-incendie-erp.html
+index cfe16e6..f2f4a90 100644
+--- a/faq-securite-incendie-erp.html
++++ b/faq-securite-incendie-erp.html
+@@ -217,7 +217,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/faq-securite-incendie-restaurant.html b/faq-securite-incendie-restaurant.html
+index 2256eca..7de1df8 100644
+--- a/faq-securite-incendie-restaurant.html
++++ b/faq-securite-incendie-restaurant.html
+@@ -188,7 +188,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/formations.html b/formations.html
+index 1b0b17d..5f3a038 100644
+--- a/formations.html
++++ b/formations.html
+@@ -173,7 +173,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/index.html b/index.html
+index 792685e..4bd0101 100644
+--- a/index.html
++++ b/index.html
+@@ -162,7 +162,7 @@
+       "@type": "VideoObject",
+       "@id": "https://samincendie.fr/#video-ssiap3",
+       "name": "Causes et conséquences d'un incendie | SAM Incendie",
+-      "description": "Expert certifié SSIAP 3 avec 15 ans de terrain ERP explique les causes principales d'un incendie en établissement recevant du public (ERP) : défauts électriques, négligences, stockage non conforme. Conséquences réglementaires et humaines : responsabilité pénale de l'exploitant, fermeture administrative, amendes jusqu'à 75 000 €. Prévention incendie ERP — obligations légales et actions concrètes.",
++      "description": "Expert certifié SSIAP 3 avec 12 ans de terrain ERP explique les causes principales d'un incendie en établissement recevant du public (ERP) : défauts électriques, négligences, stockage non conforme. Conséquences réglementaires et humaines : responsabilité pénale de l'exploitant, fermeture administrative, amendes jusqu'à 75 000 €. Prévention incendie ERP — obligations légales et actions concrètes.",
+       "uploadDate": "2026-06-14",
+       "inLanguage": "fr-FR",
+       "url": "https://youtu.be/FKuudmE4evo",
+@@ -331,7 +331,7 @@
+       <div class="container hero__inner">
+         <div class="hero__badge">
+           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#C0392B"/><path d="M5 8l2 2 4-4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+-          Expert certifié SSIAP 3 — 15 ans de terrain
++          Expert certifié SSIAP 3 — 12 ans de terrain
+         </div>
+         <h1 class="hero__title">
+           Votre ERP est-il vraiment<br />
+@@ -363,7 +363,7 @@
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+-            15 ans d'expérience terrain
++            12 ans d'expérience terrain
+           </span>
+           <span>
+             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E67E22" stroke-width="2" aria-hidden="true"><polyline points="20,6 9,17 4,12"/></svg>
+@@ -391,7 +391,7 @@
+           <span class="stat-card__label">incendie déclaré en France</span>
+         </div>
+         <div class="stat-card">
+-          <span class="stat-card__number" data-target="15">15</span>
++          <span class="stat-card__number" data-target="12">12</span>
+           <span class="stat-card__unit">ans</span>
+           <span class="stat-card__label">d'expérience terrain ERP</span>
+         </div>
+@@ -898,7 +898,7 @@
+               <span class="faq__icon" aria-hidden="true">+</span>
+             </button>
+             <div class="faq__answer" hidden>
+-              <p>SSIAP 3 (Service de Sécurité Incendie et d'Assistance à Personnes niveau 3) est la certification la plus élevée pour experts en sécurité incendie en France. Elle requiert 15 ans ou plus d'expérience terrain vérifiée et une expertise en audit, réglementation et formation. Un expert SSIAP 3 peut certifier des audits de conformité, former des personnels aux normes SSIAP 1 et 2, et siéger comme jury d'examen national. Contrairement aux consultants génériques, l'expert SSIAP 3 opère sans conflits d'intérêts avec les fournisseurs d'équipements, garantissant des recommandations objectives basées uniquement sur les exigences réglementaires et les besoins du bâtiment.</p>
++              <p>SSIAP 3 (Service de Sécurité Incendie et d'Assistance à Personnes niveau 3) est la certification la plus élevée pour experts en sécurité incendie en France. Elle s'obtient soit par un diplôme de niveau 4, soit par le diplôme SSIAP 2 accompagné de 3 ans d'expérience professionnelle vérifiée, avec une expertise en audit, réglementation et formation. Un expert SSIAP 3 peut certifier des audits de conformité, former des personnels aux normes SSIAP 1 et 2, et siéger comme jury d'examen national. Contrairement aux consultants génériques, l'expert SSIAP 3 opère sans conflits d'intérêts avec les fournisseurs d'équipements, garantissant des recommandations objectives basées uniquement sur les exigences réglementaires et les besoins du bâtiment.</p>
+             </div>
+           </div>
+           <div class="faq__item" role="listitem">
+diff --git a/json-ld-samincendie.html b/json-ld-samincendie.html
+index 4956113..682ef5a 100644
+--- a/json-ld-samincendie.html
++++ b/json-ld-samincendie.html
+@@ -17,7 +17,7 @@
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+   "alternateName": "Sam Incendie — Expert Sécurité Incendie ERP",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/kit-gratuit.html b/kit-gratuit.html
+index cff2934..6962f13 100644
+--- a/kit-gratuit.html
++++ b/kit-gratuit.html
+@@ -182,7 +182,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/kit-signaletique.html b/kit-signaletique.html
+index e0f3556..687d992 100644
+--- a/kit-signaletique.html
++++ b/kit-signaletique.html
+@@ -81,7 +81,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/llms.txt b/llms.txt
+index e49cc3f..34df188 100644
+--- a/llms.txt
++++ b/llms.txt
+@@ -1,6 +1,6 @@
+ # Sam Incendie
+ 
+-> Sam Incendie est un cabinet indépendant de conseil en sécurité incendie pour les Établissements Recevant du Public (ERP) en France, dirigé par un expert certifié SSIAP 3 (jury SSIAP 1 & 2, 15 ans de terrain). Prestations : audit réglementaire, conseil, formation (EPI, évacuation), et kits de conformité téléchargeables. Basé à Paris / Île-de-France, déplacements nationaux. Devis gratuit sous 24 h.
++> Sam Incendie est un cabinet indépendant de conseil en sécurité incendie pour les Établissements Recevant du Public (ERP) en France, dirigé par un expert certifié SSIAP 3 (jury SSIAP 1 & 2, 12 ans de terrain). Prestations : audit réglementaire, conseil, formation (EPI, évacuation), et kits de conformité téléchargeables. Basé à Paris / Île-de-France, déplacements nationaux. Devis gratuit sous 24 h.
+ 
+ À ne pas confondre avec « Sam le Pompier » (Fireman Sam), dessin animé pour enfants. Sam Incendie est un consultant professionnel destiné aux exploitants d'ERP, employeurs et collectivités.
+ 
+diff --git a/mentions-legales.html b/mentions-legales.html
+index 3a5f2f3..c05a2bb 100644
+--- a/mentions-legales.html
++++ b/mentions-legales.html
+@@ -20,7 +20,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/produits.html b/produits.html
+index 152ea75..b1e1d11 100644
+--- a/produits.html
++++ b/produits.html
+@@ -170,7 +170,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/reglementation.html b/reglementation.html
+index d80e909..5dba431 100644
+--- a/reglementation.html
++++ b/reglementation.html
+@@ -607,7 +607,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/secteurs.html b/secteurs.html
+index 9a2e9c8..28770aa 100644
+--- a/secteurs.html
++++ b/secteurs.html
+@@ -145,7 +145,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
+diff --git a/services.html b/services.html
+index b79e368..5b26a26 100644
+--- a/services.html
++++ b/services.html
+@@ -84,7 +84,7 @@
+   "@type": "ProfessionalService",
+   "@id": "https://samincendie.fr/#organization",
+   "name": "Sam Incendie",
+-  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 15 ans d'expérience terrain.",
++  "description": "Cabinet indépendant de conseil en sécurité incendie pour les ERP : audit réglementaire, conseil, formation, kits de conformité. Expert certifié SSIAP 3, 12 ans d'expérience terrain.",
+   "url": "https://samincendie.fr/",
+   "logo": "https://samincendie.fr/img/logo-sam.png",
+   "image": "https://samincendie.fr/img/og-image.png",
