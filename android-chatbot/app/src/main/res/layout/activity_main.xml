@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d0d1a"
+    android:orientation="horizontal">
+
+    <!-- Panneau gauche: conversation -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Titre + boutons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Claude Auto"
+                android:textColor="#7c3aed"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#222"
+                android:text="Effacer"
+                android:textColor="#aaa"
+                android:textSize="12sp"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="#222"
+                android:text="Reglages"
+                android:textColor="#aaa"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <!-- Conversation -->
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1a1a2e"
+            android:padding="10dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/conversationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="#e0e0e0"
+                android:textSize="16sp" />
+        </ScrollView>
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/statusView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:text="Appuie pour parler"
+            android:textColor="#888"
+            android:textSize="13sp"
+            android:layout_marginTop="6dp"/>
+    </LinearLayout>
+
+    <!-- Panneau droit: bouton micro -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#111122"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/micButton"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="#6200EE"
+            android:text="PARLER"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="VW Tiguan 2009"
+            android:textColor="#444"
+            android:textSize="11sp"/>
+    </LinearLayout>
+
+</LinearLayout>
