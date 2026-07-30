@@ -1,9 +1,11 @@
 package com.carradio.claude;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -38,9 +40,11 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     private static final int MIC_PERMISSION = 1;
     private static final String PREFS = "claude_car";
     private static final String API_URL = "https://api.anthropic.com/v1/messages";
+    private static final int MAX_RETRIES = 2;
 
     private SpeechRecognizer speechRecognizer;
     private TextToSpeech tts;
+    private AudioManager audioManager;
     private TextView conversationView;
     private TextView statusView;
     private Button micButton;
@@ -57,6 +61,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         setContentView(R.layout.activity_main);
 
         prefs = getSharedPreferences(PREFS, MODE_PRIVATE);
+        audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         conversationView = findViewById(R.id.conversationView);
         statusView = findViewById(R.id.statusView);
         micButton = findViewById(R.id.micButton);
@@ -65,11 +70,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         tts = new TextToSpeech(this, this);
 
         micButton.setOnClickListener(v -> {
-            if (isListening) {
-                stopListening();
-            } else {
-                checkMicAndListen();
-            }
+            if (isListening) stopListening();
+            else checkMicAndListen();
         });
 
         findViewById(R.id.settingsButton).setOnClickListener(v -> showApiKeyDialog());
@@ -78,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         if (prefs.getString("api_key", "").isEmpty()) {
             showApiKeyDialog();
         } else {
-            appendConversation("Claude Auto pret. Appuie sur le bouton pour parler.");
+            appendConversation("Claude Auto pret. Appuie sur PARLER.");
         }
     }
 
@@ -99,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 && results[0] == PackageManager.PERMISSION_GRANTED) {
             startListening();
         } else {
-            statusView.setText("Permission micro refusee");
+            statusView.setText("Permission micro refusee. Va dans Parametres > Apps > Claude Auto > Permissions.");
         }
     }
 
@@ -109,18 +111,32 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             return;
         }
 
+        // Pause music while listening
+        audioManager.requestAudioFocus(null, AudioManager.STREAM_MUSIC,
+                AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+
         isListening = true;
         micButton.setText("STOP");
         micButton.setBackgroundColor(0xFFCC0000);
-        statusView.setText("Ecoute...");
+        statusView.setText("Ecoute... (parle maintenant)");
 
         if (speechRecognizer != null) speechRecognizer.destroy();
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
+
+        if (!SpeechRecognizer.isRecognitionAvailable(this)) {
+            appendConversation("[ERREUR: Reconnaissance vocale non disponible sur cet appareil.\nSolution: installe l'app 'Google' depuis le Play Store ou un APK.]");
+            isListening = false;
+            resetMicButton();
+            audioManager.abandonAudioFocus(null);
+            return;
+        }
 
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
                 RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, "fr-FR");
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "fr-FR");
+        intent.putExtra(RecognizerIntent.EXTRA_ONLY_RETURN_LANGUAGE_PREFERENCE, false);
         intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1);
         intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
 
@@ -131,10 +147,11 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                         SpeechRecognizer.RESULTS_RECOGNITION);
                 isListening = false;
                 resetMicButton();
+                audioManager.abandonAudioFocus(null);
                 if (matches != null && !matches.isEmpty() && !matches.get(0).isEmpty()) {
                     String text = matches.get(0);
                     appendConversation("Vous: " + text);
-                    sendToClaude(text);
+                    sendToClaude(text, 0);
                 } else {
                     statusView.setText("Rien entendu. Reessaye.");
                 }
@@ -144,11 +161,19 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             public void onError(int error) {
                 isListening = false;
                 resetMicButton();
+                audioManager.abandonAudioFocus(null);
                 String msg;
                 switch (error) {
-                    case SpeechRecognizer.ERROR_NO_MATCH: msg = "Pas compris. Reessaye."; break;
-                    case SpeechRecognizer.ERROR_NETWORK: msg = "Erreur reseau micro."; break;
-                    default: msg = "Erreur micro (" + error + "). Reessaye.";
+                    case SpeechRecognizer.ERROR_NO_MATCH:
+                    case SpeechRecognizer.ERROR_SPEECH_TIMEOUT:
+                        msg = "Pas compris. Parle plus fort et reessaye."; break;
+                    case SpeechRecognizer.ERROR_NETWORK:
+                    case SpeechRecognizer.ERROR_NETWORK_TIMEOUT:
+                        msg = "Pas de connexion internet pour le micro. Verifie le WiFi."; break;
+                    case SpeechRecognizer.ERROR_RECOGNIZER_BUSY:
+                        msg = "Micro occupe. Attends 2 secondes et reessaye."; break;
+                    default:
+                        msg = "Erreur micro (" + error + "). Reessaye.";
                 }
                 statusView.setText(msg);
             }
@@ -160,7 +185,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             @Override public void onEndOfSpeech() { statusView.setText("Traitement..."); }
             @Override public void onPartialResults(Bundle partial) {
                 ArrayList<String> p = partial.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
-                if (p != null && !p.isEmpty()) statusView.setText("\"" + p.get(0) + "\"");
+                if (p != null && !p.isEmpty()) statusView.setText("\"" + p.get(0) + "...\"");
             }
             @Override public void onEvent(int t, Bundle p) {}
         });
@@ -172,6 +197,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         if (speechRecognizer != null) speechRecognizer.stopListening();
         isListening = false;
         resetMicButton();
+        audioManager.abandonAudioFocus(null);
         statusView.setText("Annule.");
     }
 
@@ -180,9 +206,14 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         micButton.setBackgroundColor(0xFF6200EE);
     }
 
-    private void sendToClaude(String userMessage) {
+    private void sendToClaude(String userMessage, int retryCount) {
         statusView.setText("Claude reflechit...");
         String apiKey = prefs.getString("api_key", "");
+
+        if (apiKey.isEmpty()) {
+            showApiKeyDialog();
+            return;
+        }
 
         try {
             JSONObject userMsg = new JSONObject();
@@ -193,7 +224,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             e.printStackTrace();
         }
 
-        // Keep max 10 messages to avoid token overload
+        // Max 10 messages to control costs (~0.04€ max par session)
         while (messages.size() > 10) messages.remove(0);
 
         new Thread(() -> {
@@ -211,10 +242,12 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 JSONObject body = new JSONObject();
                 body.put("model", "claude-haiku-4-5-20251001");
                 body.put("max_tokens", 400);
-                body.put("system", "Tu es un assistant de bord dans une VW Tiguan 2009. " +
-                        "Reponds en francais, de facon courte et claire (2-3 phrases max). " +
-                        "Parle naturellement, sans puces ni titres. " +
-                        "Tu peux aider avec la navigation, la mecanique, la musique, ou toute question.");
+                body.put("system",
+                    "Tu es Claude, un assistant de bord dans une VW Tiguan 2009. " +
+                    "Reponds TOUJOURS en francais. Sois court (2-3 phrases max). " +
+                    "Parle naturellement, sans puces ni titres ni markdown. " +
+                    "Tu peux aider avec la navigation, la mecanique auto, la meteo, " +
+                    "la musique, ou toute question de la vie quotidienne.");
 
                 JSONArray msgArray = new JSONArray();
                 for (JSONObject m : messages) msgArray.put(m);
@@ -224,20 +257,15 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 os.write(body.toString().getBytes("UTF-8"));
                 os.close();
 
-                int responseCode = conn.getResponseCode();
-                BufferedReader br;
-                if (responseCode == 200) {
-                    br = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
-                } else {
-                    br = new BufferedReader(new InputStreamReader(conn.getErrorStream(), "UTF-8"));
-                }
-
+                int code = conn.getResponseCode();
+                BufferedReader br = new BufferedReader(new InputStreamReader(
+                        code == 200 ? conn.getInputStream() : conn.getErrorStream(), "UTF-8"));
                 StringBuilder sb = new StringBuilder();
                 String line;
                 while ((line = br.readLine()) != null) sb.append(line);
                 br.close();
 
-                if (responseCode == 200) {
+                if (code == 200) {
                     JSONObject response = new JSONObject(sb.toString());
                     String replyText = response.getJSONArray("content")
                             .getJSONObject(0).getString("text");
@@ -253,33 +281,55 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                         statusView.setText("Appuie pour parler");
                         if (ttsReady) speak(finalReply);
                     });
-                } else {
-                    final String errBody = sb.toString();
-                    handler.post(() -> {
-                        statusView.setText("Erreur API " + responseCode);
-                        if (responseCode == 401) {
-                            appendConversation("[Cle API invalide. Va dans Reglages.]");
-                        } else {
-                            appendConversation("[Erreur " + responseCode + ": " + errBody + "]");
-                        }
-                    });
-                    // Remove the user message we added since we got an error
+
+                } else if (code == 401) {
                     if (!messages.isEmpty()) messages.remove(messages.size() - 1);
+                    handler.post(() -> {
+                        statusView.setText("Cle API invalide");
+                        appendConversation("[Cle API refusee. Va dans Reglages pour la corriger.]");
+                        showApiKeyDialog();
+                    });
+
+                } else if ((code == 529 || code >= 500) && retryCount < MAX_RETRIES) {
+                    // Serveur surchargé → retry
+                    try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
+                    if (!messages.isEmpty()) messages.remove(messages.size() - 1);
+                    handler.post(() -> sendToClaude(userMessage, retryCount + 1));
+
+                } else {
+                    if (!messages.isEmpty()) messages.remove(messages.size() - 1);
+                    handler.post(() -> {
+                        statusView.setText("Erreur serveur " + code);
+                        appendConversation("[Erreur " + code + ". Reessaye dans quelques secondes.]");
+                    });
                 }
 
+            } catch (java.net.SocketTimeoutException e) {
+                if (!messages.isEmpty()) messages.remove(messages.size() - 1);
+                if (retryCount < MAX_RETRIES) {
+                    handler.post(() -> sendToClaude(userMessage, retryCount + 1));
+                } else {
+                    handler.post(() -> {
+                        statusView.setText("Connexion trop lente");
+                        appendConversation("[Timeout reseau. Verifie ta connexion WiFi.]");
+                    });
+                }
             } catch (Exception e) {
+                if (!messages.isEmpty()) messages.remove(messages.size() - 1);
                 final String err = e.getMessage();
                 handler.post(() -> {
                     statusView.setText("Erreur reseau");
-                    appendConversation("[Erreur: " + err + "]");
+                    appendConversation("[Pas de connexion internet. Verifie le WiFi. (" + err + ")]");
                 });
-                if (!messages.isEmpty()) messages.remove(messages.size() - 1);
             }
         }).start();
     }
 
     private void speak(String text) {
-        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "claude_reply");
+        // Request audio focus before speaking (pauses music)
+        audioManager.requestAudioFocus(null, AudioManager.STREAM_MUSIC,
+                AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "reply");
     }
 
     private void appendConversation(String text) {
@@ -300,16 +350,19 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         input.setHint("sk-ant-api03-...");
         input.setText(prefs.getString("api_key", ""));
         input.setPadding(40, 20, 40, 20);
+        input.setInputType(android.text.InputType.TYPE_CLASS_TEXT
+                | android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD);
 
         new AlertDialog.Builder(this)
                 .setTitle("Cle API Anthropic")
-                .setMessage("Entre ta cle API depuis console.anthropic.com :")
+                .setMessage("Entre ta cle depuis console.anthropic.com :")
                 .setView(input)
                 .setPositiveButton("OK", (d, w) -> {
                     String key = input.getText().toString().trim();
                     prefs.edit().putString("api_key", key).apply();
                     if (!key.isEmpty()) {
-                        statusView.setText("Cle API enregistree. Appuie pour parler.");
+                        statusView.setText("Cle enregistree. Appuie pour parler.");
+                        appendConversation("Claude Auto pret. Appuie sur PARLER.");
                     }
                 })
                 .setNegativeButton("Annuler", null)
@@ -320,8 +373,19 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     public void onInit(int status) {
         if (status == TextToSpeech.SUCCESS) {
             int result = tts.setLanguage(Locale.FRENCH);
-            ttsReady = (result != TextToSpeech.LANG_MISSING_DATA
-                    && result != TextToSpeech.LANG_NOT_SUPPORTED);
+            if (result == TextToSpeech.LANG_MISSING_DATA
+                    || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                // Fallback: English TTS if French not installed on Chinese firmware
+                tts.setLanguage(Locale.ENGLISH);
+                ttsReady = true;
+                handler.post(() -> appendConversation(
+                    "[Info: voix francaise non installee. Utilisation voix anglaise. " +
+                    "Pour installer le francais: Parametres > Langue > Synthese vocale > Ajouter une langue]"));
+            } else {
+                ttsReady = true;
+            }
+        } else {
+            handler.post(() -> statusView.setText("TTS indisponible. Reponses en texte seulement."));
         }
     }
 
@@ -329,9 +393,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     protected void onDestroy() {
         super.onDestroy();
         if (speechRecognizer != null) speechRecognizer.destroy();
-        if (tts != null) {
-            tts.stop();
-            tts.shutdown();
-        }
+        if (tts != null) { tts.stop(); tts.shutdown(); }
+        audioManager.abandonAudioFocus(null);
     }
 }
