@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:padding="12dp">
 
-        <!-- Titre + boutons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -49,7 +48,6 @@
                 android:textSize="12sp"/>
         </LinearLayout>
 
-        <!-- Conversation -->
         <ScrollView
             android:id="@+id/scrollView"
             android:layout_width="match_parent"
@@ -68,7 +66,6 @@
                 android:textSize="16sp" />
         </ScrollView>
 
-        <!-- Status -->
         <TextView
             android:id="@+id/statusView"
             android:layout_width="match_parent"
@@ -80,7 +77,7 @@
             android:layout_marginTop="6dp"/>
     </LinearLayout>
 
-    <!-- Panneau droit: bouton micro -->
+    <!-- Panneau droit: bonhomme + bouton -->
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -88,25 +85,32 @@
         android:gravity="center"
         android:orientation="vertical"
         android:background="#111122"
-        android:padding="16dp">
+        android:padding="12dp">
+
+        <com.carradio.claude.CharacterView
+            android:id="@+id/characterView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
 
         <Button
             android:id="@+id/micButton"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
             android:background="#6200EE"
             android:text="PARLER"
             android:textColor="#ffffff"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="18sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="6dp"
             android:text="VW Tiguan 2009"
-            android:textColor="#444"
-            android:textSize="11sp"/>
+            android:textColor="#333"
+            android:textSize="10sp"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     private TextView statusView;
     private Button micButton;
     private ScrollView scrollView;
+    private CharacterView characterView;
     private SharedPreferences prefs;
     private Handler handler = new Handler(Looper.getMainLooper());
     private List<JSONObject> messages = new ArrayList<>();
@@ -66,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         statusView = findViewById(R.id.statusView);
         micButton = findViewById(R.id.micButton);
         scrollView = findViewById(R.id.scrollView);
+        characterView = findViewById(R.id.characterView);
 
         tts = new TextToSpeech(this, this);
 
@@ -119,6 +121,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
         micButton.setText("STOP");
         micButton.setBackgroundColor(0xFFCC0000);
         statusView.setText("Ecoute... (parle maintenant)");
+        characterView.setState(CharacterView.State.LISTENING);
 
         if (speechRecognizer != null) speechRecognizer.destroy();
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this);
@@ -204,10 +207,12 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     private void resetMicButton() {
         micButton.setText("PARLER");
         micButton.setBackgroundColor(0xFF6200EE);
+        characterView.setState(CharacterView.State.IDLE);
     }
 
     private void sendToClaude(String userMessage, int retryCount) {
         statusView.setText("Claude reflechit...");
+        characterView.setState(CharacterView.State.THINKING);
         String apiKey = prefs.getString("api_key", "");
 
         if (apiKey.isEmpty()) {
@@ -279,6 +284,7 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                     handler.post(() -> {
                         appendConversation("Claude: " + finalReply);
                         statusView.setText("Appuie pour parler");
+                        characterView.setState(CharacterView.State.SPEAKING);
                         if (ttsReady) speak(finalReply);
                     });
 
@@ -326,9 +332,20 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     }
 
     private void speak(String text) {
-        // Request audio focus before speaking (pauses music)
         audioManager.requestAudioFocus(null, AudioManager.STREAM_MUSIC,
                 AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
+        tts.setOnUtteranceProgressListener(new android.speech.tts.UtteranceProgressListener() {
+            @Override public void onStart(String id) {}
+            @Override public void onDone(String id) {
+                handler.post(() -> {
+                    characterView.setState(CharacterView.State.IDLE);
+                    audioManager.abandonAudioFocus(null);
+                });
+            }
+            @Override public void onError(String id) {
+                handler.post(() -> characterView.setState(CharacterView.State.IDLE));
+            }
+        });
         tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, "reply");
     }
 
