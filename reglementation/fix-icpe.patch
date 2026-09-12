@@ -1,0 +1,52 @@
+diff --git a/reglementation.html b/reglementation.html
+index fe42dd5..1ffcba3 100644
+--- a/reglementation.html
++++ b/reglementation.html
+@@ -760,7 +760,7 @@
+             <div class="portal-tile__code">ICPE</div>
+             <div class="portal-tile__label">Installations classées</div>
+             <div class="portal-tile__stats">Autorisation · Enregistrement · Déclaration</div>
+-            <div class="portal-tile__desc">Rubriques 1430, 1510, 1530, gaz inflammables. Seveso III. Entrepôts couverts de matières combustibles.</div>
++            <div class="portal-tile__desc">Rubriques 1430, 1510, 1530, gaz inflammables. Seveso III. Entrepôts couverts de matières combustibles. 2925 — ateliers de charge d'accumulateurs. 2926 — future rubrique batteries (2027).</div>
+             <div class="portal-tile__plus">+</div>
+           </div>
+ 
+diff --git a/reglementation/icpe-r1530.html b/reglementation/icpe-r1530.html
+index a1ba227..ee73923 100644
+--- a/reglementation/icpe-r1530.html
++++ b/reglementation/icpe-r1530.html
+@@ -38,7 +38,7 @@
+ <a href="../kit-gratuit.html">Checklist gratuite — 10 obligations</a>
+ <a href="../produits.html">Kit conformité 5e catégorie — 19 €</a>
+ <a href="../audit.html">Audit terrain sur devis</a></div>
+-<div class="pager"><a href="icpe-r1510.html">← R1510</a><a href="icpe-seveso.html">SEVESO →</a></div>
++<div class="pager"><a href="icpe-r1510.html">← R1510</a><a href="icpe-r2925.html">R2925 →</a></div>
+ </main>
+ <footer>Sam Incendie — Expert sécurité incendie ERP, certifié SSIAP 3 · <a href="../mentions-legales.html">Mentions légales</a> · Textes présentés à titre documentaire, seule la version Légifrance fait foi. Mise à jour : 2026-07-08</footer>
+ </body>
+diff --git a/reglementation/icpe-seveso.html b/reglementation/icpe-seveso.html
+index f65634b..653ff85 100644
+--- a/reglementation/icpe-seveso.html
++++ b/reglementation/icpe-seveso.html
+@@ -38,7 +38,7 @@
+ <a href="../kit-gratuit.html">Checklist gratuite — 10 obligations</a>
+ <a href="../produits.html">Kit conformité 5e catégorie — 19 €</a>
+ <a href="../audit.html">Audit terrain sur devis</a></div>
+-<div class="pager"><a href="icpe-r1530.html">← R1530</a><a href="icpe-r27xx.html">R27XX →</a></div>
++<div class="pager"><a href="icpe-r2926.html">← R2926</a><a href="icpe-r27xx.html">R27XX →</a></div>
+ </main>
+ <footer>Sam Incendie — Expert sécurité incendie ERP, certifié SSIAP 3 · <a href="../mentions-legales.html">Mentions légales</a> · Textes présentés à titre documentaire, seule la version Légifrance fait foi. Mise à jour : 2026-07-08</footer>
+ </body>
+diff --git a/reglementation/index.html b/reglementation/index.html
+index da607e9..268b808 100644
+--- a/reglementation/index.html
++++ b/reglementation/index.html
+@@ -45,7 +45,7 @@
+ </section><section class="cat-card" id="icpe" style="--cat:#E67E22">
+ <h2>ICPE — Installations classées pour la protection de l&#x27;environnement</h2>
+ <p class="sub">Code de l&#x27;environnement, Livre V, Titre Ier — Art. L. 511-1 à L. 517-2. Nomenclature ICPE (décret n° 2022-1393 du 28 octobre 2022 modifié). Référence INERIS : aida.ineris.fr.</p>
+-<div class="group"><h3>Textes fondamentaux</h3><div class="chips"><a href="icpe-l511-1.html"><b>L511-1</b> Définition des installations classées </a><a href="icpe-l511-2.html"><b>L511-2</b> Nomenclature ICPE et régimes de classe</a><a href="icpe-l512-1.html"><b>L512-1</b> Régime d&#x27;autorisation (A) — Principe e</a><a href="icpe-l514-1.html"><b>L514-1</b> Inspection des installations classées </a><a href="icpe-l515-15.html"><b>L515-15</b> Plans de Prévention des Risques Techno</a><a href="icpe-l516-1.html"><b>L516-1</b> Garanties financières pour la remise e</a></div></div><div class="group"><h3>Procédures</h3><div class="chips"><a href="icpe-r512-a.html"><b>R512-A</b> Procédure d&#x27;autorisation (A) — Dossier</a><a href="icpe-r512-e.html"><b>R512-E</b> Procédure d&#x27;enregistrement (E) — Régim</a><a href="icpe-r512-d.html"><b>R512-D</b> Procédure de déclaration (D) — Régime </a><a href="icpe-r512-cp.html"><b>R512-CP</b> Contrôles périodiques des ICPE en régi</a></div></div><div class="group"><h3>Arrêtés de référence</h3><div class="chips"><a href="icpe-arr2016.html"><b>ARR2016</b> Prescriptions générales applicables au</a><a href="icpe-arr2012.html"><b>ARR2012</b> Modalités d&#x27;affichage pour les demande</a></div></div><div class="group"><h3>Substances — Inflammables (14xx)</h3><div class="chips"><a href="icpe-r1410.html"><b>R1410</b> Rubrique 1410 — Liquides inflammables </a><a href="icpe-r1411.html"><b>R1411</b> Rubrique 1411 — Liquides inflammables </a><a href="icpe-r1412.html"><b>R1412</b> Rubrique 1412 — Gaz inflammables liqué</a><a href="icpe-r1413.html"><b>R1413</b> Rubrique 1413 — Gaz inflammables compr</a></div></div><div class="group"><h3>Substances — Combustibles (15xx)</h3><div class="chips"><a href="icpe-r1510.html"><b>R1510</b> Rubrique 1510 — Entrepôts couverts de </a><a href="icpe-r1530.html"><b>R1530</b> Rubrique 1530 — Dépôts de bois, papier</a></div></div><div class="group"><h3>Produits dangereux — Seveso (4xxx)</h3><div class="chips"><a href="icpe-seveso.html"><b>SEVESO</b> Directive Seveso III — Établissements </a></div></div><div class="group"><h3>Activités (2xxx)</h3><div class="chips"><a href="icpe-r27xx.html"><b>R27XX</b> Rubriques 27xx — Traitement et stockag</a></div></div>
++<div class="group"><h3>Textes fondamentaux</h3><div class="chips"><a href="icpe-l511-1.html"><b>L511-1</b> Définition des installations classées </a><a href="icpe-l511-2.html"><b>L511-2</b> Nomenclature ICPE et régimes de classe</a><a href="icpe-l512-1.html"><b>L512-1</b> Régime d&#x27;autorisation (A) — Principe e</a><a href="icpe-l514-1.html"><b>L514-1</b> Inspection des installations classées </a><a href="icpe-l515-15.html"><b>L515-15</b> Plans de Prévention des Risques Techno</a><a href="icpe-l516-1.html"><b>L516-1</b> Garanties financières pour la remise e</a></div></div><div class="group"><h3>Procédures</h3><div class="chips"><a href="icpe-r512-a.html"><b>R512-A</b> Procédure d&#x27;autorisation (A) — Dossier</a><a href="icpe-r512-e.html"><b>R512-E</b> Procédure d&#x27;enregistrement (E) — Régim</a><a href="icpe-r512-d.html"><b>R512-D</b> Procédure de déclaration (D) — Régime </a><a href="icpe-r512-cp.html"><b>R512-CP</b> Contrôles périodiques des ICPE en régi</a></div></div><div class="group"><h3>Arrêtés de référence</h3><div class="chips"><a href="icpe-arr2016.html"><b>ARR2016</b> Prescriptions générales applicables au</a><a href="icpe-arr2012.html"><b>ARR2012</b> Modalités d&#x27;affichage pour les demande</a></div></div><div class="group"><h3>Substances — Inflammables (14xx)</h3><div class="chips"><a href="icpe-r1410.html"><b>R1410</b> Rubrique 1410 — Liquides inflammables </a><a href="icpe-r1411.html"><b>R1411</b> Rubrique 1411 — Liquides inflammables </a><a href="icpe-r1412.html"><b>R1412</b> Rubrique 1412 — Gaz inflammables liqué</a><a href="icpe-r1413.html"><b>R1413</b> Rubrique 1413 — Gaz inflammables compr</a></div></div><div class="group"><h3>Substances — Combustibles (15xx)</h3><div class="chips"><a href="icpe-r1510.html"><b>R1510</b> Rubrique 1510 — Entrepôts couverts de </a><a href="icpe-r1530.html"><b>R1530</b> Rubrique 1530 — Dépôts de bois, papier</a></div></div><div class="group"><h3>Produits dangereux — Seveso (4xxx)</h3><div class="chips"><a href="icpe-seveso.html"><b>SEVESO</b> Directive Seveso III — Établissements </a></div></div><div class="group"><h3>Activités (2xxx)</h3><div class="chips"><a href="icpe-r2925.html"><b>R2925</b> Ateliers de charge d&#x27;accumulateurs — s</a><a href="icpe-r2926.html"><b>R2926</b> Future rubrique stockage de batteries </a><a href="icpe-r27xx.html"><b>R27XX</b> Rubriques 27xx — Traitement et stockag</a></div></div>
+ </section><section class="cat-card" id="autres" style="--cat:#2980B9">
+ <h2>Autres textes réglementaires</h2>
+ <p class="sub">Campings, tunnels routiers, normes NF, guide DECI, responsabilité civile et pénale.</p>
