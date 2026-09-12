@@ -1,2 +1,5 @@
 *.pages.dev/*
   X-Robots-Tag: noindex, nofollow
+
+/js/reglementation-data.js
+  Cache-Control: public, max-age=86400, must-revalidate
